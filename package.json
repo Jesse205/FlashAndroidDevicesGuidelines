@@ -1,0 +1,15 @@
+{
+  "name": "FlashAndroidDevicesGuidelines",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://gitee.com/Jesse205/FlashAndroidDevicesGuidelines",
+  "author": "Jesse205 <2055675594@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vuepress dev",
+    "docs:build": "vuepress build"
+  },
+  "devDependencies": {
+    "vuepress": "^1.9.8"
+  }
+}
