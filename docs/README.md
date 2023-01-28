@@ -9,6 +9,8 @@
 此刷机指南不仅仅提供刷机的指南，还提供各种各样玩机教程
 :::
 
+在浏览本文档时，请务必仔细阅读说明。__因您操作失误导致的损失我们不负责__
+
 > 本教程尽量保证所有资源都有一手资源获取渠道，因此您可以放心下载。（有时为了提速可能会提供二手下载渠道）
 
 ## 快速开始
@@ -19,14 +21,16 @@
 
 ## 基础知识
 
+1. [名词集](normal/noun.md)
 1. 认识安卓分区
 
 ## 深入“刷机”
 
-
 ## 其他教程
 
-* [Magisk 中文文档]
+* [Magisk 中文文档](https://jesse205.github.io/MagiskChineseDocument/)
+* [Android 开发者](https://developer.android.google.cn/?hl=zh-cn)
+* [Android 开源项目](https://source.android.google.cn/?hl=zh-cn)
 
 ## 其他内容
 
