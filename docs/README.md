@@ -2,7 +2,7 @@
 
 ## 介绍
 
-这个是 Jesse205 搬运整理的刷机指南。
+这个是 [Jesse205](https://gitee.com/Jesse205) 搬运并整理的刷机指南。
 文档仓库部署在 Gitee 上，欢迎 Star！
 
 ::: tip
@@ -15,9 +15,14 @@
 
 ## 快速开始
 
-1. [申请解锁](fast/unlock.md)
+1. [解锁 Bootloader](fast/unlock.md)
 2. [下载刷机包](fast/download.md)
 3. [刷入刷机包](fast/flash.md)
+
+更多教程
+
+* [安装 Magisk (获取 Root)]()
+* [安装 Lsposed (安装 Xposed)]()
 
 ## 基础知识
 

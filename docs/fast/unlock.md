@@ -1,8 +1,8 @@
-# 申请解锁
+# 解锁 Bootloader
 
 解锁一般指的是解锁 Bootloader。
 
-## 解锁工具下载
+## 申请解锁
 
 * [小米](https://www.miui.com/unlock/index.html)
 * ~~华为~~ （已停止解锁服务）
@@ -52,7 +52,7 @@
 
 ## 版权声明
 
-本文档已获得 [@灬只会刷机养老](http://www.coolapk.com/u/11090720) 授权并修改整理
+本文档已获得 [@灬只会刷机养老](http://www.coolapk.com/u/11090720) 授权搬运并修改整理
 
 ## 参考链接
 
