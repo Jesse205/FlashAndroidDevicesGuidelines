@@ -1,6 +1,12 @@
 # 名词集
 
-## Bootloader锁
+::: details 本页内容
+[[toc]]
+:::
+
+> 百度百科的这篇已经很完善了，推荐看一看。<https://baike.baidu.com/item/%E5%88%B7%E6%9C%BA>
+
+## Bootloader 锁
 
 * [解锁 Bootloader](/fast/unlock.md)
 
@@ -14,6 +20,8 @@ BootLoader 锁，简称“BL锁”。从字面意义上理解，是手机厂商�
 
 对于只想安安心心用手机，保护数据安全的普通用户，也起了到一定的保护作用。
 
+::: details 更多内容
+
 ### 背景
 
 在智能手机刚刚兴起的年代，手机厂商对于 BL 锁以及 ROOT 的管理和限制十分宽松。同期许多圈外人也尝试着 ROOT 手机，借助各种需要 ROOT 权限的 app，把手机玩的十分炫酷（可以算是一种潮流）。在这时期，一部分不法分子利用圈外人知识浅薄、安全意识薄弱，恶意编写并包装一些病毒勒索程序，并且诱骗用户获取 ROOT 权限，从而进行勒索敲诈。由于技术门槛低，当时市面上的勒索病毒泛滥，人们的隐私和数据安全遭到严重侵害。所以在后期，手机厂商为了减少社会舆论的诟病，调整了 BL 限制。
@@ -23,6 +31,7 @@ BootLoader 锁，简称“BL锁”。从字面意义上理解，是手机厂商�
 至于现在，仍然有部分手机厂商锁死 ROOT 权限。我“捏造”了以下几点原因。首先，在获取 ROOT 权限后，各种的系统问题接踵而至，成砖，卡米的机器越来越多。为了减少售后服务的压力和人员技术门槛，官方限制这一渠道。
 
 再者，部分手机厂商秉持着“交个朋友，不赚钱”的理念，导致手机业务利润率降低，只能通过肆无忌惮的广告推送服务赚钱。所以为了防止用户 ROOT 后去除广告，就限制了 ROOT 权限。
+::::
 
 ## ROM、RAM、ramdisk
 
@@ -38,9 +47,11 @@ ROM 的性能更弱，但是在空间大小和价格方面优势明显。
 
 ## ROOT
 
+相关链接：
+
 * [获取 Root](/fast/install/root.md)
 
-Root，也称为根用户，是 Unix (如 Solaris、AIX、BSD）和类 UNIX 系统(如 Linux、QNX 等)，及 Android 和 iOS 移动设备系统中的唯一的超级用户，因其可对根目录执行读写和执行操作而得名。其相当于 Windows 系统中的 SYSTEM (XP 及以下)/TrustedInstaller (Vista 及以上)用户。其具有系统中的最高权限，如启动或停止一个进程，删除或增加用户，增加或者禁用硬件，新建文件、修改文件或删除所有文件等等。摘自[百度百科](https://baike.baidu.com/item/root/73226)
+Root，也称为根用户，是 Unix (如 Solaris、AIX、BSD）和类 UNIX 系统(如 Linux、QNX 等)，及 Android 和 iOS 移动设备系统中的唯一的超级用户，因其可对根目录执行读写和执行操作而得名。其具有系统中的最高权限，如启动或停止一个进程，删除或增加用户，增加或者禁用硬件，新建文件、修改文件或删除所有文件等等。摘自[百度百科](https://baike.baidu.com/item/root/73226)
 
 Android 删除了 `su` 程序，所以 Root 的过程就是把 `su` 文件放到 `/system/bin/` ，`Superuser.apk` 放到 `/system/app` 下面，还需要设置一些权限。（Android 5.0 之前常见的方法）
 
@@ -56,13 +67,13 @@ ROOT 的权限高于 ADB（Android Debug Bridge）权限，因此您无法完全
 * __SuperUser__: SuperUser，别名叫做“超级用户”，这是很多官方系统内置的授权管理工具（如 Phoenix OS，VMOS，天天模拟器）
 * __一键 Root 工具__:这是 Android 5 之前常用的获取 Root 方法
 
-兼容性表格
+兼容性表格：
 
-| 工具名称 | 最低版本 | 最高版本 |
+| 工具名称 | 最低支持 | 最高支持 |
 | ---- | ---- | ---- |
-| Magisk | 未知 | Android 13 |
-| KernelSU | 未知 | 未知 |
-| SuperSU | 未知 | 未知 |
+| Magisk | Android 5.0 | Android 13 |
+| KernelSU | 内核 4.14 | 未知 |
+| SuperSU | Android 2.3 | Android 7 |
 | 一键 Root 工具 | 未知 | Android 4.4.4 |
 
 ::: details 主流的一键工具
@@ -73,11 +84,63 @@ ROOT 的权限高于 ADB（Android Debug Bridge）权限，因此您无法完全
 对于这些一键 Root 工具，机型不一样体验也不一样，建议都试试。
 :::
 
+#### Magisk
+
+Magisk 是一套用于定制 Android 的开源软件，支持高于 Android 5.0 的设备。
+一些突出特点：
+
+* __MagiskSU__: 为应用程序提供根访问权限
+* __Magisk 模块__: 通过安装模块修改只读分区
+* __MagiskBoot__: 用于解压缩和重新打包 Android 启动映像的最完整工具
+* __Zygisk__: 在每个 Android 应用程序的进程中运行代码
+
+相关链接：
+
+* [Github 仓库](https://github.com/topjohnwu/Magisk)（官方）
+* [GitHub Releases](https://github.com/topjohnwu/Magisk/releases/latest)（官方）
+* [Magisk 中文文档](https://jesse205.github.io/MagiskChineseDocument/)
+
+#### KernelSU
+
+KernelSU 是 Android GKI 设备的 root 解决方案，它工作在内核模式，并直接在内核空间中为用户空间应用程序授予 root 权限。
+
+* [官方网站](https://kernelsu.org/zh_CN/)
+* [GitHub Releases](https://github.com/tiann/KernelSU/releases)（官方）
+
+#### SuperSU
+
+相关链接：
+
+* [非官方网站](https://supersuroot.org/)
+* [非官方下载](https://supersuroot.org/download/)
+* [123 云盘下载](https://www.123pan.com/s/G7a9-mpek)（搬运）
+* [百度网盘下载](https://pan.baidu.com/s/1D-xltDWSZHZmKbqULMknsw?pwd=jxnb)（提取码：jxnb）（搬运）
+
+## 数据线
+
+数据线不同于充电线。数据线可以传输数据，充电线则不能。
+
+### USB接口
+
+USB的全称是 Universal Serial Bus，中文含义是“通用串行总线”。
+
+#### Type-C接口
+
+Type-c 是一种既可以应用于 PC (主设备)又可以应用于外部设备(从设备，如手机)的接口类型，这是划时代的
+
+> 也就是说，可以用个双头 Type-C 线连接两部手机
+
+#### Micro-USB接口
+
+Micro-USB 是一种 USB2.0 标准接口，是 Mini-USB 的下一个版本
+
 ## 版权声明
 
 本文档已获得 [@灬只会刷机养老](http://www.coolapk.com/u/11090720) 授权搬运并修改整理
 
 ## 参考链接
 
-* [【小白搞机入门】名词集-BootLoader锁（BL锁）](https://www.coolapk.com/feed/42674591?shareKey=YzQ2MThhNmI5MmNiNjNkNTcwOGM~)
-* [【小白搞机入门】名词集-ROM、RAM、ramdisk](https://www.coolapk.com/feed/42682544?shareKey=ZjIwNzExZDUyYjczNjNkNTgzMTY~)
+* [【小白搞机入门】名词集-ROM、RAM、ramdisk](https://www.coolapk.com/feed/42682544?shareKey=ZjIwNzExZDUyYjczNjNkNTgzMTY~)（酷安）
+* [【小白搞机入门】名词集-BootLoader锁（BL锁）](https://www.coolapk.com/feed/42674591?shareKey=YzQ2MThhNmI5MmNiNjNkNTcwOGM~)（酷安）
+* [root](https://baike.baidu.com/item/root/73226)（百度百科）
+* [数据线](https://baike.baidu.com/item/%E6%95%B0%E6%8D%AE%E7%BA%BF/391946)（百度百科）

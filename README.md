@@ -6,11 +6,14 @@
 
 > 此刷机指南不仅仅提供刷机的指南，还提供各种各样玩机教程
 
+* Gitee 仓库：<https://gitee.com/Jesse205/FlashAndroidDevicesGuidelines>（原始仓库）
+* Github 仓库：<https://github.com/Jesse205/FlashAndroidDevicesGuidelines>（镜像仓库）
+
 ## 访问文档
 
 您可以通过以下链接来访问文档
 
-* [Netlify https://efadg.netlify.app/](https://efadg.netlify.app/)
+* Netlify: <https://efadg.netlify.app/>
 
 ## 其他内容
 

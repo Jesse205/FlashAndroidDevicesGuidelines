@@ -9,7 +9,9 @@
 此刷机指南不仅仅提供刷机的指南，还提供各种各样玩机教程
 :::
 
-在浏览本文档时，请务必仔细阅读说明。__因您操作失误导致的损失我们不负责__
+::: warning
+在浏览本文档时，请务必仔细文档内容。__因您操作失误导致的损失我们不负责__
+:::
 
 > 本教程尽量保证所有资源都有一手资源获取渠道，因此您可以放心下载。（有时为了提速可能会提供二手下载渠道）
 
@@ -22,16 +24,18 @@
 更多教程
 
 * [刷入 Recovery](fast/flash/recovery.md)
-* [获取 Root](fast/install/root.md)
-* [安装 Xposed](fast/install/xposed.md)
+* [获取 Root](fast/install/root/README.md)
+* [安装 Xposed](fast/install/xposed/README.md)
 
 ## 基础知识
 
 1. [名词集](normal/noun.md)
 2. ADB 工具的使用
-3. 制作属于自己的 ROM
 
 ## 深入“刷机”
+
+1. 刷机包
+2. 制作属于自己的 ROM
 
 ## 其他教程
 
@@ -56,6 +60,10 @@
 * __[PixelExperience](https://download.pixelexperience.org/)__: 拥有 Pixel 的体验，附带谷歌的 APP
 * ~~__[魔趣 ROM](https://www.mokeedev.com/)__: 中国的安卓开源系统~~（已跑路）
 
+### 常用 Recovery
+
+* [TWRP](https://twrp.me/): 可以触屏的 Recovery
+
 ### 常用工具
 
 [查看更多](tools/README.md)
@@ -68,7 +76,7 @@
 4. 新建 Pull Request
 
 ::: tip
-您可以直接编辑文件，Gitee会自动处理一些东西。
+您可以直接编辑文件，Gitee 会自动处理一些东西。
 :::
 
 > 由于本人刷机知识短浅，文档中出现不完善的地方很正常。希望您可以帮我改进此文档！

@@ -1,19 +1,40 @@
 # 获取 Root
 
+::: tip
+该文档有机型各自的文档，您可以点击以下链接查看
+
+* [小米](xiaomi.md)
+* [华为](huawei.md)
+* 三星
+* 魅族
+* OPPO
+* Vivo
+:::
+
+* [[名词集] ROOT](../../../normal/noun.md#magisk)
+
 ## Magisk
 
 Magisk，别名叫做“面具”
 
 这是目前主流的 Root 方式
- 
+
 * [Magisk 官方安装文档汉化版](https://jesse205.github.io/MagiskChineseDocument/install.html)
-* [[名词集] ROOT](/normal/noun.md)
+* [[名词集] Magisk](../../../normal/noun.md#magisk)
+
+### 下载 Magisk
+
+* [GitHub Releases](https://github.com/topjohnwu/Magisk/releases/latest)（官方）
 
 ## KernelSU
 
 这是新型 Root 方式。目前正在完善
 
 * __适用系统__: 未知
+
+### 下载 KernelSU
+
+* [GitHub Releases](https://github.com/tiann/KernelSU/releases)（官方）
 
 ## SuperSU
 
@@ -22,6 +43,12 @@ SuperSU，别名叫做“超级权限”
 这是 Android 9 之前常用的 Root 获取方式
 
 * __适用系统__: 未知
+
+### 下载 SuperSU
+
+* [非官方下载](https://supersuroot.org/download/)
+* [123 云盘下载](https://www.123pan.com/s/G7a9-mpek)（搬运）
+* [百度网盘下载](https://pan.baidu.com/s/1D-xltDWSZHZmKbqULMknsw?pwd=jxnb)（提取码：jxnb）（搬运）
 
 ## SuperUser
 SuperUser，别名叫做“超级用户”。

@@ -1,12 +1,16 @@
 # 解锁 Bootloader
 
+::: details 本页内容
+[[toc]]
+:::
+
 解锁一般指的是解锁 Bootloader。
 
 ::: tip
 该文档有机型各自的文档，您可以点击以下链接查看
 
-* 小米
-* [华为](unlock/huawei.md)
+* [小米](xiaomi.md)
+* [华为](huawei.md)
 * 三星
 * 魅族
 * OPPO
@@ -16,10 +20,11 @@
 ## 申请解锁
 
 * [小米](https://www.miui.com/unlock/index.html)
-* ~~华为~~ （已停止解锁服务）
+* ~~华为~~ （已停止解锁服务，请联系 [@某贼](http://www.coolapk.com/u/3463951) 咨询）
 * 三星
 
 ## 解锁 Bootloader
+
 解锁操作可大致分为手机端-电脑端两步，时间跨度较长，请规划好时间
 
 每个品牌的解锁步骤不同，请参考对应的文档
@@ -33,6 +38,8 @@
 
 ## 检查是否解除 BL
 
+您可以根据手机表现的一系列特征判断手机是否解锁
+
 ### 小米
 
 * __关机状态__：开机时第一屏如果显示一个打开的锁的图标或 `unlock`（较老款手机），表明解锁成功。
@@ -41,7 +48,7 @@
 ### 华为
 
 * fastboot 状态: 如果显示红色的 `PHONE Unlocked`
-* 开机第一屏之后: 如果显示 `Your device has been unlocked and can't be trusted.` ，并且文字提示为橙色，则说明手机解锁成功
+* 开机第一屏之后: 如果显示 `Your device has been unlocked and can't be trusted.` ，并且提示文字为橙色，则说明手机解锁成功
 
 ## 版权声明
 
