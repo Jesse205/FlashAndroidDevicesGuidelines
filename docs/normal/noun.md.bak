@@ -58,7 +58,7 @@ ROOT 的权限高于 ADB（Android Debug Bridge）权限，因此您无法完全
 
 兼容性表格
 
-| 工具名称 | 最低版本 | 最高版本 |
+| 工具名称 | 最低安卓版本 | 最高版本 |
 | ---- | ---- | ---- |
 | Magisk | 未知 | Android 13 |
 | KernelSU | 未知 | 未知 |
