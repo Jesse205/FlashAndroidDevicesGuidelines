@@ -1,36 +1,38 @@
-module.exports = {
+import { defineUserConfig } from 'vuepress'
+import { defaultTheme } from 'vuepress'
+
+export default defineUserConfig({
+    lang: 'zh-CN',
     title: '刷机指南',
     description: '很详细的刷机指南',
-    themeConfig: {
-        nav: [
+    theme: defaultTheme({
+        colorModeSwitch: true,
+        navbar: [
             {
                 text: '快速开始',
-                items: [
-                    { text: '解锁 Bootloader', link: '/fast/unlock/' },
-                    { text: '下载刷机包', link: '/fast/download.html' },
-                    { text: '刷入刷机包', link: '/fast/flash.html' },
+                children: [
+                    { text: '解锁 Bootloader', link: '/fast/unlock/README.md' },
+                    { text: '下载刷机包', link: '/fast/download.md' },
+                    { text: '刷入刷机包', link: '/fast/flash.md' },
                 ]
             },
             {
                 text: '基础知识',
-                items: [
-                    { text: '名词集', link: '/normal/noun.html' },
+                children: [
+                    { text: '名词集', link: '/normal/noun.md' },
                 ]
             },
             {
                 text: '深入指南',
-                items: [
-
-                ]
+                children: []
             }
         ],
-        sidebar: 'auto',
-        lastUpdated:'最后更新',
         repo: 'https://gitee.com/Jesse205/FlashAndroidDevicesGuidelines',
         repoLabel: 'Gitee',
-        docsDir: 'docs',
+        editLink: true,
+        editLinkText: '帮助我们改善此页面！',
+        docsRepo: 'https://gitee.com/Jesse205/FlashAndroidDevicesGuidelines',
         docsBranch: 'master',
-        editLinks: true,
-        editLinkText: '帮助我们改善此页面！'
-    }
-}
+    })
+})
+

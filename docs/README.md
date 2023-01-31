@@ -6,10 +6,16 @@
 文档仓库部署在 Gitee 上，欢迎 Star！
 
 ::: tip
-此刷机指南不仅仅提供刷机的指南，还提供各种各样玩机教程
+此刷机指南不仅仅提供刷机的指南，还提供各种各样玩机教程！
+
+虽然这是个万能的指南，但内容主要以小米和华为为主（我只有这两种手机）。
+
+如果条件允许，希望您可以帮我完善一下此文档（说实话我是小白😕）
 :::
 
 ::: warning
+在浏览本文档前，请先浏览《文档说明》（[点击此处开始浏览](help.md)），以防止您迷茫。
+
 在浏览本文档时，请务必仔细文档内容。__因您操作失误导致的损失我们不负责__
 :::
 
@@ -60,9 +66,12 @@
 * __[PixelExperience](https://download.pixelexperience.org/)__: 拥有 Pixel 的体验，附带谷歌的 APP
 * ~~__[魔趣 ROM](https://www.mokeedev.com/)__: 中国的安卓开源系统~~（已跑路）
 
+[查看更多](fast/download.md)
+
 ### 常用 Recovery
 
-* [TWRP](https://twrp.me/): 可以触屏的 Recovery
+* __[TWRP](https://twrp.me/)__: 可以触屏的 Recovery
+* __[OrangeFox Recovery](https://wiki.orangefox.tech/en/home)__: 
 
 ### 常用工具
 

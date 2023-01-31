@@ -6,8 +6,10 @@
 
 解锁一般指的是解锁 Bootloader。
 
-::: tip
-该文档有机型各自的文档，您可以点击以下链接查看
+::: danger
+__您正在浏览的是通用文档，可能会对您的手机无效，甚至可能会变砖！！__
+
+每家手机厂商解锁方式不一样，您可以直接跳转到他们自己的部分
 
 * [小米](xiaomi.md)
 * [华为](huawei.md)
@@ -15,9 +17,12 @@
 * 魅族
 * OPPO
 * Vivo
+* 一加
 :::
 
 ## 申请解锁
+
+每个厂家的申请解锁方式不一样，请查看他们各自的内容
 
 * [小米](https://www.miui.com/unlock/index.html)
 * ~~华为~~ （已停止解锁服务，请联系 [@某贼](http://www.coolapk.com/u/3463951) 咨询）
@@ -50,10 +55,14 @@
 * fastboot 状态: 如果显示红色的 `PHONE Unlocked`
 * 开机第一屏之后: 如果显示 `Your device has been unlocked and can't be trusted.` ，并且提示文字为橙色，则说明手机解锁成功
 
+## 相关链接
+
+* [[名词集] Bootloader 锁](../../normal/noun.md)
+
 ## 版权声明
 
 本文档已获得 [@灬只会刷机养老](http://www.coolapk.com/u/11090720) 授权搬运并修改整理
 
 ## 参考链接
 
-* [【小白搞机入门】名词集-BootLoader锁（BL锁）](https://www.coolapk.com/feed/42674591?shareKey=YzQ2MThhNmI5MmNiNjNkNTcwOGM~)
+* [【小白搞机入门】名词集-BootLoader锁（BL锁）](https://www.coolapk.com/feed/42674591?shareKey=YzQ2MThhNmI5MmNiNjNkNTcwOGM~) 酷安
