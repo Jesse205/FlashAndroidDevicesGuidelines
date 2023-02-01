@@ -1,5 +1,5 @@
 {
-  "name": "FlashAndroidDevicesGuidelines",
+  "name": "flash-android-devices-guidelines",
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://gitee.com/Jesse205/FlashAndroidDevicesGuidelines",
@@ -10,6 +10,6 @@
     "build": "vuepress build docs"
   },
   "devDependencies": {
-    "vuepress": "^2.0.0-beta.60"
+    "vuepress": "2.0.0-beta.60"
   }
 }
