@@ -48,6 +48,14 @@
 2. 系统分区及结构
 3. AOSP
 
+## 编译属于自己的 rom
+
+1. 环境设置
+2. 同步源代码
+3. 获取设备源代码
+4. 编译
+5. 排错
+
 ## 其他教程
 
 * [Magisk 中文文档](https://jesse205.github.io/MagiskChineseDocument/)
