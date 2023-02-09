@@ -11,15 +11,17 @@
 Fastboot：用数据线连接电脑的情况下，关机状态长按电源键和音量减
 升级模式（所谓三键强刷）：关机状态下，长按电源键，音量加和音量减。插不插线无所谓。
 
-### Recovery 和 eRecovery
-
 Recovery 和 eRecovery 是有区别的。
 
 Recovery 就是我们熟知的那个 Recovery，而 eRecovery 是独立于 Recovery 的另一个 Recovery 分区。也就是说华为相当于有两个恢复模式。
 
-二者功能不同，在 Recovery 里我们可以做恢复出厂，清除 cache 等本地操作，而在 eRecovery 里可以连接 WiFi 下载适用于你的手机的系统包并自动安装恢复（不建议一直依赖eRecovery救砖，因为华为可能会撤包）。
+二者功能不同，在 Recovery 里我们可以做恢复出厂，清除 cache 等本地操作，而在 eRecovery 里可以连接 WiFi 下载适用于你的手机的系统包并自动安装恢复。
 
 刷 TWRP 只是替换掉了 Recovery，eRecovery 仍然保留。
+
+::: tip
+使用 eRecovery 救砖时，可能因为华为撤包导致无法使用
+:::
 
 ## 准备的东西
 

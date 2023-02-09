@@ -20,7 +20,7 @@
 这些是安卓爱好者聚集地，您可以在这些社区了解更多内容：
 
 * [酷安](https://www.coolapk.com/)
-* [XDA Forums](https://www.coolapk.com/)
+* [XDA Forums](https://forum.xda-developers.com/)
 
 ## 参与贡献
 
