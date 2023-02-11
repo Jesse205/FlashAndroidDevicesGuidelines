@@ -93,7 +93,7 @@ ROOT 的权限高于 ADB（Android Debug Bridge）权限，因此您无法完全
 | 工具名称       | 最低支持    | 最高支持      |
 | -------------- | ----------- | ------------- |
 | Magisk         | Android 5.0 | Android 13    |
-| KernelSU       | 内核 4.14   | 未知          |
+| KernelSU       | 内核 4.4   | 未知          |
 | SuperSU        | Android 2.3 | Android 7     |
 | 一键 Root 工具 | 未知        | Android 4.4.4 |
 
