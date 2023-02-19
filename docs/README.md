@@ -5,26 +5,24 @@
 这个是 [Jesse205](https://gitee.com/Jesse205) 搬运并整理的刷机指南。
 文档仓库部署在 Gitee 上，欢迎 Star！
 
-::: tip
 此刷机指南不仅仅提供刷机的指南，还提供各种各样玩机教程！
 
-虽然这是个万能的指南，但内容主要以小米和华为为主（我只有这两种手机）。
-
-如果条件允许，希望您可以帮我完善一下此文档（说实话我是小白😕）
-:::
+> 虽然这是个万能的指南，接受手机、电视和电脑等的内容，但内容主要以小米和华为为主（我只有这两种手机）。
+>
+>如果条件允许，希望您可以帮我完善一下此文档（其实吧我是小白😂）
 
 ::: warning
 在浏览本文档前，请先浏览《文档说明》（[点击此处开始浏览](help.md)），以防止您迷茫。
 
-在浏览本文档时，请务必仔细文档内容。__因您操作失误导致的损失我们不负责__
+在浏览本文档时，请务必仔细文档内容。__因您操作失误导致的损失我们不负责。__
 :::
 
-> 本教程尽量保证所有资源都有一手资源获取渠道，因此您可以放心下载。（有时为了提速可能会提供二手下载渠道）
+本教程尽量保证所有资源都有一手资源获取渠道，因此您可以放心下载。（有时为了提速可能会提供二手下载渠道）
 
 ## 快速开始
 
 1. [解锁 Bootloader](fast/unlock/README.md)
-2. [下载刷机包](fast/download.md)
+2. [下载刷机包](fast/download/README.md)
 3. [刷入系统](fast/flash/system.md)
 
 更多教程
@@ -38,19 +36,18 @@
 1. 手机的选购
 2. 安装第三方软件（不通过自带的应用市场）
 3. [名词集](normal/noun.md)
-4. ADB 工具的使用
-5. 刷机包
-6. update_scrip 说明
+4. [分区和映像](normal/partitions/README.md)
+5. ADB 工具的使用
+6. 刷机包的说明
 
 ## 深入“刷机”
 
 1. 高级名词集
 2. 系统分区及结构
-3. AOSP
 
-## 编译属于自己的 rom
+### 编译属于自己的 ROM
 
-1. 环境设置
+1. 配置环境
 2. 同步源代码
 3. 获取设备源代码
 4. 编译
@@ -72,19 +69,20 @@
 * __[XDA Forums](https://forum.xda-developers.com/)__: 一个全球玩机的网站
 * __[Github](https://github.com/)__: 开发者的代码托管平台
 
-### 常用系统
+### 常用操作系统
 
-* __[Havoc OS](https://havoc-os.com/)__: 完美的 Material Design，自定义功能丰富
-* __[Resurrection Remix OS](http://resurrectionremix.com/)__: 自定义功能特别丰富
-* __[PixelExperience](https://download.pixelexperience.org/)__: 拥有 Pixel 的体验，附带谷歌的 APP
-* ~~__[魔趣 ROM](https://www.mokeedev.com/)__: 中国的安卓开源系统~~（已跑路）
+* __[LineageOS](https://lineageos.org/)__: 基于 Android 移动平台的各种设备的免费开源操作系统。
+* __[Havoc OS](https://havoc-os.com/)__: 完美的 Material Design，自定义功能丰富。
+* __[PixelExperience](https://download.pixelexperience.org/)__: 拥有 Pixel 的体验，附带谷歌的 APP。
+* ~~__[魔趣 ROM](https://www.mokeedev.com/)__: 中国的安卓开源系统。~~（已跑路）
 
-[查看更多](fast/download.md)
+[查看更多](fast/download/README.md)
 
 ### 常用 Recovery
 
 * __[TWRP](https://twrp.me/)__: 可以触屏的 Recovery
-* __[OrangeFox Recovery](https://wiki.orangefox.tech/en/home)__: 
+* __[OrangeFox Recovery](https://wiki.orangefox.tech/en/home)__: 精美的 Recovery
+* 还有一个叫什么来着，就是很早以前非常流行的rec
 
 ### 常用工具
 
@@ -95,19 +93,17 @@
   * AppOps（开发者：Rikka）
 * 安装器
   * R-安装
-* 文件管理工具
+* 文件管理
   * MT管理器
-  * NP管理器
   * 质感文件
-  * ES文件浏览器
 * 工具箱
-  * 一个木涵
+  * 搞基工具箱
 
 #### 电脑端
 
 * MiFlash
 
-[查看干货](tools/README.md)
+[查看更多](tools/README.md)
 
 ## 参与贡献
 
@@ -124,5 +120,6 @@
 
 ## 友情链接
 
-* [Magisk资源分享](https://main.suchenqaq.club/)
-* [Edde系列](https://jesse205.github.io/)
+* [Magisk 资源分享](https://main.suchenqaq.club/)
+* [Edde 系列](https://jesse205.github.io/)
+
