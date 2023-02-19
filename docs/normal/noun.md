@@ -8,9 +8,21 @@
 
 ## Android 与安卓
 
-Android，读作 [ˈændrɔɪd]，原译为机器人，中文翻译为安卓。因此 Android 就是安卓。
+[Android](https://source.android.google.cn/?hl=zh-cn)，读音：英：['ændrɔɪd]，美：[ˈænˌdrɔɪd]，原译为机器人，在香港通用原名「Android」，只有在中国大陆和台湾等华人地区使用非官方名称「安卓」，因此 Android 基本等同于安卓。是一个基于 Linux 内核与其他开源软件的开放源代码的移动操作系统，由谷歌成立的开放手持设备联盟持续领导与开发，主要设计用于智能手机和平板电脑等触摸屏移动设备。
 
-Android 是谷歌的操作系统。除华为和谷歌外，几乎所有智能手机都正在使用这套操作系统。
+该操作系统的核心被称为 [Android 开源项目（AOSP）](https://source.android.google.cn/?hl=zh-cn)，是主要根据 Apache 许可获得许可的免费开源软件 (FOSS)。然而，大多数设备运行由谷歌或其他供应商开发的专有 Android 版本，该版本预装了额外的专有闭源软件，最著名的是谷歌移动服务 (GMS)，其中包括谷歌浏览器等核心应用程序， 数字分发平台 Google Play，以及相关的 Google Play 服务开发平台。 虽然 AOSP 是免费的，但「Android」名称和徽标是 Google 的商标，Google 制定了标准来限制其生态系统之外的“未经认证”的设备使用 Android 品牌。
+
+超过 70% 的基于 Android 开源项目的智能手机运行 Google 的生态系统（简称 Android），其中一些具有供应商定制的用户界面和软件套件，例如 TouchWiz 以及后来三星和 HTC Sense 的 One UI。 AOSP 的竞争生态系统和分支包括 Fire OS（由亚马逊开发）、OPPO 的 ColorOS、Vivo 的 OriginOS、Honor 的 MagicUI 或由其他团队开发的自定义 ROM，例如 PixelExperience、LineageOS、ArrowOS 等。
+
+Android Inc.于2003年10月由安迪·鲁宾、利奇·米纳尔、尼克·席尔斯、克里斯·怀特在加州帕罗奥图创建。Android最初由安迪·鲁宾等人开发制作，最初开发这个系统的早期方向是创建一个数字相机的先进操作系统，但是后来发现相机市场规模不够大，加上智能手机发展趋势快速成长，于是Android成为一款面向智能手机的操作系统。于2005年7月11日Android Inc.被美国科技企业Google收购。
+
+2010年末数据显示，仅正式推出两年的 Android 操作系统在市场占有率上已经超越称霸逾十年的诺基亚 Symbian 系统，成为全球第一大智能手机操作系统。
+
+在2014年 Google I/O 开发者大会上 Google 宣布过去 30 天里有 10 亿台活跃的 Android 设备。
+
+2017年3月，Android 全球网络流量和设备超越 Microsoft Windows，正式成为全球第一大操作系统。
+
+截至2022年5月，根据 StatCounter 统计，除了美国、英国、加拿大、挪威、瑞典、丹麦、瑞士、科索沃、日本、台湾和澳大利亚外，在其他所有国家和地区 Android 都是最被广泛使用的智能手机操作系统。
 
 ## 各式各样的「锁」
 
@@ -93,7 +105,7 @@ ROOT 的权限高于 ADB（Android Debug Bridge）权限，因此您无法完全
 | 工具名称       | 最低支持    | 最高支持      |
 | -------------- | ----------- | ------------- |
 | Magisk         | Android 5.0 | Android 13    |
-| KernelSU       | 内核 4.14   | 未知          |
+| KernelSU       | 内核 4.4   | 未知          |
 | SuperSU        | Android 2.3 | Android 7     |
 | 一键 Root 工具 | 未知        | Android 4.4.4 |
 
