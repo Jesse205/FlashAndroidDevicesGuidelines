@@ -121,3 +121,8 @@
 :::
 
 > 由于本人刷机知识短浅，文档中出现不完善的地方很正常。希望您可以帮我改进此文档！
+
+## 友情链接
+
+* [Magisk资源分享](https://main.suchenqaq.club/)
+* [Edde系列](https://jesse205.github.io/)
