@@ -5,7 +5,7 @@
 * Windows 电脑
 * 手机
 * 数据线
-* SIM 卡（用于绑定手机）
+* __SIM 卡__（用于绑定手机）
 
 ## 解锁步骤
 
@@ -22,7 +22,7 @@
 
 ### 二、电脑端
 
-1. 官网上下载[小米解锁工具](http://www.miui.com/unlock/download.html)
+1. 官网上下载[小米解锁工具](http://www.miui.com/unlock/index.html)
 2. 在工具中登录与手机绑定时一致的小米账号，根据提示解除 BL 锁。
 （tip：在一段时间内同一个小米账号的解锁数量可能有限）
 
