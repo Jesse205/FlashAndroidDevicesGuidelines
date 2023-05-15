@@ -7,5 +7,18 @@
         "Gapps",
         "Shizuku",
         "Wayback"
-    ]
+    ],
+    "liveServer.settings.port": 5501,
+    "markdownlint.config": {
+        "default": true,
+        "MD033": {
+            "allowed_elements": [
+                "Badge",
+                "br",
+                "script",
+                "img",
+                "p"
+            ]
+        }
+    }
 }

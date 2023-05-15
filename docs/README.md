@@ -15,34 +15,36 @@
 在浏览本文档前，请先浏览《文档说明》（[点击此处开始浏览](help.md)），以防止您迷茫。
 
 在浏览本文档时，请务必仔细文档内容。__因您操作失误导致的损失我们不负责。__
+
+本文档持续编写中。。。。什么时候这段文字消失了，就代表我、本文档已基本完工了。。。。。
 :::
 
 本教程尽量保证所有资源都有一手资源获取渠道，因此您可以放心下载。（有时为了提速可能会提供二手下载渠道）
 
 ## 快速开始
 
-1. [解锁 Bootloader](fast/unlock/README.md)
-2. [下载刷机包](fast/download/README.md)
-3. [刷入系统](fast/flash/system.md)
+1. [解锁 Bootloader](./fast/unlock/README.md)
+2. [下载刷机包](./fast/download/README.md)
+3. [刷入系统](./fast/flash/system.md)
 
 更多教程
 
-* [刷入 Recovery](fast/flash/recovery.md)
-* [获取 Root](fast/install/root/README.md)
-* [安装 Xposed](fast/install/xposed/README.md)
+* [刷入 Recovery](./fast/flash/recovery.md)
+* [获取 Root](./fast/install/root/README.md)
+* [安装 Xposed](./fast/install/xposed/README.md)
 
 ## 基础知识
 
 1. 手机的选购
-2. 安装第三方软件（不通过自带的应用市场）
-3. [名词集](normal/noun.md)
-4. [分区和映像](normal/partitions/README.md)
+2. [安装第三方软件](./normal/install/README.md)（不通过自带的应用市场）
+3. [名词集](./normal/noun.md)
+4. [分区和映像](./normal/partitions/README.md)
 5. ADB 工具的使用
 6. 刷机包的说明
 
 ## 深入“刷机”
 
-1. 高级名词集
+1. 更多名词集
 2. 系统分区及结构
 
 ### 编译属于自己的 ROM
@@ -71,12 +73,12 @@
 
 ### 常用操作系统
 
-* __[LineageOS](https://lineageos.org/)__: 基于 Android 移动平台的各种设备的免费开源操作系统。
-* __[Havoc OS](https://havoc-os.com/)__: 完美的 Material Design，自定义功能丰富。
-* __[PixelExperience](https://download.pixelexperience.org/)__: 拥有 Pixel 的体验，附带谷歌的 APP。
-* ~~__[魔趣 ROM](https://www.mokeedev.com/)__: 中国的安卓开源系统。~~（已跑路）
+* __[LineageOS](https://lineageos.org/)__: 基于 Android 移动平台的各种设备的免费开源操作系统。查看详情
+* __[Havoc OS](https://havoc-os.com/)__: 完美的 Material Design，自定义功能丰富。查看详情
+* __[PixelExperience](https://download.pixelexperience.org/)__: 拥有 Pixel 的体验，附带谷歌的 APP。查看详情
+* ~~__[魔趣 ROM](https://www.mokeedev.com/)__: 中国的安卓开源系统。~~（已跑路）查看详情
 
-[查看更多](fast/download/README.md)
+[查看更多](./normal/systems/README.md)
 
 ### 常用 Recovery
 

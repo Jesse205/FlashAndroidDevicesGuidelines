@@ -10,10 +10,10 @@
 
 __@houseTimeR__：
 
-| 名称 | ROM 版本 | Android | 发布网站 | 下载 |
-| ---- | ---- | ---- | ---- | --- |
-| HTROM_Modified | V1.2 | 4.3 | [百度贴吧][houseTimeR_A788T_1] | [百度网盘][houseTimeR_A788T_2] |
-| HTROM | V1.0 | 4.3 | [百度贴吧][houseTimeR_A788T_3] | [百度网盘][houseTimeR_A788T_4] |
+| 名称           | ROM 版本 | Android | 发布网站                       | 下载                           |
+| -------------- | -------- | ------- | ------------------------------ | ------------------------------ |
+| HTROM_Modified | V1.2     | 4.3     | [百度贴吧][houseTimeR_A788T_1] | [百度网盘][houseTimeR_A788T_2] |
+| HTROM          | V1.0     | 4.3     | [百度贴吧][houseTimeR_A788T_3] | [百度网盘][houseTimeR_A788T_4] |
 
 [houseTimeR_A788T_1]: https://tieba.baidu.com/p/4758933874?pid=97069221919&cid=#97069221919
 [houseTimeR_A788T_2]: https://pan.baidu.com/share/link?shareid=3353452284&uk=3727937318
@@ -22,6 +22,6 @@ __@houseTimeR__：
 
 __@huayi550__：
 
-| 名称 | Android | 下载 |
-| ---- | ---- | ---- |
-| BaiduOS | 4.3 |  |
+| 名称    | Android | 下载 |
+| ------- | ------- | ---- |
+| BaiduOS | 4.3     |      |

@@ -1,4 +1,4 @@
-# 小米
+# 小米解锁
 
 ## 硬件要求
 
@@ -33,3 +33,11 @@
 
 手机重启后，系统会自动锁定，需要在 WIFI 环境下或 SIM 卡网络下（如果 SIM 卡设置了 pin 码则需使用 WIFI）登录小米账号以解锁，解锁后就可以正常进入系统了。
 > 此处等待查证并完善
+
+## 版权声明
+
+本文档已获得 [@灬只会刷机养老](http://www.coolapk.com/u/11090720) 授权搬运并修改整理
+
+## 参考链接
+
+* [【小白搞机入门】名词集-BootLoader锁（BL锁）](https://www.coolapk.com/feed/42674591?shareKey=YzQ2MThhNmI5MmNiNjNkNTcwOGM~) 酷安

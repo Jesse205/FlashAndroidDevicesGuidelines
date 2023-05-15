@@ -1,5 +1,3 @@
-
-
 # 下载 ROM
 
 ::: details 本页内容
@@ -12,13 +10,14 @@
 
 ## 预装 ROM
 
-### 小米 - MIUI
+### MIUI - 小米
 
 __官方下载__：
 
-小米官方**部分开放**国际版 MIUI 的下载，具体为只开放新上市机型的 MIUI 下载，而旧机型（比如小米 4）则没有开放下载链接。
+小米官方 __部分开放__ 国际版 MIUI 的下载，具体为只开放新上市机型的 MIUI 下载，而旧机型（比如小米 4）则没有开放下载链接。
 
-你可以在[这里](https://new.c.mi.com/global/miuidownload/index)找到 MIUI 卡刷包的下载（点击右边的 「Select...」，选择你的手机名称，点击右边的「Submit」，点击「Download Full Rom」即可下载），在[这里](https://new.c.mi.com/global/miuidownload/detail/guide/1)找到 MIUI 线刷包的下载（左上角切换到「Fastboot Update」，在「STEP 2」下面即可找到 MIUI 线刷包的下载链接「手机名称 Latest 区域 Stable Version Fastboot File Download」）
+* 在[这里](https://new.c.mi.com/global/miuidownload/index)找到 MIUI 卡刷包的下载。操作方法：点击右边的 「Select...」，选择你的手机名称，点击右边的「Submit」，点击「Download Full Rom」即可下载
+* 在[这里](https://new.c.mi.com/global/miuidownload/detail/guide/1)找到 MIUI 线刷包的下载。操作方法：左上角切换到「Fastboot Update」，在「STEP 2」下面即可找到 MIUI 线刷包的下载链接「手机名称 Latest 区域 Stable Version Fastboot File Download」
 
 ::: tip
 如果网页打不开则需要全局代理
@@ -34,7 +33,7 @@ __第三方下载__：
 * [MIUIROM.org](https://miuirom.org/)
 * [Xiaomiom.com](https://xiaomirom.com/)
 
-### Oppo、OnePlus
+### ColorOS、氢 OS、氧 OS - Oppo、OnePlus
 
 __官方下载__：
 
@@ -44,7 +43,7 @@ __官方下载__：
 * [氢 OS 下载](https://www.oneplus.com/cn/support/softwareupgrade)
 * [氧 OS 下载](https://service.oneplus.com/global/search/search-detail?id=2096329&articleIndex=1)
 
-### Reamle UI
+### Reamle UI - 真我
 
 __官方下载__：
 
@@ -52,7 +51,9 @@ __官方下载__：
 
 * [Software&Driver Update](https://www.realme.com/in/support/software-update)（Reamle UI 国际版）
 
-### 华为 - EMUI
+### EMUI/HarmonyOS - 华为
+
+* [更多信息](../../normal/systems/harmonyos.md)
 
 __官方下载__：
 
@@ -94,23 +95,38 @@ __第三方下载__：
 
 -->
 
-### Pixel
+### Pixel - Google
 
 __官方下载__：
 
 * [Nexus 和 Pixel 设备的完整 OTA 映像](https://developers.google.cn/android/ota?hl=zh-cn)
 
-### 已停更的
+### 已停更的预装 ROM
 
-#### 百加 - 百度云 OS
+#### 百度云 OS - 百加
 
-> 百度云 OS 是基于 Android 4.0 及以上版本进行开发的第三方智能手机系统。
+* [更多信息](../../normal/systems/baiduos.md)
 
 __第三方下载__：
 
 * [本站收集](baiduos.md)
 
 ## 第三方 ROM
+
+### LineageOS
+
+> 在所有类原生中，LineageOS 绝对是老爷级的存在，有很多优秀的类原生都派生自此项目。LineageOS 的历史可以追溯至2009年的 CyanogenMod （有时简称为cm），只不过后来cm由于搞商业化失败后解散了，一些原cm的开发者才成立了 LineageOS，这个基于 Android 移动平台的适用于各种设备的免费开源操作系统。
+>
+> * [官方网站](https://lineageos.org/)
+> * [更多信息](../../normal/systems/lineageos.md)
+
+__官方下载__：
+
+* [官网下载](https://download.lineageos.org/)
+
+__第三方下载__：
+
+* [LineageOS ROMs](http://lineageosroms.com/)（下载历史版本）
 
 ### PixelExperience
 
@@ -150,21 +166,15 @@ __第三方下载__：
 
 ### Project Arcana
 
-> 一款基于 AOSP 定制的手机操作系统，专注于提升用户体验，带有一点点情趣。
->
-> * [官方网站](https://projectarcana-aosp.github.io/)
+* [更多信息](../../normal/systems/README.md#project-arcana)
 
 ### Cherish OS
 
-> CherishOS 3.x 基于 AOSP，灵感来自 Google Pixel。有 Hung Phan 的 Pixel UI 面条。 您可能无法在任何 ROM 中找到如此多的功能。 所有您梦寐以求的和您永远需要的。 只需刷入并享受...
->
-> * [官方网站](https://cherishos.com/)
+* [更多信息](../../normal/systems/README.md#cherish-os)
 
 ### ArrowOS
 
-> 在所有不带 Gapps 的类原生里 ArrowOS 是我最喜欢的一个，一个基于 AOSP 的项目开始时的目标是保持简单、干净和有条理。我们添加了有助于长期运行的功能，同时旨在提供流畅的性能和更长的电池寿命。
->
-> * [官方网站](https://arrowos.net/)
+* [更多信息](../../normal/systems/README.md#arrowos)
 
 __官方下载__：
 
@@ -174,45 +184,23 @@ __官方下载__：
 ArrowOS 也有带 Gapps 的版本，在下载时选择「GAPPS build」即可，不过不是所有 ArrowOS 官方支持的设备都有的
 :::
 
-### LineageOS
-
-> 在所有类原生中，LineageOS 绝对是老爷级的存在，有很多优秀的类原生都派生自此项目。LineageOS 的历史可以追溯至2009年的 CyanogenMod （有时简称为cm），只不过后来cm由于搞商业化失败后解散了，一些原cm的开发者才成立了 LineageOS，这个基于 Android 移动平台的适用于各种设备的免费开源操作系统。
->
-> * [官方网站](https://lineageos.org/)
-
-__官方下载__：
-
-* [官网下载](https://download.lineageos.org/)
-
-__第三方下载__：
-
-* [LineageOS ROMs](http://lineageosroms.com/)（下载历史版本）
-
 ### Havoc OS
 
-> Havoc-OS 是一款基于 AOSP 的售后固件，可用于 20 多家 OEM 的 150 多款设备。灵感来自具有精致的 Material Design UI 的 Google Pixel。为您的设备提供流畅稳定的体验，并提供一组精选的令人惊叹的功能，这些功能可提供卓越的用户体验。通用系统映像 (GSI) 也可用，因此即使您的设备当前不受支持，您也可以试用我们的 ROM。 我们的设备名册不断增加，支持每月添加更多设备。自定义功能丰富。您也可以通过您的设备代号。
->
-> * [官方网站](https://havoc-os.com/)
+* [更多信息](../../normal/systems/README.md#havoc-os)
 
 __官方下载__：
 
 * [官网下载](https://download.havoc-os.com/)
 
-### 已停更的
+### 已停更的第三方 ROM
 
 #### CyanogenMod
 
-> 类原生的鼻祖，CyanogenMod 是适用于许多基于开源 Android 操作系统的手机的售后市场固件。它提供了供应商基于 Android 的官方固件所没有的功能。
->
-> 官网已无法访问
-
-* [官方网站（Wayback Machine 上的备份）](https://web.archive.org/web/20161225043707/https://www.cyanogenmod.org/)
+* [更多信息](../../normal/systems/README.md#cyanogenmod)
 
 #### Resurrection Remix OS
 
-> 自定义功能特别丰富，致力于让您的 Android 体验优雅。精心挑选的功能精美地打包在一个操作系统中。
->
-> * [官方网站](https://resurrectionremix.com/)
+* [更多信息](../../normal/systems/README.md#resurrection-remix-os)
 
 最新版本为 Android 10
 
@@ -222,9 +210,11 @@ __官方下载__：
 
 #### 魔趣 ROM
 
-中国的安卓开源系统
+* [更多信息](../../normal/systems/README.md#魔趣-rom)
 
-* [官方网站](https://www.mokeedev.com/)
+__官方下载__：
+
+* [SourceForge](https://sourceforge.net/projects/mokee/files/)
 
 ## 各种 ROM 专用下载站
 
