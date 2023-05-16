@@ -10,7 +10,7 @@
 ### 一、申请解锁码
 
 华为在2018年5月24日已关闭解锁码申请通道，如果您拥有时光机，请前往这个时间段前进入 EMUI 官网的[解锁](https://emui.huawei.com/cn/unlock_index)进行解锁
-![关闭解锁的公告](/images/unlock/huawei/close_notice.png)
+![关闭解锁的公告](./images/huawei_close_notice.png)
 
 您也可以通过第三方渠道解锁 Bootloader
 

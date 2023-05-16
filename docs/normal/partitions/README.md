@@ -4,12 +4,14 @@ Android 设备包含若干个分区，这些分区在启动过程中发挥不同
 
 本片仅简单介绍几个常见分区，更多内容请参考[《系统分区及结构》](../../details/partitions/README.md)
 
+## 常见分区
+
 ### boot 分区
 
 系统启动时引导的分区
 
 ::: tip
-Android 8.0 以前刷机需要连同 `boot.img` 一起刷入
+Android 8.0 以前刷机需要连同 `boot.img` 一起刷入。之后由于引入了 [Project Treble](https://source.android.google.cn/docs/core/architecture/treble?hl=zh-cn) 的缘故，可以跳过此分区，直接刷 `system.img` 。
 :::
 
 ### init_boot 分区 <Badge type="tip" text="Android 13+" vertical="top" />
@@ -37,6 +39,13 @@ Android 8.0 以前刷机需要连同 `boot.img` 一起刷入
 ## 更多分区
 
 * [华为的分区和映像](huawei.md)
+* 小米的分区和映像
+* 三星的分区和映像
+* [系统分区及结构](../../details/partitions/README.md)
+
+## 相关链接
+
+* [安卓中的各种开机模式](../modes/README.md)
 
 ## 参考链接
 

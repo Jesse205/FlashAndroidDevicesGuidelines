@@ -1,0 +1,15 @@
+:root {
+    scroll-behavior: smooth;
+}
+
+.screenshotList {
+    display: flex;
+    overflow: auto;
+}
+
+.screenshotList img {
+    margin: 2px;
+    width: 200px;
+    border: 1px solid var(--c-border);
+    border-radius: 4px;
+}

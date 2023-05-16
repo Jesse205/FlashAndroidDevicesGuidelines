@@ -13,25 +13,33 @@ export default defineUserConfig({
                 children: [
                     { text: '解锁 Bootloader', link: '/fast/unlock/' },
                     { text: '下载刷机包', link: '/fast/download/' },
-                    { text: '刷入系统', link: '/fast/flash/system.md' },
+                    { text: '刷入系统', link: '/fast/flash/system.html' },
+                    {
+                        text: '更多教程',
+                        children: [
+                            { text: '刷入 Recovery', link: '/fast/flash/recovery.html' },
+                            { text: '获取 Root', link: '/fast/install/root/' },
+                            { text: '安装 Xposed', link: '/fast/install/xposed/' },
+                        ]
+                    }
                 ]
             },
             {
                 text: '基础知识',
                 children: [
                     { text: '选购手机', link: '#' },
-                    { text: '安装软件', link: '#' },
+                    { text: '安装软件', link: '/normal/installApk/' },
                     { text: '名词集', link: '/normal/noun.html' },
                     { text: '分区和映像', link: '/normal/partitions/' },
-                    { text: 'ADB', link: '#' },
                     { text: '刷机包', link: '#' },
                 ]
             },
             {
-                text: '深入指南',
+                text: '深入“刷机”',
                 children: [
                     { text: '高级名词集', link: '#' },
                     { text: '系统分区及结构', link: '#' },
+                    { text: '工具的使用', link: '/tools/' },
                     {
                         text: '编译 ROM',
                         children: [

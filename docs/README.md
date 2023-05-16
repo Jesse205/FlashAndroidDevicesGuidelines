@@ -3,16 +3,16 @@
 ## 介绍
 
 这个是 [Jesse205](https://gitee.com/Jesse205) 搬运并整理的刷机指南。
-文档仓库部署在 Gitee 上，欢迎 Star！
+文档仓库在 Gitee 上，欢迎 Star！
 
 此刷机指南不仅仅提供刷机的指南，还提供各种各样玩机教程！
 
 > 虽然这是个万能的指南，接受手机、电视和电脑等的内容，但内容主要以小米和华为为主（我只有这两种手机）。
 >
->如果条件允许，希望您可以帮我完善一下此文档（其实吧我是小白😂）
+> 如果条件允许，希望您可以帮我完善一下此文档（其实吧我是小白😂）
 
 ::: warning
-在浏览本文档前，请先浏览《文档说明》（[点击此处开始浏览](help.md)），以防止您迷茫。
+在浏览本文档前，请先浏览《文档说明》（[点击此处开始浏览](help.md)）与[《注意事项》](./normal/note.md)，以防止您迷茫。
 
 在浏览本文档时，请务必仔细文档内容。__因您操作失误导致的损失我们不负责。__
 
@@ -36,16 +36,17 @@
 ## 基础知识
 
 1. 手机的选购
-2. [安装第三方软件](./normal/install/README.md)（不通过自带的应用市场）
+2. [安装第三方软件](./normal/installApk/README.md) <Badge type="tip" text="不通过自带的应用市场" vertical="top" />
 3. [名词集](./normal/noun.md)
 4. [分区和映像](./normal/partitions/README.md)
-5. ADB 工具的使用
+5. [ADB 工具的使用](./tools/README.md#adb)
 6. 刷机包的说明
 
 ## 深入“刷机”
 
 1. 更多名词集
 2. 系统分区及结构
+3. [工具的使用](./tools/README.md)
 
 ### 编译属于自己的 ROM
 
@@ -124,4 +125,3 @@
 
 * [Magisk 资源分享](https://main.suchenqaq.club/)
 * [Edde 系列](https://jesse205.github.io/)
-

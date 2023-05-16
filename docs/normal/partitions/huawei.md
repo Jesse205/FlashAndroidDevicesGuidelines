@@ -8,19 +8,16 @@
 
 这相当于之前的 `boot` 分区
 
-## erecovery 分区
+* [Recovery 模式](../modes/huawei.md#recovery-模式)
+
+## erecovery 分区 <Badge type="tip" text="EMUI4.0+" vertical="top" />
 
 专门用于恢复操作系统的 recovery 分区
 
-::: tip
-您可以将手机使用数据线连接到电脑，然后长按音量增大+电源键进入 eRecovery 模式
-
-也可以使用以下命令进入此模式
-
-``` shell
-adb reboot erecovery
-```
-
-:::
+* [eRecovery 模式](../modes/huawei.md#erecovery-模式)
 
 ## hw_product 分区
+
+## 相关链接
+
+* [安卓中的各种开机模式](../modes/README.md)

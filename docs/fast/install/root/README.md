@@ -1,5 +1,9 @@
 # 获取 Root
 
+获取Root的方式有好多种，获取 Root 的工具也有好多种。本文章按照 Root 工具的顺序展开编写
+
+本文章给出了很多链接。您可以点击那些链接查看更专业的教程。
+
 ::: tip
 该文档有机型各自的文档，您可以点击以下链接查看
 
@@ -11,30 +15,58 @@
 * Vivo
 :::
 
-* [[名词集] ROOT](../../../normal/noun.md#magisk)
+* 关于 Root 以及这些工具的介绍：[[名词集] ROOT](../../../normal/noun.md#root)
 
-## Magisk
+## 兼容性表格
+
+这是兼容性表格，您可以根据您的需求选择不同版本的工具进行 Root：
+
+| 工具名称       | 最低支持    | 最高支持      |
+| -------------- | ----------- | ------------- |
+| Magisk         | Android 5.0 | Android 13    |
+| KernelSU       | 内核 4.4    | 未知          |
+| SuperSU        | Android 2.3 | Android 7     |
+| 一键 Root 工具 | 未知        | Android 4.4.4 |
+
+## Magisk <Badge type="tip" text="推荐" vertical="top" />
 
 Magisk，别名叫做“面具”
 
 这是目前主流的 Root 方式
 
-* [Magisk 官方安装文档汉化版](https://jesse205.github.io/MagiskChineseDocument/install.html)
+* __适用系统__：Android 5.0 - Android 13
+
+相关链接：
+
 * [[名词集] Magisk](../../../normal/noun.md#magisk)
+* [官方仓库](https://github.com/topjohnwu/Magisk)
 
 ### 下载 Magisk
 
 * [GitHub Releases](https://github.com/topjohnwu/Magisk/releases/latest)（官方）
 
-## KernelSU
+### 安装 Magisk
+
+* [Installation](https://topjohnwu.github.io/Magisk/install.html) - Magisk（官方，但是英文）
+* [安装](https://jesse205.github.io/MagiskChineseDocument/install.html) - Magisk 中文文档（非官方，本站汉化）
+
+## KernelSU <Badge type="tip" text="推荐高级用户使用" vertical="top" />
 
 这是新型 Root 方式。目前正在完善
 
-* __适用系统__: 未知
+* __适用内核__: 内核 4.4+
+
+* [官方网站](https://kernelsu.org/)
+* [官方仓库](https://github.com/tiann/KernelSU)
 
 ### 下载 KernelSU
 
 * [GitHub Releases](https://github.com/tiann/KernelSU/releases)（官方）
+* [酷安](https://www.coolapk.com/apk/me.weishu.kernelsu)（官方）
+
+### 安装 KernelSU
+
+* [安装](https://kernelsu.org/zh_CN/guide/installation.html) - KernelSU（官方）
 
 ## SuperSU
 
@@ -51,11 +83,12 @@ SuperSU，别名叫做“超级权限”
 * [百度网盘下载](https://pan.baidu.com/s/1D-xltDWSZHZmKbqULMknsw?pwd=jxnb)（提取码：jxnb）（搬运）
 
 ## SuperUser
+
 SuperUser，别名叫做“超级用户”。
 
-* __适用系统__: 未知
+* __适用系统__: 未知，至今仍旧有一部分系统在使用
 
-## 一键 Root 工具
+## 一键 Root 工具 <Badge type="warning" text="不推荐" vertical="top" />
 
 这是 Android 5 之前常用的获取 Root 方法
 
@@ -64,17 +97,11 @@ SuperUser，别名叫做“超级用户”。
 * __360超级ROOT__（已停止运营）: 对 360 自家软件兼容友好
 * __KingRoot__（已停止运营）: 覆盖机型广，但是有一点臃肿
 
-对于这些一键 Root 工具，机型不一样体验也不一样，建议都试试。
+对于这些一键 Root 工具，机型不一样体验也不一样，建议都试试，有些 Root 工具至今也可以使用。
 
 ### 手机端获取 Root
 
 打开一键 Root 工具后，点击「开始 ROOT」（或者其他按钮），等待 ROOT成 功即可
-
-### 电脑辅助获取 Root
-
-1. 安装一键 ROOT 工具对应的电脑端
-2. 手机连接电脑，并安装驱动
-3. 点击「开始 ROOT」（或者其他按钮）
 
 ::: tip
 ROOT 过程中手机可能会重新启动，属于正常现象
@@ -83,3 +110,19 @@ ROOT 过程中手机可能会重新启动，属于正常现象
 ::: warning
 很多一键 Root 工具已停止维护，建议改用其他方法。
 :::
+
+### 电脑辅助获取 Root
+
+1. 安装一键 ROOT 工具对应的电脑端
+2. 手机连接电脑，并安装驱动
+3. 点击「开始 ROOT」（或者其他按钮）
+
+## 内置 Root
+
+在以前，许多 Rom 都内置了Root。比如 MIUI，百度云 OS 等，还有各种各样官改 ROM。您通常需要在设置内打开 Root 开关后即可使用 Root
+
+| ROM 名称    | 开启路径                                |
+| ----------- | --------------------------------------- |
+| 百度云 OS   | 设置 > 安全 > Root申请 > 右上角开关打开 |
+| 凤凰系统    |                                         |
+| 等待补充... | 等待补充...                             |
