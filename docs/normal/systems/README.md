@@ -4,75 +4,27 @@
 [[toc]]
 :::
 
-如果您需要下载ROM，请转到[](../../fast/download/README.md)
+如果您需要下载ROM，请转到[《下载 ROM》](../../fast/download/README.md)。
 
 ## 预装 ROM
 
-<!-- ### 小米 - MIUI
-
-### Oppo、OnePlus
-
-__官方下载__：
-
-* ColorOS
-  * [国内版下载](https://www.coloros.com/rom)
-  * [国际版下载](https://support.oppo.com/in/software-update/)
-* [氢 OS 下载](https://www.oneplus.com/cn/support/softwareupgrade)
-* [氧 OS 下载](https://service.oneplus.com/global/search/search-detail?id=2096329&articleIndex=1)
-
-### Reamle UI
-
-__官方下载__：
-
-真我似乎不提供 Reamle UI 国内版的[下载](https://www.realme.com/cn/support/kw/doc/2029300)，不过 Reamle UI 的国际版可以在以下地址下载
-
-* [Software&Driver Update](https://www.realme.com/in/support/software-update)（Reamle UI 国际版） -->
-
 ### EMUI/HarmonyOS - 华为
 
+![HarmonyOS LOGO](./images/logo/hmos.png)
+
 * [查看详情](./harmonyos.md) - HarmonyOS
+* 查看详情 - EMUI
+* 查看详情 - MagicUI/MagicOS
 
 ### MIUI - 小米
 
+![MIUI Logo](./images/logo/miui.png)
+
 * [查看详情](./miui.md)
 
-<!--
+### 百度云 OS - 百加 <Badge type="danger" text="已停更" />
 
-未完待续
-
-##### OriginOS/FuntouchOS
-
-...
-
-##### EMUI/HarmonyOS
-
-...
-
-##### Flyme
-
-...
-
-##### OneUI
-
-...
-
-##### MyUI
-
-...
-
-##### ZUI
-
-...
-
--->
-
-### Pixel
-
-* [Nexus 和 Pixel 设备的完整 OTA 映像](https://developers.google.cn/android/ota?hl=zh-cn)
-
-### 已停更的
-
-#### 百度云 OS - 百加
+![LOGO](./images/logo/baiduos.jpg)
 
 百度云 OS 是基于 Android 4.0 及以上版本进行开发的第三方智能手机系统。
 
@@ -83,6 +35,8 @@ __官方下载__：
 
 ### LineageOS
 
+![Lineage Logo](./images/logo/lineage.svg)
+
 在所有类原生中，LineageOS 绝对是老爷级的存在，有很多优秀的类原生都派生自此项目。LineageOS 的历史可以追溯至2009年的 CyanogenMod （有时简称为cm），只不过后来cm由于搞商业化失败后解散了，一些原cm的开发者才成立了 LineageOS，这个基于 Android 移动平台的适用于各种设备的免费开源操作系统。
 
 * [查看详情](./lineageos.md)
@@ -92,6 +46,8 @@ __官方下载__：
 * [官网下载](https://download.lineageos.org/)
 
 ### PixelExperience
+
+![PE Logo](./images/logo/pe.svg)
 
 拥有 Pixel 的体验，附带谷歌的 APP，有时会简称为 PE。
 
@@ -153,24 +109,28 @@ Havoc-OS 是一款基于 AOSP 的售后固件，可用于 20 多家 OEM 的 150 
 * [官方网站](https://havoc-os.com/)
 * [官网下载](https://download.havoc-os.com/)
 
-### 已停更的第三方 ROM
-
-#### CyanogenMod
+### CyanogenMod <Badge type="danger" text="已停更" />
 
 类原生的鼻祖，CyanogenMod 是适用于许多基于开源 Android 操作系统的手机的售后市场固件。它提供了供应商基于 Android 的官方固件所没有的功能。
 官网已无法访问
 
 * [官方网站（Wayback Machine 上的备份）](https://web.archive.org/web/20161225043707/https://www.cyanogenmod.org/)
 
-#### Resurrection Remix OS
+### Resurrection Remix OS <Badge type="danger" text="已停更" />
 
 自定义功能特别丰富，致力于让您的 Android 体验优雅。精心挑选的功能精美地打包在一个操作系统中。
 
 * [官方网站](https://resurrectionremix.com/)
 * [SourceForge](https://sourceforge.net/projects/resurrectionremix-ten/files/)
 
-#### 魔趣 ROM
+### 魔趣 ROM <Badge type="danger" text="已停更" />
+
+![魔趣 Logo](./images/logo/mokee.png)
 
 中国的安卓开源系统
 
 * [官方网站](https://www.mokeedev.com/)
+
+## 相关链接
+
+*[下载 ROM](../../fast/download/README.md)

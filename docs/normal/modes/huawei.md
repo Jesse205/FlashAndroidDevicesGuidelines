@@ -19,7 +19,7 @@
 
 * 不连接电脑，关机状态长按电源键和音量加，出现 logo 后只松开电源键，直到进入
 
-## eRecovery 模式 <Badge type="tip" text="EMUI4.0+" vertical="top" />
+## eRecovery 模式 <Badge type="tip" text="EMUI4.0+" />
 
 eRecovery 是华为特有专门用于恢复操作系统的 recovery 模式。在 eRecovery 里可以连接 WiFi 下载适用于你的手机的系统包并自动安装恢复。
 

@@ -1,6 +1,6 @@
 # HarmomyOS
 
-![LOGO](https://harmonyos.oss-cn-beijing.aliyuncs.com/images/202106/73777d639a69872a98a12751c08d4c025c5111.jpg)
+![LOGO](./images/logo/hmos.png)
 
 HarmonyOS 是新一代的智能终端操作系统，为不同设备的智能化、互联与协同提供了统一的语言，带来简捷、流畅、连续、安全可靠的全场景交互体验。
 
@@ -40,6 +40,21 @@ HarmonyOS 2：
 
 * [官网下载](https://developer.harmonyos.com/resource/image/design/resource/download/general/HarmonyOS-Sans.zip)
 
+## 评价
+
+<meter id="fuel" min="0" max="50" low="25" high="40" optimum="45" :value="average*10"></meter>
+{{ average }} 分（{{ scoredBy }} 人打分）
+
+### 优点
+
+* 拥有统一的设计风格
+
+### 缺点
+
+* 无法关闭纯净模式，限制安装软件
+* 广告多，系统臃肿
+* 系统版本无法准确对应安卓版本
+
 ## 参考链接
 
 * [Harmonyos Logo](https://cn.bing.com/images/search?q=Harmonyos+Logo) - Bing images
@@ -47,3 +62,23 @@ HarmonyOS 2：
 * [华为鸿蒙HarmonyOS评测：不仅仅是手机系统](https://ee.ofweek.com/2021-06/ART-8330-2818-30502841.html)
 
 声明：图片均来源于网络。如果侵犯了您的权力，请[联系我](mailto:jesse205@qq.com)，我会尽快删除。
+
+<script setup>
+import { h, ref } from 'vue'
+
+const scoreList = [
+    {
+        name: "jesse205",
+        score: 3.5
+    },
+]
+let allScore = 0
+
+for (let item of scoreList){
+    allScore += item.score
+}
+
+const average = allScore/scoreList.length
+const scoredBy = scoreList.length
+
+</script>

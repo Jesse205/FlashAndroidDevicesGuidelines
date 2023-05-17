@@ -109,7 +109,11 @@ Root，也称为根用户，是 Unix (如 Solaris、AIX、BSD）和类 UNIX 系�
 
 Android 删除了 `su` 程序，所以 Root 的过程就是把 `su` 文件放到 `/system/bin/` ，`Superuser.apk` 放到 `/system/app` 下面，还需要设置一些权限。（Android 5.0 之前的方法）
 
-ROOT 的权限高于 ADB（Android Debug Bridge）权限，因此您无法完全使 ADB 代替 ROOT。
+ROOT 的权限高于 [ADB（Android Debug Bridge）](../tools/platform-tools.md#adb-工具)权限，因此您无法完全使 ADB 代替 ROOT。
+
+::: tip
+您可以使用 [Shizuku](https://shizuku.rikka.app/zh-hans/) 将 ADB 权限共享给其他应用
+:::
 
 ### 常见 ROOT 工具及 ROOT 管理工具
 
@@ -119,7 +123,7 @@ ROOT 的权限高于 ADB（Android Debug Bridge）权限，因此您无法完全
 * __SuperUser__: SuperUser，别名为“超级用户”，这是很多官方系统内置的授权管理工具（如 Phoenix OS，VMOS，天天模拟器）
 * __一键 Root 工具__:这是 Android 5 之前常用的获取 Root 方法
 
-[兼容性表格](../fast/install/root/README.md#兼容性表格)
+* [兼容性表格](../fast/install/root/README.md#兼容性表格)
 
 ::: details 主流的一键工具
 

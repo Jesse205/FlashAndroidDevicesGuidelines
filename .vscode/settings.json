@@ -18,7 +18,8 @@
                 "script",
                 "img",
                 "p",
-                "div"
+                "div",
+                "meter"
             ]
         }
     }

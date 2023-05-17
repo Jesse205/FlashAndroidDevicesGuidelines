@@ -1,6 +1,6 @@
 # 百度云 OS
 
-![LOGO](http://n.sinaimg.cn/tech/crawl/20160809/FgYc-fxutfpf1571619.jpg)
+![LOGO](./images/logo/baiduos.jpg)
 
 百度云 OS，原百度云 ROM
 
@@ -21,9 +21,25 @@
 
 公测版 V6：
 
-<img src="http://file.7to.cn/uploads/romimages/201504/15/27666/a2.png" width="200" alt="主页面" title="主页面"/>
-<img src="https://clubimg.club.vmall.com/data/attachment/forum/201502/26/232623ze9309999vxx490k.png" width="200" alt="应用抽屉" title="应用抽屉"/>
-<img src="https://pcs4.clubstatic.lenovo.com.cn/data/attachment/forum/201503/14/223111t05acccqp08p52xc.png" width="200" alt="公测版67期 应用抽屉" title="公测版67期 应用抽屉"/>
+<div class="screenshotList">
+<img src="http://file.7to.cn/uploads/romimages/201504/15/27666/a2.png" alt="主页面" title="主页面"/>
+<img src="https://clubimg.club.vmall.com/data/attachment/forum/201502/26/232623ze9309999vxx490k.png" alt="应用抽屉" title="应用抽屉"/>
+<img src="https://pcs4.clubstatic.lenovo.com.cn/data/attachment/forum/201503/14/223111t05acccqp08p52xc.png" alt="公测版67期 应用抽屉" title="公测版67期 应用抽屉"/>
+</div>
+
+## 评价
+
+<meter id="fuel" min="0" max="50" low="25" high="40" optimum="45" :value="average*10"></meter>
+{{ average }} 分（{{ scoredBy }} 人打分）
+
+### 优点
+
+* 拥有统一的设计风格
+
+### 缺点
+
+* 跑路太快
+* 系统版本无法准确对应安卓版本
 
 ## 参考链接
 
@@ -35,3 +51,23 @@
 [2]: https://xueshu.baidu.com/usercenter/paper/show?paperid=97bc40ae30fb3961ba6a4eeab48c1ab6&tn=SE_baiduxueshu_c1gjeupa&ie=utf-8&site=baike
 
 声明：图片均来源于网络。如果侵犯了您的权力，请[联系我](mailto:jesse205@qq.com)，我会尽快删除。
+
+<script setup>
+import { h, ref } from 'vue'
+
+const scoreList = [
+    {
+        name: "jesse205",
+        score: 4.5
+    },
+]
+let allScore = 0
+
+for (let item of scoreList){
+    allScore += item.score
+}
+
+const average = allScore/scoreList.length
+const scoredBy = scoreList.length
+
+</script>

@@ -28,7 +28,7 @@
 | SuperSU        | Android 2.3 | Android 7     |
 | 一键 Root 工具 | 未知        | Android 4.4.4 |
 
-## Magisk <Badge type="tip" text="推荐" vertical="top" />
+## Magisk <Badge type="tip" text="推荐" />
 
 Magisk，别名叫做“面具”
 
@@ -50,7 +50,7 @@ Magisk，别名叫做“面具”
 * [Installation](https://topjohnwu.github.io/Magisk/install.html) - Magisk（官方，但是英文）
 * [安装](https://jesse205.github.io/MagiskChineseDocument/install.html) - Magisk 中文文档（非官方，本站汉化）
 
-## KernelSU <Badge type="tip" text="推荐高级用户使用" vertical="top" />
+## KernelSU <Badge type="tip" text="推荐高级用户使用" />
 
 这是新型 Root 方式。目前正在完善
 
@@ -88,14 +88,15 @@ SuperUser，别名叫做“超级用户”。
 
 * __适用系统__: 未知，至今仍旧有一部分系统在使用
 
-## 一键 Root 工具 <Badge type="warning" text="不推荐" vertical="top" />
+## 一键 Root 工具
 
 这是 Android 5 之前常用的获取 Root 方法
 
 主流的一键工具有
 
-* __360超级ROOT__（已停止运营）: 对 360 自家软件兼容友好
-* __KingRoot__（已停止运营）: 覆盖机型广，但是有一点臃肿
+* __360超级ROOT__ <Badge type="warning" text="已停止运营" />：对 360 自家软件兼容友好 <Badge type="tip" text="老设备推荐" />
+* __KingRoot__ <Badge type="warning" text="已停止运营" />：覆盖机型广，但是有一点臃肿 <Badge type="tip" text="老设备推荐" />
+* __YoRoot__：支持 Root 华为部分老机型
 
 对于这些一键 Root 工具，机型不一样体验也不一样，建议都试试，有些 Root 工具至今也可以使用。
 
@@ -121,8 +122,14 @@ ROOT 过程中手机可能会重新启动，属于正常现象
 
 在以前，许多 Rom 都内置了Root。比如 MIUI，百度云 OS 等，还有各种各样官改 ROM。您通常需要在设置内打开 Root 开关后即可使用 Root
 
-| ROM 名称    | 开启路径                                |
-| ----------- | --------------------------------------- |
-| 百度云 OS   | 设置 > 安全 > Root申请 > 右上角开关打开 |
-| 凤凰系统    |                                         |
-| 等待补充... | 等待补充...                             |
+| ROM 名称    | 开启路径                                                  |
+| ----------- | --------------------------------------------------------- |
+| 百度云 OS   | 设置 > 安全 > Root申请 > 右上角开关打开                   |
+| 凤凰系统    | 开发者选项 > Root权限 > 开启 [查看详情][凤凰系统官方Root] |
+| 等待补充... | 等待补充...                                               |
+
+## 参考链接
+
+* [免工具获取凤凰安卓系统PhoenixOS电脑ROOT权限][凤凰系统官方Root] - 百度经验
+
+[凤凰系统官方Root]: https://jingyan.baidu.com/article/020278114e0fa01bcc9ce5ad.html

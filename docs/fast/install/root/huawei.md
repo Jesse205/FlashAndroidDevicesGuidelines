@@ -28,7 +28,7 @@ Recovery 就是我们熟知的那个 Recovery，而 eRecovery 是独立于 Recov
 * 电脑
 * 手机
 * [数据线](../../../normal/noun.md)
-* [ADB工具包](../../../tools/README.md#adb-下载)
+* [ADB工具包](../../../tools/platform-tools.md#adb-下载)
 * [Magisk](README.md#下载-magisk)
 * SuperSU（安卓4到6使用）
 * 以及一双灵巧的双手。

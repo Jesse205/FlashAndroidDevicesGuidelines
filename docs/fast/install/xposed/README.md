@@ -11,12 +11,10 @@ Xposed 框架是一套开放源代码的、在Android高权限模式下运行的
 | Xposed Framework | Android 8.1-                | X       | V    |
 | 太极             | ？                          | 太极阴  | ？   |
 
-## LSPosed
+## LSPose d<Badge type="tip" text="推荐" />
 
 * [仓库地址](https://github.com/LSPosed/LSPosed)
 * [文档](https://github.com/LSPosed/LSPosed/wiki)（官方）
-
-
 
 ## EdXposed
 
@@ -49,12 +47,14 @@ Edxposed 拥有三个不同的版本
 
 ## Xposed Framework
 
+敬请期待
+
 ## Awesome Xposed 令人惊叹的 Xposed
 
 * [Github 话题](https://github.com/topics/xposed-framework)
 
-[EDXPAAV]: https://github.com/ElderDrivers/EdXposed/wiki/%E5%8F%AF%E7%94%A8%E7%9A%84-Android-%E7%89%88%E6%9C%AC
-
 ## 参考链接
 
 * [EdXposed Framework](https://github.com/ElderDrivers/EdXposed/blob/master/README_CN.md) - GitHub
+
+[EDXPAAV]: https://github.com/ElderDrivers/EdXposed/wiki/%E5%8F%AF%E7%94%A8%E7%9A%84-Android-%E7%89%88%E6%9C%AC

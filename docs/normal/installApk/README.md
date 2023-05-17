@@ -21,55 +21,64 @@
 </div>
 :::
 
-#### Android 2 - 7
+#### Android 7及以下
 
 1. 点击“设置”图标，进入系统设置
     <div class="screenshotList">
-    <img src="./images/android4/step1.png" alt="Android 4 进入系统设置" title="Android 4 进入系统设置"/>
-    <img src="./images/android7/step1.png" alt="Android 7 进入系统设置" title="Android 7 进入系统设置"/>
+    <img src="./images/android4/step1.png" alt="进入系统设置" title="进入系统设置"/>
+    <img src="./images/android7/step1.png" alt="进入系统设置" title="进入系统设置"/>
     </div>
 2. 点击“安全”页面，找到“未知来源”，将其开启/勾选
     <div class="screenshotList">
-    <img src="./images/android4/step2.1.png" alt="Android 4 点击“安全”页面" title="Android 4 点击“安全”页面"/>
-    <img src="./images/android4/step2.2.png" alt="Android 4 找到“未知来源”" title="Android 4 找到“未知来源”"/>
-    <img src="./images/android4/step2.3.png" alt="Android 4 将其开启/勾选" title="Android 4 将其开启/勾选"/>
-    <img src="./images/android4/step2.4.png" alt="Android 4 将其开启/勾选" title="Android 4 将其开启/勾选"/>
+    <img src="./images/android4/step2.1.png" alt="点击“安全”页面" title="点击“安全”页面"/>
+    <img src="./images/android4/step2.2.png" alt="找到“未知来源”" title="找到“未知来源”"/>
+    <img src="./images/android4/step2.3.png" alt="将其开启/勾选" title="将其开启/勾选"/>
+    <img src="./images/android4/step2.4.png" alt="将其开启/勾选" title="将其开启/勾选"/>
     </div>
     <div class="screenshotList">
-    <img src="./images/android7/step2.1.png" alt="Android 7 点击“安全”页面" title="Android 7 点击“安全”页面"/>
-    <img src="./images/android7/step2.2.png" alt="Android 7 找到“未知来源”" title="Android 7 找到“未知来源”"/>
-    <img src="./images/android7/step2.3.png" alt="Android 7 将其开启/勾选" title="Android 7 将其开启/勾选"/>
-    <img src="./images/android7/step2.4.png" alt="Android 7 将其开启/勾选" title="Android 7 将其开启/勾选"/>
+    <img src="./images/android7/step2.1.png" alt="点击“安全”页面" title="点击“安全”页面"/>
+    <img src="./images/android7/step2.2.png" alt="找到“未知来源”" title="找到“未知来源”"/>
+    <img src="./images/android7/step2.3.png" alt="将其开启/勾选" title="将其开启/勾选"/>
+    <img src="./images/android7/step2.4.png" alt="将其开启/勾选" title="将其开启/勾选"/>
     </div>
 
-#### Android 8
+#### Android 8 及以上
 
 1. 点击“设置”图标，进入系统设置
     <div class="screenshotList">
-    <img src="./images/android8/step1.png" alt="Android 8 进入系统设置" title="Android 8 进入系统设置"/>
+    <img src="./images/android8/step1.png" alt="进入系统设置" title="进入系统设置"/>
     </div>
 2. 进入“应用和通知”，点击“高级”（部分手机无此选项），找到“特殊应用权限”并进入
     <div class="screenshotList">
-    <img src="./images/android8/step2.1.png" alt="Android 8 进入“应用和通知”" title="Android 8 进入“应用和通知”"/>
-    <img src="./images/android8/step2.2.png" alt="Android 8 点击“高级”" title="Android 8 点击“高级”"/>
-    <img src="./images/android8/step2.3.png" alt="Android 8 找到“特殊应用权限”并进入" title="Android 8 找到“特殊应用权限”并进入"/>
+    <img src="./images/android8/step2.1.png" alt="进入“应用和通知”" title="进入“应用和通知”"/>
+    <img src="./images/android8/step2.2.png" alt="点击“高级”" title="点击“高级”"/>
+    <img src="./images/android8/step2.3.png" alt="找到“特殊应用权限”并进入" title="找到“特殊应用权限”并进入"/>
     </div>
 3. 找到“安装未知应用”并进入，选择您用于安装第三方软件的应用，打开“允许来自此来源的应用”
     <div class="screenshotList">
-    <img src="./images/android8/step3.1.png" alt="Android 8 找到“安装未知应用”并进入" title="Android 8 找到“安装未知应用”并进入"/>
-    <img src="./images/android8/step3.2.png" alt="Android 8 选择第三方软件" title="Android 8 选择第三方软件"/>
-    <img src="./images/android8/step3.3.png" alt="Android 8 打开“允许来自此来源的应用”" title="Android 8 打开“允许来自此来源的应用”"/>
-    <img src="./images/android8/step3.4.png" alt="Android 8 打开“允许来自此来源的应用”" title="Android 8 打开“允许来自此来源的应用”"/>
+    <img src="./images/android8/step3.1.png" alt="找到“安装未知应用”并进入" title="找到“安装未知应用”并进入"/>
+    <img src="./images/android8/step3.2.png" alt="选择第三方软件" title="选择第三方软件"/>
+    <img src="./images/android8/step3.3.png" alt="打开“允许来自此来源的应用”" title="打开“允许来自此来源的应用”"/>
+    <img src="./images/android8/step3.4.png" alt="打开“允许来自此来源的应用”" title="打开“允许来自此来源的应用”"/>
     </div>
 
 ### 二、开始安装软件
 
 #### 使用官方安装器安装
 
-您可以直接点击您下载的 APK 文件即可使用官方安装器安装
+官方的安装器名称为“打包安装程序”、“软件包安装程序”或“应用安装器”。通常情况下，设备默认的就是官方的安装器。
+
+直接点击 APK 文件即可使用官方安装器安装。
 
 ::: tip
 如果您没有安装权限时，在打开 APK 文件后，系统会提示您开启权限，按照操作开启即可。
+<div class="screenshotList">
+<img src="./images/android8/direct.png" alt="Android 8 直接安装" title="Android 8 直接安装"/>
+</div>
+:::
+
+::: tip
+部分操作系统限制了直接安装软件，因此您需要继续浏览[关于您设备的文章](#安装第三方软件)。
 :::
 
 ## 安装电脑或其他设备上的软件

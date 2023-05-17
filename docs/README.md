@@ -36,10 +36,10 @@
 ## 基础知识
 
 1. 手机的选购
-2. [安装第三方软件](./normal/installApk/README.md) <Badge type="tip" text="不通过自带的应用市场" vertical="top" />
+2. [安装第三方软件](./normal/installApk/README.md) <Badge type="tip" text="不通过自带的应用市场" />
 3. [名词集](./normal/noun.md)
 4. [分区和映像](./normal/partitions/README.md)
-5. [ADB 工具的使用](./tools/README.md#adb)
+5. [ADB 工具的使用](./tools/platform-tools.md#adb-工具)
 6. 刷机包的说明
 
 ## 深入“刷机”
@@ -92,7 +92,8 @@
 #### 手机端
 
 * 权限管理工具
-  * Shizuku
+  * [Shizuku](https://shizuku.rikka.app/zh-hans/): 让你的应用直接使用系统 API
+  * [Dhizuku](https://github.com/iamr0s/Dhizuku): 参考 Shizuku 的设计思想，分享 DeviceOwner (设备所有者) 权限给其余应用
   * AppOps（开发者：Rikka）
 * 安装器
   * R-安装

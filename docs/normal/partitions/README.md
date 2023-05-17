@@ -14,7 +14,7 @@ Android 设备包含若干个分区，这些分区在启动过程中发挥不同
 Android 8.0 以前刷机需要连同 `boot.img` 一起刷入。之后由于引入了 [Project Treble](https://source.android.google.cn/docs/core/architecture/treble?hl=zh-cn) 的缘故，可以跳过此分区，直接刷 `system.img` 。
 :::
 
-### init_boot 分区 <Badge type="tip" text="Android 13+" vertical="top" />
+### init_boot 分区 <Badge type="tip" text="Android 13+" />
 
 此分区包含用于搭载 Android 13 及更高版本的设备的通用 ramdisk。
 
