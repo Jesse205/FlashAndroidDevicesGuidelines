@@ -43,3 +43,16 @@ fastboot oem unlock <解锁码>
 ```
 
 > 如果您不会使用命令的话，请参考[《命令的使用》](../../help.md)
+
+## 检查是否已解锁
+
+* fastboot 状态: 如果显示红色的 `PHONE Unlocked`
+* 开机第一屏之后: 如果显示 `Your device has been unlocked and can't be trusted.` ，并且提示文字为橙色，则说明手机解锁成功
+
+## 版权声明
+
+本文档已获得 [某贼](https://www.coolapk.com/u/3463951) 授权搬运并修改整理
+
+## 参考链接
+
+* ？？？？

@@ -1,6 +1,7 @@
 # 常用工具
 
 * [Platform-Tools（含 ADB）](./platform-tools.md)
+* [Mindows 工具箱](https://mindows.cn/)
 
 ## 更多工具
 

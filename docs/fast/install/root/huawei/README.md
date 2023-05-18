@@ -27,8 +27,8 @@ Recovery 就是我们熟知的那个 Recovery，而 eRecovery 是独立于 Recov
 
 * 电脑
 * 手机
-* [数据线](../../../normal/noun.md)
-* [ADB工具包](../../../tools/platform-tools.md#adb-下载)
+* [数据线](../../../../normal/noun.md)
+* [ADB工具包](../../../../tools/platform-tools.md#adb-下载)
 * [Magisk](README.md#下载-magisk)
 * SuperSU（安卓4到6使用）
 * 以及一双灵巧的双手。
@@ -116,51 +116,11 @@ adb sideload刷面具
 
 ## 常见问题
 
-__Q__：手机连电脑没反应怎么办<br/>
-__A__：补驱动，换数据线，换电脑插口（台式机最好是后置插口），关闭USB选择性暂停。
+详情请见[《华为手机 常见问题与解答》](../../../../faq/huawei.md)
 
-__Q__：解锁失败提示 `Necessary to disable phone finder` 怎么办<br/>
-__A__：关闭查找手机再回去解锁，如果已经关了就重新开关一次。再不行就恢复出厂再试。
+刷机有风险，操作需谨慎。本教程适用于大多数情况，__但仍无法避免小部分机型不适用__，望知晓。
 
-__Q__：解锁失败提示 `Command not allowed` 怎么办<br/>
-__A__：同上，关闭查找手机再试。
-
-__Q__：解锁时提示 `Too many links` 显示失败怎么办<br/>
-__A__：有时会出现这种情况，具体请查看 Fastboot 是否显示红色 Unlocked，若是则已解锁。
-
-__Q__：解锁失败提示 `password wrong` 怎么办<br/>
-__A__：解锁码错误，请重新获取。
-
-__Q__：刷TWRP显示`“fastboot”不是内部或外部命令，也不是可运行的程序或批处理文件`<br/>
-__A__：如果你用的是网上的一键刷入工具，请将压缩包完全解压再运行bat脚本。注意是完全解压而不是直接运行压缩包里的脚本。
-
-__Q__：刷TWRP报错partition length get error怎么办<br/>
-__A__：具体原因未知，如果其他步骤没有问题，可以尝试用奇兔刷机刷（教程参考 查看链接 ），有些时候就可以。但是！请不要！刷奇兔刷机上的ROM或者用他救砖，变砖后果自负！
-
-__Q__：刷完TWRP重启进入华为官方eRecovery，是不是没有刷进去<br/>
-__A__：刷完TWRP请拔掉数据线再认真按照上边说的长按重启。如果进错了就再回Fastboot刷一次TWRP再重启。拔不拔线进的模式是不一样的。
-
-__Q__：sideload失败，手机提示adb版本过低需要升级（you need adb 1.0.32 or newer to apply sideload）怎么办<br/>
-__A__：电脑使用的adb工具版本过低不支持sideload。使用我提供的版本即可。
-
-__Q__：如何判断面具/SuperSU刷没刷成功<br/>
-__A__：开机面具APP里当前版本有显示即为成功，SuperSU 打开不出现“您的手机尚未Root”弹窗即为成功。
-
-__Q__：面具一直检查更新怎么办<br/>
-__A__：不管他，不影响使用，不要更新。
-
-__Q__：面具提示需要修复环境<br/>
-__A__：修复就完了，实在修复不了也可以不修复。
-
-__Q__：双清/格式化data/恢复出厂之后需要重新刷 Root 吗<br/>
-__A__：不需要，只需要重新安装对应 APP 即可。
-
-__Q__：框架怎么刷<br/>
-__A__：如果要刷的话，Android 4~7 建议用 Xposed 框架，Android 8 建议用 EdXposed，但是刷后可能会出问题，新手不是刚需还是不建议尝试了。
-
-刷机有风险，操作需谨慎。本教程适用于大多数情况，但仍无法避免小部分机型不适用，望知晓。
-
-附上救砖教程一个：[查看链接](https://www.coolapk.com/feed/26205215?shareKey=ZjY1ZTBjY2E2MTdkNjA3Nzg5MjY~)
+如果您的设备不小心变砖了，您可以尝试[救砖](../../../../rescuing/README.md)。
 
 ## 版权声明
 

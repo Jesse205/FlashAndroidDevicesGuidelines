@@ -1,5 +1,6 @@
 import { defineUserConfig } from 'vuepress'
 import { defaultTheme } from 'vuepress'
+import { searchPlugin } from '@vuepress/plugin-search'
 
 export default defineUserConfig({
     lang: 'zh-CN',
@@ -27,32 +28,64 @@ export default defineUserConfig({
             {
                 text: '基础知识',
                 children: [
-                    { text: '选购手机', link: '#' },
+                    // { text: '选购手机', link: '#' },
                     { text: '安装软件', link: '/normal/installApk/' },
+                    { text: '各式各样的操作系统', link: '/normal/system/' },
                     { text: '名词集', link: '/normal/noun.html' },
                     { text: '分区和映像', link: '/normal/partitions/' },
-                    { text: '刷机包', link: '#' },
+                    // { text: '刷机包', link: '#' },
                 ]
             },
             {
                 text: '深入“刷机”',
                 children: [
-                    { text: '高级名词集', link: '#' },
-                    { text: '系统分区及结构', link: '#' },
+                    // { text: '高级名词集', link: '#' },
+                    // { text: '系统分区及结构', link: '#' },
                     { text: '工具的使用', link: '/tools/' },
                     {
                         text: '编译 ROM',
                         children: [
-                            { text: '配置环境', link: '#' },
-                            { text: '同步源代码', link: '#' },
-                            { text: '获取设备源代码', link: '#' },
-                            { text: '编译', link: '#' },
-                            { text: '排错', link: '#' },
+                            // { text: '配置环境', link: '#' },
+                            // { text: '同步源代码', link: '#' },
+                            // { text: '获取设备源代码', link: '#' },
+                            // { text: '编译', link: '#' },
+                            // { text: '排错', link: '#' },
                         ]
                     }
                 ]
             }
         ],
+        sidebar: {
+            '/fast/': [
+                {
+                    text: '快速开始',
+                    children: [
+                        '/fast/unlock/',
+                        '/fast/download/',
+                        '/fast/flash/system.html',
+                    ],
+                },
+                {
+                    text: '更多教程',
+                    children: [
+                        '/fast/flash/recovery.html',
+                        '/fast/install/root/',
+                        '/fast/install/xposed/'
+                    ]
+                }
+            ],
+            '/normal/': [
+                {
+                    text: '基础知识',
+                    children: [
+                        '/normal/installApk/',
+                        '/normal/noun.html',
+                        '/normal/partitions/',
+                    ],
+                },
+            ],
+            '/': 'auto'
+        },
         repo: 'https://gitee.com/Jesse205/FlashAndroidDevicesGuidelines',
         repoLabel: 'Gitee',
         editLink: true,
@@ -72,6 +105,15 @@ export default defineUserConfig({
         toggleColorMode: '夜间模式',
         toggleSidebar: '切换侧边栏',
 
-    })
+    }),
+    plugins: [
+        searchPlugin({
+            locales: {
+                '/': {
+                    placeholder: '搜索',
+                },
+            },
+        }),
+    ],
 })
 

@@ -6,6 +6,11 @@
 
 本章展示了主流ROM的下载地址。在下载之前，您可以对比先[选择一下您比较感兴趣的系统](../../normal/systems/README.md)。
 
+下载 ROM一般有几种方式
+
+1. 官网下载：官方维护的版本，比较放心，并且 ROM 基本保持一致
+2. 刷机论坛下载：可能是第三方维护的版本。下载到的 ROM 可能不支持在线升级，并且 ROM 内可能经过 ROM 作者的定制
+
 ## 预装 ROM
 
 ### MIUI - 小米
@@ -63,51 +68,19 @@ __第三方下载__：
 
 * [华为固件下载站](https://professorjtj.github.io/)
 
-<!--
-
-未完待续
-
-##### OriginOS/FuntouchOS
-
-...
-
-##### EMUI/HarmonyOS
-
-...
-
-##### Flyme
-
-...
-
-##### OneUI
-
-...
-
-##### MyUI
-
-...
-
-##### ZUI
-
-...
-
--->
-
 ### Pixel - Google
 
 __官方下载__：
 
 * [Nexus 和 Pixel 设备的完整 OTA 映像](https://developers.google.cn/android/ota?hl=zh-cn)
 
-### 已停更的预装 ROM
-
-#### 百度云 OS - 百加
+### 百度云 OS - 百加 <Badge type="danger" text="已停更" />
 
 * [更多信息](../../normal/systems/baiduos.md)
 
 __第三方下载__：
 
-* [本站收集](baiduos.md)
+* [本站收集](./baiduos.md)
 
 ## 第三方 ROM
 
@@ -128,21 +101,9 @@ __第三方下载__：
 
 ### PixelExperience
 
-> 拥有 Pixel 的体验，附带谷歌的 APP，有时会简称为 PE。
-
-* [官方网站](https://download.pixelexperience.org/)
-
-### PixelOS
-
-> 基于 pe 和 AOSP 的 ROM，旨在提供最好的 Pixel 体验。
->
-> * [官方网站](https://pixelos.net/)
+* [官方下载](https://download.pixelexperience.org/)
 
 ### PixelExtended
-
-> 基于 pe 的 ROM，正在尝试通过在 PE 中添加一些您一直想要的必要实用功能来为您提供最好的 Pixel 体验。
->
-> * [官方网站](https://pixelextended.tech/)
 
 ### PixelPlusUI
 
@@ -152,15 +113,11 @@ __第三方下载__：
 
 ### Evolution X
 
-> Pixel UI、Android 13、自定义等等。 我们是 Evolution X！
->
-> * [官方网站](https://evolution-x.org/)
+* [官方下载](https://evolution-x.org/download)
 
 ### DerpFest
 
-> 由一些新手共同为您带来的，基于AOSiP，它融合了周围最好的功能，并渴望以其独特的功能和贡献来支持社区。
->
-> * [官方网站](https://derpfest.org/)
+* [官方下载](https://derpfest.org/#call-to-action)
 
 ### Project Arcana
 
@@ -190,23 +147,23 @@ __官方下载__：
 
 * [官网下载](https://download.havoc-os.com/)
 
-### 已停更的第三方 ROM
-
-#### CyanogenMod
+### CyanogenMod <Badge type="danger" text="已停更" />
 
 * [更多信息](../../normal/systems/README.md#cyanogenmod)
 
-#### Resurrection Remix OS
+### Resurrection Remix OS <Badge type="danger" text="已停更" />
 
 * [更多信息](../../normal/systems/README.md#resurrection-remix-os)
 
+::: tip
 最新版本为 Android 10
+:::
 
 __官方下载__：
 
 * [SourceForge](https://sourceforge.net/projects/resurrectionremix-ten/files/)
 
-#### 魔趣 ROM
+### 魔趣 ROM <Badge type="danger" text="已停更" />
 
 * [更多信息](../../normal/systems/README.md#魔趣-rom)
 

@@ -1,0 +1,22 @@
+如果你使用了kingroot、360 root或者拥有来自adb的root权限，且安卓版本为安卓7.1或更低，可以通过以下三个步骤让superSU接管root权限(接管会立即生效，但重启后就失效。想要重启后依然是superSU管理root权限，则需要执行额外的第四、第五步)。
+
+0.从酷安或者别的地方下载并安装superSU软件。
+
+1.使用getenforce命令查看当前SELinux的开启状态。如果显示Disabled或Permissive则说明SELinux是关闭的；如果显示Enforcing则说明SELinux是开启的。对于显示Enforcing的情况，你需要执行setenforce 0命令来关闭SELinux。
+
+2.挂载/system可读写，然后将superSU卡刷包内的/arm/su解压出来，重命名为sudaemon，然后移动到/system/xbin文件夹内并修改文件权限为777(xbin文件夹可能需要手动创建)。然后执行/system/xbin/sudaemon --auto-daemon &命令，来启动superSU的管理进程。
+
+3.（这一步做完后，原有的root权限管理软件如kingroot会失效，建议做完后连带做完第四步、第五步。）解压superSU刷机包里的/arm/su文件，将它移动到/system/bin(移动时如果提示已有此文件，就点击替换)并修改文件权限为777。
+
+[墨镜滑稽]至此已经完成接管！想要测试是否成功，就打开需要使用root权限的程序，如果出现superSU的root授权弹窗就说明成功了(废话)。但是这样的接管在重启后就会失效，所以建议做完第四、第五步，让superSU彻底安装在设备上，重启也可以继续使用。
+
+4.编辑/system/etc/install_recovery.sh，清空原有内容，然后加入这一行:
+/system/xbin/sudaemon --auto-daemon &
+
+5.将superSU刷机包中的/arm/libsupol.so文件解压，然后移动到/system/lib/中，并修改文件权限为777。
+
+做完这五步之后，就可以重启设备了。[受虐滑稽]祝酷友们成功开机🙏🙏🙏
+(这个方法获得的superSU root权限，和在TWRP里刷superSU刷机包的原理和表现是完全一致的)
+
+http://www.coolapk.com/u/2638279
+https://www.coolapk.com/feed/42614008?shareKey=ZDJlYWEzY2ViY2E1NjQ2NTJlNzI~&shareUid=1432137&shareFrom=com.coolapk.market_13.1.3

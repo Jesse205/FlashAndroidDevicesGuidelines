@@ -1,3 +1,7 @@
+---
+title: false
+---
+
 # 刷机指南
 
 ## 介绍
@@ -10,9 +14,11 @@
 > 虽然这是个万能的指南，接受手机、电视和电脑等的内容，但内容主要以小米和华为为主（我只有这两种手机）。
 >
 > 如果条件允许，希望您可以帮我完善一下此文档（其实吧我是小白😂）
+>
+> 如果您遇到文档中的错误，欢迎纠正！
 
 ::: warning
-在浏览本文档前，请先浏览《文档说明》（[点击此处开始浏览](help.md)）与[《注意事项》](./normal/note.md)，以防止您迷茫。
+在浏览本文档前，请先浏览《文档说明》（[点击此处开始浏览](help.md)）与[《注意事项》](./normal/note.md)，以防止您迷茫或翻车。
 
 在浏览本文档时，请务必仔细文档内容。__因您操作失误导致的损失我们不负责。__
 
@@ -20,6 +26,13 @@
 :::
 
 本教程尽量保证所有资源都有一手资源获取渠道，因此您可以放心下载。（有时为了提速可能会提供二手下载渠道）
+
+::: tip
+刷机千万次，安全第一条<br>
+刷机不规范，机主两行泪
+
+[点击此处查看翻车案例](./rollover/README.md)
+:::
 
 ## 快速开始
 
@@ -37,10 +50,11 @@
 
 1. 手机的选购
 2. [安装第三方软件](./normal/installApk/README.md) <Badge type="tip" text="不通过自带的应用市场" />
-3. [名词集](./normal/noun.md)
-4. [分区和映像](./normal/partitions/README.md)
-5. [ADB 工具的使用](./tools/platform-tools.md#adb-工具)
-6. 刷机包的说明
+3. [各式各样的操作系统](./normal/systems/README.md)
+4. [名词集](./normal/noun.md)
+5. [分区和映像](./normal/partitions/README.md)
+6. [ADB 工具的使用](./tools/platform-tools.md#adb-工具)
+7. 刷机包的说明
 
 ## 深入“刷机”
 
@@ -63,6 +77,10 @@
 * [Android 开源项目](https://source.android.google.cn/?hl=zh-cn)
 
 ## 其他内容
+
+* [翻车案例](./rollover/README.md)
+* [常识问题与解答](./faq.md)
+* [常见问题与解答](./faq/README.md)
 
 ### 常用社区
 

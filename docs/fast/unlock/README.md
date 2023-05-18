@@ -13,11 +13,11 @@ __您正在浏览的是通用文档，可能会对您的手机无效，甚至可
 
 * [小米](xiaomi.md)
 * [华为](huawei.md)
-* 三星
-* 魅族
-* OPPO
-* Vivo
-* 一加
+* 三星（敬请期待）
+* 魅族（敬请期待）
+* OPPO（敬请期待）
+* Vivo（敬请期待）
+* 一加（敬请期待）
 :::
 
 ## 申请解锁
@@ -26,20 +26,20 @@ __您正在浏览的是通用文档，可能会对您的手机无效，甚至可
 
 * [小米](https://www.miui.com/unlock/index.html)
 * ~~华为~~ （已停止解锁服务，请通过[其他渠道](huawei.md#一申请解锁码)获取）
-* 三星
+* 三星（敬请期待）
 
-## 解锁 Bootloader
+## 开始解锁 Bootloader
 
 每个品牌的解锁步骤不同，请参考对应的文档
 
 * [小米](xiaomi.md#解锁步骤)
 * [华为](huawei.md#二开始解锁)
-* 三星
-* 魅族
-* OPPO
-* Vivo
+* 三星（敬请期待）
+* 魅族（敬请期待）
+* OPPO（敬请期待）
+* Vivo（敬请期待）
 
-## 检查是否解除 BL
+## 检查是否已解锁
 
 您可以根据手机表现的一系列特征判断手机是否解锁
 
@@ -65,4 +65,4 @@ __您正在浏览的是通用文档，可能会对您的手机无效，甚至可
 
 ## 参考链接
 
-* [【小白搞机入门】名词集-BootLoader锁（BL锁）](https://www.coolapk.com/feed/42674591?shareKey=YzQ2MThhNmI5MmNiNjNkNTcwOGM~) 酷安
+* [【小白搞机入门】名词集-BootLoader锁（BL锁）](https://www.coolapk.com/feed/42674591?shareKey=YzQ2MThhNmI5MmNiNjNkNTcwOGM~) - 酷安

@@ -34,10 +34,15 @@
 手机重启后，系统会自动锁定，需要在 WIFI 环境下或 SIM 卡网络下（如果 SIM 卡设置了 pin 码则需使用 WIFI）登录小米账号以解锁，解锁后就可以正常进入系统了。
 > 此处等待查证并完善
 
+## 检查是否已解锁
+
+* __关机状态__：开机时第一屏如果显示一个打开的锁的图标或 `unlock`（较老款手机），表明解锁成功。
+* __开机状态__：进入 `设置-更多设置-开发者选项-设备解锁状态` 查看，若显示“当前设备已解锁”，表明解锁成功。
+
 ## 版权声明
 
 本文档已获得 [@灬只会刷机养老](http://www.coolapk.com/u/11090720) 授权搬运并修改整理
 
 ## 参考链接
 
-* [【小白搞机入门】名词集-BootLoader锁（BL锁）](https://www.coolapk.com/feed/42674591?shareKey=YzQ2MThhNmI5MmNiNjNkNTcwOGM~) 酷安
+* [【小白搞机入门】名词集-BootLoader锁（BL锁）](https://www.coolapk.com/feed/42674591?shareKey=YzQ2MThhNmI5MmNiNjNkNTcwOGM~) - 酷安

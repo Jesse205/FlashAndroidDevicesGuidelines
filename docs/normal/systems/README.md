@@ -1,4 +1,4 @@
-# 各式各样的 Android 以及类 Android 系统
+# 各式各样的操作系统
 
 ::: details 本页内容
 [[toc]]

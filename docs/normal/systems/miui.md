@@ -2,7 +2,7 @@
 
 ![LOGO](./images/logo/miui.png)
 
-* [官网链接](https://home.miui.com/)
+* 官网链接：<https://home.miui.com/>
 
 ## 屏幕截图
 
