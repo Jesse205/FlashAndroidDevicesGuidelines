@@ -1,6 +1,6 @@
 # 百度云 OS
 
-![LOGO](./images/logo/baiduos.jpg)
+<img class="banner-img" src="./images/logo/baiduos.jpg" alt="LOGO"/>
 
 百度云 OS，原百度云 ROM
 
@@ -19,7 +19,7 @@
 
 ## 系统截图
 
-公测版 V6：
+* 公测版 V6：
 
 <div class="screenshotList">
 <img src="http://file.7to.cn/uploads/romimages/201504/15/27666/a2.png" alt="主页面" title="主页面"/>
@@ -31,6 +31,10 @@
 
 <meter id="fuel" min="0" max="50" low="25" high="40" optimum="45" :value="average*10"></meter>
 {{ average }} 分（{{ scoredBy }} 人打分）
+
+::: tip
+如果您需要打分，请点击末尾按钮请手动编辑此页进行打分。
+:::
 
 ### 优点
 
@@ -55,12 +59,14 @@
 <script setup>
 import { h, ref } from 'vue'
 
+// 在这里添加数据即可打分
 const scoreList = [
     {
         name: "jesse205",
         score: 4.5
     },
 ]
+
 let allScore = 0
 
 for (let item of scoreList){

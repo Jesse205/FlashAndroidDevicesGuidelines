@@ -84,6 +84,20 @@ export default defineUserConfig({
                     ],
                 },
             ],
+            '/normal/systems': [
+                {
+                    text: '操作系统',
+                    link: '/normal/systems/',
+                    children: [
+                        '/normal/systems/harmonyos.html',
+                        '/normal/systems/miui.html',
+                        '/normal/systems/baiduos.html',
+                        '/normal/systems/lineageos.html',
+                        '/normal/systems/pe.html',
+                        '/normal/systems/windows.html',
+                    ],
+                },
+            ],
             // '/': 'auto'// 有bug，添加了这句会导致无法构建
         },
         repo: 'https://gitee.com/Jesse205/FlashAndroidDevicesGuidelines',

@@ -1,6 +1,6 @@
 # Windows
 
-![LOGO](./images/logo/windows.jpg)
+<img class="banner-img" src="./images/logo/windows.jpg" alt="LOGO"/>
 
 在Mindows工具箱推出后，刷机界又多了一个重量级的操作系统：Windows。
 

@@ -10,7 +10,7 @@
 
 ### EMUI/HarmonyOS - 华为
 
-![HarmonyOS LOGO](./images/logo/hmos.png)
+<img class="banner-img" src="./images/logo/hmos.png" alt="HarmonyOS LOGO"/>
 
 * [查看详情](./harmonyos.md) - HarmonyOS
 * 查看详情 - EMUI
@@ -18,13 +18,13 @@
 
 ### MIUI - 小米
 
-![MIUI Logo](./images/logo/miui.png)
+<img class="banner-img" src="./images/logo/miui.png" alt="MIUI LOGO"/>
 
 * [查看详情](./miui.md)
 
 ### 百度云 OS - 百加 <Badge type="danger" text="已停更" />
 
-![LOGO](./images/logo/baiduos.jpg)
+<img class="banner-img" src="./images/logo/baiduos.jpg" alt="BaiduOS LOGO"/>
 
 百度云 OS 是基于 Android 4.0 及以上版本进行开发的第三方智能手机系统。
 
@@ -35,7 +35,7 @@
 
 ### LineageOS
 
-![Lineage Logo](./images/logo/lineage.svg)
+<img class="banner-img" src="./images/logo/lineage.svg" alt="LineageOS LOGO"/>
 
 在所有类原生中，LineageOS 绝对是老爷级的存在，有很多优秀的类原生都派生自此项目。LineageOS 的历史可以追溯至2009年的 CyanogenMod （有时简称为cm），只不过后来cm由于搞商业化失败后解散了，一些原cm的开发者才成立了 LineageOS，这个基于 Android 移动平台的适用于各种设备的免费开源操作系统。
 
@@ -47,10 +47,11 @@
 
 ### PixelExperience
 
-![PE Logo](./images/logo/pe.svg)
+<img class="banner-img" src="./images/logo/pe.svg" alt="PixelExperience LOGO"/>
 
 拥有 Pixel 的体验，附带谷歌的 APP，有时会简称为 PE。
 
+* [查看详情](./pe.md)
 * [官方网站](https://download.pixelexperience.org/)
 
 ### PixelOS
@@ -133,4 +134,4 @@ Havoc-OS 是一款基于 AOSP 的售后固件，可用于 20 多家 OEM 的 150 
 
 ## 相关链接
 
-*[下载 ROM](../../fast/download/README.md)
+* [下载 ROM](../../fast/download/README.md)

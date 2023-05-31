@@ -1,6 +1,6 @@
 # Lineage OS
 
-![LOGO](./images/logo/lineage.svg)
+<img class="banner-img" src="./images/logo/lineage.svg" alt="LOGO"/>
 
 * 官网链接：<https://lineageos.org/>
 * 官方下载地址：<https://wiki.lineageos.org/devices/>
@@ -21,6 +21,10 @@
 
 <meter id="fuel" min="0" max="50" low="25" high="40" optimum="45" :value="average*10"></meter>
 {{ average }} 分（{{ scoredBy }} 人打分）
+
+::: tip
+如果您需要打分，请点击末尾按钮请手动编辑此页进行打分。
+:::
 
 ### 优点
 
@@ -46,6 +50,7 @@ const scoreList = [
         score: 4.5
     },
 ]
+
 let allScore = 0
 
 for (let item of scoreList){
