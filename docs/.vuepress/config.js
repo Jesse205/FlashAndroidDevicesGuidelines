@@ -84,7 +84,7 @@ export default defineUserConfig({
                     ],
                 },
             ],
-            '/': 'auto'
+            // '/': 'auto'// 有bug，添加了这句会导致无法构建
         },
         repo: 'https://gitee.com/Jesse205/FlashAndroidDevicesGuidelines',
         repoLabel: 'Gitee',
