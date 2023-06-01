@@ -1,4 +1,4 @@
-# 各式各样的操作系统
+# 操作系统
 
 ::: details 本页内容
 [[toc]]
@@ -51,7 +51,7 @@
 
 拥有 Pixel 的体验，附带谷歌的 APP，有时会简称为 PE。
 
-* [查看详情](./pe.md)
+* [查看详情](./pixelexperience.md)
 * [官方网站](https://download.pixelexperience.org/)
 
 ### PixelOS
@@ -105,8 +105,15 @@ CherishOS 3.x 基于 AOSP，灵感来自 Google Pixel。有 Hung Phan 的 Pixel 
 
 ### Havoc OS
 
-Havoc-OS 是一款基于 AOSP 的售后固件，可用于 20 多家 OEM 的 150 多款设备。灵感来自具有精致的 Material Design UI 的 Google Pixel。为您的设备提供流畅稳定的体验，并提供一组精选的令人惊叹的功能，这些功能可提供卓越的用户体验。通用系统映像 (GSI) 也可用，因此即使您的设备当前不受支持，您也可以试用我们的 ROM。 我们的设备名册不断增加，支持每月添加更多设备。自定义功能丰富。您也可以通过您的设备代号。
+<img class="banner-img" src="./images/logo/havocos.png" alt="Havoc OS LOGO"/>
 
+Havoc-OS 是一个基于安卓开源项目的售后固件，其灵感来自于谷歌 Pixel 的精致 Material Design 用户界面。我们为您的设备提供了流畅和稳定的体验，并精选了一系列令人惊叹的功能，提供了卓越的用户体验。
+
+我们的ROM可用于 20 多个 OEM 厂商的 150 多个设备。
+
+通用系统映像（GSI）是可用的，所以即使你的设备目前不被支持，你也可以尝试我们的 ROM。我们的设备名册不断增加，每月都有更多的设备支持。
+
+* [查看详情](./havocos.md)
 * [官方网站](https://havoc-os.com/)
 * [官网下载](https://download.havoc-os.com/)
 

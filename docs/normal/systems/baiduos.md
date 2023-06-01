@@ -1,4 +1,4 @@
-# 百度云 OS
+# 百度云 OS <Badge type="danger" text="已停更" />
 
 <img class="banner-img" src="./images/logo/baiduos.jpg" alt="LOGO"/>
 
@@ -11,15 +11,17 @@
 百度云OS公测版每两周更新一次，正式版约一季度更新一次。云友可以在“系统更新”中检查OTA版本的升级。
 
 ::: warning
-百度云 OS 于 2015 年 3 月 11 日起，[暂停更新][2]。您的系统可能会无法接收安全补丁而充满漏洞，建议您更换其他操作系统。
+[百度云 OS 于 2015 年 3 月 11 日起，暂停更新][2]。您的系统可能会无法接收安全补丁而充满漏洞，建议您更换其他操作系统。
 :::
 
-* 官网链接：未知，且以已关闭
-* 下载地址：[本站整理](../../fast/download/baiduos.md)
+* __官方网站__：未知，且以已关闭
+* __下载地址__：
+  * __奇兔刷机__ <Badge type="warning" text="第三方" /> ：<http://rom.7to.cn/search.html?key=55m+5bqm5LqR>
+  * [本站整理](../../fast/download/baiduos.md) <Badge type="warning" text="第三方" />
 
 ## 系统截图
 
-* 公测版 V6：
+* __公测版 V6__：
 
 <div class="screenshotList">
 <img src="http://file.7to.cn/uploads/romimages/201504/15/27666/a2.png" alt="主页面" title="主页面"/>
@@ -33,7 +35,7 @@
 {{ average }} 分（{{ scoredBy }} 人打分）
 
 ::: tip
-如果您需要打分，请点击末尾按钮请手动编辑此页进行打分。
+如果您需要打分，请点击文末“帮助我们改善此页面”手动编辑此页进行打分。
 :::
 
 ### 优点

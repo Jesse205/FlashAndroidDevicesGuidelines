@@ -119,14 +119,6 @@ __第三方下载__：
 
 * [官方下载](https://derpfest.org/#call-to-action)
 
-### Project Arcana
-
-* [更多信息](../../normal/systems/README.md#project-arcana)
-
-### Cherish OS
-
-* [更多信息](../../normal/systems/README.md#cherish-os)
-
 ### ArrowOS
 
 * [更多信息](../../normal/systems/README.md#arrowos)

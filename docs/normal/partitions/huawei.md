@@ -8,6 +8,10 @@
 
 这相当于之前的 `boot` 分区
 
+刷 TWRP 只是替换掉了 Recovery，eRecovery 仍然保留。
+
+* 分区名：`recovery`（EMUI 5 及之前）、`recovery_ramdisk`（EMUI 8 及以后）
+  * 相关链接
 * [Recovery 模式](../modes/huawei.md#recovery-模式)
 
 ## erecovery 分区 <Badge type="tip" text="EMUI4.0+" />

@@ -4,7 +4,9 @@
 [[toc]]
 :::
 
-> 百度百科的这篇已经很完善了，推荐看一看。<https://baike.baidu.com/item/%E5%88%B7%E6%9C%BA>
+百度百科的这篇已经很完善了，推荐看一看。<https://baike.baidu.com/item/%E5%88%B7%E6%9C%BA>
+
+> 系列说明：这是名词集系列第一个收录名词，故在此写下该系列目的。该系列旨在用刷机的角度解释机圈术语或专有名词等，起工具性作用。由于作者认识浅薄，很多方面不能解释到十全十美，仅供参考。系列中收录的解决办法并非万能，请谨慎使用。
 
 ## Android 与安卓
 
@@ -115,56 +117,56 @@ ROOT 的权限高于 [ADB（Android Debug Bridge）](../tools/platform-tools.md#
 您可以使用 [Shizuku](https://shizuku.rikka.app/zh-hans/) 将 ADB 权限共享给其他应用
 :::
 
-### 常见 ROOT 工具及 ROOT 管理工具
+* __常见 ROOT 工具及 ROOT 管理工具__：
+  * __Magisk__（内置 MagiskSU）: Magisk，别名叫做“面具”。这是目前主流的 Root 方式。<Badge type="tip" text="推荐" />
+  * __KernelSU__: 这是新型 Root 方式。目前正在完善。<Badge type="tip" text="推荐" />
+  * __SuperSU__: SuperSU，别名为“超级权限”。这是 Android 8.0 及之前管理 Root 的工具。<Badge type="warning" text="现如今几乎不可用" />
+  * __SuperUser__: SuperUser，别名为“超级用户”，这是很多官方系统内置的授权管理工具（如 Phoenix OS，VMOS，天天模拟器）
+  * __一键 Root 工具__:这是 Android 5 之前常用的获取 Root 方法 <Badge type="warning" text="现如今几乎不可用" />
+* __兼容性__：
+  * [兼容性表格](../fast/install/root/README.md#兼容性表格)
 
-* __Magisk__（内置 MagiskSU）: Magisk，别名叫做“面具”。这是目前主流的 Root 方式。
-* __KernelSU__: 这是新型 Root 方式。目前正在完善。
-* __SuperSU__: SuperSU，别名为“超级权限”。这是 Android 8.0 及之前管理 Root 的工具。
-* __SuperUser__: SuperUser，别名为“超级用户”，这是很多官方系统内置的授权管理工具（如 Phoenix OS，VMOS，天天模拟器）
-* __一键 Root 工具__:这是 Android 5 之前常用的获取 Root 方法
+### Magisk
 
-* [兼容性表格](../fast/install/root/README.md#兼容性表格)
+Magisk，别名叫做“面具”
 
-::: details 主流的一键工具
+这是目前主流的 Root 方式
 
-* __360超级ROOT__（已停止运营）: 对 360 自家软件兼容友好
-* __KingRoot__（已停止运营）: 覆盖机型广，但是有一点臃肿
-* __YoRoot__
+* __一些突出特点__：
+  * __MagiskSU__：为应用程序提供 root 访问权限
+  * __Magisk 模块__：通过安装模块修改只读分区
+  * __MagiskBoot__：用于解压缩和重新打包 Android 启动映像的最完整工具
+  * __Zygisk__：在每个 Android 应用程序的进程中运行代码
+* __相关链接__：
+  * [Root 工具：Magisk](../fast/install/root/README.md#magisk)
+  * [Github 仓库](https://github.com/topjohnwu/Magisk) <Badge type="tip" text="官方" />
+  * [GitHub Releases](https://github.com/topjohnwu/Magisk/releases/latest) <Badge type="tip" text="官方" />
+  * [Magisk 中文文档](https://jesse205.github.io/MagiskChineseDocument/)
 
-对于这些一键 Root 工具，机型不一样体验也不一样，建议都试试。
-:::
-
-#### Magisk
-
-Magisk 是一套用于定制 Android 的开源软件，支持高于 Android 5.0 的设备。
-一些突出特点：
-
-* __MagiskSU__: 为应用程序提供根访问权限
-* __Magisk 模块__: 通过安装模块修改只读分区
-* __MagiskBoot__: 用于解压缩和重新打包 Android 启动映像的最完整工具
-* __Zygisk__: 在每个 Android 应用程序的进程中运行代码
-
-__相关链接：__
-
-* [Github 仓库](https://github.com/topjohnwu/Magisk)（官方）
-* [GitHub Releases](https://github.com/topjohnwu/Magisk/releases/latest)（官方）
-* [Magisk 中文文档](https://jesse205.github.io/MagiskChineseDocument/)
-
-#### KernelSU
+### KernelSU
 
 KernelSU 是 Android GKI 设备的 root 解决方案，它工作在内核模式，并直接在内核空间中为用户空间应用程序授予 root 权限。
 
-* [官方网站](https://kernelsu.org/zh_CN/)
-* [GitHub Releases](https://github.com/tiann/KernelSU/releases)（官方）
+这是新型 root 方案。目前正在完善
 
-#### SuperSU
+* __一些突出特点__
+  * __基于内核__：KernelSU 运行在内核空间，对用户空间应用有更强的掌控。
+  * __白名单访问控制__：只有被授权的 App 才可以访问 `su`，而其他 App 无法感知其存在。
+  * __模块支持__：KernelSU 支持通过 overlayfs 修改 /system，它甚至可以使 /system 可写。
+  * __开源__：KernelSU 是 GPL-3 许可下的开源项目。
+* __相关链接__
+  * [Root 工具：KernelSU](../fast/install/root/README.md#kernelsu)
+  * [官方网站](https://kernelsu.org/zh_CN/)
+  * [GitHub Releases](https://github.com/tiann/KernelSU/releases) <Badge type="tip" text="官方" />
 
-__相关链接：__
+### SuperSU
+
+__相关链接__：
 
 * [非官方网站](https://supersuroot.org/)
 * [非官方下载](https://supersuroot.org/download/)
-* [123 云盘下载](https://www.123pan.com/s/G7a9-mpek)（搬运）
-* [百度网盘下载](https://pan.baidu.com/s/1D-xltDWSZHZmKbqULMknsw?pwd=jxnb)（提取码：jxnb）（搬运）
+* [123 云盘下载](https://www.123pan.com/s/G7a9-mpek) <Badge type="warning" text="搬运" />
+* [百度网盘下载](https://pan.baidu.com/s/1D-xltDWSZHZmKbqULMknsw?pwd=jxnb)（提取码：jxnb） <Badge type="warning" text="搬运" />
 
 ## 数据线
 
@@ -178,7 +180,7 @@ USB的全称是 Universal Serial Bus，中文含义是“通用串行总线”�
 
 Type-c 是一种既可以应用于 PC (主设备)又可以应用于外部设备(从设备，如手机)的接口类型，这是划时代的
 
-> 也就是说，可以用个双头 Type-C 线连接两部手机
+> 也就是说，可以用个双头 Type-C 线连接两部手机，其中一个手机可以像电脑一样操控另一条手机
 
 #### Micro-USB 接口
 
@@ -192,7 +194,7 @@ Micro-USB 是一种 USB2.0 标准接口，是 Mini-USB 的下一个版本
 
 ### 关于终端
 
-尽管 [shell、cmd 与终端的含义不同](https://www.zhihu.com/question/40448945)，但在一般情况下，人们会粗略将这些划等号。
+尽管 [shell、cmd 与终端的含义不同](https://www.zhihu.com/question/40448945)，但在一般情况下，人们会粗略地将这些名词划等号。
 
 #### Windows 系统
 
@@ -223,6 +225,20 @@ Micro-USB 是一种 USB2.0 标准接口，是 Mini-USB 的下一个版本
 
 __Linux用户还不会用终端？？？__
 
+## 卡米
+
+__定义和来源__：
+
+在启动系统时卡在开机第一屏，这种情况发生在小米手机上，由于第一屏是小米 logo，故称“卡米”。
+
+为什么会导致“卡米”
+
+可能是由于 Android 系统分区中的 boot 分区受到损伤，无法完成开机 BootLoader 引导。
+
+__解决办法__：
+
+尝试长按“音量-”和“电源”键（小米/红米手机）进入 fastboot 刷机模式，重新线刷刷机包，重写 boot 分区，完成开机。
+
 ## 版权声明
 
 本文档已获得 [@灬只会刷机养老](http://www.coolapk.com/u/11090720) 授权搬运并修改整理
@@ -231,5 +247,6 @@ __Linux用户还不会用终端？？？__
 
 * [【小白搞机入门】名词集-ROM、RAM、ramdisk](https://www.coolapk.com/feed/42682544?shareKey=ZjIwNzExZDUyYjczNjNkNTgzMTY~) - 酷安
 * [【小白搞机入门】名词集-BootLoader锁（BL锁）](https://www.coolapk.com/feed/42674591?shareKey=YzQ2MThhNmI5MmNiNjNkNTcwOGM~) - 酷安
+* [【小白搞机入门】名词集-卡米](https://www.coolapk.com/feed/42667909?shareKey=MWQ3MzZlMmQ4N2E2NjQ3OGI4NTg~)
 * [root](https://baike.baidu.com/item/root/73226) - 百度百科
 * [数据线](https://baike.baidu.com/item/%E6%95%B0%E6%8D%AE%E7%BA%BF/391946) - 百度百科

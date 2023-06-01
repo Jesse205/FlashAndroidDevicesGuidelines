@@ -50,7 +50,7 @@ title: false
 
 1. 手机的选购
 2. [安装第三方软件](./normal/installApk/README.md) <Badge type="tip" text="不通过自带的应用市场" />
-3. [各式各样的操作系统](./normal/systems/README.md)
+3. [操作系统概览](./normal/systems/README.md)
 4. [名词集](./normal/noun.md)
 5. [分区和映像](./normal/partitions/README.md)
 6. [ADB 工具的使用](./tools/platform-tools.md#adb-工具)
@@ -105,6 +105,8 @@ title: false
 * __[OrangeFox Recovery](https://wiki.orangefox.tech/en/home)__: 精美的 Recovery
 * 还有一个叫什么来着，就是很早以前非常流行的rec
 
+查看更多
+
 ### 常用工具
 
 #### 手机端
@@ -120,6 +122,8 @@ title: false
   * 质感文件
 * 工具箱
   * 搞基工具箱
+
+查看更多
 
 #### 电脑端
 

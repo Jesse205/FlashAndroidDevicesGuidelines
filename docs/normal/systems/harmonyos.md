@@ -4,14 +4,16 @@
 
 HarmonyOS 是新一代的智能终端操作系统，为不同设备的智能化、互联与协同提供了统一的语言，带来简捷、流畅、连续、安全可靠的全场景交互体验。
 
-* 官网链接：<https://www.harmonyos.com/>
-* HarmonyOS 3 官网链接：<https://consumer.huawei.com/cn/harmonyos-3/>
-* HarmonyOS 2 官网链接：<https://consumer.huawei.com/cn/harmonyos/>
-* 下载地址：官方未提供
+* __官方网站__：<https://www.harmonyos.com/>
+  * __HarmonyOS 3 官网__：<https://consumer.huawei.com/cn/harmonyos-3/>
+  * __HarmonyOS 2 官网__：<https://consumer.huawei.com/cn/harmonyos/>
+* __下载地址__：
+  * __官方__：官方未提供
+  * __Huawei Firm Finder__ <Badge type="warning" text="第三方" /> ：<https://professorjtj.github.io/>
 
 ## 屏幕截图
 
-HarmonyOS 2：
+* __HarmonyOS 2__：
 
 <img src="https://developer.harmonyos.com/resource/image/release2/design/pic_developer_design_24-617.jpg" width="600" alt="概览" title="概览"/>
 <img src="https://genk.mediacdn.vn/139269124445442048/2021/2/5/8-1-1612512545597369019106.jpg" width="350" alt="早期关于" title="早期关于"/>
@@ -21,7 +23,7 @@ HarmonyOS 2：
 
 ## 兼容 Android
 
-华为自 EMUI11 开始，已不再是一个 EMUI 对应一个版本。以下是 HarmonyOS 对应的安卓版本：
+华为自 HarmonyOS 2 开始，已不再是一个 EMUI 对应一个版本。以下是 HarmonyOS 对应的安卓版本：
 
 | HarmonyOS 版本 \ Android 版本 | Android 9 | Android 10 | Android 11 | Android 12 |
 | ----------------------------- | --------- | ---------- | ---------- | ---------- |
@@ -31,7 +33,7 @@ HarmonyOS 2：
 
 ## 设计
 
-### 用户界面：HarmonyOS 设计
+### 用户界面：HarmonyOS Design
 
 * [设计文档](https://developer.harmonyos.com/cn/design/)
 
@@ -49,7 +51,7 @@ HarmonyOS 2：
 {{ average }} 分（{{ scoredBy }} 人打分）
 
 ::: tip
-如果您需要打分，请点击末尾按钮请手动编辑此页进行打分。
+如果您需要打分，请点击文末“帮助我们改善此页面”手动编辑此页进行打分。
 :::
 
 ### 优点

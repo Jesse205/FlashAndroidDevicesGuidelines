@@ -11,12 +11,9 @@
 
 这个 Recovery 就是[我们常见的 Recovery](./README.md#recovery-模式)。
 
-刷 TWRP 只是替换掉了 Recovery，eRecovery 仍然保留。
-
-* 分区名：`recovery`（EMUI 5 及之前）、`recovery_ramdisk`（EMUI 8 及以后）
-
 ### 进入 Recovery 模式的方法
 
+* 支持[通用方法](./README.md#recovery-模式)，但是通过音量键进入的时候稍微不一样。
 * 不连接电脑，关机状态长按电源键和音量加，出现 logo 后只松开电源键，直到进入
 
 ## eRecovery 模式 <Badge type="tip" text="EMUI4.0+" />
@@ -46,3 +43,14 @@ adb reboot erecovery
 * 二者功能不同，在 Recovery 里我们可以做恢复出厂，清除 cache 等本地操作，而在 eRecovery 里可以连接 WiFi 下载适用于你的手机的系统包并自动安装恢复。
 
 :::
+
+## 安全模式
+
+* 支持[通用方法](./README.md#安全模式)，但是不支持在电源菜单中长按进入
+* EMUI 9.1 及以上版本是开机过程中长按电源键和音量上键。
+* EMUI 9.1 以下版本在开机过程中同时电源键和音量下键完成开机。
+* Mate30 Pro 系列是手机开机振动后，连续按电源键5次进入。
+
+## 参考链接
+
+* [华为手机/平板安全模式简介](https://consumer.huawei.com/cn/support/content/zh-cn00737976/) - 华为官网

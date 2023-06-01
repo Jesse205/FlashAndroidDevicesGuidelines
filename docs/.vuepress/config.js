@@ -30,7 +30,7 @@ export default defineUserConfig({
                 children: [
                     // { text: '选购手机', link: '#' },
                     { text: '安装软件', link: '/normal/installApk/' },
-                    { text: '各式各样的操作系统', link: '/normal/system/' },
+                    { text: '操作系统概览', link: '/normal/systems/' },
                     { text: '名词集', link: '/normal/noun.html' },
                     { text: '分区和映像', link: '/normal/partitions/' },
                     // { text: '刷机包', link: '#' },
@@ -52,6 +52,15 @@ export default defineUserConfig({
                             // { text: '排错', link: '#' },
                         ]
                     }
+                ]
+            },
+            {
+                text: '其他内容',
+                children: [
+                    { text: '翻车案例', link: '/rollover/' },
+                    { text: '常识问题与解答', link: '/faq.html' },
+                    { text: '常见问题与解答', link: '/faq/' },
+                    
                 ]
             }
         ],
@@ -79,6 +88,7 @@ export default defineUserConfig({
                     text: '基础知识',
                     children: [
                         '/normal/installApk/',
+                        '/normal/systems/',
                         '/normal/noun.html',
                         '/normal/partitions/',
                     ],
@@ -87,14 +97,19 @@ export default defineUserConfig({
             '/normal/systems': [
                 {
                     text: '操作系统',
-                    link: '/normal/systems/',
+
                     children: [
+                        {
+                            text: '概览',
+                            link: '/normal/systems/',
+                        },
                         '/normal/systems/harmonyos.html',
                         '/normal/systems/miui.html',
-                        '/normal/systems/baiduos.html',
                         '/normal/systems/lineageos.html',
-                        '/normal/systems/pe.html',
+                        '/normal/systems/pixelexperience.html',
+                        '/normal/systems/havocos.html',
                         '/normal/systems/windows.html',
+                        '/normal/systems/baiduos.html',
                     ],
                 },
             ],

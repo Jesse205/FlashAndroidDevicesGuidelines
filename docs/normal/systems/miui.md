@@ -2,9 +2,13 @@
 
 <img class="banner-cover" src="./images/logo/miui.webp" alt="LOGO"/>
 
-* 官网链接：<https://home.miui.com/>
+* __官方网站__：<https://home.miui.com/>
+* __下载地址__：
+  * __MIUI 历史版本__ <Badge type="warning" text="第三方" /> ：<https://miuiver.com/>
 
 ## 屏幕截图
+
+暂无截图
 
 ## Android 版本
 
@@ -32,7 +36,7 @@
 {{ average }} 分（{{ scoredBy }} 人打分）
 
 ::: tip
-如果您需要打分，请点击末尾按钮请手动编辑此页进行打分。
+如果您需要打分，请点击文末“帮助我们改善此页面”手动编辑此页进行打分。
 :::
 
 ### 优点
@@ -44,6 +48,12 @@
 * 无统一的设计风格
 * 广告超多，系统臃肿
 * 系统版本无法准确对应安卓版本
+
+## 相关链接
+
+* 百科
+  * MIUI: [360百科](https://baike.so.com/doc/5369087-5604931.html), [百度百科](https://baike.baidu.com/item/MIUI/8150208), [搜狗百科](https://baike.sogou.com/v20466533.htm)
+  * [小米MIUI系统历代版本（部分）](https://baike.baidu.com/starmap/view?nodeId=a642e1fb59464a392c6f812d) - 百度百科
 
 ## 参考链接
 

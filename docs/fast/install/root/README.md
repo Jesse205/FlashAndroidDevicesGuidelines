@@ -7,12 +7,12 @@
 ::: tip
 该文档有机型各自的文档，您可以点击以下链接查看
 
-* [小米](./xiaomi/xiaomi.md)
+* [小米](./xiaomi/README.md)
 * [华为](./huawei/README.md)
-* 三星
-* 魅族
-* OPPO
-* Vivo
+* 三星（敬请期待）
+* 魅族（敬请期待）
+* OPPO（敬请期待）
+* Vivo（敬请期待）
 :::
 
 * 关于 Root 以及这些工具的介绍：[[名词集] ROOT](../../../normal/noun.md#root)
@@ -35,46 +35,45 @@ Magisk，别名叫做“面具”
 这是目前主流的 Root 方式
 
 * __适用系统__：Android 5.0 - Android 13
-
-相关链接：
-
-* [[名词集] Magisk](../../../normal/noun.md#magisk)
-* [官方仓库](https://github.com/topjohnwu/Magisk)
+* __相关链接__：
+  * [[名词集] Magisk](../../../normal/noun.md#magisk)
+  * [Github 仓库](https://github.com/topjohnwu/Magisk) <Badge type="tip" text="官方" />
+  * [Magisk 中文文档](https://jesse205.github.io/MagiskChineseDocument/)
 
 ### 下载 Magisk
 
-* [GitHub Releases](https://github.com/topjohnwu/Magisk/releases/latest)（官方）
+* [GitHub Releases](https://github.com/topjohnwu/Magisk/releases/latest) <Badge type="tip" text="官方" />
 
 ### 安装 Magisk
 
-* [Installation](https://topjohnwu.github.io/Magisk/install.html) - Magisk（官方，但是英文）
-* [安装](https://jesse205.github.io/MagiskChineseDocument/install.html) - Magisk 中文文档（非官方，本站汉化）
+* [Installation](https://topjohnwu.github.io/Magisk/install.html) - Magisk <Badge type="tip" text="官方" />
+* [安装](https://jesse205.github.io/MagiskChineseDocument/install.html) - Magisk 中文文档 <Badge type="warning" text="非官方" /> <Badge type="tip" text="本站汉化" />
 
-## KernelSU <Badge type="tip" text="推荐高级用户使用" />
+## KernelSU <Badge type="tip" text="推荐" />
 
-这是新型 Root 方式。目前正在完善
+Android 上的内核级的 root 方案，这是新型 root 方案。目前正在完善
 
 * __适用内核__: 内核 4.4+
-
-* [官方网站](https://kernelsu.org/)
-* [官方仓库](https://github.com/tiann/KernelSU)
-
-### 下载 KernelSU
-
-* [GitHub Releases](https://github.com/tiann/KernelSU/releases)（官方）
-* [酷安](https://www.coolapk.com/apk/me.weishu.kernelsu)（官方）
-
-### 安装 KernelSU
-
-* [安装](https://kernelsu.org/zh_CN/guide/installation.html) - KernelSU（官方）
+* __下载__：
+  * [GitHub Releases](https://github.com/tiann/KernelSU/releases) <Badge type="tip" text="官方" />
+  * [酷安](https://www.coolapk.com/apk/me.weishu.kernelsu) <Badge type="tip" text="官方" />
+* __安装__：
+  * [安装](https://kernelsu.org/zh_CN/guide/installation.html) - KernelSU <Badge type="tip" text="官方" />
+* __相关链接__：
+  * [官方网站](https://kernelsu.org/) <Badge type="tip" text="官方" />
+  * [GitHub 仓库](https://github.com/tiann/KernelSU) <Badge type="tip" text="官方" />
 
 ## SuperSU
+
+::: warning
+此工具几乎不适用于现代所有的手机
+:::
 
 SuperSU，别名叫做“超级权限”
 
 这是 Android 9 之前常用的 Root 获取方式
 
-* __适用系统__: 未知
+* __适用系统__: 未知（敬请期待）
 
 ### 下载 SuperSU
 
@@ -86,9 +85,13 @@ SuperSU，别名叫做“超级权限”
 
 SuperUser，别名叫做“超级用户”。
 
-* __适用系统__: 未知，至今仍旧有一部分系统在使用
+* __适用系统__: 未知（敬请期待），至今仍旧有一部分系统在使用
 
 ## 一键 Root 工具
+
+::: warning
+此方法几乎不适用于现代所有的手机，请不要对一键 Root 抱有希望。
+:::
 
 这是 Android 5 之前常用的获取 Root 方法
 
