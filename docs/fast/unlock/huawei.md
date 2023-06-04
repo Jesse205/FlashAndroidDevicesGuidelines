@@ -9,16 +9,50 @@
 
 ### 一、申请解锁码
 
+#### 华为官方渠道
+
 华为在2018年5月24日已关闭解锁码申请通道，如果您拥有时光机，请前往这个时间段前进入 EMUI 官网的[解锁](https://emui.huawei.com/cn/unlock_index)进行解锁
 
 ![关闭解锁的公告](./images/huawei_close_notice.png)
 
-您也可以通过第三方渠道获取解锁码或者直接解锁 Bootloader
+#### 第三方渠道
 
-* 使用 [PotatoNV](https://github.com/mashed-potatoes/PotatoNV) 解锁 <Badge type="tip" text="免费" /> [查看教程](https://zhuanlan.zhihu.com/p/397173427)
-* 联系 [@某贼](http://www.coolapk.com/u/3463951) <Badge type="tip" text="免费" />（[某贼的话](https://www.coolapk.com/feed/25219974?shareKey=ZDc3M2ExYmZlNjQ2NjA3MTc2ZGY~)）
-* 某宝购买 <Badge type="warning" text="付费" />
-* 联系酷安 @stuff233 <Badge type="warning" text="付费" />
+如果你没有时光机，则此渠道是获取你的华为手机的解锁码的唯一方法
+
+##### PotatoNV
+
+优点：免费
+
+缺点：
+- 只支持部分麒麟处理器的手机
+- 需要拆后盖（甚至保护罩）短接刷机。需要有一定的动手能力。不具备条件的不建议尝试
+
+官网：[PotatoNV](https://github.com/mashed-potatoes/PotatoNV)
+
+方法：[部分华为麒麟手动获取BL解锁码 - 知乎](https://zhuanlan.zhihu.com/p/397173427)
+
+##### 联系某贼大佬
+
+优点：免费，支持绝大多数华为/荣耀手机
+
+缺点：大佬有的时候不再，需要等，如果没这个时间请移步其他方法
+
+方法：
+联系 [@某贼](http://www.coolapk.com/u/3463951)
+下载一个名为[云湖](https://www.yhchat.com/)的社交应用
+找到群后联系大佬即可
+[某贼的话](https://www.coolapk.com/feed/25219974?shareKey=ZDc3M2ExYmZlNjQ2NjA3MTc2ZGY~)
+[华为解锁须知](https://www.kdocs.cn/l/cidkchLJHuYl)
+
+##### 付费方式
+
+优点：方便快捷
+
+缺点：需要付费
+
+方法：
+- 某宝购买
+- 联系酷安 @stuff233
 
 ::: tip
 大佬们有时候可能不在，请耐心等待
