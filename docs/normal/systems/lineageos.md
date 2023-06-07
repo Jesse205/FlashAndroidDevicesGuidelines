@@ -16,11 +16,7 @@
 
 * __LineageOS 18.1__：
 
-<div class="screenshotList">
-<img src="https://forum.xda-developers.com/attachments/screenshot_20210511-232130_trebuchet-png.5306555/" alt="桌面" title="桌面"/>
-<img src="https://forum.xda-developers.com/attachments/screenshot_20210511-232134-png.5306557/" alt="锁屏" title="锁屏"/>
-<img src="https://forum.xda-developers.com/attachments/screenshot_20210511-232119_settings-png.5306553/" alt="关于" title="关于"/>
-</div>
+<ScreenshotList :items="screenshotList" />
 
 ## Android 版本
 
@@ -67,11 +63,14 @@
 声明：图片均来源于网络。如果侵犯了您的权力，请[联系我](mailto:jesse205@qq.com)，我会尽快删除。
 
 <script setup>
+
 import { h, ref } from 'vue'
 
+// Score
+// 在这里添加数据即可打分
 const scoreList = [
     {
-        name: "jesse205",
+        name: 'jesse205',
         score: 4.5
     },
 ]
@@ -84,5 +83,21 @@ for (let item of scoreList){
 
 const average = allScore/scoreList.length
 const scoredBy = scoreList.length
+
+// Screenshot
+const screenshotList = [
+    {
+        src: 'https://forum.xda-developers.com/attachments/screenshot_20210511-232130_trebuchet-png.5306555/',
+        title: '桌面'
+    },
+    {
+        src: 'https://forum.xda-developers.com/attachments/screenshot_20210511-232134-png.5306557/',
+        title: '锁屏'
+    },
+    {
+        src: 'https://forum.xda-developers.com/attachments/screenshot_20210511-232119_settings-png.5306553/',
+        title: '关于'
+    }
+]
 
 </script>

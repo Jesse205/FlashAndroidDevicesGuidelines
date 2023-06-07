@@ -79,6 +79,7 @@ HarmonyOS 是新一代的智能终端操作系统，为不同设备的智能化�
 <script setup>
 import { h, ref } from 'vue'
 
+// Score
 // 在这里添加数据即可打分
 const scoreList = [
     {

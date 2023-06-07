@@ -11,20 +11,14 @@
 
 * __Android 12L__：
 
-<div class="screenshotList">
-<img src="https://forum.xda-developers.com/attachments/screenshot_20220324-202403_settings-png.5569961/" alt="关于" title="关于"/>
-<img src="https://forum.xda-developers.com/attachments/screenshot_20220324-202448_settings-png.5569955/" alt="铃声设置" title="铃声设置"/>
-<img src="https://forum.xda-developers.com/attachments/screenshot_20220324-202445_settings-png.5569957/" alt="铃声设置" title="铃声设置"/>
-</div>
+<ScreenshotList :items="a12LScreenshotList" />
 
 ::: details 历史版本
 
 * __Android 9.0__：
 
-<div class="screenshotList">
-<img src="https://forum.xda-developers.com/attachments/screenshot_20181208-052947-jpg.4660871/" alt="主页面" title="主页面"/>
-<img src="https://forum.xda-developers.com/attachments/screenshot_20181208-050904-png.4660872/" alt="关于" title="关于"/>
-</div>
+<ScreenshotList :items="a9ScreenshotList" />
+
 :::
 
 ## 设计
@@ -67,6 +61,7 @@
 <script setup>
 import { h, ref } from 'vue'
 
+// Score
 // 在这里添加数据即可打分
 const scoreList = [
     {
@@ -84,4 +79,30 @@ for (let item of scoreList){
 const average = allScore/scoreList.length
 const scoredBy = scoreList.length
 
+// Screenshot
+const a12LScreenshotList = [
+    {
+        src: 'https://forum.xda-developers.com/attachments/screenshot_20220324-202403_settings-png.5569961/',
+        title: '关于'
+    },
+    {
+        src: 'https://forum.xda-developers.com/attachments/screenshot_20220324-202448_settings-png.5569955/',
+        title: '铃声设置'
+    },
+    {
+        src: 'https://forum.xda-developers.com/attachments/screenshot_20220324-202445_settings-png.5569957/',
+        title: '铃声设置'
+    }
+]
+
+const a9ScreenshotList = [
+    {
+        src: 'https://forum.xda-developers.com/attachments/screenshot_20181208-052947-jpg.4660871/',
+        title: '主页面'
+    },
+    {
+        src: 'https://forum.xda-developers.com/attachments/screenshot_20181208-050904-png.4660872/',
+        title: '关于'
+    }
+]
 </script>
