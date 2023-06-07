@@ -23,8 +23,11 @@
 
 * __公测版 V6__：
 
-<ScreenshotList :items="v6ScreenshotList" />
-
+<div class="screenshotList">
+<img src="http://file.7to.cn/uploads/romimages/201504/15/27666/a2.png" alt="主页面" title="主页面"/>
+<img src="https://clubimg.club.vmall.com/data/attachment/forum/201502/26/232623ze9309999vxx490k.png" alt="应用抽屉" title="应用抽屉"/>
+<img src="https://pcs4.clubstatic.lenovo.com.cn/data/attachment/forum/201503/14/223111t05acccqp08p52xc.png" alt="公测版67期 应用抽屉" title="公测版67期 应用抽屉"/>
+</div>
 
 ## 评价
 
@@ -58,7 +61,6 @@
 <script setup>
 import { h, ref } from 'vue'
 
-// Score
 // 在这里添加数据即可打分
 const scoreList = [
     {
@@ -75,21 +77,5 @@ for (let item of scoreList){
 
 const average = allScore/scoreList.length
 const scoredBy = scoreList.length
-
-// Screenshot
-const v6ScreenshotList = [
-    {
-        src: 'http://file.7to.cn/uploads/romimages/201504/15/27666/a2.png',
-        title: '主页面'
-    },
-    {
-        src: 'https://clubimg.club.vmall.com/data/attachment/forum/201502/26/232623ze9309999vxx490k.png',
-        title: '应用抽屉'
-    },
-    {
-        src: 'https://pcs4.clubstatic.lenovo.com.cn/data/attachment/forum/201503/14/223111t05acccqp08p52xc.png',
-        title: '公测版67期 应用抽屉'
-    }
-]
 
 </script>

@@ -19,9 +19,7 @@
                 "img",
                 "p",
                 "div",
-                "meter",
-                "ScreenshotList",
-                "ScreenshotItem"
+                "meter"
             ]
         },
         "MD025": false

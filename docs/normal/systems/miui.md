@@ -68,7 +68,6 @@
 <script setup>
 import { h, ref } from 'vue'
 
-// Score
 // 在这里添加数据即可打分
 const scoreList = [
     {

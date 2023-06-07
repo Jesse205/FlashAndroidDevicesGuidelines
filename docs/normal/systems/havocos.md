@@ -15,8 +15,6 @@ Havoc-OS 是一个基于安卓开源项目的售后固件，其灵感来自于�
 
 ## 屏幕截图
 
-<ScreenshotList :items="screenshotList" />
-
 <div class="screenshotList">
 <img src="https://havoc-os.com/src/img/screenshots/Screenshot_3.png" alt="桌面" title="桌面"/>
 <img src="https://havoc-os.com/src/img/screenshots/Screenshot_10.png" alt="锁屏3" title="锁屏3"/>
@@ -31,9 +29,6 @@ Havoc-OS 是一个基于安卓开源项目的售后固件，其灵感来自于�
 </div>
 
 ::: details 历史版本
-
-<ScreenshotList :items="historyScreenshotList" />
-
 <div class="screenshotList">
 <img src="https://a.fsdn.com/con/app/proj/havoc-os/screenshots/Screenshot_Ruthless_Launcher_20180803-133540.png/max/max/1" alt="桌面" title="桌面"/>
 <img src="https://a.fsdn.com/con/app/proj/havoc-os/screenshots/Screenshot_Ruthless_Launcher_20180803-133603.png/max/max/1" alt="通知栏" title="通知栏"/>
@@ -97,7 +92,6 @@ Havoc-OS 是一个基于安卓开源项目的售后固件，其灵感来自于�
 <script setup>
 import { h, ref } from 'vue'
 
-// Score
 // 在这里添加数据即可打分
 const scoreList = [
     {
@@ -114,21 +108,5 @@ for (let item of scoreList){
 
 const average = allScore/scoreList.length
 const scoredBy = scoreList.length
-
-// Screenshot
-const screenshotList = [
-  {
-    src: 'https://forum.xda-developers.com/attachments/screenshot_20210511-232130_trebuchet-png.5306555/',
-    title: '桌面'
-  },
-  {
-    src: 'https://forum.xda-developers.com/attachments/screenshot_20210511-232134-png.5306557/',
-    title: '锁屏'
-  },
-  {
-    src: 'https://forum.xda-developers.com/attachments/screenshot_20210511-232119_settings-png.5306553/',
-    title: '关于'
-  }
-]
 
 </script>
