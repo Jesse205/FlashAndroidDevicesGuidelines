@@ -7,8 +7,8 @@
 ::: tip
 该文档有机型各自的文档，您可以点击以下链接查看
 
-* [小米](./xiaomi/README.md)
-* [华为](./huawei/README.md)
+* [小米](./xiaomi/index.md)
+* [华为](./huawei/index.md)
 * 三星（敬请期待）
 * 魅族（敬请期待）
 * OPPO（敬请期待）

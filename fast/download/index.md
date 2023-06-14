@@ -4,7 +4,7 @@
 [[toc]]
 :::
 
-本章展示了主流ROM的下载地址。在下载之前，您可以对比先[选择一下您比较感兴趣的系统](../../normal/systems/README.md)。
+本章展示了主流ROM的下载地址。在下载之前，您可以对比先[选择一下您比较感兴趣的系统](../../normal/systems/index.md)。
 
 下载 ROM一般有几种方式
 
@@ -121,7 +121,7 @@ __第三方下载__：
 
 ### ArrowOS
 
-* [更多信息](../../normal/systems/README.md#arrowos)
+* [更多信息](../../normal/systems/index.md#arrowos)
 
 __官方下载__：
 
@@ -133,7 +133,7 @@ ArrowOS 也有带 Gapps 的版本，在下载时选择「GAPPS build」即可，
 
 ### Havoc OS
 
-* [更多信息](../../normal/systems/README.md#havoc-os)
+* [更多信息](../../normal/systems/index.md#havoc-os)
 
 __官方下载__：
 
@@ -141,11 +141,11 @@ __官方下载__：
 
 ### CyanogenMod <Badge type="danger" text="已停更" />
 
-* [更多信息](../../normal/systems/README.md#cyanogenmod)
+* [更多信息](../../normal/systems/index.md#cyanogenmod)
 
 ### Resurrection Remix OS <Badge type="danger" text="已停更" />
 
-* [更多信息](../../normal/systems/README.md#resurrection-remix-os)
+* [更多信息](../../normal/systems/index.md#resurrection-remix-os)
 
 ::: tip
 最新版本为 Android 10
@@ -157,7 +157,7 @@ __官方下载__：
 
 ### 魔趣 ROM <Badge type="danger" text="已停更" />
 
-* [更多信息](../../normal/systems/README.md#魔趣-rom)
+* [更多信息](../../normal/systems/index.md#魔趣-rom)
 
 __官方下载__：
 
@@ -175,4 +175,4 @@ __官方下载__：
 
 ## 相关链接
 
-* [各式各样的 Android 以及类 Android 系统](../../normal/systems/README.md)
+* [各式各样的 Android 以及类 Android 系统](../../normal/systems/index.md)

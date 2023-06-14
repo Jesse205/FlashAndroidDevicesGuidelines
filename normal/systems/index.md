@@ -4,7 +4,8 @@
 [[toc]]
 :::
 
-如果您需要下载ROM，请转到[《下载 ROM》](../../fast/download/README.md)。
+* 如果您需要下载 ROM，请转到[《下载 ROM》](../../fast/download/index.md)。
+* 如果您需要刷入 ROM，请转到[《下载 ROM》](../../fast/flash/system.md)。
 
 ## 预装 ROM
 
@@ -40,7 +41,7 @@
 在所有类原生中，LineageOS 绝对是老爷级的存在，有很多优秀的类原生都派生自此项目。LineageOS 的历史可以追溯至2009年的 CyanogenMod （有时简称为cm），只不过后来cm由于搞商业化失败后解散了，一些原cm的开发者才成立了 LineageOS，这个基于 Android 移动平台的适用于各种设备的免费开源操作系统。
 
 * [查看详情](./lineageos.md)
-* [更多下载](../../fast/download/README.md#lineageos)
+* [更多下载](../../fast/download/index.md#lineageos)
 
 * [官方网站](https://lineageos.org/)
 * [官网下载](https://download.lineageos.org/)
@@ -141,4 +142,4 @@ Havoc-OS 是一个基于安卓开源项目的售后固件，其灵感来自于�
 
 ## 相关链接
 
-* [下载 ROM](../../fast/download/README.md)
+* [下载 ROM](../../fast/download/index.md)

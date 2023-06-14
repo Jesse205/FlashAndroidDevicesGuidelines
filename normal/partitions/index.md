@@ -2,7 +2,7 @@
 
 Android 设备包含若干个分区，这些分区在启动过程中发挥不同的作用。为了支持 A/B 更新，设备需要为 boot、system、vendor 和 radio 分区分别单独配置一个槽位。
 
-本片仅简单介绍几个常见分区，更多内容请参考[《系统分区及结构》](../../details/partitions/README.md)
+本片仅简单介绍几个常见分区，更多内容请参考[《系统分区及结构》](../../details/partitions/index.md)
 
 ## 常见分区
 
@@ -41,11 +41,11 @@ Android 8.0 以前刷机需要连同 `boot.img` 一起刷入。之后由于引�
 * [华为的分区和映像](huawei.md)
 * 小米的分区和映像
 * 三星的分区和映像
-* [系统分区及结构](../../details/partitions/README.md)
+* [系统分区及结构](../../details/partitions/index.md)
 
 ## 相关链接
 
-* [安卓中的各种开机模式](../modes/README.md)
+* [安卓中的各种开机模式](../modes/index.md)
 
 ## 参考链接
 

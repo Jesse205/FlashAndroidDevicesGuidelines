@@ -73,9 +73,9 @@ Android 设备包含若干个分区，这些分区在启动过程中发挥不同
 
 | 名称                                           | 俗称 | 说明                       |
 | ---------------------------------------------- | ---- | -------------------------- |
-| [boot](partitions/README.md#boot-分区)         | /    | 用于引导系统。             |
-| [recovery](partitions/README.md#recovery-分区) | rec  | 用于恢复存储、进行系统更新 |
-| [system](partitions/README.md#system-分区)     | /    | Android 系统存放的分区     |
+| [boot](partitions/index.md#boot-分区)         | /    | 用于引导系统。             |
+| [recovery](partitions/index.md#recovery-分区) | rec  | 用于恢复存储、进行系统更新 |
+| [system](partitions/index.md#system-分区)     | /    | Android 系统存放的分区     |
 
 ::: tip
 部分设备为了支持 A/B 更新，把 boot、system、vendor 和 radio 配置了两个槽位（如：`system_a`，`system_b`）。
@@ -88,7 +88,7 @@ Android 设备包含若干个分区，这些分区在启动过程中发挥不同
 
 > 此处等待查证
 
-详情请阅读[《分区和映像》](./partitions/README.md)
+详情请阅读[《分区和映像》](./partitions/index.md)
 
 ## ROM、RAM
 
@@ -103,7 +103,7 @@ ROM 的性能更弱，但是在空间大小和价格方面优势明显。
 
 相关链接：
 
-* [获取 Root](../fast/install/root/README.md)
+* [获取 Root](../fast/install/root/index.md)
 
 Root，也称为根用户，是 Unix (如 Solaris、AIX、BSD）和类 UNIX 系统(如 Linux、QNX 等)，及 Android 和 iOS 移动设备系统中的唯一的超级用户，因其可对根目录执行读写和执行操作而得名。其具有系统中的最高权限。（摘自[百度百科](https://baike.baidu.com/item/root/73226)）
 
@@ -124,7 +124,7 @@ ROOT 的权限高于 [ADB（Android Debug Bridge）](../tools/platform-tools.md#
   * __SuperUser__: SuperUser，别名为“超级用户”，这是很多官方系统内置的授权管理工具（如 Phoenix OS，VMOS，天天模拟器）
   * __一键 Root 工具__:这是 Android 5 之前常用的获取 Root 方法 <Badge type="warning" text="现如今几乎不可用" />
 * __兼容性__：
-  * [兼容性表格](../fast/install/root/README.md#兼容性表格)
+  * [兼容性表格](../fast/install/root/index.md#兼容性表格)
 
 ### Magisk
 
@@ -138,7 +138,7 @@ Magisk，别名叫做“面具”
   * __MagiskBoot__：用于解压缩和重新打包 Android 启动映像的最完整工具
   * __Zygisk__：在每个 Android 应用程序的进程中运行代码
 * __相关链接__：
-  * [Root 工具：Magisk](../fast/install/root/README.md#magisk)
+  * [Root 工具：Magisk](../fast/install/root/index.md#magisk)
   * [Github 仓库](https://github.com/topjohnwu/Magisk) <Badge type="tip" text="官方" />
   * [GitHub Releases](https://github.com/topjohnwu/Magisk/releases/latest) <Badge type="tip" text="官方" />
   * [Magisk 中文文档](https://jesse205.github.io/MagiskChineseDocument/)
@@ -155,7 +155,7 @@ KernelSU 是 Android GKI 设备的 root 解决方案，它工作在内核模式�
   * __模块支持__：KernelSU 支持通过 overlayfs 修改 /system，它甚至可以使 /system 可写。
   * __开源__：KernelSU 是 GPL-3 许可下的开源项目。
 * __相关链接__
-  * [Root 工具：KernelSU](../fast/install/root/README.md#kernelsu)
+  * [Root 工具：KernelSU](../fast/install/root/index.md#kernelsu)
   * [官方网站](https://kernelsu.org/zh_CN/)
   * [GitHub Releases](https://github.com/tiann/KernelSU/releases) <Badge type="tip" text="官方" />
 

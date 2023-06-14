@@ -29,7 +29,7 @@ Recovery 就是我们熟知的那个 Recovery，而 eRecovery 是独立于 Recov
 * 手机
 * [数据线](../../../../normal/noun.md)
 * [ADB工具包](../../../../tools/platform-tools.md#adb-下载)
-* [Magisk](README.md#下载-magisk)
+* [Magisk](index.md#下载-magisk)
 * SuperSU（安卓4到6使用）
 * 以及一双灵巧的双手。
 
@@ -120,7 +120,7 @@ adb sideload刷面具
 
 刷机有风险，操作需谨慎。本教程适用于大多数情况，__但仍无法避免小部分机型不适用__，望知晓。
 
-如果您的设备不小心变砖了，您可以尝试[救砖](../../../../rescuing/README.md)。
+如果您的设备不小心变砖了，您可以尝试[救砖](../../../../rescuing/index.md)。
 
 ## 版权声明
 

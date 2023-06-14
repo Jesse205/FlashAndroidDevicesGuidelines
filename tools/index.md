@@ -5,8 +5,8 @@
 
 ## 更多工具
 
-* [华为专用工具](huawei/README.md)
-* [小米专用工具](huawei/README.md)
+* [华为专用工具](huawei/index.md)
+* [小米专用工具](huawei/index.md)
 
 ## 相关链接
 

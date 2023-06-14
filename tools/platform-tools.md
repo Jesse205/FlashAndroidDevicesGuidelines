@@ -3,7 +3,7 @@
 * [官方资料](https://developer.android.google.cn/studio/command-line/adb?hl=zh_cn)
 * [官网下载](https://developer.android.google.cn/studio/releases/platform-tools?hl=zh-cn#downloads)（Platform-Tools 内包含以下所有工具）
 
-* [下载教程](./README.md#adb-下载)
+* [下载教程](./index.md#adb-下载)
 
 ## adb 工具
 
@@ -29,7 +29,7 @@ Android 调试桥 (adb) 是一种功能多样的命令行工具，可让您与�
 | -------------------------- | ------------------------------------- |
 | `adb install -r myapp.apk` | 重新安装 `myapp.apk` 安装包并保留数据。[更多详情][adb安装] |
 
-[adb安装]: ../normal/installApk/README.md#安装电脑或其他设备上的软件
+[adb安装]: ../normal/installApk/index.md#安装电脑或其他设备上的软件
 
 ### adb 帮助文件adb安装
 

@@ -49,12 +49,12 @@ Edxposed 拥有三个不同的版本
 
 敬请期待
 
-## Awesome Xposed 令人惊叹的 Xposed
+## Awesome Xposed | 令人惊叹的 Xposed
 
 * [Github 话题](https://github.com/topics/xposed-framework)
 
 ## 参考链接
 
-* [EdXposed Framework](https://github.com/ElderDrivers/EdXposed/blob/master/README_CN.md) - GitHub
+* [EdXposed Framework](https://github.com/ElderDrivers/EdXposed/blob/master/index_CN.md) - GitHub
 
 [EDXPAAV]: https://github.com/ElderDrivers/EdXposed/wiki/%E5%8F%AF%E7%94%A8%E7%9A%84-Android-%E7%89%88%E6%9C%AC

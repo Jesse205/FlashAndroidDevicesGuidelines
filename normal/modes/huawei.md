@@ -9,11 +9,11 @@
 
 ## Recovery 模式
 
-这个 Recovery 就是[我们常见的 Recovery](./README.md#recovery-模式)。
+这个 Recovery 就是[我们常见的 Recovery](./index.md#recovery-模式)。
 
 ### 进入 Recovery 模式的方法
 
-* 支持[通用方法](./README.md#recovery-模式)，但是通过音量键进入的时候稍微不一样。
+* 支持[通用方法](./index.md#recovery-模式)，但是通过音量键进入的时候稍微不一样。
 * 不连接电脑，关机状态长按电源键和音量加，出现 logo 后只松开电源键，直到进入
 
 ## eRecovery 模式 <Badge type="tip" text="EMUI4.0+" />
@@ -46,7 +46,7 @@ adb reboot erecovery
 
 ## 安全模式
 
-* 支持[通用方法](./README.md#安全模式)，但是不支持在电源菜单中长按进入
+* 支持[通用方法](./index.md#安全模式)，但是不支持在电源菜单中长按进入
 * EMUI 9.1 及以上版本是开机过程中长按电源键和音量上键。
 * EMUI 9.1 以下版本在开机过程中同时电源键和音量下键完成开机。
 * Mate30 Pro 系列是手机开机振动后，连续按电源键5次进入。

@@ -10,7 +10,7 @@
 
 ## Recovery 模式
 
-* 使用 [ADB](../../tools/README.md#adb) 进入
+* 使用 [ADB](../../tools/index.md#adb) 进入
 
 ``` bash
 adb reboot recovery
