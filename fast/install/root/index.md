@@ -15,18 +15,13 @@
 * Vivo（敬请期待）
 :::
 
-* 关于 Root 以及这些工具的介绍：[[名词集] ROOT](../../../normal/noun.md#root)
+::: tip
+关于这些工具的详细介绍：[Root](../../../normal/root/index.md)
+:::
 
 ## 兼容性表格
 
-这是兼容性表格，您可以根据您的需求选择不同版本的工具进行 Root：
-
-| 工具名称       | 最低支持    | 最高支持      |
-| -------------- | ----------- | ------------- |
-| Magisk         | Android 5.0 | Android 13    |
-| KernelSU       | 内核 4.4    | 未知          |
-| SuperSU        | Android 2.3 | Android 7     |
-| 一键 Root 工具 | 未知        | Android 4.4.4 |
+<!--@include: ../../../normal/root/compatibility.md -->
 
 ## Magisk <Badge type="tip" text="推荐" />
 
@@ -43,6 +38,7 @@ Magisk，别名叫做“面具”
 ### 下载 Magisk
 
 * [GitHub Releases](https://github.com/topjohnwu/Magisk/releases/latest) <Badge type="tip" text="官方" />
+* [123云盘](https://www.123pan.com/s/G7a9-mjek.html) <Badge type="tip" text="本站搬运" />
 
 ### 安装 Magisk
 
@@ -58,7 +54,7 @@ Android 上的内核级的 root 方案，这是新型 root 方案。目前正在
   * [GitHub Releases](https://github.com/tiann/KernelSU/releases) <Badge type="tip" text="官方" />
   * [酷安](https://www.coolapk.com/apk/me.weishu.kernelsu) <Badge type="tip" text="官方" />
 * __安装__：
-  * [安装](https://kernelsu.org/zh_CN/guide/installation.html) - KernelSU <Badge type="tip" text="官方" />
+  * [官方教程](https://kernelsu.org/zh_CN/guide/installation.html) <Badge type="tip" text="官方" />
 * __相关链接__：
   * [官方网站](https://kernelsu.org/) <Badge type="tip" text="官方" />
   * [GitHub 仓库](https://github.com/tiann/KernelSU) <Badge type="tip" text="官方" />
@@ -66,12 +62,12 @@ Android 上的内核级的 root 方案，这是新型 root 方案。目前正在
 ## SuperSU
 
 ::: warning
+这是 Android 8 以及之前常用的 Root 获取方式
+
 此工具几乎不适用于现代所有的手机
 :::
 
 SuperSU，别名叫做“超级权限”
-
-这是 Android 9 之前常用的 Root 获取方式
 
 * __适用系统__: 未知（敬请期待）
 
@@ -90,10 +86,10 @@ SuperUser，别名叫做“超级用户”。
 ## 一键 Root 工具
 
 ::: warning
+这是 Android 5 之前常用的获取 Root 方法
+
 此方法几乎不适用于现代所有的手机，请不要对一键 Root 抱有希望。
 :::
-
-这是 Android 5 之前常用的获取 Root 方法
 
 主流的一键工具有
 
@@ -105,7 +101,7 @@ SuperUser，别名叫做“超级用户”。
 
 ### 手机端获取 Root
 
-打开一键 Root 工具后，点击「开始 ROOT」（或者其他按钮），等待 ROOT成 功即可
+打开一键 Root 工具后，点击「开始 ROOT」（或者其他按钮），等待 ROOT 成功即可
 
 ::: tip
 ROOT 过程中手机可能会重新启动，属于正常现象
@@ -125,14 +121,18 @@ ROOT 过程中手机可能会重新启动，属于正常现象
 
 在以前，许多 Rom 都内置了Root。比如 MIUI，百度云 OS 等，还有各种各样官改 ROM。您通常需要在设置内打开 Root 开关后即可使用 Root
 
-| ROM 名称    | 开启路径                                                  |
-| ----------- | --------------------------------------------------------- |
-| 百度云 OS   | 设置 > 安全 > Root申请 > 右上角开关打开                   |
-| 凤凰系统    | 开发者选项 > Root权限 > 开启 [查看详情][凤凰系统官方Root] |
-| 等待补充... | 等待补充...                                               |
+| ROM 名称                                           | 开启路径                                                                     |
+| -------------------------------------------------- | ---------------------------------------------------------------------------- |
+| MIUI 开发版 <Badge type="warning" text="老版本" /> | 设置 > 应用设置 > 应用管理 > 权限 > root权限 > 开启 [查看详情][MIUI官方Root] |
+| 百度云 OS                                          | 设置 > 安全 > Root申请 > 右上角开关打开                                      |
+| 凤凰系统                                           | 开发者选项 > Root权限 > 开启 [查看详情][凤凰系统官方Root]                    |
+| AOSP <Badge type="warning" text="部分版本" />      | 等待补充...                                                                  |
+| 等待补充...                                        | 等待补充...                                                                  |
 
 ## 参考链接
 
 * [免工具获取凤凰安卓系统PhoenixOS电脑ROOT权限][凤凰系统官方Root] - 百度经验
+* [小米手机开启root权限从头到尾的步骤][MIUI官方Root] - 知乎
 
 [凤凰系统官方Root]: https://jingyan.baidu.com/article/020278114e0fa01bcc9ce5ad.html
+[MIUI官方Root]: https://zhuanlan.zhihu.com/p/499270772

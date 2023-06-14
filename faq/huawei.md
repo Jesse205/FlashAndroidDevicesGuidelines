@@ -24,11 +24,11 @@
 
 如果你用的是网上的一键刷入工具，请将压缩包完全解压再运行bat脚本。注意是完全解压而不是直接运行压缩包里的脚本。
 
-## 刷TWRP报错partition length get error怎么办
+## 刷TWRP报错 `partition length get error` 怎么办
 
 具体原因未知，如果其他步骤没有问题，可以尝试用奇兔刷机刷（教程参考 查看链接 ），有些时候就可以。但是！请不要！刷奇兔刷机上的ROM或者用他救砖，变砖后果自负！
 
-## 刷完TWRP重启进入华为官方eRecovery，是不是没有刷进去
+## 刷完TWRP重启进入华为官方 eRecovery，是不是没有刷进去
 
 刷完TWRP请拔掉数据线再认真按照上边说的长按重启。如果进错了就再回Fastboot刷一次TWRP再重启。拔不拔线进的模式是不一样的。
 
@@ -59,4 +59,3 @@
 刷机有风险，操作需谨慎。本教程适用于大多数情况，但仍无法避免小部分机型不适用，望知晓。
 
 附上救砖教程一个：[查看链接](https://www.coolapk.com/feed/26205215?shareKey=ZjY1ZTBjY2E2MTdkNjA3Nzg5MjY~)
-

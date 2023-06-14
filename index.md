@@ -18,7 +18,7 @@ title: false
 > 如果您遇到文档中的错误，欢迎纠正！
 
 ::: warning
-在浏览本文档前，请先浏览《文档说明》（[点击此处开始浏览](help.md)）与[《注意事项》](./normal/note.md)，以防止您迷茫或翻车。
+在浏览本文档前，请先浏览[《文档说明》（点击此处开始浏览](./faq/documents.md)）与[《注意事项》](./normal/note.md)，以防止您迷茫或翻车。
 
 在浏览本文档时，请务必仔细文档内容。__因您操作失误导致的损失我们不负责。__
 
@@ -31,28 +31,28 @@ title: false
 刷机千万次，安全第一条<br>
 刷机不规范，机主两行泪
 
-[点击此处查看翻车案例](./rollover/README.md)
+[点击此处查看翻车案例](./rollover/index.md)
 :::
 
 ## 快速开始
 
-1. [解锁 Bootloader](./fast/unlock/README.md)
-2. [下载刷机包](./fast/download/README.md)
+1. [解锁 Bootloader](./fast/unlock/index.md)
+2. [下载刷机包](./fast/download/index.md)
 3. [刷入系统](./fast/flash/system.md)
 
 更多教程
 
 * [刷入 Recovery](./fast/flash/recovery.md)
-* [获取 Root](./fast/install/root/README.md)
-* [安装 Xposed](./fast/install/xposed/README.md)
+* [获取 Root](./fast/install/root/index.md)
+* [安装 Xposed](./fast/install/xposed/index.md)
 
 ## 基础知识
 
 1. 手机的选购
-2. [安装第三方软件](./normal/installApk/README.md) <Badge type="tip" text="不通过自带的应用市场" />
-3. [操作系统概览](./normal/systems/README.md)
+2. [安装第三方软件](./normal/installApk/index.md) <Badge type="tip" text="不通过自带的应用市场" />
+3. [操作系统概览](./normal/systems/index.md)
 4. [名词集](./normal/noun.md)
-5. [分区和映像](./normal/partitions/README.md)
+5. [分区和映像](./normal/partitions/index.md)
 6. [ADB 工具的使用](./tools/platform-tools.md#adb-工具)
 7. 刷机包的说明
 
@@ -60,7 +60,7 @@ title: false
 
 1. 更多名词集
 2. 系统分区及结构
-3. [工具的使用](./tools/README.md)
+3. [工具的使用](./tools/index.md)
 
 ### 编译属于自己的 ROM
 
@@ -78,9 +78,10 @@ title: false
 
 ## 其他内容
 
-* [翻车案例](./rollover/README.md)
+* [翻车案例](./rollover/index.md)
 * [常识问题与解答](./faq.md)
-* [常见问题与解答](./faq/README.md)
+* [常见问题与解答](./faq/index.md)
+* [常用工具](./tools/index.md)
 
 ### 常用社区
 
@@ -97,7 +98,7 @@ title: false
 * __[PixelExperience](https://download.pixelexperience.org/)__: 拥有 Pixel 的体验，附带谷歌的 APP。查看详情
 * ~~__[魔趣 ROM](https://www.mokeedev.com/)__: 中国的安卓开源系统。~~（已跑路）查看详情
 
-[查看更多](./normal/systems/README.md)
+[查看更多](./normal/systems/index.md)
 
 ### 常用 Recovery
 
@@ -105,31 +106,7 @@ title: false
 * __[OrangeFox Recovery](https://wiki.orangefox.tech/en/home)__: 精美的 Recovery
 * 还有一个叫什么来着，就是很早以前非常流行的rec
 
-查看更多
-
-### 常用工具
-
-#### 手机端
-
-* 权限管理工具
-  * [Shizuku](https://shizuku.rikka.app/zh-hans/): 让你的应用直接使用系统 API
-  * [Dhizuku](https://github.com/iamr0s/Dhizuku): 参考 Shizuku 的设计思想，分享 DeviceOwner (设备所有者) 权限给其余应用
-  * AppOps（开发者：Rikka）
-* 安装器
-  * R-安装
-* 文件管理
-  * MT管理器
-  * 质感文件
-* 工具箱
-  * 搞基工具箱
-
-查看更多
-
-#### 电脑端
-
-* MiFlash
-
-[查看更多](tools/README.md)
+[查看更多](./normal/recoveries/index.md)
 
 ## 参与贡献
 

@@ -1,17 +1,9 @@
-# Platform-Tools 工具使用说明
+# Platform-Tools 使用说明
 
 * [官方资料](https://developer.android.google.cn/studio/command-line/adb?hl=zh_cn)
 * [官网下载](https://developer.android.google.cn/studio/releases/platform-tools?hl=zh-cn#downloads)（Platform-Tools 内包含以下所有工具）
 
-* [下载教程](./index.md#adb-下载)
-
-## adb 工具
-
-Android 调试桥 (adb) 是一种功能多样的命令行工具，可让您与设备进行通信。adb 命令可用于执行各种设备操作，例如安装和调试应用。
-
-* [官方资料](https://developer.android.google.cn/studio/command-line/adb?hl=zh_cn)
-
-### ADB 下载
+## Platform-Tools 下载
 
 * [官网下载](https://developer.android.google.cn/studio/releases/platform-tools?hl=zh-cn#downloads)（Platform-Tools 内包含 ADB）
 
@@ -23,7 +15,9 @@ Android 调试桥 (adb) 是一种功能多样的命令行工具，可让您与�
 
 有关详细信息，请参阅 [adb 工具](./platform-tools.md#adb-工具)
 
-### 常用命令
+## ADB 工具
+
+### 常用 ADB 命令
 
 | 命令                       | 说明                                  |
 | -------------------------- | ------------------------------------- |
@@ -31,7 +25,7 @@ Android 调试桥 (adb) 是一种功能多样的命令行工具，可让您与�
 
 [adb安装]: ../normal/installApk/index.md#安装电脑或其他设备上的软件
 
-### adb 帮助文件adb安装
+### adb 帮助文件
 
 ::: details 原始帮助文件
 
@@ -208,5 +202,12 @@ options:
 
 ## 相关链接
 
-* [Android 调试桥 (adb)](https://developer.android.google.cn/studio/command-line/adb?hl=zh_cn) - Android 开发者
 * [命令的使用](../help.md)
+* [Android 调试桥 (adb)](https://developer.android.google.cn/studio/command-line/adb?hl=zh_cn) - Android 开发者
+* [SDK 平台工具版本说明](https://developer.android.google.cn/studio/releases/platform-tools?hl=zh-cn) - Android 开发者
+
+## 参考链接
+
+* [ADB](https://baike.baidu.com/item/ADB/23427792) - 百度百科
+* [Android 调试桥 (adb)](https://developer.android.google.cn/studio/command-line/adb?hl=zh_cn) - Android 开发者
+* [SDK 平台工具版本说明](https://developer.android.google.cn/studio/releases/platform-tools?hl=zh-cn) - Android 开发者

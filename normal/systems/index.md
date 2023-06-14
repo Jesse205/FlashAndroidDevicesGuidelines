@@ -1,11 +1,13 @@
 # 操作系统
 
-::: details 本页内容
-[[toc]]
-:::
+本页展示了一些常见的操作系统。您可以挑选一个适合您的操作系统
+
+::: tip
 
 * 如果您需要下载 ROM，请转到[《下载 ROM》](../../fast/download/index.md)。
-* 如果您需要刷入 ROM，请转到[《下载 ROM》](../../fast/flash/system.md)。
+* 如果您需要刷入 ROM，请转到[《刷入 ROM》](../../fast/flash/system.md)。
+
+:::
 
 ## 预装 ROM
 
@@ -117,6 +119,15 @@ Havoc-OS 是一个基于安卓开源项目的售后固件，其灵感来自于�
 * [查看详情](./havocos.md)
 * [官方网站](https://havoc-os.com/)
 * [官网下载](https://download.havoc-os.com/)
+
+### AOSP
+
+Android 将世界凝聚在一起。欢迎在您的设备上搭载 Android 开源操作系统。
+
+所有的 Android 系统都基于 AOSP
+
+* [官方网站](https://source.android.google.cn/?hl=zh-cn)
+* [GSI 官网下载](https://developer.android.google.cn/topic/generic-system-image/releases?hl=zh-cn)
 
 ### CyanogenMod <Badge type="danger" text="已停更" />
 
