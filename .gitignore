@@ -95,6 +95,11 @@ dist
 .cache
 .temp
 
+# vitepress build output
+.vitepress/dist
+.vitepress/cache
+
+
 # Serverless directories
 .serverless/
 
