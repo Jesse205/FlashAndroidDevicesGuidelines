@@ -1,0 +1,26 @@
+.screenshotList {
+    display: flex;
+    overflow: auto;
+}
+
+.screenshotList img {
+    margin: 2px;
+    width: 200px;
+    border: 1px solid var(--c-border);
+    border-radius: 4px;
+}
+
+
+.screenshotList.pad img {
+    width: 600px;
+}
+
+.banner-img {
+    width: 100%;
+    aspect-ratio: 740 / 186;
+    object-fit: contain;
+}
+
+.cover-img {
+    width: 100%;
+}
