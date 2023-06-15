@@ -1,9 +1,11 @@
 import { defineConfig } from 'vitepress'
-import { DefaultTheme } from 'vitepress/types/default-theme.d'
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  lang: 'zh-CN',
   title: "刷机指南",
   description: "不仅仅是刷机指南",
+  lastUpdated: this,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     outlineTitle: '本页内容',
@@ -22,8 +24,8 @@ export default defineConfig({
         activeMatch: '/fast/',
         items: [
           { text: '解锁 Bootloader', link: '/fast/unlock/', },
-          { text: '下载刷机包', link: '/fast/download/' },
-          { text: '刷入系统', link: '/fast/flash/system.html' },
+          { text: '下载 ROM', link: '/fast/download/' },
+          { text: '刷入 ROM', link: '/fast/flash/system.html' },
           {
             text: '更多教程',
             items: [
@@ -39,10 +41,11 @@ export default defineConfig({
         activeMatch: '/normal/',
         items: [
           // { text: '选购设备', link: '#' },
-          { text: '安装软件', link: '/normal/installApk/' },
-          { text: '操作系统', link: '/normal/systems/' },
           { text: '名词集', link: '/normal/noun.html' },
+          { text: '操作系统', link: '/normal/systems/' },
           { text: '分区和映像', link: '/normal/partitions/' },
+          { text: '各种模式', link: '/normal/modes/' },
+          { text: '安装软件', link: '/normal/installApk/' },
           // { text: '刷机包', link: '#' },
         ]
       },
@@ -51,8 +54,7 @@ export default defineConfig({
         activeMatch: '/details/',
         items: [
           // { text: '高级名词集', link: '#' },
-          // { text: '系统分区及结构', link: '#' },
-          { text: '工具的使用', link: '/tools/' },
+          // { text: '系统分区及结构', link: '#' },,
           {
             text: '编译 ROM',
             items: [
@@ -67,12 +69,13 @@ export default defineConfig({
       },
       {
         text: '其他内容',
-        activeMatch: '/faq/|/rollover/|/tools/',
+        activeMatch: '/faq/|/tools/|/rollover/|/rescuing/',
         items: [
           { text: '常见问题与解答', link: '/faq/' },
           { text: '基本知识', link: '/faq/knowledge.html' },
-          { text: '翻车案例', link: '/rollover/' },
           { text: '常用工具', link: '/tools/' },
+          { text: '翻车案例', link: '/rollover/' },
+          { text: '救砖指南', link: '/rescuing/' },
         ]
       }
     ],
@@ -90,7 +93,7 @@ export default defineConfig({
               ]
             },
             { text: '下载 ROM', link: '/fast/download/' },
-            { text: '刷入系统', link: '/fast/flash/system.html' },
+            { text: '刷入 ROM', link: '/fast/flash/system.html' },
           ],
         },
         {
@@ -115,13 +118,6 @@ export default defineConfig({
             { text: 'Havoc OS', link: '/normal/systems/havocos.html' },
             { text: 'Windows', link: '/normal/systems/windows.html' },
             { text: '百度云 OS', link: '/normal/systems/baiduos.html' },
-            // '/normal/systems/harmonyos.html',
-            // '/normal/systems/miui.html',
-            // '/normal/systems/lineageos.html',
-            // '/normal/systems/pixelexperience.html',
-            // '/normal/systems/havocos.html',
-            // '/normal/systems/windows.html',
-            // '/normal/systems/baiduos.html',
           ],
         },
       ],
@@ -129,11 +125,11 @@ export default defineConfig({
         {
           text: '基础知识',
           items: [
+            { text: '名词集', link: '/normal/noun.html' },
             { text: '操作系统', link: '/normal/systems/' },
-            // '/normal/installApk/',
-            // '/normal/systems/',
-            // '/normal/noun.html',
-            // '/normal/partitions/',
+            { text: '分区和映像', link: '/normal/partitions/' },
+            { text: '各种模式', link: '/normal/modes/' },
+            { text: '安装软件', link: '/normal/installApk/' },
           ],
         },
       ],
@@ -178,5 +174,8 @@ export default defineConfig({
         }
       }
     }
+  },
+  markdown: {
+    lineNumbers: true,
   }
 })

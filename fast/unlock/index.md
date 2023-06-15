@@ -1,3 +1,8 @@
+---
+next:
+  text: '下载 ROM'
+  link: '../download/'
+---
 # 解锁 Bootloader
 
 ::: details 本页内容

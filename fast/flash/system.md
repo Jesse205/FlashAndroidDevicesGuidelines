@@ -1,3 +1,8 @@
+---
+prev:
+  text: '下载 ROM'
+  link: '../download/'
+---
 # 刷入 ROM
 
 刷入 ROM 之前，请确保您的手机已解锁。如果您的手机未解锁，[请先解锁](../unlock/index.md)。

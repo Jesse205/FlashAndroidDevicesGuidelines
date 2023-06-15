@@ -1,8 +1,13 @@
-# 下载 ROM
+---
+prev:
+  text: '解锁 Bootloader'
+  link: '../unlock/'
+next:
+  text: '刷入 ROM'
+  link: '../flash/system.html'
+---
 
-::: details 本页内容
-[[toc]]
-:::
+# 下载 ROM
 
 本章展示了主流ROM的下载地址。在下载之前，您可以对比先[选择一下您比较感兴趣的系统](../../normal/systems/index.md)。
 
@@ -10,6 +15,10 @@
 
 1. 官网下载：官方维护的版本，比较放心，并且 ROM 基本保持一致
 2. 刷机论坛下载：可能是第三方维护的版本。下载到的 ROM 可能不支持在线升级，并且 ROM 内可能经过 ROM 作者的定制
+
+::: tip
+第三方 ROM 可能会导致刷机不开机，建议初学者使用与手机系统相同版本的官改 ROM 试试水。
+:::
 
 ## 预装 ROM
 
@@ -36,7 +45,7 @@ __第三方下载__：
 * [MIUIROM.org](https://miuirom.org/)
 * [Xiaomiom.com](https://xiaomirom.com/)
 
-### ColorOS、氢 OS、氧 OS - Oppo、OnePlus
+### ColorOS/氢 OS/氧 OS - Oppo/OnePlus
 
 __官方下载__：
 
@@ -54,9 +63,9 @@ __官方下载__：
 
 * [Software&Driver Update](https://www.realme.com/in/support/software-update)（Reamle UI 国际版）
 
-### EMUI/HarmonyOS - 华为
+### EMUI/HarmonyOS/MagicUI/MagicOS - 华为/荣耀
 
-* [更多信息](../../normal/systems/harmonyos.md)
+* [HarmonyOS 更多信息](../../normal/systems/harmonyos.md)
 
 __官方下载__：
 

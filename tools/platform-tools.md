@@ -2,28 +2,35 @@
 
 * [官方资料](https://developer.android.google.cn/studio/command-line/adb?hl=zh_cn)
 * [官网下载](https://developer.android.google.cn/studio/releases/platform-tools?hl=zh-cn#downloads)（Platform-Tools 内包含以下所有工具）
+* [Android_SDK_Platform_Tools_v33.0.0.exe](https://www.123pan.com/s/G7a9-4pek) - 123 云盘 <Badge type="tip" text="本站封装" />
 
 ## Platform-Tools 下载
 
 * [官网下载](https://developer.android.google.cn/studio/releases/platform-tools?hl=zh-cn#downloads)（Platform-Tools 内包含 ADB）
 
-下载完成之后，您可以按照这篇违章配置环境变量：[《Win11配置ADB环境变量教程》](https://zhuanlan.zhihu.com/p/433391556)
+<div class="screenshotList pad">
+<img src="./images/platform-tools/download_link.jpg" alt="1. 找到下载链接" title="1. 找到下载链接"/>
+<img src="./images/platform-tools/download_accept.jpg" alt="2. 同意许可" title="2. 同意许可"/>
+</div>
+
+> 官方 Platform-Tools 下载下来是绿色版本。您可以将下载下来压缩包解压到任何地方，但是一定不要删除这些文件！
+
+下载完成之后，您可以按照这篇文章配置环境变量：[《Win11配置ADB环境变量教程》](https://zhuanlan.zhihu.com/p/433391556)
+
+::: tip
+如果您只是临时使用，您可以直接在地址栏中输入 `cmd` ，在当前目录下启动命令提示符，直接使用有关组件。
+
+![直接运行CMD](./images/platform-tools/run_cmd_directly.jpg)
+
+:::
 
 您也可以下载第三方封装好的版本，傻瓜式安装：
 
-* [Android_SDK_Platform_Tools_v33.0.0.exe](https://www.123pan.com/s/G7a9-4pek) -  Jesse205 打包
-
-有关详细信息，请参阅 [adb 工具](./platform-tools.md#adb-工具)
+* [Android_SDK_Platform_Tools_v33.0.0.exe](https://www.123pan.com/s/G7a9-4pek) - 123 云盘 <Badge type="tip" text="本站封装" />
 
 ## ADB 工具
 
-### 常用 ADB 命令
-
-| 命令                       | 说明                                  |
-| -------------------------- | ------------------------------------- |
-| `adb install -r myapp.apk` | 重新安装 `myapp.apk` 安装包并保留数据。[更多详情][adb安装] |
-
-[adb安装]: ../normal/installApk/index.md#安装电脑或其他设备上的软件
+有关 ADB 工具的更多用法，请参考[《ADB 介绍》](../normal/adb/index.md)
 
 ### adb 帮助文件
 
@@ -202,7 +209,7 @@ options:
 
 ## 相关链接
 
-* [命令的使用](../help.md)
+* [命令的使用](../faq/documents.md#命令的使用)
 * [Android 调试桥 (adb)](https://developer.android.google.cn/studio/command-line/adb?hl=zh_cn) - Android 开发者
 * [SDK 平台工具版本说明](https://developer.android.google.cn/studio/releases/platform-tools?hl=zh-cn) - Android 开发者
 
@@ -211,3 +218,4 @@ options:
 * [ADB](https://baike.baidu.com/item/ADB/23427792) - 百度百科
 * [Android 调试桥 (adb)](https://developer.android.google.cn/studio/command-line/adb?hl=zh_cn) - Android 开发者
 * [SDK 平台工具版本说明](https://developer.android.google.cn/studio/releases/platform-tools?hl=zh-cn) - Android 开发者
+* [【小白搞机入门】第四期-配置adb环境和fastboot环境（Android SDK）](https://www.coolapk.com/feed/42768600?shareKey=MWVmYTc4NjFjZjVhNjQ4YTAwMjA~)

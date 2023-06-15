@@ -55,7 +55,7 @@ __作用：__
 
 __相关链接：__
 
-* [解锁 Bootloader](/fast/unlock.md)
+* [解锁 Bootloader](../fast/unlock/index.md)
 
 ### 锁屏锁
 
@@ -93,7 +93,11 @@ Android 设备包含若干个分区，这些分区在启动过程中发挥不同
 ## ROM、RAM
 
 * __RAM__：全称 Random Access Memory，中文名随即存取存储器，是与 CPU 直接交互的存储结构，可以随意读取或写入，具有数据易丢失性（断电时存储在RAM中的数据会丢失），可以理解为 ROM 和 CPU 之间的临时桥梁，即运行内存。
-* __ROM__：全称 Read Only Memory，中文名只读存储器，是手机的内部储存空间，存放着 Android 系统的所有分区及文件，当某文件需要交予 CPU 进行处理时，则需要先行写入 RAM 中，再被 CPU 所读取。（tip：刷机包也被称为 ROM 包，或简称为 ROM，也就是一个存放系统文件的文件包）
+* __ROM__：全称 Read Only Memory，中文名只读存储器，是手机的内部储存空间，存放着 Android 系统的所有分区及文件，当某文件需要交予 CPU 进行处理时，则需要先行写入 RAM 中，再被 CPU 所读取。
+
+::: tip
+刷机包也被称为 ROM 包，或简称为 ROM，也就是一个存放系统文件的文件包。
+:::
 
 RAM 的性能和价格等各方面都高于 ROM，当然在手机上搭载的空间也更小。
 
@@ -103,10 +107,9 @@ ROM 的性能更弱，但是在空间大小和价格方面优势明显。
 
 相关链接：
 
-* [获取 Root](../fast/install/root/index.md)
 * [Root 介绍](./root/index.md)
-
-Root，也称为根用户，是 Unix (如 Solaris、AIX、BSD）和类 UNIX 系统(如 Linux、QNX 等)，及 Android 和 iOS 移动设备系统中的唯一的超级用户，因其可对根目录执行读写和执行操作而得名。其具有系统中的最高权限。（摘自[百度百科](https://baike.baidu.com/item/root/73226)）
+* [百度百科](https://baike.baidu.com/item/root/73226)
+* [获取 Root](../fast/install/root/index.md)
 
 一般来说，ROOT 可以表示一种较高级的 Android 用户权限，即“根权限”。也可以表示获取根权限的动作。
 
@@ -114,18 +117,7 @@ Android 删除了 `su` 程序，所以 Root 的过程就是把 `su` 文件放到
 
 ROOT 的权限高于 [ADB（Android Debug Bridge）](../tools/platform-tools.md#adb-工具)权限，因此 ADB 无法完全代替 ROOT。
 
-::: tip
-您可以使用 [Shizuku](https://shizuku.rikka.app/zh-hans/) 将 ADB 权限共享给其他应用
-:::
-
-* __常见 ROOT 工具及 ROOT 管理工具__：
-  * __Magisk__（内置 MagiskSU）: Magisk，别名叫做“面具”。这是目前主流的 Root 方式。<Badge type="tip" text="推荐" />
-  * __KernelSU__: 这是新型 Root 方式。目前正在完善。<Badge type="tip" text="推荐" />
-  * __SuperSU__: SuperSU，别名为“超级权限”。这是 Android 8.0 及之前管理 Root 的工具。<Badge type="warning" text="现如今几乎不可用" />
-  * __SuperUser__: SuperUser，别名为“超级用户”，这是很多官方系统内置的授权管理工具（如 Phoenix OS，VMOS，天天模拟器）
-  * __一键 Root 工具__:这是 Android 5 之前常用的获取 Root 方法 <Badge type="warning" text="现如今几乎不可用" />
-* __兼容性__：
-  * [兼容性表格](../fast/install/root/index.md#兼容性表格)
+Root 有很多工具，常见的有：Magisk、KernelSU
 
 ::: tip
 有关 Magisk、KernelSU 等更多内容，请参考[《Root》](./root/index.md)。
@@ -147,7 +139,7 @@ Type-c 是一种既可以应用于 PC (主设备)又可以应用于外部设备(
 
 #### Micro-USB 接口
 
-Micro-USB 是一种 USB2.0 标准接口，是 Mini-USB 的下一个版本
+Micro-USB 是一种 USB 2.0 标准接口，是 Mini-USB 的下一个版本
 
 ## 命令与终端
 
@@ -174,6 +166,10 @@ Micro-USB 是一种 USB2.0 标准接口，是 Mini-USB 的下一个版本
 ![Windows 终端](./images/terminal/windows_terminal.png)
 
 如果您使用的是 Windows 11+，您可以根据[《Windows11 设置 CMD 默认使用 Windows Terminal 启动》](https://blog.csdn.net/no1xium/article/details/123213625)将默认终端程序设置为 Windows 终端。
+
+::: tip
+一般情况下，您可以直接将文件拖入终端内，快速输入文件路径
+:::
 
 #### MacOS
 

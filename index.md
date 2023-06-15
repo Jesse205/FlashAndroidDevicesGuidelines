@@ -53,14 +53,13 @@ title: false
 3. [操作系统概览](./normal/systems/index.md)
 4. [名词集](./normal/noun.md)
 5. [分区和映像](./normal/partitions/index.md)
-6. [ADB 工具的使用](./tools/platform-tools.md#adb-工具)
+6. [ADB 工具的使用](./normal/adb/index.md)
 7. 刷机包的说明
 
 ## 深入“刷机”
 
 1. 更多名词集
 2. 系统分区及结构
-3. [工具的使用](./tools/index.md)
 
 ### 编译属于自己的 ROM
 
@@ -79,9 +78,9 @@ title: false
 ## 其他内容
 
 * [翻车案例](./rollover/index.md)
-* [常识问题与解答](./faq.md)
 * [常见问题与解答](./faq/index.md)
 * [常用工具](./tools/index.md)
+* [基本知识](./faq/knowledge.md)
 
 ### 常用社区
 

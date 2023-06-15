@@ -49,4 +49,4 @@ Android 8.0 以前刷机需要连同 `boot.img` 一起刷入。之后由于引�
 
 ## 参考链接
 
-* [分区和映像](https://source.android.google.cn/docs/core/architecture/bootloader/partitions-images?hl=zh_cn) Android 开源项目
+* [分区和映像](https://source.android.google.cn/docs/core/architecture/bootloader/partitions-images?hl=zh_cn) - Android 开源项目

@@ -1,6 +1,6 @@
 # 获取 Root
 
-获取Root的方式有好多种，获取 Root 的工具也有好多种。本文章按照 Root 工具的顺序展开编写
+获取Root的方式有好多种，获取 Root 的工具也有好多种。本文章按照 Root 工具的顺序展开编写。
 
 本文章给出了很多链接。您可以点击那些链接查看更专业的教程。
 
@@ -31,7 +31,6 @@ Magisk，别名叫做“面具”
 
 * __适用系统__：Android 5.0 - Android 13
 * __相关链接__：
-  * [[名词集] Magisk](../../../normal/noun.md#magisk)
   * [Github 仓库](https://github.com/topjohnwu/Magisk) <Badge type="tip" text="官方" />
   * [Magisk 中文文档](https://jesse205.github.io/MagiskChineseDocument/)
 
@@ -74,8 +73,8 @@ SuperSU，别名叫做“超级权限”
 ### 下载 SuperSU
 
 * [非官方下载](https://supersuroot.org/download/)
-* [123 云盘下载](https://www.123pan.com/s/G7a9-mpek)（搬运）
-* [百度网盘下载](https://pan.baidu.com/s/1D-xltDWSZHZmKbqULMknsw?pwd=jxnb)（提取码：jxnb）（搬运）
+* [123 云盘下载](https://www.123pan.com/s/G7a9-mpek) <Badge type="tip" text="本站搬运" />
+* [百度网盘下载](https://pan.baidu.com/s/1D-xltDWSZHZmKbqULMknsw?pwd=jxnb) <Badge type="tip" text="提取码：jxnb" /> <Badge type="warning" text="本站搬运但未知安全性" />
 
 ## SuperUser
 

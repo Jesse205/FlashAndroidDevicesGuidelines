@@ -6,7 +6,7 @@ Root，也称为根用户，是 Unix (如 Solaris、AIX、BSD）和类 UNIX 系�
 
 Android 删除了 `su` 程序，所以 Root 的过程就是把 `su` 文件放到 `/system/bin/` ，`Superuser.apk` 放到 `/system/app` 下面，还需要设置一些权限。（Android 5.0 之前的方法）
 
-ROOT 的权限高于 [ADB（Android Debug Bridge）](../tools/platform-tools.md#adb-工具)权限，因此 ADB 无法完全代替 ROOT。
+ROOT 的权限高于 [ADB（Android Debug Bridge）](../../tools/platform-tools.md#adb-工具)权限，因此 ADB 无法完全代替 ROOT。
 
 ::: tip
 
@@ -78,7 +78,7 @@ __相关链接：__：
 
 ## 相关链接
 
-* [获取 Root](../fast/install/root/index.md)
+* [获取 Root](../../fast/install/root/index.md)
 
 ## 参考链接
 

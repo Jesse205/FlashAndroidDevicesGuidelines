@@ -11,10 +11,12 @@
 
 这个 Recovery 就是[我们常见的 Recovery](./index.md#recovery-模式)。
 
-### 进入 Recovery 模式的方法
-
-* 支持[通用方法](./index.md#recovery-模式)，但是通过音量键进入的时候稍微不一样。
-* 不连接电脑，关机状态长按电源键和音量加，出现 logo 后只松开电源键，直到进入
+* 进入方法：
+  * 支持[通用方法](./index.md#recovery-模式)，但是通过音量键进入的时候稍微不一样。
+  * 不连接电脑，关机状态长按电源键和音量加，出现 logo 后只松开电源键，直到进入。
+* 退出方法：
+  * 与[通用方法](./index.md#recovery-模式)保持一致。
+* 分区名：`recovery`（EMUI 5 及之前）、`recovery_ramdisk`（EMUI 8 及以后）
 
 ## eRecovery 模式 <Badge type="tip" text="EMUI4.0+" />
 
@@ -22,16 +24,12 @@ eRecovery 是华为特有专门用于恢复操作系统的 recovery 模式。在
 
 eRecovery 只有下载系统恢复包并恢复的作用，其他的清除数据这些操作都是自动重启到 Recovery 后操作的。因此如果您的 Recovery 已损坏，请不要尝试在此模式下清除数据，否则可能会造成严重事故。
 
+* 进入方法：
+  * 将手机使用数据线连接到电脑，然后长按 音量增大 + 电源键 进入 eRecovery 模式
+  * 也可以使用此下命令进入：`adb reboot erecovery`
+* 退出方法：
+  * 与 [Recovery](#recovery-模式) 的退出方法保持一致
 * 分区名：`erecovery`（EMUI 5 及之前）、`erecovery_ramdisk`（EMUI 8 及以后）
-
-### 进入 eRecovery 模式的方法
-
-* 将手机使用数据线连接到电脑，然后长按 音量增大 + 电源键 进入 eRecovery 模式
-* 也可以使用以下命令进入此模式
-
-``` shell
-adb reboot erecovery
-```
 
 ::: tip
 使用 eRecovery 救砖时，可能因为华为撤包导致无法使用
@@ -44,9 +42,19 @@ adb reboot erecovery
 
 :::
 
+## 升级模式（三键强刷）
+
+升级模式是 Recovery 的一部分，第三方 Recovery 可能会破坏此模式。
+
+* 进入方法：
+  * 关机状态下，长按电源键、音量加和音量减。插不插线无所谓。（部分第三方Recovery只支持不插线进入）
+* 退出方法：
+  * 点击界面中的“确定”、“关机”或“重启”按钮
+  * 长按电源键强制重启 <Badge type="warning" text="可能损坏系统" />
+
 ## 安全模式
 
-* 支持[通用方法](./index.md#安全模式)，但是不支持在电源菜单中长按进入
+* 支持[通用方法](./index.md#安全模式)，但是不支持在电源菜单中长按进入。
 * EMUI 9.1 及以上版本是开机过程中长按电源键和音量上键。
 * EMUI 9.1 以下版本在开机过程中同时电源键和音量下键完成开机。
 * Mate30 Pro 系列是手机开机振动后，连续按电源键5次进入。

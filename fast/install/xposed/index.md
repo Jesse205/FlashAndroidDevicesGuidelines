@@ -11,17 +11,17 @@ Xposed 框架是一套开放源代码的、在Android高权限模式下运行的
 | Xposed Framework | Android 8.1-                | X       | V    |
 | 太极             | ？                          | 太极阴  | ？   |
 
-## LSPose d<Badge type="tip" text="推荐" />
+## LSPosed <Badge type="tip" text="推荐" />
 
 * [仓库地址](https://github.com/LSPosed/LSPosed)
-* [文档](https://github.com/LSPosed/LSPosed/wiki)（官方）
+* [文档](https://github.com/LSPosed/LSPosed/wiki) <Badge type="tip" text="官方" />
 
 ## EdXposed
 
 基于 Riru 的 ART hook 框架 (最初用于 Android Pie) ，提供与原版 Xposed 相同的 API, 使用 YAHFA (或 SandHook) 进行 hook, supports Android 8.0 ~ 11.
 
 * [仓库地址](https://github.com/ElderDrivers/EdXposed)
-* [文档](https://github.com/ElderDrivers/EdXposed/wiki)（官方）
+* [文档](https://github.com/ElderDrivers/EdXposed/wiki) <Badge type="tip" text="官方" />
 
 ### 下载 EdXposed
 

@@ -4,24 +4,7 @@
 
 ## 开始之前先来了解一些必备技能
 
-### 华为的各个模式
-
-* __Recovery__：不连接电脑，关机状态长按电源键和音量加，出现 logo 松开电源键继续按住音量加，直到进入。
-* __eRecovery__：用数据线连接电脑的情况下，关机状态长按电源键和音量加
-Fastboot：用数据线连接电脑的情况下，关机状态长按电源键和音量减
-升级模式（所谓三键强刷）：关机状态下，长按电源键，音量加和音量减。插不插线无所谓。
-
-Recovery 和 eRecovery 是有区别的。
-
-Recovery 就是我们熟知的那个 Recovery，而 eRecovery 是独立于 Recovery 的另一个 Recovery 分区。也就是说华为相当于有两个恢复模式。
-
-二者功能不同，在 Recovery 里我们可以做恢复出厂，清除 cache 等本地操作，而在 eRecovery 里可以连接 WiFi 下载适用于你的手机的系统包并自动安装恢复。
-
-刷 TWRP 只是替换掉了 Recovery，eRecovery 仍然保留。
-
-::: tip
-使用 eRecovery 救砖时，可能因为华为撤包导致无法使用
-:::
+* [华为的各个模式](../../../../normal/modes/huawei.md)
 
 ## 准备的东西
 
@@ -30,42 +13,24 @@ Recovery 就是我们熟知的那个 Recovery，而 eRecovery 是独立于 Recov
 * [数据线](../../../../normal/noun.md)
 * [ADB工具包](../../../../tools/platform-tools.md#adb-下载)
 * [Magisk](index.md#下载-magisk)
-* SuperSU（安卓4到6使用）
+* SuperSU（安卓 4 到 6 使用）
 * 以及一双灵巧的双手。
 
 ## 解锁步骤
 
 ### 一、解锁BL锁
 
-这是首要且必要的条件。手机进入Fastboot模式，如果显示红色Unlocked即为已解锁，显示绿色Locked即为未解锁，需要解锁。
+这是首要且必要的条件。手机进入Fastboot模式，如果显示红色 `Unlocked` 即为已解锁，显示绿色 `Locked` 即为未解锁，需要解锁。
 
-解锁需要解锁码。还没有解锁码的机油可以[获取解锁码](https://www.coolapk.com/feed/25219974?shareKey=ZDc3M2ExYmZlNjQ2NjA3MTc2ZGY~)。
-
-获取到解锁码后连接电脑，进入 Fastboot 模式，打开adb工具包里的命令行，输入指令：
-
-``` shell
-fastboot oem unlock 解锁码
-```
-
-假如你的解锁码是16个0，那就应该输入：
-
-``` shell
-fastboot oem unlock 0000000000000000
-```
-
-然后回车。老一点的机型一般直接就解锁了，新一点的手机上可能会出现这样的提示：
-
-这时按音量加键调整到 Yes，再按电源键确认就可以了。如果手机重启或低级格式化，最终 Fastboot 上显示红色 Unlocked，即为解锁成功。
-
-注意，解锁会清除手机里所有数据，请提前做好数据备份。解锁之前请关闭查找手机（不要只退出账号）否则无法解锁。解锁后出现黄色开机警告为正常现象。
+请参考[《华为解锁》](../../../unlock/huawei.md)
 
 ### 二、刷入 TWRP
 
-首先你要找到适用于你手机的TWRP。比如我要找荣耀7的，那就百度“荣耀7TWRP”，就能找到很多：
+首先你要找到适用于你手机的 TWRP。比如我要找荣耀7的，那就百度“荣耀7TWRP”，就能找到很多：
 
-这么多TWRP选哪个，我个人首推花粉俱乐部里发布的，品质有保障。
+这么多 TWRP 选哪个，我个人首推花粉俱乐部里发布的，品质有保障。
 
-> 向HRT团队致敬！
+> 向 HRT 团队致敬！
 
 下载之后如果是zip格式压缩包，就全部解压，里面一般有一键刷入.bat或者Run.bat之类的一键刷入脚本。运行它按照提示刷入即可。
 
@@ -100,7 +65,7 @@ adb sideload 此处拖入合适的Root包
 
 然后回车，等待刷入完成。
 
-adb sideload刷面具
+adb sideload 刷面具
 
 完成后就可以开机了。如果开机之后弹出面具/SuperSU安装提示，安装就是了。如果开机桌面上没有面具/SuperSU也没关系，打开面具/SuperSU的zip包，打开common文件夹，找到Magisk.apk或Superuser.apk解压出来，开文件传输复制到手机里安装即可。
 

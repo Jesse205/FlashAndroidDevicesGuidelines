@@ -19,7 +19,7 @@
     /* Badges */
     --vp-badge-tip-border: var(--vp-c-brand-dark);
     --vp-badge-tip-text: var(--vp-c-brand);
-    --vp-badge-tip-bg: var( --c-google-blue-50-alpha);
+    --vp-badge-tip-bg: var(--c-google-blue-50-alpha);
 
     /* Custom Blocks */
     --vp-custom-block-tip-border: var(--vp-c-brand);
@@ -33,4 +33,12 @@
 ::selection {
     background-color: var(--vp-c-brand);
     color: white;
+}
+
+.medium-zoom-overlay {
+    z-index: 1000;
+}
+
+.medium-zoom-image--opened {
+    z-index: 1000;
 }

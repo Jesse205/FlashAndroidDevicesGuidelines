@@ -33,3 +33,5 @@ fastboot oem unlock <解锁码>
 
 ![错误示例](./images/demo/command/replace/wrong.png)
 ![正确示例](./images/demo/command/replace/correct.png)
+
+如果您有其他命令相关问题，请参考[《命令相关问题》](./index.md#命令相关问题)
