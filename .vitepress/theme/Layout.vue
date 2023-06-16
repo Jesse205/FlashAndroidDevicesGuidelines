@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import mediumZoom from 'medium-zoom'
+import mediumZoom, { ZoomOptions } from 'medium-zoom'
 import { Zoom } from 'medium-zoom'
 import DefaultTheme from 'vitepress/theme'
 import { nextTick, onBeforeUnmount, onMounted } from 'vue'
@@ -8,6 +8,10 @@ const { Layout } = DefaultTheme
 
 // Zoom
 const SELECTOR = '.content-container :not(a) > img:not([data-emoji])'
+const OPTIONS: ZoomOptions = {
+    background: 'var(--vp-backdrop-bg-color)',
+    margin: 16
+}
 let zoom: Zoom
 
 /**
@@ -18,7 +22,7 @@ function updateZoom() {
         if (zoom) {
             zoom.detach()
         }
-        zoom = mediumZoom(SELECTOR)
+        zoom = mediumZoom(SELECTOR, OPTIONS)
         zoom.attach()
     })
 }

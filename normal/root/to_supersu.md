@@ -4,6 +4,8 @@
 
 > 接管会立即生效，但重启后就失效。想要重启后依然是 SuperSU 管理 root 权限，则需要执行额外的第 6、7 步。
 
+## 操作步骤
+
 1. 从酷安或者其他的地方下载并安装 SuperSU 软件。
 2. 使用 `getenforce` 命令查看当前 SELinux 的开启状态。
    * 如果显示 `Disabled` 或 `Permissive` 则说明 SELinux 是关闭的。

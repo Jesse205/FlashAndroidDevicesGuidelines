@@ -41,4 +41,68 @@
 
 .medium-zoom-image--opened {
     z-index: 1000;
+    background-color: var(--vp-c-bg);
+}
+
+/* 背景模糊 */
+:root {
+    --vp-nav-bg-color: var(--vp-c-bg);
+    --vp-c-bg-elv: var(--vp-nav-bg-color);
+    --vp-c-bg-alt: #f6f6f799;
+    --vp-c-bg: #ffffffcc;
+    --vp-backdrop-bg-color: rgba(0, 0, 0, .1)
+}
+.dark{
+    --vp-c-bg: #1e1e2099;
+    --vp-c-bg-elv: #25252966;
+    --vp-c-bg-alt: #16161866;
+}
+
+.VPLocalNav::before,
+.VPNavBar.fill .content-body::before,
+.VPLocalNav .items,
+.VPNavBarExtra .menu,
+.VPFlyout .menu,
+.shell,
+.medium-zoom-image--opened {
+    backdrop-filter: blur(16px);
+}
+
+.VPFlyout .menu{
+    border-radius: 12px;
+}
+
+/* 搜索框添加阴影 */
+.shell,
+.medium-zoom-image--opened {
+    box-shadow: var(--vp-shadow-4);
+}
+
+/* VPLocalNav与VPNavBar不能直接添加模糊，否则会使子元素失效 */
+.VPLocalNav::before,
+.VPNavBar.fill .content-body::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+/* 将白色阴影改为下划线 */
+.VPNavBar.has-sidebar .curtain {
+    border-bottom: 1px solid transparent;
+    height: 1px !important;
+    bottom: 0px !important;
+}
+
+.VPNavBar.fill.has-sidebar .curtain {
+    border-bottom-color: var(--vp-c-gutter);
+}
+
+.VPNavBar.has-sidebar .curtain::before {
+    content: unset !important;
+}
+
+.VPNavBar.fill {
+    background: none !important;
 }

@@ -129,6 +129,8 @@ Root 有很多工具，常见的有：[Magisk](./root/index.md#magisk)、[Kernel
 
 关于它们的定义，您可以查看[《Windows 控制台和终端定义》](https://learn.microsoft.com/zh-cn/windows/console/definitions)。
 
+如果您想快速了解相关知识，建议观看尚硅谷的[《NodeJS入门：认识命令行工具》](https://www.bilibili.com/video/BV1gM411W7ex?p=6&vd_source=8a0088dd008c1b931f40fb1033994f70)视频
+
 本文档内[所有的命令都在终端内输入](../faq/documents.md#命令的使用)。
 
 ### 关于终端
@@ -138,21 +140,27 @@ Root 有很多工具，常见的有：[Magisk](./root/index.md#magisk)、[Kernel
 #### Windows 终端
 
 1. 点击开始菜单或按 「Windows 徽标键+R」
-2. 输入 `cmd` ，并打开或按下回车键
+2. 输入 `cmd` ，并按下回车键
 3. 在接下来弹出的窗口中输入您的指令
 
 想要退出时直接关闭窗口即可
 
-这是一个 Windows CMD 窗口（严格上来说是“控制台窗口主机”）的截图：
-![Windows CMD](./images/terminal/windows_cmd.png)
+这是一个 Windows 控制台窗口主机 窗口（严格上来说是“控制台窗口主机”）的截图：
+![Windows 控制台窗口主机](./images/terminal/windows_cmd.png)
 
 这是一个 Windows 终端的截图：
 ![Windows 终端](./images/terminal/windows_terminal.png)
 
-如果您使用的是 Windows 11+，您可以根据[《Windows11 设置 CMD 默认使用 Windows Terminal 启动》](https://blog.csdn.net/no1xium/article/details/123213625)将默认终端程序设置为 Windows 终端。
+如果您使用的是 Windows 11+，您可以根据[《Windows11 设置 CMD 默认使用 Windows Terminal 启动》](https://blog.csdn.net/no1xium/article/details/123213625)将默认终端程序设置为 Windows 终端，这样您打开 CMD 时会自动打开更好看的 Windows 终端。
 
 ::: tip
 一般情况下，您可以直接将文件拖入终端内，快速输入文件路径
+:::
+
+::: tip
+若使用 Powershell 而非 CMD，如果您想运行工作目录下的软件，请在每行命令前加 `./`。
+
+如果您不知道上面这句话是什么意思，那就不要使用 Powershell。
 :::
 
 #### MacOS 终端
