@@ -57,8 +57,8 @@ fastboot oem unlock <解锁码>
 
 ## 检查是否已解锁
 
-* __fastboot 状态__: 如果显示红色的 `PHONE Unlocked`
-* __开机第一屏之后__: 如果显示 `Your device has been unlocked and can't be trusted.` ，并且提示文字为橙色，则说明手机解锁成功
+* __fastboot 状态__: 如果显示红色的 `PHONE Unlocked`。
+* __开机第一屏之后__: 如果显示 `Your device has been unlocked and can't be trusted.` ，并且提示文字为橙色，则说明手机解锁成功。
 
 ## 版权声明
 
