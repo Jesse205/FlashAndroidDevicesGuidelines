@@ -19,7 +19,8 @@
                 "img",
                 "p",
                 "div",
-                "meter"
+                "meter",
+                "Emoji"
             ]
         },
         "MD025": false,

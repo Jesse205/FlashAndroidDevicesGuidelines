@@ -13,8 +13,16 @@ next:
 
 下载 ROM一般有几种方式
 
-1. 官网下载：官方维护的版本，比较放心，并且 ROM 基本保持一致
-2. 刷机论坛下载：可能是第三方维护的版本。下载到的 ROM 可能不支持在线升级，并且 ROM 内可能经过 ROM 作者的定制
+1. 官网下载：官方维护的版本，比较安全，并且 ROM 基本保持一致。
+2. 刷机论坛下载：可能是第三方维护的版本。下载到的 ROM 可能不支持在线升级，并且 ROM 内可能经过 ROM 作者的定制，但是总类丰富。
+3. 刷机包商店下载：与刷机论坛下载的唯一区别是刷机包可能加入了广告和病毒
+
+ROM有几种类型可以选择
+
+* 官方 ROM（预装 ROM）：由手机所属的手机厂商提供官方维护的 ROM。
+* 第三方 ROM
+  * 官改 ROM：改自官方 ROM，加入或精简了一些东西。
+  * GSI：通用刷机包，几乎任何支持 Projet Trouble 的手机都能刷，但是也有一些例外情况。
 
 ::: tip
 第三方 ROM 可能会导致刷机不开机，建议初学者使用与手机系统相同版本的官改 ROM 试试水。
@@ -22,28 +30,11 @@ next:
 
 ## 预装 ROM
 
-### MIUI - 小米
-
-__官方下载__：
-
-小米官方 __部分开放__ 国际版 MIUI 的下载，具体为只开放新上市机型的 MIUI 下载，而旧机型（比如小米 4）则没有开放下载链接。
-
-* 在[这里](https://new.c.mi.com/global/miuidownload/index)找到 MIUI 卡刷包的下载。操作方法：点击右边的 「Select...」，选择你的手机名称，点击右边的「Submit」，点击「Download Full Rom」即可下载
-* 在[这里](https://new.c.mi.com/global/miuidownload/detail/guide/1)找到 MIUI 线刷包的下载。操作方法：左上角切换到「Fastboot Update」，在「STEP 2」下面即可找到 MIUI 线刷包的下载链接「手机名称 Latest 区域 Stable Version Fastboot File Download」
-
-::: tip
-如果网页打不开则需要全局代理
-:::
-
-::: tip 注意
-对于部分红米机型，它们在海外可能会以 POCO 的身份出现，比如红米 K40 （alioth）在海外就叫 POCO F3 / Mi 11X
-:::
-
-__第三方下载__：
-如果小米官方没有开放你对机型对应的下载链接，那么你应该可以在第三方 MIUI 下载站下载 MIUI 官方包：
-
-* [MIUIROM.org](https://miuirom.org/)
-* [Xiaomiom.com](https://xiaomirom.com/)
+| 名称                                            | 开发商 | 下载链接                                    | 本站搜集                 |
+| ----------------------------------------------- | ------ | ------------------------------------------- | ------------------------ |
+| MIUI                                            | 小米   | [查看详情](../../normal/systems/miui.md)    | /                        |
+| 百度云 OS <Badge type="danger" text="已停更" /> | 百加   | [查看详情](../../normal/systems/baiduos.md) | [查看详情](./baiduos.md) |
+| Pixel                                           | Google | [查看详情][Pixel官方下载]                   | /                        |
 
 ### ColorOS/氢 OS/氧 OS - Oppo/OnePlus
 
@@ -77,21 +68,14 @@ __第三方下载__：
 
 * [华为固件下载站](https://professorjtj.github.io/)
 
-### Pixel - Google
-
-__官方下载__：
-
-* [Nexus 和 Pixel 设备的完整 OTA 映像](https://developers.google.cn/android/ota?hl=zh-cn)
-
-### 百度云 OS - 百加 <Badge type="danger" text="已停更" />
-
-* [更多信息](../../normal/systems/baiduos.md)
-
-__第三方下载__：
-
-* [本站收集](./baiduos.md)
-
 ## 第三方 ROM
+
+### 通用系统映像
+
+| 名称     | 下载链接                                 | 本站搜集 |
+| -------- | ---------------------------------------- | -------- |
+| AOSP     | [官方下载][AOSP官方GSI下载]              | /        |
+| Havoc OS | [HavocOS官方GSI下载][HavocOS官方GSI下载] | /        |
 
 ### LineageOS
 
@@ -185,3 +169,7 @@ __官方下载__：
 ## 相关链接
 
 * [各式各样的 Android 以及类 Android 系统](../../normal/systems/index.md)
+
+[Pixel官方下载]: https://developers.google.cn/android/ota?hl=zh-cn
+[AOSP官方GSI下载]: https://developer.android.google.cn/topic/generic-system-image?hl=zh-cn
+[HavocOS官方GSI下载]: https://havoc-os.com/download#gsi

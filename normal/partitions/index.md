@@ -4,6 +4,8 @@ Android 设备包含若干个分区，这些分区在启动过程中发挥不同
 
 本片仅简单介绍几个常见分区，更多内容请参考[《系统分区及结构》](../../details/partitions/index.md)
 
+部分设备为了支持 A/B 更新，把 boot、system、vendor 和 radio 配置了两个槽位（如：`system_a`，`system_b`）。
+
 ## 常见分区
 
 ### boot 分区

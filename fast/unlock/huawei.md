@@ -9,11 +9,11 @@
 
 ### 一、申请解锁码
 
-华为在 2018 年 5 月 24 日已关闭解锁码申请通道，如果您拥有时光机，请前往这个时间段前进入 EMUI 官网的[解锁](https://emui.huawei.com/cn/unlock_index)进行解锁
+华为在 2018 年 5 月 24 日已关闭解锁码申请通道，如果您拥有时光机，请前往这个时间段前进入 EMUI 官网的[解锁](https://emui.huawei.com/cn/unlock_index)进行解锁😁。
 
 ![关闭解锁的公告](./images/huawei_close_notice.png)
 
-您也可以通过第三方渠道获取解锁码或者直接解锁 Bootloader
+您也可以通过第三方渠道获取解锁码或者直接解锁 Bootloader。
 
 * 使用 [PotatoNV](https://github.com/mashed-potatoes/PotatoNV) 解锁 <Badge type="tip" text="免费" /> [查看教程](https://zhuanlan.zhihu.com/p/397173427)
 * 联系 [@某贼](http://www.coolapk.com/u/3463951) <Badge type="tip" text="免费" />（[某贼的话](https://www.coolapk.com/feed/25219974?shareKey=ZDc3M2ExYmZlNjQ2NjA3MTc2ZGY~)）
@@ -21,7 +21,7 @@
 * 联系酷安 @stuff233 <Badge type="warning" text="付费" />
 
 ::: tip
-大佬们有时候可能不在，请耐心等待
+大佬们有时候可能不在，请耐心等待。
 :::
 
 ### 二、开始解锁

@@ -11,7 +11,7 @@
 
 ## 预装 ROM
 
-### EMUI/HarmonyOS - 华为
+### EMUI 类 - 华为/荣耀
 
 <img class="banner-img" src="./images/logo/hmos.png" alt="HarmonyOS LOGO"/>
 

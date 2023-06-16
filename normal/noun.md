@@ -26,8 +26,6 @@
 
 ::: details 一些历史
 
-> 这些待查证
-
 Android Inc.于2003年10月由安迪·鲁宾、利奇·米纳尔、尼克·席尔斯、克里斯·怀特在加州帕罗奥图创建。Android最初由安迪·鲁宾等人开发制作，最初开发这个系统的早期方向是创建一个数字相机的先进操作系统，但是后来发现相机市场规模不够大，加上智能手机发展趋势快速成长，于是Android成为一款面向智能手机的操作系统。于2005年7月11日Android Inc.被美国科技企业Google收购。
 
 2010年末数据显示，仅正式推出两年的 Android 操作系统在市场占有率上已经超越称霸逾十年的诺基亚 Symbian 系统，成为全球第一大智能手机操作系统。
@@ -71,17 +69,14 @@ Android 设备包含若干个分区，这些分区在启动过程中发挥不同
 
 最常见的分区：
 
-| 名称                                           | 俗称 | 说明                       |
-| ---------------------------------------------- | ---- | -------------------------- |
-| [boot](partitions/index.md#boot-分区)         | /    | 用于引导系统。             |
-| [recovery](partitions/index.md#recovery-分区) | rec  | 用于恢复存储、进行系统更新 |
-| [system](partitions/index.md#system-分区)     | /    | Android 系统存放的分区     |
+| 名称                                          | 俗称         | 说明                       |
+| --------------------------------------------- | ------------ | -------------------------- |
+| [boot](partitions/index.md#boot-分区)         | 引导分区     | 用于引导系统。             |
+| [recovery](partitions/index.md#recovery-分区) | rec/恢复分区 | 用于恢复存储、进行系统更新 |
+| [system](partitions/index.md#system-分区)     | 系统分区     | Android 系统存放的分区     |
 
 ::: tip
 部分设备为了支持 A/B 更新，把 boot、system、vendor 和 radio 配置了两个槽位（如：`system_a`，`system_b`）。
-
-> 此处等待查证
-
 :::
 
 * __ramdisk__：中文为虚拟硬盘，本质上是借用了部分机身存储（ROM）的空间，存放系统的缓冲文件。而存放于 `system` 分区下的 `ramdisk` 分区可以镜像部分操作系统驱动文件，帮助跑通 BootLoader 和 kernel 等开机引导程序。当然，当前手机厂商大肆宣传的运行内存拓展技术，也是基于一个 `ramdisk` 分区（作者本人不建议开启相关内存拓展技术）
@@ -99,9 +94,8 @@ Android 设备包含若干个分区，这些分区在启动过程中发挥不同
 刷机包也被称为 ROM 包，或简称为 ROM，也就是一个存放系统文件的文件包。
 :::
 
-RAM 的性能和价格等各方面都高于 ROM，当然在手机上搭载的空间也更小。
-
-ROM 的性能更弱，但是在空间大小和价格方面优势明显。
+* RAM 的性能和价格等各方面都高于 ROM，当然在手机上搭载的空间也更小。
+* ROM 的性能更弱，但是在空间大小和价格方面优势明显。
 
 ## ROOT
 
@@ -111,13 +105,11 @@ ROM 的性能更弱，但是在空间大小和价格方面优势明显。
 * [百度百科](https://baike.baidu.com/item/root/73226)
 * [获取 Root](../fast/install/root/index.md)
 
-一般来说，ROOT 可以表示一种较高级的 Android 用户权限，即“根权限”。也可以表示获取根权限的动作。
-
-Android 删除了 `su` 程序，所以 Root 的过程就是把 `su` 文件放到 `/system/bin/` ，`Superuser.apk` 放到 `/system/app` 下面，还需要设置一些权限。（Android 5.0 之前的方法）
+一般来说，ROOT 可以表示一种较高级的用户权限，即“根权限”。也可以表示获取根权限的动作。
 
 ROOT 的权限高于 [ADB（Android Debug Bridge）](../tools/platform-tools.md#adb-工具)权限，因此 ADB 无法完全代替 ROOT。
 
-Root 有很多工具，常见的有：Magisk、KernelSU
+Root 有很多工具，常见的有：[Magisk](./root/index.md#magisk)、[KernelSU](./root/index.md#kernelsu)
 
 ::: tip
 有关 Magisk、KernelSU 等更多内容，请参考[《Root》](./root/index.md)。
@@ -127,31 +119,23 @@ Root 有很多工具，常见的有：Magisk、KernelSU
 
 数据线不同于充电线。数据线可以传输数据，充电线则不能。
 
-### USB 接口
-
-USB的全称是 Universal Serial Bus，中文含义是“通用串行总线”。
-
-#### Type-C 接口
-
-Type-c 是一种既可以应用于 PC (主设备)又可以应用于外部设备(从设备，如手机)的接口类型，这是划时代的
-
-> 也就是说，可以用个双头 Type-C 线连接两部手机，其中一个手机可以像电脑一样操控另一条手机
-
-#### Micro-USB 接口
-
-Micro-USB 是一种 USB 2.0 标准接口，是 Mini-USB 的下一个版本
+| 名称           | 含义                                                                                              |
+| -------------- | ------------------------------------------------------------------------------------------------- |
+| USB 接口       | USB 的全称是 Universal Serial Bus，中文含义是“通用串行总线”。                                     |
+| Type-C 接口    | Type-c 是一种既可以应用于 PC (主设备)又可以应用于外部设备(从设备，如手机)的接口类型，这是划时代的 |
+| Micro-USB 接口 | Micro-USB 是一种 USB 2.0 标准接口，是 Mini-USB 的下一个版本                                       |
 
 ## 命令与终端
 
 关于它们的定义，您可以查看[《Windows 控制台和终端定义》](https://learn.microsoft.com/zh-cn/windows/console/definitions)。
 
-本文档内所有的命令都在终端内输入
+本文档内[所有的命令都在终端内输入](../faq/documents.md#命令的使用)。
 
 ### 关于终端
 
 尽管 [shell、cmd 与终端的含义不同](https://www.zhihu.com/question/40448945)，但在一般情况下，人们会粗略地将这些名词划等号。
 
-#### Windows 系统
+#### Windows 终端
 
 1. 点击开始菜单或按 「Windows 徽标键+R」
 2. 输入 `cmd` ，并打开或按下回车键
@@ -171,7 +155,7 @@ Micro-USB 是一种 USB 2.0 标准接口，是 Mini-USB 的下一个版本
 一般情况下，您可以直接将文件拖入终端内，快速输入文件路径
 :::
 
-#### MacOS
+#### MacOS 终端
 
 在 Mac 上，请执行以下一项操作：
 
@@ -180,7 +164,7 @@ Micro-USB 是一种 USB 2.0 标准接口，是 Mini-USB 的下一个版本
 
 想要退出时在「终端」App ￼中，选取「终端」>「退出终端」或输入 `exit` 命令。
 
-#### Linux
+#### Linux 终端
 
 __Linux用户还不会用终端？？？__
 
@@ -198,6 +182,10 @@ __解决办法__：
 
 尝试长按“音量-”和“电源”键（小米/红米手机）进入 fastboot 刷机模式，重新线刷刷机包，重写 boot 分区，完成开机。
 
+::: warning
+部分卡米无药可救，请谨慎刷机。
+:::
+
 ## 通用系统映像 (GSI)
 
 敬请期待
@@ -205,6 +193,10 @@ __解决办法__：
 __相关链接：__
 
 * [通用系统映像 (GSI)](https://developer.android.google.cn/topic/generic-system-image?hl=zh-cn) - Android 开发者
+
+## TWRP
+
+TWRP 是第三方 Recovery 的一种。有时使用 TWRP 代指第三方 Recovery
 
 ## 版权声明
 

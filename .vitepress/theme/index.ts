@@ -1,7 +1,7 @@
 import DefaultTheme from 'vitepress/theme'
-import { Theme, defineConfigWithTheme } from 'vitepress'
+import { Theme } from 'vitepress'
 import Score from './components/Score.vue'
-import { h } from 'vue'
+import Emoji from './components/Emoji.vue'
 import './custom.css'
 import './index.css'
 import Layout from './Layout.vue'
@@ -12,8 +12,8 @@ export default <Theme>{
     extends: DefaultTheme,
     enhanceApp(ctx) {
         DefaultTheme.enhanceApp(ctx)
-        // register your custom global components
-        ctx.app.component('Score', Score)
-
+        const { app } = ctx
+        app.component('Score', Score)
+        app.component('Emoji', Emoji)
     }
 }

@@ -7,7 +7,7 @@ import { nextTick, onBeforeUnmount, onMounted } from 'vue'
 const { Layout } = DefaultTheme
 
 // Zoom
-const SELECTOR = '.content-container :not(a) > img'
+const SELECTOR = '.content-container :not(a) > img:not([data-emoji])'
 let zoom: Zoom
 
 /**

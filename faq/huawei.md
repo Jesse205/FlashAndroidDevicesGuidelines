@@ -1,8 +1,12 @@
-# 华为手机 常见问题与解答
+# 华为刷机 常见问题与解答
 
-## 手机连电脑没反应怎么办
+[常规问题与解答](./index.md)
 
-补驱动，换数据线，换电脑插口（台式机最好是后置插口），关闭USB选择性暂停。
+* [手机连电脑没反应怎么办](./knowledge.md#手机连电脑没反应怎么办)
+* [sideload 失败，手机提示adb版本过低需要升级 (`you need adb 1.0.32 or newer to apply sideload`) 怎么办](./index.md#sideload-失败手机提示adb版本过低需要升级-you-need-adb-1032-or-newer-to-apply-sideload-怎么办)
+* [如何判断 Magisk 或 SuperSU 有没有刷成功](./index.md#如何判断-magisk-或-supersu-有没有刷成功)
+* [Xposed 框架怎么刷](./index.md#xposed-框架怎么刷)
+* [指令无效](./knowledge.md#指令无效)
 
 ## 解锁失败提示 `Necessary to disable phone finder` 怎么办
 
@@ -20,25 +24,17 @@
 
 解锁码错误，请重新获取。
 
-## 刷TWRP显示`“fastboot”不是内部或外部命令，也不是可运行的程序或批处理文件`
+## 显示 `'fastboot' 不是内部或外部命令，也不是可运行的程序或批处理文件`
 
-如果你用的是网上的一键刷入工具，请将压缩包完全解压再运行bat脚本。注意是完全解压而不是直接运行压缩包里的脚本。
+如果你是手写命令，请[检查输入是否正确](./knowledge.md#指令无效)。
 
-## 刷TWRP报错 `partition length get error` 怎么办
+## 刷 TWRP 报错 `partition length get error` 怎么办
 
 具体原因未知，如果其他步骤没有问题，可以尝试用奇兔刷机刷（教程参考 查看链接 ），有些时候就可以。但是！请不要！刷奇兔刷机上的ROM或者用他救砖，变砖后果自负！
 
-## 刷完TWRP重启进入华为官方 eRecovery，是不是没有刷进去
+## 刷完 TWRP 重启进入华为官方 eRecovery，是不是没有刷进去
 
-刷完TWRP请拔掉数据线再认真按照上边说的长按重启。如果进错了就再回Fastboot刷一次TWRP再重启。拔不拔线进的模式是不一样的。
-
-## sideload失败，手机提示adb版本过低需要升级（`you need adb 1.0.32 or newer to apply sideload`）怎么办
-
-电脑使用的adb工具版本过低不支持sideload。使用我提供的版本即可。
-
-## 如何判断面具/SuperSU 有没有刷成功
-
-开机面具APP里当前版本有显示即为成功，SuperSU 打开不出现“您的手机尚未Root”弹窗即为成功。
+刷完 TWRP 请拔掉数据线再认真教程说的长按重启。如果进错了就再回 Fastboot 刷一次TWRP再重启。拔不拔线进的模式是不一样的。
 
 ## 面具一直检查更新怎么办
 
@@ -51,11 +47,3 @@
 ## 双清/格式化data/恢复出厂之后需要重新刷 Root 吗
 
 不需要，只需要重新安装对应 APP 即可。
-
-## 框架怎么刷
-
-如果要刷的话，Android 4~7 建议用 Xposed 框架，Android 8 建议用 EdXposed，但是刷后可能会出问题，新手不是刚需还是不建议尝试了。
-
-刷机有风险，操作需谨慎。本教程适用于大多数情况，但仍无法避免小部分机型不适用，望知晓。
-
-附上救砖教程一个：[查看链接](https://www.coolapk.com/feed/26205215?shareKey=ZjY1ZTBjY2E2MTdkNjA3Nzg5MjY~)

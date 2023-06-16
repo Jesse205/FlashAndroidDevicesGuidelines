@@ -130,13 +130,32 @@ export default defineConfig({
             { text: '分区和映像', link: '/normal/partitions/' },
             { text: '各种模式', link: '/normal/modes/' },
             { text: '安装软件', link: '/normal/installApk/' },
+            {
+              text: 'Root',
+              link: '/normal/root/',
+              items: [
+                { text: '让 SuperSU 接管权限', link: '/normal/root/to_supersu.html' },
+              ]
+            },
           ],
         },
       ],
       '/faq/': [
-        { text: '常见问题与解答', link: '/faq/' },
-        { text: '常见知识', link: '/faq/knowledge.html' },
-        { text: '翻车案例', link: '/rollover/' },
+        {
+          text: '常见问题与解答',
+          link: '/faq/',
+          items: [
+            { text: '华为刷机', link: '/faq/huawei.html' },
+          ]
+        },
+        {
+          text: '其他内容',
+          items: [
+            { text: '基本知识', link: '/faq/knowledge.html' },
+            { text: '文档说明', link: '/faq/documents.html' },
+            { text: '翻车案例', link: '/rollover/' },
+          ]
+        }
       ]
     },
 
