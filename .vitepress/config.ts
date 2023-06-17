@@ -100,7 +100,14 @@ export default defineConfig({
           text: '更多教程',
           items: [
             { text: '刷入 Recovery', link: '/fast/flash/recovery.html' },
-            { text: '获取 Root', link: '/fast/install/root/' },
+            {
+              text: '获取 Root',
+              link: '/fast/install/root/',
+              items: [
+                { text: '华为', link: '/fast/install/root/huawei/' },
+                { text: '小米', link: '/fast/install/root/xiaomi/' },
+              ],
+            },
             { text: '安装 Xposed', link: '/fast/install/xposed/' },
 
           ]

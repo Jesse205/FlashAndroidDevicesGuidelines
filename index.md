@@ -11,18 +11,18 @@ title: false
 
 此刷机指南不仅仅提供刷机的指南，还提供各种各样玩机教程！
 
-> 虽然这是个万能的指南，接受手机、电视和电脑等的内容，但内容主要以小米和华为为主（我只有这两种手机）。
+> 虽然这是个万能的指南，接受手机、电视和电脑等的内容，但内容主要以小米和华为为主（因为我只有这两种手机）。
 >
 > 如果条件允许，希望您可以帮我完善一下此文档（其实吧我是小白😂）
 >
-> 如果您遇到文档中的错误，欢迎纠正！
+> 该文档旨在编写全国免费、实用、最严谨、最完善、最准确的文档。如果您遇到文档中的错误或者不严谨的地方，欢迎纠正！
 
 ::: warning
 在浏览本文档前，请先浏览[《文档说明》（点击此处开始浏览](./faq/documents.md)）与[《注意事项》](./normal/note.md)，以防止您迷茫或翻车。
 
-在浏览本文档时，请务必仔细文档内容。__因您操作失误导致的损失我们不负责。__
+在浏览本文档时，请务必仔细文档内容。**因您操作失误导致的损失我们不负责。**
 
-本文档持续编写中。。。。什么时候这段文字消失了，就代表我、本文档已基本完工了。。。。。
+本文档持续编写中。。。。 **什么时候这段文字消失了，就代表我、本文档已基本可以阅读了** 。。。。。
 :::
 
 本教程尽量保证所有资源都有一手资源获取渠道，因此您可以放心下载。（有时为了提速可能会提供二手下载渠道）
@@ -71,7 +71,7 @@ title: false
 
 ## 其他教程
 
-* [Magisk 中文文档](https://jesse205.github.io/MagiskChineseDocument/)
+* [Magisk 中文文档](https://jesse205.github.io/MagiskChineseDocument/ )<Badge type="tip" text="本站翻译" />
 * [Android 开发者](https://developer.android.google.cn/?hl=zh-cn)
 * [Android 开源项目](https://source.android.google.cn/?hl=zh-cn)
 
@@ -86,23 +86,23 @@ title: false
 
 这些是安卓爱好者聚集地，您可以在这些社区了解更多内容：
 
-* __[酷安](https://www.coolapk.com/)__: 分享应用的乐趣
-* __[XDA Forums](https://forum.xda-developers.com/)__: 一个全球玩机的网站
-* __[Github](https://github.com/)__: 开发者的代码托管平台
+* **[酷安](https://www.coolapk.com/)**: 分享应用的乐趣
+* **[XDA Forums](https://forum.xda-developers.com/)**: 一个全球玩机的网站
+* **[Github](https://github.com/)**: 开发者的代码托管平台
 
 ### 常用操作系统
 
-* __[LineageOS](https://lineageos.org/)__: 基于 Android 移动平台的各种设备的免费开源操作系统。查看详情
-* __[Havoc OS](https://havoc-os.com/)__: 完美的 Material Design，自定义功能丰富。查看详情
-* __[PixelExperience](https://download.pixelexperience.org/)__: 拥有 Pixel 的体验，附带谷歌的 APP。查看详情
-* ~~__[魔趣 ROM](https://www.mokeedev.com/)__: 中国的安卓开源系统。~~（已跑路）查看详情
+* **[LineageOS](https://lineageos.org/)**: 基于 Android 移动平台的各种设备的免费开源操作系统。查看详情
+* **[Havoc OS](https://havoc-os.com/)**: 完美的 Material Design，自定义功能丰富。查看详情
+* **[PixelExperience](https://download.pixelexperience.org/)**: 拥有 Pixel 的体验，附带谷歌的 APP。查看详情
+* ~~**[魔趣 ROM](https://www.mokeedev.com/)**: 中国的安卓开源系统。~~（已跑路）查看详情
 
 [查看更多](./normal/systems/index.md)
 
 ### 常用 Recovery
 
-* __[TWRP](https://twrp.me/)__: 可以触屏的 Recovery
-* __[OrangeFox Recovery](https://wiki.orangefox.tech/en/home)__: 精美的 Recovery
+* **[TWRP](https://twrp.me/)**: 可以触屏的 Recovery
+* **[OrangeFox Recovery](https://wiki.orangefox.tech/en/home)**: 精美的 Recovery
 * 还有一个叫什么来着，就是很早以前非常流行的rec
 
 [查看更多](./normal/recoveries/index.md)

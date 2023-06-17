@@ -1,6 +1,6 @@
 # Root
 
-Root，也称为根用户，是 Unix (如 Solaris、AIX、BSD）和类 UNIX 系统(如 Linux、QNX 等)，及 Android 和 iOS 移动设备系统中的唯一的超级用户，因其可对根目录执行读写和执行操作而得名。其具有系统中的最高权限。
+<!--@include: ./summary.md -->
 
 一般来说，ROOT 可以表示一种较高级的 Android 用户权限，即“根权限”。也可以表示获取根权限的动作。
 
@@ -12,8 +12,8 @@ ROOT 的权限高于 [ADB（Android Debug Bridge）](../../../tools/platform-too
 
 有些时候您的需求不必使用 Root。您可以选择以下工具使用其他权限代替 Root。
 
-* 您可以使用 [Shizuku](https://shizuku.rikka.app/zh-hans/) 将 [ADB 权限](../adb/index.md)共享给其他应用
-* 您可以使用 [Dhizuku](https://github.com/iamr0s/Dhizuku) 将 [Device Owner (设备所有者) 权限](../device_owner/index.md)共享给其他应用
+* 您可以使用 [Shizuku](https://shizuku.rikka.app/zh-hans/) 将 [ADB 权限](../adb/index.md) 共享给其他应用
+* 您可以使用 [Dhizuku](https://github.com/iamr0s/Dhizuku) 将 [Device Owner (设备所有者) 权限](../device_owner/index.md) 共享给其他应用
 
 :::
 

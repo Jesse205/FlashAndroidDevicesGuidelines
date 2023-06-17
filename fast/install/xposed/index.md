@@ -1,15 +1,16 @@
 # 安装 Xposed
 
-Xposed 框架是一套开放源代码的、在Android高权限模式下运行的框架服务，可以在不修改APK文件的情况下修改程序的运行，基于它可以制作出许多功能强大的模块，且在功能不冲突的情况下同时运作。
+::: info
+<!--@include: ../../../normal/danger_permissions/xposed/summary.md -->
+:::
 
-原版 Xposed 已经停止更新，市面上流行的是第三方版本的 Xposed 框架和管理器。
+::: tip
+关于这些工具的详细介绍：[Xposed](../../../normal/danger_permissions/xposed/index.md)
+:::
 
-| 名称             | 适配版本                    | 免 Root | 停更 |
-| ---------------- | --------------------------- | ------- | ---- |
-| LSPosed          | Android 8.1 -               | LSPath  | X    |
-| EdXposed         | [Android 8.0 - 11][EDXPAAV] | X       | V    |
-| Xposed Framework | Android 8.1-                | X       | V    |
-| 太极             | ？                          | 太极阴  | ？   |
+## 兼容性表格
+
+<!--@include: ../../../normal/danger_permissions/xposed/compatibility.md -->
 
 ## LSPosed <Badge type="tip" text="推荐" />
 
@@ -48,10 +49,6 @@ Edxposed 拥有三个不同的版本
 ## Xposed Framework
 
 敬请期待
-
-## Awesome Xposed | 令人惊叹的 Xposed
-
-* [Github 话题](https://github.com/topics/xposed-framework)
 
 ## 参考链接
 
