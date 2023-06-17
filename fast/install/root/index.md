@@ -29,8 +29,8 @@ Magisk，别名叫做“面具”
 
 这是目前主流的 Root 方式
 
-* __适用系统__：Android 5.0 - Android 13
-* __相关链接__：
+* **适用系统**：Android 5.0 - Android 13
+* **相关链接**：
   * [Github 仓库](https://github.com/topjohnwu/Magisk) <Badge type="tip" text="官方" />
   * [Magisk 中文文档](https://jesse205.github.io/MagiskChineseDocument/)
 
@@ -48,13 +48,13 @@ Magisk，别名叫做“面具”
 
 Android 上的内核级的 root 方案，这是新型 root 方案。目前正在完善
 
-* __适用内核__: 内核 4.4+
-* __下载__：
+* **适用内核**: 内核 4.4+
+* **下载**：
   * [GitHub Releases](https://github.com/tiann/KernelSU/releases) <Badge type="tip" text="官方" />
   * [酷安](https://www.coolapk.com/apk/me.weishu.kernelsu) <Badge type="tip" text="官方" />
-* __安装__：
+* **安装**：
   * [官方教程](https://kernelsu.org/zh_CN/guide/installation.html) <Badge type="tip" text="官方" />
-* __相关链接__：
+* **相关链接**：
   * [官方网站](https://kernelsu.org/) <Badge type="tip" text="官方" />
   * [GitHub 仓库](https://github.com/tiann/KernelSU) <Badge type="tip" text="官方" />
 
@@ -68,7 +68,7 @@ Android 上的内核级的 root 方案，这是新型 root 方案。目前正在
 
 SuperSU，别名叫做“超级权限”
 
-* __适用系统__: 未知（敬请期待）
+* **适用系统**: Android 2.3 - Android 7
 
 ### 下载 SuperSU
 
@@ -76,11 +76,23 @@ SuperSU，别名叫做“超级权限”
 * [123 云盘下载](https://www.123pan.com/s/G7a9-mpek) <Badge type="tip" text="本站搬运" />
 * [百度网盘下载](https://pan.baidu.com/s/1D-xltDWSZHZmKbqULMknsw?pwd=jxnb) <Badge type="tip" text="提取码：jxnb" /> <Badge type="warning" text="本站搬运但未知安全性" />
 
+### 安装 SuperSU
+
+敬请期待
+
 ## SuperUser
 
 SuperUser，别名叫做“超级用户”。
 
-* __适用系统__: 未知（敬请期待），至今仍旧有一部分系统在使用
+* **适用系统**: 未知（敬请期待），至今仍旧有一部分系统在使用
+
+### 下载 SuperUser
+
+敬请期待
+
+### 安装 SuperUser
+
+敬请期待
 
 ## 一键 Root 工具
 
@@ -92,25 +104,25 @@ SuperUser，别名叫做“超级用户”。
 
 主流的一键工具有
 
-* __360超级ROOT__ <Badge type="warning" text="已停止运营" />：对 360 自家软件兼容友好 <Badge type="tip" text="老设备推荐" />
-* __KingRoot__ <Badge type="warning" text="已停止运营" />：覆盖机型广，但是有一点臃肿 <Badge type="tip" text="老设备推荐" />
-* __YoRoot__：支持 Root 华为部分老机型
+* **360超级ROOT** <Badge type="warning" text="已停止运营" />：对 360 自家软件兼容友好 <Badge type="tip" text="老设备推荐" />
+* **KingRoot** <Badge type="warning" text="已停止运营" />：覆盖机型广，但是有一点臃肿 <Badge type="tip" text="老设备推荐" />
+* **YoRoot**：支持 Root 华为部分老机型
 
 对于这些一键 Root 工具，机型不一样体验也不一样，建议都试试，有些 Root 工具至今也可以使用。
 
-### 手机端获取 Root
+### 手机端一键 Root
 
 打开一键 Root 工具后，点击「开始 ROOT」（或者其他按钮），等待 ROOT 成功即可
 
 ::: tip
-ROOT 过程中手机可能会重新启动，属于正常现象
+ROOT 过程中手机可能会重新启动，属于正常现象。
 :::
 
 ::: warning
 很多一键 Root 工具已停止维护，建议改用其他方法。
 :::
 
-### 电脑辅助获取 Root
+### 电脑辅助一键 Root
 
 1. 安装一键 ROOT 工具对应的电脑端
 2. 手机连接电脑，并安装驱动
