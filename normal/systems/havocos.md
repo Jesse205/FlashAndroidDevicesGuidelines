@@ -73,6 +73,8 @@ Havoc-OS 是一个基于安卓开源项目的售后固件，其灵感来自于�
 如果您需要打分，请点击文末“在 Gitee 上编辑此页面”手动编辑此页进行打分。
 :::
 
+<Score :scoreList="scoreList" />
+
 ### 优点
 
 * 完美的 Material Design 设计
@@ -90,23 +92,13 @@ Havoc-OS 是一个基于安卓开源项目的售后固件，其灵感来自于�
 声明：图片均来源于网络。如果侵犯了您的权力，请[联系我](mailto:jesse205@qq.com)，我会尽快删除。
 
 <script setup>
-import { h, ref } from 'vue'
 
 // 在这里添加数据即可打分
 const scoreList = [
     {
-        name: "jesse205",
+        name: "Jesse205",
         score: 5
     },
 ]
-
-let allScore = 0
-
-for (let item of scoreList){
-    allScore += item.score
-}
-
-const average = allScore/scoreList.length
-const scoredBy = scoreList.length
 
 </script>

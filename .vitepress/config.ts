@@ -137,6 +137,10 @@ export default defineConfig({
                 { text: '让 SuperSU 接管权限', link: '/normal/root/to_supersu.html' },
               ]
             },
+            {
+              text: 'ADB',
+              link: '/normal/adb/',
+            },
           ],
         },
       ],

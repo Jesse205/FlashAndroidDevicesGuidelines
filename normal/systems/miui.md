@@ -45,6 +45,8 @@
 如果您需要打分，请点击文末“在 Gitee 上编辑此页面”手动编辑此页进行打分。
 :::
 
+<Score :scoreList="scoreList" />
+
 ### 优点
 
 * 可以关闭纯净模式
@@ -52,8 +54,10 @@
 ### 缺点
 
 * 无统一的设计风格
-* 广告超多，系统臃肿
+* 广告超多，系统臃肿，有牛皮癣
 * 系统版本无法准确对应安卓版本
+* 对系统工具开发者不友好
+* 拥有 MIUI 专属的开屏广告
 
 ## 相关链接
 
@@ -72,23 +76,13 @@
 声明：图片均来源于网络。如果侵犯了您的权力，请[联系我](mailto:jesse205@qq.com)，我会尽快删除。
 
 <script setup>
-import { h, ref } from 'vue'
 
 // 在这里添加数据即可打分
 const scoreList = [
     {
-        name: "jesse205",
-        score: 2
+        name: "Jesse205",
+        score: 3
     },
 ]
-
-let allScore = 0
-
-for (let item of scoreList){
-    allScore += item.score
-}
-
-const average = allScore/scoreList.length
-const scoredBy = scoreList.length
 
 </script>

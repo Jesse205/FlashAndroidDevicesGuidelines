@@ -39,12 +39,7 @@
 
 ## 评价
 
-<meter id="fuel" min="0" max="50" low="25" high="40" optimum="45" :value="average*10"></meter>
-{{ average }} 分（{{ scoredBy }} 人打分）
-
-::: tip
-如果您需要打分，请点击文末“在 Gitee 上编辑此页面”手动编辑此页进行打分。
-:::
+<Score :scoreList="scoreList" />
 
 ### 优点
 
@@ -67,22 +62,12 @@
 声明：图片均来源于网络。如果侵犯了您的权力，请[联系我](mailto:jesse205@qq.com)，我会尽快删除。
 
 <script setup>
-import { h, ref } from 'vue'
 
 const scoreList = [
     {
-        name: "jesse205",
+        name: "Jesse205",
         score: 4.5
     },
 ]
-
-let allScore = 0
-
-for (let item of scoreList){
-    allScore += item.score
-}
-
-const average = allScore/scoreList.length
-const scoredBy = scoreList.length
 
 </script>

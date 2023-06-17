@@ -12,8 +12,8 @@ ROOT 的权限高于 [ADB（Android Debug Bridge）](../../tools/platform-tools.
 
 有些时候您的需求不必使用 Root。您可以选择以下工具使用其他权限代替 Root。
 
-* 您可以使用 [Shizuku](https://shizuku.rikka.app/zh-hans/) 将 ADB 权限共享给其他应用
-* 您可以使用 [Dhizuku](https://github.com/iamr0s/Dhizuku) 将 DeviceOwner (设备所有者) 权限共享给其他应用
+* 您可以使用 [Shizuku](https://shizuku.rikka.app/zh-hans/) 将 [ADB 权限](../adb/index.md)共享给其他应用
+* 您可以使用 [Dhizuku](https://github.com/iamr0s/Dhizuku) 将 [Device Owner (设备所有者) 权限](../device_owner/index.md)共享给其他应用
 
 :::
 

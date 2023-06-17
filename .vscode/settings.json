@@ -20,7 +20,8 @@
                 "p",
                 "div",
                 "meter",
-                "Emoji"
+                "Emoji",
+                "Score"
             ]
         },
         "MD025": false,
