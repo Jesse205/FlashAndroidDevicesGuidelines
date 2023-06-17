@@ -140,7 +140,7 @@ export default defineConfig({
               text: 'Root',
               link: '/normal/danger_permissions/root/',
               items: [
-                { text: '让 SuperSU 接管权限', link: '/normal/root/danger_permissions/to_supersu.html' },
+                { text: '让 SuperSU 接管权限', link: '/normal/danger_permissions/root/to_supersu.html' },
               ]
             },
             {
