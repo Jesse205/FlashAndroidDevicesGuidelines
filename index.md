@@ -53,7 +53,7 @@ title: false
 3. [操作系统概览](./normal/systems/index.md)
 4. [名词集](./normal/noun.md)
 5. [分区和映像](./normal/partitions/index.md)
-6. [ADB 工具的使用](./normal/adb/index.md)
+6. [ADB 工具的使用](./normal/danger_permissions/adb/index.md)
 7. 刷机包的说明
 
 ## 深入“刷机”

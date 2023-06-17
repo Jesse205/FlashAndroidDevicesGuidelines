@@ -101,7 +101,7 @@ Android 设备包含若干个分区，这些分区在启动过程中发挥不同
 
 相关链接：
 
-* [Root 介绍](./root/index.md)
+* [Root 介绍](./danger_permissions/root/index.md)
 * [百度百科](https://baike.baidu.com/item/root/73226)
 * [获取 Root](../fast/install/root/index.md)
 
@@ -109,10 +109,10 @@ Android 设备包含若干个分区，这些分区在启动过程中发挥不同
 
 ROOT 的权限高于 [ADB（Android Debug Bridge）](../tools/platform-tools.md#adb-工具)权限，因此 ADB 无法完全代替 ROOT。
 
-Root 有很多工具，常见的有：[Magisk](./root/index.md#magisk)、[KernelSU](./root/index.md#kernelsu)
+Root 有很多工具，常见的有：[Magisk](./danger_permissions/root/index.md#magisk)、[KernelSU](./danger_permissions/root/index.md#kernelsu)
 
 ::: tip
-有关 Magisk、KernelSU 等更多内容，请参考[《Root》](./root/index.md)。
+有关 Magisk、KernelSU 等更多内容，请参考[《Root》](./danger_permissions/root/index.md)。
 :::
 
 ## 数据线

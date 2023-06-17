@@ -30,7 +30,7 @@
 
 ## ADB 工具
 
-有关 ADB 工具的更多用法，请参考[《ADB 介绍》](../normal/adb/index.md)
+有关 ADB 工具的更多用法，请参考[《ADB 介绍》](../normal/danger_permissions/adb/index.md)
 
 ### adb 帮助文件
 

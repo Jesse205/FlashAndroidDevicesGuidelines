@@ -16,7 +16,7 @@ ADB 工具是 Platform-Tools 的一部分。
 
 因为 ADB 工具是 Platform-Tools 的一部分，所以您需要下载 Platform-Tools。
 
-有关详细信息，请参阅 [Platform-Tools 下载](../../tools/platform-tools.md#platform-tools-下载)
+有关详细信息，请参阅 [Platform-Tools 下载](../../../tools/platform-tools.md#platform-tools-下载)
 
 ::: tip
 Android Studio 会自动下载 Platform-Tools。如果您曾今使用过 Android Studio，则无需手动安装此工具。
@@ -40,6 +40,6 @@ Android Studio 会自动下载 Platform-Tools。如果您曾今使用过 Android
 
 使用 ADB 刷入刷机包
 
-请参考[《ADB Sideload》](../../fast/flash/system.md#adb-sideload)
+请参考[《ADB Sideload》](../../../fast/flash/system.md#adb-sideload)
 
-[adb安装软件]: ../installApk/index.md#安装电脑或其他设备上的软件
+[adb安装软件]: ../../installApk/index.md#安装电脑或其他设备上的软件

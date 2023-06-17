@@ -130,6 +130,12 @@ export default defineConfig({
             { text: '分区和映像', link: '/normal/partitions/' },
             { text: '各种模式', link: '/normal/modes/' },
             { text: '安装软件', link: '/normal/installApk/' },
+
+          ],
+        },
+        {
+          text: '危险权限',
+          items: [
             {
               text: 'Root',
               link: '/normal/root/',
@@ -139,10 +145,10 @@ export default defineConfig({
             },
             {
               text: 'ADB',
-              link: '/normal/adb/',
+              link: '/normal/danger_permissions/adb/',
             },
-          ],
-        },
+          ]
+        }
       ],
       '/faq/': [
         {

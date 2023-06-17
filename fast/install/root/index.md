@@ -16,12 +16,12 @@
 :::
 
 ::: tip
-关于这些工具的详细介绍：[Root](../../../normal/root/index.md)
+关于这些工具的详细介绍：[Root](../../../normal/danger_permissions/root/index.md)
 :::
 
 ## 兼容性表格
 
-<!--@include: ../../../normal/root/compatibility.md -->
+<!--@include: ../../../normal/danger_permissions/root/compatibility.md -->
 
 ## Magisk <Badge type="tip" text="推荐" />
 

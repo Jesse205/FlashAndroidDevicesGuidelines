@@ -6,7 +6,7 @@ Root，也称为根用户，是 Unix (如 Solaris、AIX、BSD）和类 UNIX 系�
 
 Android 删除了 `su` 程序，所以 Root 的过程就是把 `su` 文件放到 `/system/bin/` ，`Superuser.apk` 放到 `/system/app` 下面，还需要设置一些权限。（Android 5.0 之前的方法）
 
-ROOT 的权限高于 [ADB（Android Debug Bridge）](../../tools/platform-tools.md#adb-工具)权限，因此 ADB 无法完全代替 ROOT。
+ROOT 的权限高于 [ADB（Android Debug Bridge）](../../../tools/platform-tools.md#adb-工具)权限，因此 ADB 无法完全代替 ROOT。
 
 ::: tip
 
@@ -41,7 +41,7 @@ Magisk，别名叫做“面具”
 * **下载地址：**
   * [GitHub Releases](https://github.com/topjohnwu/Magisk/releases/latest) <Badge type="tip" text="官方" />
 * **相关链接**：
-  * [刷入 Magisk](../../fast/install/root/index.md#magisk)
+  * [刷入 Magisk](../../../fast/install/root/index.md#magisk)
   * [Github 仓库](https://github.com/topjohnwu/Magisk) <Badge type="tip" text="官方" />
   * [Magisk 中文文档](https://jesse205.github.io/MagiskChineseDocument/) <Badge type="tip" text="本站翻译" />
 
@@ -61,7 +61,7 @@ KernelSU 是 Android GKI 设备的 root 解决方案，它工作在内核模式�
 * **下载地址：**
   * [GitHub Releases](https://github.com/tiann/KernelSU/releases) <Badge type="tip" text="官方" />
 * **相关链接：**
-  * [刷入 KernelSU](../../fast/install/root/index.md#kernelsu)
+  * [刷入 KernelSU](../../../fast/install/root/index.md#kernelsu)
   * [官方网站](https://kernelsu.org/zh_CN/)
 
 ### SuperSU
@@ -80,7 +80,7 @@ KernelSU 是 Android GKI 设备的 root 解决方案，它工作在内核模式�
 
 ## 相关链接
 
-* [获取 Root](../../fast/install/root/index.md)
+* [获取 Root](../../../fast/install/root/index.md)
 
 ## 参考链接
 
