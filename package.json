@@ -11,6 +11,7 @@
   },
   "devDependencies": {
     "@vuepress/plugin-search": "^2.0.0-beta.62",
+    "sass": "^1.63.4",
     "vitepress": "^1.0.0-beta.2"
   },
   "dependencies": {

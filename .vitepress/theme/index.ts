@@ -2,8 +2,8 @@ import DefaultTheme from 'vitepress/theme'
 import { Theme } from 'vitepress'
 import Score from './components/Score.vue'
 import Emoji from './components/Emoji.vue'
-import './custom.css'
-import './index.css'
+import './custom.scss'
+import './index.scss'
 import Layout from './Layout.vue'
 
 
