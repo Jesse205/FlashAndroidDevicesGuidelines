@@ -73,9 +73,21 @@ export default defineConfig({
         items: [
           { text: '常见问题与解答', link: '/faq/' },
           { text: '基本知识', link: '/faq/knowledge.html' },
-          { text: '常用工具', link: '/tools/' },
-          { text: '翻车案例', link: '/rollover/' },
-          { text: '救砖指南', link: '/rescuing/' },
+          {
+            text: '常用工具',
+            link: '/tools/',
+            activeMatch: '/tools/',
+          },
+          {
+            text: '翻车案例',
+            link: '/rollover/',
+            activeMatch: '/rollover/',
+          },
+          {
+            text: '救砖指南',
+            link: '/rescuing/',
+            activeMatch: '/rescuing/',
+          },
         ]
       }
     ],
@@ -154,6 +166,10 @@ export default defineConfig({
               text: 'ADB',
               link: '/normal/danger_permissions/adb/',
             },
+            {
+              text: '设备所有者',
+              link: '/normal/danger_permissions/device_owner/',
+            },
           ]
         }
       ],
@@ -173,11 +189,36 @@ export default defineConfig({
             { text: '翻车案例', link: '/rollover/' },
           ]
         }
+      ],
+      '/tools/': [
+        {
+          text: '常用工具',
+          link: '/tools/',
+          items: [
+            { text: '华为专用', link: '/tools/huawei/' },
+            { text: '小米专用', link: '/tools/xiaomi/' },
+          ]
+        },
+        {
+          text: '令人惊叹',
+          items: [
+            { text: 'Root 相关', link: '/normal/danger_permissions/root/index.md#awesome-root-令人惊叹的-root' },
+            { text: 'Xposed 相关', link: '/normal/danger_permissions/xposed/index.md#awesome-xposed-令人惊叹的-xposed' },
+            { text: 'ADB 相关', link: '/normal/danger_permissions/adb/index.md#awesome-adb-令人惊叹的-adb' },
+            { text: '设备所有者相关', link: '/normal/danger_permissions/device_owner/index.md#awesome-device-owner-令人惊叹的设备所有者' },
+          ]
+        }
       ]
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      {
+        icon: {
+          svg: '<svg role="img" t="1672577881896" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1932" width="128" height="128"><path d="M512 1024C229.222 1024 0 794.778 0 512S229.222 0 512 0s512 229.222 512 512-229.222 512-512 512z m259.149-568.883h-290.74a25.293 25.293 0 0 0-25.292 25.293l-0.026 63.206c0 13.952 11.315 25.293 25.267 25.293h177.024c13.978 0 25.293 11.315 25.293 25.267v12.646a75.853 75.853 0 0 1-75.853 75.853h-240.23a25.293 25.293 0 0 1-25.267-25.293V417.203a75.853 75.853 0 0 1 75.827-75.853h353.946a25.293 25.293 0 0 0 25.267-25.292l0.077-63.207a25.293 25.293 0 0 0-25.268-25.293H417.152a189.62 189.62 0 0 0-189.62 189.645V771.15c0 13.977 11.316 25.293 25.294 25.293h372.94a170.65 170.65 0 0 0 170.65-170.65V480.384a25.293 25.293 0 0 0-25.293-25.267z" p-id="1933"></path></svg>'
+        },
+        link: 'https://gitee.com/Jesse205/FlashAndroidDevicesGuidelines'
+      },
+      { icon: 'github', link: 'https://github.com/Jesse205/FlashAndroidDevicesGuidelines' }
     ],
 
     editLink: {

@@ -2,9 +2,9 @@
 
 ## 介绍
 
-这个是 Jesse205 搬运并整理的刷机指南。文档仓库部署在 Gitee 上，欢迎 Star！
+这个是 Jesse205 搬运并整理的刷机指南。该文档旨在编写全国免费、实用、最严谨、最完善、最准确的文档。文档仓库部署在 Gitee 上，欢迎 Star！
 
-> 此刷机指南不仅仅提供刷机的指南，还提供各种各样玩机教程
+> 此刷机指南不仅仅提供刷机的指南，还提供各种各样玩机教程！
 
 * Gitee 仓库：<https://gitee.com/Jesse205/FlashAndroidDevicesGuidelines>（原始仓库）
 * Github 仓库：<https://github.com/Jesse205/FlashAndroidDevicesGuidelines>（镜像仓库）
@@ -14,6 +14,9 @@
 您可以通过以下链接来访问文档
 
 * Netlify: <https://efadg.netlify.app/>
+
+> TIP
+> 如果您在身在中国大陆，可能无法访问此链接。您需要使用 DNS 加密技术，使域名正确对应 IP。
 
 ## 其他内容
 

@@ -98,7 +98,7 @@ KernelSU 是 Android GKI 设备的 root 解决方案，它工作在内核模式�
 
 ## Awesome Root | 令人惊叹的 Root
 
-暂无内容
+<!--@include: ./awesome.md -->
 
 ## 相关链接
 

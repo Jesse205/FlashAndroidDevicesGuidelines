@@ -15,17 +15,19 @@ prev:
 
 :::
 
-## 去校验、解密
+## 一、去校验、解密
 
 部分手机会对 ROM 做校验，刷入第三方刷机包时可能会导致无法开机，因此您需要先去校验
 
 解密是可选的，方便当手机变砖后导出数据。不过，如果您知道密码，或者您的 Recovery 支持自动解密，那么您可以跳过解密。
 
-## GSI 包 <Badge type="tip" text="新的刷机包" />
+## 二、开始刷入
+
+### GSI 包 <Badge type="tip" text="新的刷机包" />
 
 [谷歌官方指南](https://developer.android.google.cn/topic/generic-system-image?hl=zh-cn#flash-gsi)
 
-## 普通刷机包 <Badge type="warning" text="老的刷机包" />
+### 普通刷机包 <Badge type="warning" text="老的刷机包" />
 
 这种刷机包在老机型上用的比较多。
 
@@ -37,13 +39,13 @@ prev:
 
 :::
 
-### 直接刷入
+#### 直接刷入
 
 1. 将您的刷机包复制到 SD 卡内
 2. 然后在第三方 Recovery 内选择“安装”（橙狐 Recovery 的“安装”和“文件管理”功能合并，并且默认情况下展示的就是这个，可以跳过这个步骤）
-3. 选择您的文件，滑动刷入
+3. 选择您的文件，滑动滑块刷入。
 
-### ADB Sideload
+#### ADB Sideload
 
 如果您没有 SD 卡，或者内部存储不方便解密，您可以选择这种方式直接刷入电脑上 zip 刷机包。
 

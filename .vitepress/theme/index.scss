@@ -1,26 +1,25 @@
 .screenshotList {
-    display: flex;
-    overflow: auto;
+  display: flex;
+  overflow: auto;
 }
 
 .screenshotList img {
-    margin: 2px;
-    width: 200px;
-    border: 1px solid var(--vp-c-border);
-    border-radius: 4px;
+  margin: 2px;
+  width: 200px;
+  border: 1px solid var(--vp-c-border);
+  border-radius: 4px;
 }
 
-
 .screenshotList.pad img {
-    width: 600px;
+  width: 600px;
 }
 
 .banner-img {
-    width: 100%;
-    aspect-ratio: 740 / 186;
-    object-fit: contain;
+  width: 100%;
+  aspect-ratio: 740 / 186;
+  object-fit: contain;
 }
 
 .cover-img {
-    width: 100%;
+  width: 100%;
 }
