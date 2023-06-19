@@ -1,3 +1,4 @@
+<!-- # Awesome Root | 令人惊叹的 Root -->
 
 * 安卓软件
   * [Shizuku](https://shizuku.rikka.app/zh-hans/)：让你的应用直接使用系统 API
