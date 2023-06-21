@@ -5,13 +5,13 @@
 * **官方网站**：<https://home.miui.com/>
 * **下载地址**：
   * **官方下载**：小米官方 **部分开放** 国际版 MIUI 的下载，具体为只开放新上市机型的 MIUI 下载，而旧机型（比如小米 4）则没有开放下载链接。
-    * [MIUI 卡刷包](https://new.c.mi.com/global/miuidownload/index)：点击右边的 「Select...」，选择手机名称，点击右边的「Submit」，点击「Download Full Rom」即可下载
-    * [MIUI 线刷包](https://new.c.mi.com/global/miuidownload/detail/guide/1)：左上角切换到「Fastboot Update」，在「STEP 2」下面即可找到 MIUI 线刷包的下载链接「手机名称 Latest 区域 Stable Version Fastboot File Download」
+    * **[MIUI 卡刷包](https://new.c.mi.com/global/miuidownload/index)**：点击右边的 「Select...」，选择手机名称，点击右边的「Submit」，点击「Download Full Rom」即可下载
+    * **[MIUI 线刷包](https://new.c.mi.com/global/miuidownload/detail/guide/1)**：左上角切换到「Fastboot Update」，在「STEP 2」下面即可找到 MIUI 线刷包的下载链接「手机名称 Latest 区域 Stable Version Fastboot File Download」
   * **第三方下载**：如果小米官方没有开放你对机型对应的下载链接，那么你应该可以在第三方 MIUI 下载站下载 MIUI 官方包：
     * **下载 ROM**：<https://xiaomirom.com/> <Badge type="tip" text="推荐" />
+    * **[MIUI正式版刷机包汇总](https://xiaomishequ.feishu.cn/sheets/shtcnsRTbwSvpUsaei6B04ogI6Z)** <Badge type="tip" text="帖子汇总" />
     * **MIUI ROM 最新下载**：<https://miuirom.org/>
     * **MIUI 历史版本**：<https://miuiver.com/> <Badge type="warning" text="需要登录，安全性未知" />
-    * **[MIUI正式版刷机包汇总](https://xiaomishequ.feishu.cn/sheets/shtcnsRTbwSvpUsaei6B04ogI6Z)** <Badge type="tip" text="帖子汇总" />
 
 ## 屏幕截图
 
@@ -38,13 +38,6 @@
 * [MIUI 动画解析][animation]
 
 ## 评价
-
-<meter id="fuel" min="0" max="50" low="25" high="40" optimum="45" :value="average*10"></meter>
-{{ average }} 分（{{ scoredBy }} 人打分）
-
-::: tip
-如果您需要打分，请点击文末“在 Gitee 上编辑此页面”手动编辑此页进行打分。
-:::
 
 <Score :scoreList="scoreList" />
 

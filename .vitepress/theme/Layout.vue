@@ -1,8 +1,9 @@
 <script setup lang="ts">
 import mediumZoom, { ZoomOptions } from 'medium-zoom'
 import { Zoom } from 'medium-zoom'
+import { useData, useRoute, useRouter } from 'vitepress';
 import DefaultTheme from 'vitepress/theme'
-import { nextTick, onBeforeUnmount, onMounted } from 'vue'
+import { nextTick, watch } from 'vue'
 
 const { Layout } = DefaultTheme
 
@@ -27,32 +28,17 @@ function updateZoom() {
     })
 }
 
-/**
- * 元素监听器，普通的 onUpdated 不生效
- */
-let observer: MutationObserver
 
-if (!import.meta.env.SSR) {
-    observer = new MutationObserver(mutations => {
-        updateZoom()
-    })
-}
+const data = useData()
 
-onMounted(() => {
-    if (observer) {
-        nextTick(() => {
-            let box = <Node>document.querySelector('.vp-doc')
-            observer.observe(box, { attributes: true })
-        })
-    }
+
+watch(data.page, (dir) => {
+    console.log(dir);
     updateZoom()
-})
+}, { immediate: true })
 
-onBeforeUnmount(() => {
-    if (observer) {
-        observer.disconnect()
-    }
-})
+
+
 
 </script>
 

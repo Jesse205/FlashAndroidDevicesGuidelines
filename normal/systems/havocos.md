@@ -66,13 +66,6 @@ Havoc-OS 是一个基于安卓开源项目的售后固件，其灵感来自于�
 
 ## 评价
 
-<meter id="fuel" min="0" max="50" low="25" high="40" optimum="45" :value="average*10"></meter>
-{{ average }} 分（{{ scoredBy }} 人打分）
-
-::: tip
-如果您需要打分，请点击文末“在 Gitee 上编辑此页面”手动编辑此页进行打分。
-:::
-
 <Score :scoreList="scoreList" />
 
 ### 优点

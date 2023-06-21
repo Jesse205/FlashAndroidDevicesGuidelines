@@ -15,5 +15,6 @@ export default <Theme>{
         const { app } = ctx
         app.component('Score', Score)
         app.component('Emoji', Emoji)
+        
     }
 }
