@@ -17,15 +17,16 @@ Magisk通过修补ramdisk实现Root
 如下图所示，Magisk核心修补代码替换了ramdisk中的init，添加了Magisk自定义的overlay.d
 获取Root权限就是让/system/bin里有su binary，这个过程Magisk做到了systemless，即不在物理意义修改system分区
 此外，Magisk还会对kernel进行patch，比如Force kernel to load rootfs，Remove Samsung defex/RKP等工作
-Magisk Modules: Modify read-only partitions by installing modules
+<!-- Magisk Modules: Modify read-only partitions by installing modules -->
 Magisk模块可以修改只读分区，从而做到替换温控，将应用变为系统应用等。这些修改一般是安全的，不会真的读写物理分区
-MagiskBoot: The most complete tool for unpacking and repacking Android boot images
+<!-- MagiskBoot: The most complete tool for unpacking and repacking Android boot images -->
 MagiskBoot 安卓Boot镜像解包/打包最完备的工具，这个暂时不用管，以后会用到[受虐滑稽]
-Zygisk: Run code in every Android applications' processes
+<!-- Zygisk: Run code in every Android applications' processes -->
 Zygisk可以在每个安卓应用进程中运行代码，从而做到注入指定内容修改进程/隐藏Root等操作。Zygisk寄生于Zygote，是Riru在新时代的继任者。在Android中，负责孵化新进程的这个进程叫做Zygote，安卓上其他的应用进程都是由它孵化的。
-The result of Ramdisk determines whether your device has ramdisk in the boot partition. If your device does not have boot ramdisk, read the Magisk in Recovery section before continuing.
+<!-- The result of Ramdisk determines whether your device has ramdisk in the boot partition. If your device does not have boot ramdisk, read the Magisk in Recovery section before continuing. -->
 MagiskManager中的“Ramdisk”状态确定了你的设备的Boot分区里是否有Ramdisk
 如果没有，你就要安装Magisk到Recovery分区里，这不是本教程的内容，详见
+
 ## 二、步骤
 首先，你需要解锁BootLoader，这是一切玩机之根本。什么是BootLoader?详见
 总之，如果BootLoader是锁定状态，非官方的固件不符合签名(signature)，会无法开机（有些机器有BootROM漏洞，可能可以启动）
@@ -34,7 +35,7 @@ MagiskManager中的“Ramdisk”状态确定了你的设备的Boot分区里是�
 以下的内容只适用于真我GT，其他机器可以看对应板块的解锁教程
 温馨提示:绿厂解锁BootLoader会自毁TEE
 什么是 TEE(Trusted Execution Environment)
-还是这篇文章
+还是这篇文章:[底层固件安全性]
 
 注意，这一步会清除手机所有数据！！！
 下载对应安卓版本
@@ -55,13 +56,17 @@ https://developer.android.google.cn/studio/releases/platform-tools
 
 按音量键选择UNLOCK THE BOOTLOADER，按电源键确认，请注意，这一步你的所有用户数据都会被清除，切记备份！！！
 重启之后，如果开发者选项中的OEM解锁如图是灰色的，说明解锁成功力（喜
-## 二、安装Magisk
-下载Magisk
-https://github.com/topjohnwu/Magisk/releases/tag/v25.2 
-目前topjohnwu官方最新的稳定版是25.2，建议用这个版本(bug更少)
-除此之外，还有很多第三方的Magisk也很优秀，比如Magisk Delta/Alpha
+## 二、安装 Magisk
 
-A.有TWRP
+下载 Magisk：[查看链接](../../index.md#下载-magisk)
+
+::: tip
+目前 topjohnwu 官方最新的稳定版是[25.2](https://github.com/topjohnwu/Magisk/releases/tag/v25.2)，建议用这个版本 (bug 更少)
+:::
+
+除此之外，还有很多第三方的 Magisk 也很优秀，比如 Magisk Delta/Alpha
+
+### A.有TWRP
 重启进入TWRP Recovery
 对于RealmeGT，可以用@秋水105 的TWRP
 我改了一下，升级了里面自带的Magisk版本
@@ -71,10 +76,13 @@ fastboot boot twrp.img
 TWRP里有Root手机的选项，可以一键安装Magisk V25.2
 重启，安装Magisk-v25.2.apk，如果当前不是“无法获取”，那么你获得了Root权限
 这里顺便推荐一下我的TWRP安装模块
+
 https://www.coolapk.com/feed/41984934?shareKey=NDFjYWJmMzA3OTU1NjNkYjg0ZjQ~&shareUid=14103126&shareFrom=com.coolapk.market_13.0.1 
 [受虐滑稽]
-B.没有TWRP
-下载当前系统OTA包
+
+### B.没有TWRP
+
+下载当前系统 OTA 包
 RMX2202 OTA大全
 (GDPR 欧版 EXPORT 印度版 domestic 国内版)
 https://forum.xda-developers.com/t/rmx2202-realme-gt-5g-ui2-0-ui3-0-full-package-update-root-file.4356507/ 
@@ -114,3 +122,6 @@ C.使用Root工具箱
 ## 参考链接
 
 * [RealmeGT Root教程(ColorOS/RealmeUI)](https://www.coolapk.com/feed/42977573?shareKey=YzgwZGU2MTg1ZmMwNjQ5MDQxMjY~)
+* [底层固件安全性]
+
+[底层固件安全性]:https://www.coolapk.com/feed/32067805?shareKey=YjQ3N2FiNDFjZDkwNjNkYjczNzM~&shareUid=14103126

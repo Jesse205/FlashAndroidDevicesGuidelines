@@ -4,12 +4,12 @@
 
 拥有 Pixel 的体验，附带谷歌的 APP，有时会简称为 PE。
 
-* __官方网站__：<https://download.pixelexperience.org/>
-* __官方下载__：<https://download.pixelexperience.org/>
+* **官方网站**：<https://download.pixelexperience.org/>
+* **官方下载**：<https://download.pixelexperience.org/>
 
 ## 屏幕截图
 
-* __Android 12L__：
+* **Android 12L**：
 
 <div class="screenshotList">
 <img src="https://forum.xda-developers.com/attachments/screenshot_20220324-202403_settings-png.5569961/" alt="关于" title="关于"/>
@@ -19,7 +19,7 @@
 
 ::: details 历史版本
 
-* __Android 9.0__：
+* **Android 9.0**：
 
 <div class="screenshotList">
 <img src="https://forum.xda-developers.com/attachments/screenshot_20181208-052947-jpg.4660871/" alt="主页面" title="主页面"/>

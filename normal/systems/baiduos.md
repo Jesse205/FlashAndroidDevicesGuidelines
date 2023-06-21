@@ -14,14 +14,14 @@
 [百度云 OS 于 2015 年 3 月 11 日起，暂停更新][2]。您的系统可能会无法接收安全补丁而充满漏洞，建议您更换其他操作系统。
 :::
 
-* __官方网站__：未知，且以已关闭
-* __下载地址__：
-  * __奇兔刷机__ <Badge type="warning" text="第三方" /> ：<http://rom.7to.cn/search.html?key=55m+5bqm5LqR>
+* **官方网站**：未知，且以已关闭
+* **下载地址**：
+  * **奇兔刷机** <Badge type="warning" text="第三方" /> ：<http://rom.7to.cn/search.html?key=55m+5bqm5LqR>
   * [本站整理](../../fast/download/baiduos.md) <Badge type="warning" text="第三方" />
 
 ## 系统截图
 
-* __公测版 V6__：
+* **公测版 V6**：
 
 <div class="screenshotList">
 <img src="http://file.7to.cn/uploads/romimages/201504/15/27666/a2.png" alt="主页面" title="主页面"/>

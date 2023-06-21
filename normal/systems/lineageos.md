@@ -4,17 +4,17 @@
 
 用于各种设备的免费和开源的操作系统，基于安卓移动平台。
 
-* __官方网站__：<https://lineageos.org/>
-* __下载地址__：
-  * __官网下载__：<https://wiki.lineageos.org/devices/>
-  * __LineageOS ROMs__ <Badge type="warning" text="第三方" /> ：<http://lineageosroms.com/>（下载历史版本）
-* __文档__：<https://wiki.lineageos.org/>
-* __论坛__：
-  * __LineageOS中文论坛__ <Badge type="warning" text="第三方" /> ：<https://www.lineageos.org.cn/>
+* **官方网站**：<https://lineageos.org/>
+* **下载地址**：
+  * **官网下载**：<https://wiki.lineageos.org/devices/>
+  * **LineageOS ROMs** <Badge type="warning" text="第三方" /> ：<http://lineageosroms.com/>（下载历史版本）
+* **文档**：<https://wiki.lineageos.org/>
+* **论坛**：
+  * **LineageOS中文论坛** <Badge type="warning" text="第三方" /> ：<https://www.lineageos.org.cn/>
 
 ## 屏幕截图
 
-* __LineageOS 18.1__：
+* **LineageOS 18.1**：
 
 <div class="screenshotList">
 <img src="https://forum.xda-developers.com/attachments/screenshot_20210511-232130_trebuchet-png.5306555/" alt="桌面" title="桌面"/>

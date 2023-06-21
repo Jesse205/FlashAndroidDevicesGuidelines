@@ -4,16 +4,16 @@
 
 HarmonyOS 是新一代的智能终端操作系统，为不同设备的智能化、互联与协同提供了统一的语言，带来简捷、流畅、连续、安全可靠的全场景交互体验。
 
-* __官方网站__：<https://www.harmonyos.com/>
-  * __HarmonyOS 3 官网__：<https://consumer.huawei.com/cn/harmonyos-3/>
-  * __HarmonyOS 2 官网__：<https://consumer.huawei.com/cn/harmonyos/>
-* __下载地址__：
-  * __官方__：官方未提供
-  * __Huawei Firm Finder__ <Badge type="warning" text="第三方" /> ：<https://professorjtj.github.io/>
+* **官方网站**：<https://www.harmonyos.com/>
+  * **HarmonyOS 3 官网**：<https://consumer.huawei.com/cn/harmonyos-3/>
+  * **HarmonyOS 2 官网**：<https://consumer.huawei.com/cn/harmonyos/>
+* **下载地址**：
+  * **官方**：**官方未提供**
+  * **Huawei Firm Finder** <Badge type="warning" text="第三方" /> ：<https://professorjtj.github.io/>
 
 ## 屏幕截图
 
-* __HarmonyOS 2__：
+* **HarmonyOS 2**：
 
 <img src="https://developer.harmonyos.com/resource/image/release2/design/pic_developer_design_24-617.jpg" width="600" alt="概览" title="概览"/>
 <img src="https://genk.mediacdn.vn/139269124445442048/2021/2/5/8-1-1612512545597369019106.jpg" width="350" alt="早期关于" title="早期关于"/>

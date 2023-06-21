@@ -8,10 +8,10 @@ Havoc-OS 是一个基于安卓开源项目的售后固件，其灵感来自于�
 
 通用系统映像（GSI）是可用的，所以即使你的设备目前不被支持，你也可以尝试我们的 ROM。我们的设备名册不断增加，每月都有更多的设备支持。
 
-* __官方网站__：<https://havoc-os.com/>
-* __下载地址__：
-  * __官网下载__：<https://download.havoc-os.com/>
-  * __SourceForge__ <Badge type="tip" text="官方" /> ：<https://sourceforge.net/projects/havoc-os/files/>
+* **官方网站**：<https://havoc-os.com/>
+* **下载地址**：
+  * **官网下载**：<https://download.havoc-os.com/>
+  * **SourceForge** <Badge type="tip" text="官方" /> ：<https://sourceforge.net/projects/havoc-os/files/>
 
 ## 屏幕截图
 
@@ -47,13 +47,13 @@ Havoc-OS 是一个基于安卓开源项目的售后固件，其灵感来自于�
 
 ## 特性
 
-* __最新的__：经常更新最新的月度安全补丁
-* __自定义__：广泛的有用功能和设置来定制你的设备
-* __稳定性__：流畅和稳定，具有最佳的电池寿命和性能。
-* __Material Design 用户界面__：简洁而精致的用户界面，灵感来自谷歌 Pixel。
-* __支持__：在 Telegram 和 XDA 上提供对 ROM 的积极支持。
-* __开放源代码__：ROM 的源代码可在我们 的GitHub 上找到。
-* __OTA__：每月一次的空中更新，提供无忧无虑的体验。
+* **最新的**：经常更新最新的月度安全补丁
+* **自定义**：广泛的有用功能和设置来定制你的设备
+* **稳定性**：流畅和稳定，具有最佳的电池寿命和性能。
+* **Material Design 用户界面**：简洁而精致的用户界面，灵感来自谷歌 Pixel。
+* **支持**：在 Telegram 和 XDA 上提供对 ROM 的积极支持。
+* **开放源代码**：ROM 的源代码可在我们 的GitHub 上找到。
+* **OTA**：每月一次的空中更新，提供无忧无虑的体验。
 
 ## 设计
 

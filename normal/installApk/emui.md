@@ -76,6 +76,11 @@
 1. 关闭 WLAN、移动数据和蓝牙（如果使用蓝牙上网的话）
 2. 重新尝试安装软件
 
+<div class="screenshotList">
+<img src="./images/hmos/offline/bug.jpg" alt="提示打开网络bug" title="提示打开网络bug"/>
+<img src="./images/hmos/offline/end.jpg" alt="通过校验" title="通过校验"/>
+</div>
+
 #### 切换来源
 
 此方法适用于不能断网的情况下，但是又急需安装网络
