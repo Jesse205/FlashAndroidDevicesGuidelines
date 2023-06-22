@@ -99,6 +99,7 @@ export default defineConfig({
           items: [
             {
               text: '解锁 Bootloader', link: '/fast/unlock/',
+              collapsed: true,
               items: [
                 { text: '华为', link: '/fast/unlock/huawei.html' },
                 { text: '小米', link: '/fast/unlock/xiaomi.html' },
@@ -115,6 +116,7 @@ export default defineConfig({
             {
               text: '获取 Root',
               link: '/fast/install/root/',
+              collapsed: true,
               items: [
                 { text: '华为', link: '/fast/install/root/huawei/' },
                 { text: '小米', link: '/fast/install/root/xiaomi/' },
@@ -125,28 +127,33 @@ export default defineConfig({
           ]
         }
       ],
-      '/normal/systems': [
-        {
-          text: '操作系统',
-          link: '/normal/systems/',
-          items: [
-            { text: 'HarmonyOS', link: '/normal/systems/harmonyos.html' },
-            { text: 'MIUI', link: '/normal/systems/miui.html' },
-            { text: 'LineageOS', link: '/normal/systems/lineageos.html' },
-            { text: 'PixelExperience', link: '/normal/systems/pixelexperience.html' },
-            { text: 'Havoc OS', link: '/normal/systems/havocos.html' },
-            { text: 'Windows', link: '/normal/systems/windows.html' },
-            { text: '百度云 OS', link: '/normal/systems/baiduos.html' },
-          ],
-        },
-      ],
       '/normal/': [
         {
           text: '基础知识',
           items: [
             { text: '名词集', link: '/normal/noun.html' },
-            { text: '操作系统', link: '/normal/systems/' },
-            { text: '分区和映像', link: '/normal/partitions/' },
+            {
+              text: '操作系统',
+              link: '/normal/systems/',
+              collapsed: true,
+              items: [
+                { text: 'HarmonyOS', link: '/normal/systems/harmonyos.html' },
+                { text: 'MIUI', link: '/normal/systems/miui.html' },
+                { text: 'LineageOS', link: '/normal/systems/lineageos.html' },
+                { text: 'PixelExperience', link: '/normal/systems/pixelexperience.html' },
+                { text: 'Havoc OS', link: '/normal/systems/havocos.html' },
+                { text: 'Windows', link: '/normal/systems/windows.html' },
+                { text: '百度云 OS', link: '/normal/systems/baiduos.html' },
+              ],
+            },
+            {
+              text: '分区和映像',
+              link: '/normal/partitions/',
+              collapsed: true,
+              items: [
+                { text: '华为', link: '/normal/partitions/huawei.html' },
+              ]
+            },
             { text: '各种模式', link: '/normal/modes/' },
             { text: '安装软件', link: '/normal/installApk/' },
 
@@ -158,6 +165,7 @@ export default defineConfig({
             {
               text: 'Root',
               link: '/normal/danger_permissions/root/',
+              collapsed: true,
               items: [
                 { text: '让 SuperSU 接管权限', link: '/normal/danger_permissions/root/to_supersu.html' },
               ]
@@ -173,7 +181,7 @@ export default defineConfig({
           ]
         }
       ],
-      '/faq/': [
+      '/faq/|/rollover/': [
         {
           text: '常见问题与解答',
           link: '/faq/',

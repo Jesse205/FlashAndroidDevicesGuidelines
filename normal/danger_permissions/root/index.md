@@ -6,7 +6,7 @@
 
 Android 删除了 `su` 程序，所以 Root 的过程就是把 `su` 文件放到 `/system/bin/` ，`Superuser.apk` 放到 `/system/app` 下面，还需要设置一些权限。（Android 5.0 之前的方法）
 
-ROOT 的权限高于 [ADB（Android Debug Bridge）](../../../tools/platform-tools.md#adb-工具)权限，因此 ADB 无法完全代替 ROOT。
+ROOT 的权限高于 [ADB（Android Debug Bridge）](/tools/platform-tools.md#adb-工具)权限，因此 ADB 无法完全代替 ROOT。
 
 ::: tip
 
@@ -37,11 +37,11 @@ Magisk，别名叫做“面具”
   * **MagiskBoot**：用于解压缩和重新打包 Android 启动映像的最完整工具
   * **Zygisk**：在每个 Android 应用程序的进程中运行代码
 * **[Github 仓库](https://github.com/topjohnwu/Magisk)**
-* **[安装教程](../../../fast/install/root/index.md#magisk)**
+* **[安装教程](/fast/install/root/index.md#magisk)**
 * **下载地址：**
   * [GitHub Releases](https://github.com/topjohnwu/Magisk/releases/latest) <Badge type="tip" text="官方" />
 * **相关链接**：
-  * [刷入 Magisk](../../../fast/install/root/index.md#magisk)
+  * [刷入 Magisk](/fast/install/root/index.md#magisk)
   * [Magisk 中文文档](https://jesse205.github.io/MagiskChineseDocument/) <Badge type="tip" text="本站翻译" />
 
 ### KernelSU <Badge type="tip" text="推荐" />
@@ -58,11 +58,11 @@ KernelSU 是 Android GKI 设备的 root 解决方案，它工作在内核模式�
   * **模块支持**：KernelSU 支持通过 overlayfs 修改 /system，它甚至可以使 /system 可写。
   * **开源**：KernelSU 是 GPL-3 许可下的开源项目。
 * **[官方网站](https://kernelsu.org/zh_CN/)**
-* **[安装教程](../../../fast/install/root/index.md#kernelsu)**
+* **[安装教程](/fast/install/root/index.md#kernelsu)**
 * **下载地址：**
   * [GitHub Releases](https://github.com/tiann/KernelSU/releases) <Badge type="tip" text="官方" />
 * **相关链接：**
-  * [刷入 KernelSU](../../../fast/install/root/index.md#kernelsu)
+  * [刷入 KernelSU](/fast/install/root/index.md#kernelsu)
   
 ## SuperUser
 
@@ -94,7 +94,7 @@ KernelSU 是 Android GKI 设备的 root 解决方案，它工作在内核模式�
 
 对于这些一键 Root 工具，机型不一样体验也不一样，建议都试试，有些 Root 工具至今也可以使用。
 
-* **[安装教程](../../../fast/install/root/index.md#一键-root-工具)**
+* **[安装教程](/fast/install/root/index.md#一键-root-工具)**
 
 ## Awesome Root | 令人惊叹的 Root
 
@@ -102,7 +102,7 @@ KernelSU 是 Android GKI 设备的 root 解决方案，它工作在内核模式�
 
 ## 相关链接
 
-* [获取 Root](../../../fast/install/root/index.md)
+* 快速上手：[获取 Root](/fast/install/root/index.md)
 
 ## 参考链接
 

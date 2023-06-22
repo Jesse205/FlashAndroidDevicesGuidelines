@@ -17,11 +17,13 @@ title: false
 此刷机指南侧重于安卓。如果您需要有关 Windows、Linux 或 Mac OS 的刷机指南，敬请期待。
 :::
 
-> 虽然这是个万能的指南，但内容主要以小米和华为为主（因为我只有这两种手机）。
->
-> 如果条件允许，希望您可以帮我完善一下此文档（其实吧我是小白😂）
->
+::: info
+虽然这是个万能的指南，但内容主要以小米和华为为主（因为我只有这两种手机）。
+
+如果条件允许，希望您可以帮我完善一下此文档（其实吧我是小白😂）
+
 > 该文档旨在编写全国免费、实用、最严谨、最完善、最准确的文档。如果您遇到文档中的错误或者不严谨的地方，欢迎纠正！
+:::
 
 ::: warning
 
@@ -32,7 +34,7 @@ title: false
 
 ---
 
-在浏览本文档前，请先浏览[《文档说明》（点击此处开始浏览](./faq/documents.md)）与[《注意事项》](./normal/note.md)，以防止您迷茫或翻车。
+在浏览本文档前，请先浏览[《文档说明》（点击此处开始浏览）](./faq/documents.md)与[《注意事项》](./normal/notes/index.md)，以防止您迷茫或翻车。
 
 在浏览本文档时，请务必仔细文档内容。**因您操作失误导致的损失我们不负责。**
 
@@ -89,8 +91,9 @@ title: false
 * 常用社区：这些是刷机/手机爱好者聚集地，您可以在这些社区了解更多内容
   * **[酷安](https://www.coolapk.com/)**: 分享应用的乐趣
   * **[XDA Forums](https://forum.xda-developers.com/)**: 一个全球玩机的网站
-  * **[Github](https://github.com/)**: 开发者的代码托管平台
+  * **[GitHub](https://github.com/)**: 开发者的代码托管平台
   * 等待补充......
+  * [查看更多](/normal/discussions.md)
 * 常用操作系统
   * **[LineageOS](https://lineageos.org/)**: 基于 Android 移动平台的各种设备的免费开源操作系统。[查看详情](/normal/systems/lineageos.md)
   * **[Havoc OS](https://havoc-os.com/)**: 完美的 Material Design，自定义功能丰富。[查看详情](/normal/systems/havocos.md)
@@ -112,6 +115,10 @@ title: false
 
 ::: tip
 您可以直接编辑文件，Gitee 会自动处理一些东西。
+:::
+
+::: tip
+如果您不使用 Gitee，也可以使用 GitHub。但是使用 GitHub 修改代码后需要同步到 Gitee 内，否则您的文档会被覆盖。如果您发现此类问题，您可以联系我解决。
 :::
 
 > 由于本人刷机知识短浅，文档中出现不完善的地方很正常。希望您可以帮我改进此文档，非常感谢！

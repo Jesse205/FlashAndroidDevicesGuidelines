@@ -5,8 +5,9 @@
 | 名称             | 适配版本                    | 免 Root | 停更 |
 | ---------------- | --------------------------- | ------- | ---- |
 | LSPosed          | Android 8.1 - 最新          | LSPath  | X    |
-| EdXposed         | [Android 8.0 - 11][EDXPAAV] | X       | V    |
-| Xposed Framework | ? - Android 8.1             | X       | V    |
+| LSPosed 老版本   | Android 8.0 - 未知          | X       | X    |
+| EdXposed         | [Android 8.0 - 11][EDXPAAV] | X       | √    |
+| Xposed Framework | ? - Android 8.1             | X       | √    |
 | 太极             | ？                          | 太极阴  | ？   |
 
 [EDXPAAV]: https://github.com/ElderDrivers/EdXposed/wiki/%E5%8F%AF%E7%94%A8%E7%9A%84-Android-%E7%89%88%E6%9C%AC

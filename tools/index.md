@@ -20,7 +20,7 @@
   * [质感文件](https://github.com/zhanghai/MaterialFiles) <Badge type="tip" text="开源：GPL-3.0" />：一个开源的 Material Design 文件管理器，适用于 Android 5.0+
     （相关链接：[酷安](https://www.coolapk.com/apk/me.zhanghai.android.files) | [F-Droid](https://f-droid.org/packages/me.zhanghai.android.files/)）
 * 工具箱
-  * 搞基工具箱
+  * [搞基工具箱](http://jamcz.com/gj2x2/)
 * 环境检测
   * Ruru
   * Momo
@@ -33,6 +33,8 @@
 * 应用安装器
   * [APK 安装程序](https://github.com/Paving-Base/APK-Installer) <Badge type="tip" text="开源：GPL-3.0" />：适用于 Windows 的安卓应用程序安装程序\
     （更多链接：[Microsoft Store](https://www.microsoft.com/store/productId/9P2JFQ43FPPG)）
+* 工具箱
+  * [搞基工具箱](http://jamcz.com/gjgjx/)
 
 ## Web 端
 

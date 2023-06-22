@@ -8,7 +8,9 @@
   * [Sui](https://github.com/RikkaApps/Sui)：安卓上的现代超级用户接口实现。
 * 安卓支持库
   * [Shizuku-API](https://github.com/RikkaApps/Shizuku-API)：Shizuku 和 Sui 的API和开发者指南。
+* 工具箱
+  * [搞基工具箱](http://jamcz.com/gj2x2/)
 * 其他平台软件（Windows、Linux、MacOS 等）
   * [Platform-Tools](/tools/platform-tools.md)：Android SDK Platform-Tools 是 Android SDK 的一个组件
   * 工具箱
-    * 搞基工具箱
+    * [搞基工具箱](http://jamcz.com/gjgjx/)

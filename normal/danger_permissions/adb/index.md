@@ -62,13 +62,13 @@ Android Studio 会自动下载 Platform-Tools。如果您曾今使用过 Android
 
 使用 ADB 为安卓设备安装软件
 
-请参考[《安装电脑或其他设备上的软件》][adb安装软件]
+请阅读[《安装电脑或其他设备上的软件》][adb安装软件]
 
 #### ADB sideload
 
 使用 ADB 刷入刷机包
 
-请参考[《ADB Sideload》](../../../fast/flash/system.md#adb-sideload)
+请阅读[《ADB Sideload》](../../../fast/flash/system.md#adb-sideload)
 
 [adb安装软件]: ../../installApk/index.md#安装电脑或其他设备上的软件
 
@@ -83,7 +83,7 @@ Android Studio 会自动下载 Platform-Tools。如果您曾今使用过 Android
 
 ## 相关链接
 
-* 工具：[Platform-Tools][PlatformTools]
+* 常用工具：[Platform-Tools][PlatformTools]
 
 [PlatformTools]: /tools/platform-tools.md
 [WADB]: https://github.com/RikkaApps/WADB
