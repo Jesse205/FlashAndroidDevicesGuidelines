@@ -154,8 +154,23 @@ export default defineConfig({
                 { text: '华为', link: '/normal/partitions/huawei.html' },
               ]
             },
-            { text: '各种模式', link: '/normal/modes/' },
-            { text: '安装软件', link: '/normal/installApk/' },
+            {
+              text: '各种模式',
+              link: '/normal/modes/',
+              collapsed: true,
+              items: [
+                { text: '华为', link: '/normal/modes/huawei.html' },
+                { text: '小米', link: '/normal/modes/xiaomi.html' },
+              ]
+            },
+            {
+              text: '安装软件',
+              link: '/normal/installApk/',
+              collapsed: true,
+              items: [
+                { text: 'EMUI 类', link: '/normal/installApk/emui.html' },
+              ]
+            },
 
           ],
         },
@@ -169,6 +184,10 @@ export default defineConfig({
               items: [
                 { text: '让 SuperSU 接管权限', link: '/normal/danger_permissions/root/to_supersu.html' },
               ]
+            },
+            {
+              text: 'Xposed',
+              link: '/normal/danger_permissions/xposed/',
             },
             {
               text: 'ADB',

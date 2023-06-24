@@ -96,6 +96,10 @@ KernelSU 是 Android GKI 设备的 root 解决方案，它工作在内核模式�
 
 * **[安装教程](/fast/install/root/index.md#一键-root-工具)**
 
+## Root 原理
+
+敬请期待
+
 ## Awesome Root | 令人惊叹的 Root
 
 <!--@include: ./awesome.md -->

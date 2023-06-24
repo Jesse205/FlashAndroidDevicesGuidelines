@@ -20,7 +20,7 @@
 :::
 
 ::: tip
-关于这些工具的详细介绍：[Root](../../../normal/danger_permissions/root/index.md)
+关于这些工具的详细介绍：[Root](/normal/danger_permissions/root/index.md)
 :::
 
 ## 兼容性表格
@@ -150,7 +150,11 @@ ROOT 过程中手机可能会重新启动，属于正常现象。
 
 ## 救砖
 
-您的设备在Root过程中可能变砖，但是别急，您[可以救砖](/rescuing/index.md)
+您的设备在Root过程中可能变砖，但是别急，您可以[救砖](/rescuing/index.md)
+
+## 相关链接
+
+* 基础知识：[Root](/normal/danger_permissions/root/index.md)
 
 ## 参考链接
 

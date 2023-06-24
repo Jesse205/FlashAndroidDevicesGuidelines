@@ -6,6 +6,8 @@ Android 调试桥 (adb) 是一种功能多样的命令行工具，可让您与�
 
 ::: tip
 您可以使用 [Shizuku][Shizuku] 将 ADB 权限共享给其他应用
+
+有关 Shizuku 启动的方法，请参考[Shizuku 的《用户手册》](https://shizuku.rikka.app/zh-hans/guide/setup/)。
 :::
 
 ## 无线调试 (传统方法)
@@ -52,23 +54,19 @@ Android Studio 会自动下载 Platform-Tools。如果您曾今使用过 Android
 
 ### 常见用法
 
-#### 常见命令
-
-| 命令                       | 说明                                                           |
-| -------------------------- | -------------------------------------------------------------- |
-| `adb install -r myapp.apk` | 重新安装 `myapp.apk` 安装包并保留数据。[更多详情][adb安装软件] |
-
 #### ADB 安装软件
+
+常见用法：`adb install -r 我的软件.apk`（重新安装 `我的软件.apk` 安装包并保留数据。）
 
 使用 ADB 为安卓设备安装软件
 
-请阅读[《安装电脑或其他设备上的软件》][adb安装软件]
+请阅读[《安装电脑或其他设备上的软件》][adb安装软件]。
 
 #### ADB sideload
 
 使用 ADB 刷入刷机包
 
-请阅读[《ADB Sideload》](../../../fast/flash/system.md#adb-sideload)
+请阅读[《ADB Sideload》](/fast/flash/system.md#adb-sideload)
 
 [adb安装软件]: ../../installApk/index.md#安装电脑或其他设备上的软件
 

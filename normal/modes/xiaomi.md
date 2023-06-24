@@ -2,7 +2,11 @@
 
 ## Recovery 模式
 
-敬请期待
+* 进入方法
+  * 支持[通用方法](./index.md#recovery-模式)，但是通过音量键进入的时候稍微不一样：
+    * 关机状态长按电源键和音量加，出现 logo 后松开电源键（部分机型也可以松开音量键）。
+* 退出方法：
+  * 与[通用方法](./index.md#recovery-模式)保持一致。
 
 ## Fastboot 模式
 
@@ -26,3 +30,4 @@ MIUI 进入安全模式会破坏桌面布局，请先做好备份然后进入
 ## 参考链接
 
 * [小米手机怎么进入和退出安全模式](https://zhidao.baidu.com/question/587032721011268325.html) - 百度知道
+* [小米手机如何进入recovery](https://jingyan.baidu.com/article/e9fb46e18347073420f76676.html) - 百度经验

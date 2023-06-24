@@ -27,24 +27,17 @@ function updateZoom() {
         zoom.attach()
     })
 }
-
-
 const data = useData()
 
 
 watch(data.page, (dir) => {
-    console.log(dir);
     updateZoom()
 }, { immediate: true })
-
-
-
 
 </script>
 
 <template>
     <Layout>
-
     </Layout>
 </template>
 

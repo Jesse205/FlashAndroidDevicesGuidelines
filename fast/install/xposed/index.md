@@ -5,7 +5,7 @@
 :::
 
 ::: tip
-关于这些工具的详细介绍：[Xposed](../../../normal/danger_permissions/xposed/index.md)
+关于这些工具的详细介绍：[Xposed](/normal/danger_permissions/xposed/index.md)
 :::
 
 ## 兼容性表格
@@ -29,13 +29,11 @@
 Edxposed 拥有三个不同的版本
 
 * Stable：经过测试的稳定版, 适合一般用户，更新缓慢.
-***在 [Magisk Manager] 中的 [下载] 页中下载 Stable 版本***
-
+    **在 [Magisk Manager] 中的 [下载] 页中下载 Stable 版本**
 * Alpha: 多次提交更新的测试版.
-***在 [[Github Releases](https://github.com/ElderDrivers/EdXposed/releases)] 中下载 Alpha 版本***
-
+    **在 [[Github Releases](https://github.com/ElderDrivers/EdXposed/releases)] 中下载 Alpha 版本**
 * Canary: 由 CI 自动生成的测试版.（因为是自动生成的，所以里面可能会包含不受欢迎的代码，包括盗号，格机）
-***在 [[EdXposed Manager](https://github.com/ElderDrivers/EdXposedManager)] 中下载 Canary 版本***
+    **在 [[EdXposed Manager](https://github.com/ElderDrivers/EdXposedManager)] 中下载 Canary 版本**
 
 ### 安装 EdXposed
 
@@ -50,8 +48,10 @@ Edxposed 拥有三个不同的版本
 
 敬请期待
 
+## 相关链接
+
+* 基础知识：[Xposed](/normal/danger_permissions/xposed/index.md)
+
 ## 参考链接
 
 * [EdXposed Framework](https://github.com/ElderDrivers/EdXposed/blob/master/index_CN.md) - GitHub
-
-[EDXPAAV]: https://github.com/ElderDrivers/EdXposed/wiki/%E5%8F%AF%E7%94%A8%E7%9A%84-Android-%E7%89%88%E6%9C%AC

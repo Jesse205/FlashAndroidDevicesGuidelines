@@ -36,6 +36,10 @@
 
 ## 第三方 ROM
 
+### OpenHarmony
+
+？？？
+
 ### LineageOS
 
 <img class="banner-img" src="./images/logo/lineage.svg" alt="LineageOS LOGO"/>
@@ -153,4 +157,5 @@ Android 将世界凝聚在一起。欢迎在您的设备上搭载 Android 开源
 
 ## 相关链接
 
-* [下载 ROM](../../fast/download/index.md)
+* [下载 ROM](../../fast/download/index.md) - 刷机指南
+* [刷入 ROM](../../fast/flash/system.md) - 刷机指南

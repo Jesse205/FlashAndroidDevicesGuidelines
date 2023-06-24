@@ -12,8 +12,8 @@
 这个 Recovery 就是[我们常见的 Recovery](./index.md#recovery-模式)。
 
 * 进入方法：
-  * 支持[通用方法](./index.md#recovery-模式)，但是通过音量键进入的时候稍微不一样。
-  * 不连接电脑，关机状态长按电源键和音量加，出现 logo 后只松开电源键，直到进入。
+  * 支持[通用方法](./index.md#recovery-模式)，但是通过音量键进入的时候稍微不一样：
+    * 不连接电脑，关机状态长按电源键和音量加，出现 logo 后松开电源键（部分机型也可以松开音量键）。
 * 退出方法：
   * 与[通用方法](./index.md#recovery-模式)保持一致。
 * 分区名：`recovery`（EMUI 5 及之前）、`recovery_ramdisk`（EMUI 8 及以后）
@@ -44,21 +44,28 @@ eRecovery 只有下载系统恢复包并恢复的作用，其他的清除数据�
 
 ## 升级模式（三键强刷）
 
+此模式通常用于升级或者刷入官方系统，除此之外很少用得到。
+
 升级模式是 Recovery 的一部分，第三方 Recovery 可能会破坏此模式。
 
 * 进入方法：
-  * 关机状态下，长按电源键、音量加和音量减。插不插线无所谓。（部分第三方Recovery只支持不插线进入）
+  * 关机状态下，长按电源键、音量加和音量减。（插不插线无所谓，部分第三方Recovery只支持不插线进入）
 * 退出方法：
   * 点击界面中的“确定”、“关机”或“重启”按钮
-  * 长按电源键强制重启 <Badge type="warning" text="可能损坏系统" />
+  * 或长按电源键强制重启 <Badge type="warning" text="更新过程中退出可能损坏系统" />
 
 ## 安全模式
 
 * 支持[通用方法](./index.md#安全模式)，但是不支持在电源菜单中长按进入。
-* EMUI 9.1 及以上版本是开机过程中长按电源键和音量上键。
-* EMUI 9.1 以下版本在开机过程中同时电源键和音量下键完成开机。
-* Mate30 Pro 系列是手机开机振动后，连续按电源键5次进入。
+* EMUI 9.1 及以上版本：开机过程中长按电源键和音量上键。
+* EMUI 9.1 以下版本：在开机过程中同时电源键和音量下键完成开机。
+* Mate30 Pro 系列：手机开机振动后，连续按电源键5次进入。
+
+## 版权声明
+
+本文档已获得 [某贼](https://www.coolapk.com/u/3463951) 授权搬运并修改整理
 
 ## 参考链接
 
+* [如何Root你的华为旧机？](https://www.coolapk.com/feed/26320412?shareKey=YzZmMjdiZjEwNThjNjEwZDQ5MGI~&shareUid=3463951&shareFrom=com.coolapk.market_11.3)
 * [华为手机/平板安全模式简介](https://consumer.huawei.com/cn/support/content/zh-cn00737976/) - 华为官网

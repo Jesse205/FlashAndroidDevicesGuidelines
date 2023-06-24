@@ -21,7 +21,8 @@
                 "div",
                 "meter",
                 "Emoji",
-                "Score"
+                "Score",
+                "ToolInfo"
             ]
         },
         "MD025": false,

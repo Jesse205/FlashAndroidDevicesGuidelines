@@ -6,8 +6,18 @@
 
 ## Android 与安卓
 
+### 什么是 Android 开源项目？
+
+Android 开源项目 (AOSP) 是指打造出 Android 的人员、流程和源代码。
+
+人员负责监督项目并开发源代码。流程是指 Google 为了管理软件的开发而使用的工具和程序。最终得到是可让您用于手机和其他设备的源代码。
+
+### Google 为什么开放了 Android 源代码？
+
+根据 Google 自己在开发移动应用方面的经验，Google 启动了 Android 项目。Google 希望确保始终有开放的平台可供运营商、原始设备制造商 (OEM) 和开发者使用，以便他们将创新的想法变为现实。另外，Google 也希望避免出现任何集中瓶颈，这样的话，就没有任何行业参与者可以一手限制或控制任何其他参与者开展创新。AOSP 有一个最重要的目标，那就是确保尽可能广泛地以兼容的方式实现 Android 开放源代码软件，使每个人都能从中受益。
+
 ::: details 一些介绍
-[Android](https://source.android.google.cn/?hl=zh-cn)，读音：英：['ændrɔɪd]，美：[ˈænˌdrɔɪd]，原译为机器人，在香港通用原名「Android」，只有在中国大陆和台湾等华人地区使用非官方名称「安卓」，因此 __Android 基本等同于安卓__。这是一个基于 Linux 内核与其他开源软件的开放源代码的移动操作系统，由谷歌成立的开放手持设备联盟持续领导与开发，主要设计用于智能手机和平板电脑等触摸屏移动设备。
+[Android](https://source.android.google.cn/?hl=zh-cn)，读音：英：['ændrɔɪd]，美：[ˈænˌdrɔɪd]，原译为机器人，在香港通用原名「Android」，只有在中国大陆和台湾等华人地区使用非官方名称「安卓」，因此 Android 基本等同于安卓。这是一个基于 Linux 内核与其他开源软件的开放源代码的移动操作系统，由谷歌成立的开放手持设备联盟持续领导与开发，主要设计用于智能手机和平板电脑等触摸屏移动设备。
 
 该操作系统的核心被称为 [Android 开源项目（AOSP）](https://source.android.google.cn/?hl=zh-cn)，是主要根据 [Apache 许可](https://apache.org/licenses/)获得许可的免费开源软件 (FOSS)。
 
@@ -18,6 +28,7 @@
 超过 70% 的基于 Android 开源项目的智能手机运行 Google 的生态系统（简称 Android），其中一些具有供应商定制的用户界面和软件套件，例如 TouchWiz 以及后来三星和 HTC Sense 的 One UI。
 
 > 此处待查证
+
 :::
 
 ::: details 一些历史
@@ -33,13 +44,17 @@ Android Inc.于2003年10月由安迪·鲁宾、利奇·米纳尔、尼克·席�
 截至2022年5月，根据 StatCounter 统计，除了美国、英国、加拿大、挪威、瑞典、丹麦、瑞士、科索沃、日本、台湾和澳大利亚外，在其他所有国家和地区 Android 都是最被广泛使用的智能手机操作系统。
 :::
 
+### 为什么市面上安卓系统这么少？
+
+市面上有很多非常好用的安卓系统。[《操作系统概览》](./systems/index.md)列出了很多常见的安卓系统，以及其他非安卓系统。
+
 ## 各式各样的「锁」
 
 ### Bootloader 锁
 
 BootLoader 锁，简称“BL锁”。从字面意义上理解，是手机厂商对 BootLoader 程序运行的一种限制/锁定。
 
-__作用：__
+**作用：**
 
 防止“篡改”官方 recovery 或“滥用” fastboot。
 
@@ -47,9 +62,9 @@ __作用：__
 
 对于只想安安心心用手机，保护数据安全的普通用户，也起了到一定的保护作用。
 
-__相关链接：__
+**相关链接：**
 
-* [解锁 Bootloader](../fast/unlock/index.md)
+* [解锁 Bootloader](../fast/unlock/index.md) - 刷机指南
 
 ### 锁屏锁
 
@@ -75,7 +90,7 @@ Android 设备包含若干个分区，这些分区在启动过程中发挥不同
 部分设备为了支持 A/B 更新，把 boot、system、vendor 和 radio 配置了两个槽位（如：`system_a`，`system_b`）。
 :::
 
-* __ramdisk__：中文为虚拟硬盘，本质上是借用了部分机身存储（ROM）的空间，存放系统的缓冲文件。而存放于 `system` 分区下的 `ramdisk` 分区可以镜像部分操作系统驱动文件，帮助跑通 BootLoader 和 kernel 等开机引导程序。当然，当前手机厂商大肆宣传的运行内存拓展技术，也是基于一个 `ramdisk` 分区（作者本人不建议开启相关内存拓展技术）
+* **ramdisk**：中文为虚拟硬盘，本质上是借用了部分机身存储（ROM）的空间，存放系统的缓冲文件。而存放于 `system` 分区下的 `ramdisk` 分区可以镜像部分操作系统驱动文件，帮助跑通 BootLoader 和 kernel 等开机引导程序。当然，当前手机厂商大肆宣传的运行内存拓展技术，也是基于一个 `ramdisk` 分区（作者本人不建议开启相关内存拓展技术）
 
 > 此处等待查证
 
@@ -83,8 +98,8 @@ Android 设备包含若干个分区，这些分区在启动过程中发挥不同
 
 ## ROM、RAM
 
-* __RAM__：全称 Random Access Memory，中文名随即存取存储器，是与 CPU 直接交互的存储结构，可以随意读取或写入，具有数据易丢失性（断电时存储在RAM中的数据会丢失），可以理解为 ROM 和 CPU 之间的临时桥梁，即运行内存。
-* __ROM__：全称 Read Only Memory，中文名只读存储器，是手机的内部储存空间，存放着 Android 系统的所有分区及文件，当某文件需要交予 CPU 进行处理时，则需要先行写入 RAM 中，再被 CPU 所读取。
+* **RAM**：全称 Random Access Memory，中文名随即存取存储器，是与 CPU 直接交互的存储结构，可以随意读取或写入，具有数据易丢失性（断电时存储在RAM中的数据会丢失），可以理解为 ROM 和 CPU 之间的临时桥梁，即运行内存。
+* **ROM**：全称 Read Only Memory，中文名只读存储器，是手机的内部储存空间，存放着 Android 系统的所有分区及文件，当某文件需要交予 CPU 进行处理时，则需要先行写入 RAM 中，再被 CPU 所读取。
 
 ::: tip
 刷机包也被称为 ROM 包，或简称为 ROM，也就是一个存放系统文件的文件包。
@@ -170,11 +185,11 @@ Root 有很多工具，常见的有：[Magisk](./danger_permissions/root/index.m
 
 #### Linux 终端
 
-__Linux用户还不会用终端？？？__
+**Linux用户还不会用终端？？？**
 
 ## 卡米
 
-__定义和来源__：
+**定义和来源**：
 
 在启动系统时卡在开机第一屏，这种情况发生在小米手机上，由于第一屏是小米 logo，故称“卡米”。
 
@@ -182,7 +197,7 @@ __定义和来源__：
 
 可能是由于 Android 系统分区中的 boot 分区受到损伤，无法完成开机 BootLoader 引导。
 
-__解决办法__：
+**解决办法**：
 
 尝试长按“音量-”和“电源”键（小米/红米手机）进入 fastboot 刷机模式，重新线刷刷机包，重写 boot 分区，完成开机。
 
@@ -194,7 +209,7 @@ __解决办法__：
 
 敬请期待
 
-__相关链接：__
+**相关链接：**
 
 * [通用系统映像 (GSI)](https://developer.android.google.cn/topic/generic-system-image?hl=zh-cn) - Android 开发者
 
@@ -213,3 +228,4 @@ TWRP 是第三方 Recovery 的一种。有时使用 TWRP 代指第三方 Recover
 * [【小白搞机入门】名词集-卡米](https://www.coolapk.com/feed/42667909?shareKey=MWQ3MzZlMmQ4N2E2NjQ3OGI4NTg~)
 * [root](https://baike.baidu.com/item/root/73226) - 百度百科
 * [数据线](https://baike.baidu.com/item/%E6%95%B0%E6%8D%AE%E7%BA%BF/391946) - 百度百科
+* [常见问题解答](https://source.android.google.cn/docs/setup/about/faqs?hl=zh-cn#what-is-the-android-open-source-project) - Android 开源项目
