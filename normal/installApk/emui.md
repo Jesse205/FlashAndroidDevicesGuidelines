@@ -51,6 +51,11 @@
 
 您在安装软件时可能出现风险提示，您没有直接看到“继续安装”按钮。您可以试试以下方法继续安装。
 
+<div class="screenshotList">
+<img src="./images/hmos/hoteye/understand_checkbox.jpg" alt="勾选选择框" title="勾选选择框"/>
+<img src="./images/hmos/hoteye/understand_btn.jpg" alt="点击按钮" title="点击按钮"/>
+</div>
+
 #### 火眼金睛
 
 已知适用此方法的报毒类型：

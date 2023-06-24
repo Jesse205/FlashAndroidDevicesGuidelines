@@ -13,7 +13,8 @@
   * <ToolInfo name="Dhizuku" />
   * <ToolInfo name="App Ops" />
 * 编程开发
-  * <ToolInfo name="Activity Manager" />
+  * <ToolInfo name="Activity Manager" />（创建快捷方式替代品）
+  * <ToolInfo name="App Manager" />
   * <ToolInfo name="WADB" />
 * 冻结软件
   * <ToolInfo name="雹" />

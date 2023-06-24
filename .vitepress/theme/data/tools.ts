@@ -43,6 +43,12 @@ const sortedTools: ToolCategory[] = [
                 license: 'Apache-2.0',
                 info: '启动任何应用程序活动'
             },
+            {
+                name: 'App Manager',
+                url: 'https://github.com/MuntashirAkon/AppManager/',
+                license: 'GPL-3.0',
+                info: '一个全功能的 Android 软件包管理器和查看器'
+            }
         ]
     },
     {
