@@ -29,11 +29,11 @@ function updateZoom() {
 }
 const data = useData()
 
-
-watch(data.page, (dir) => {
-    updateZoom()
-}, { immediate: true })
-
+if (!import.meta.env.SSR) {
+    watch(data.page, (dir) => {
+        updateZoom()
+    }, { immediate: true })
+}
 </script>
 
 <template>
