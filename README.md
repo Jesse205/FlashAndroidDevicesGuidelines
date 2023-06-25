@@ -13,7 +13,8 @@
 
 您可以通过以下链接来访问文档
 
-* Netlify: <https://efadg.netlify.app/>
+* ~~Netlify: <https://efadg.netlify.app/>~~
+* Github Pages: <https://jesse205.github.io/FlashAndroidDevicesGuidelines>
 
 > TIP
 > 如果您在身在中国大陆，可能无法访问此链接。您可能需要使用 DNS 加密技术，使域名正确对应 IP。

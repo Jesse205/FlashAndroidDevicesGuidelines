@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import mediumZoom, { ZoomOptions } from 'medium-zoom'
 import { Zoom } from 'medium-zoom'
-import { useData, useRoute, useRouter } from 'vitepress';
+import { useData } from 'vitepress';
 import DefaultTheme from 'vitepress/theme'
 import { nextTick, watch } from 'vue'
 

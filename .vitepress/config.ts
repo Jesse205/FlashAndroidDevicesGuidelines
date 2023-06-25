@@ -6,6 +6,7 @@ export default defineConfig({
   title: "刷机指南",
   description: "不仅仅是刷机指南",
   lastUpdated: this,
+  base: 'FlashAndroidDevicesGuidelines',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     outlineTitle: '本页内容',
