@@ -42,7 +42,7 @@
   * <ToolInfo name="搞基工具箱-PC" />
 * 远程控制
   * <ToolInfo name="Scrcpy-PC" />
-  * Scrcpy 启动器<Badge text="开发者：杰西205">
+  * Scrcpy 启动器 <Badge text="开发者：杰西205" />
   * 向日葵远程控制：免费的远程控制
 
 ## Web 端
