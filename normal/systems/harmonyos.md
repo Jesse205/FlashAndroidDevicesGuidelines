@@ -43,7 +43,8 @@ HarmonyOS 是新一代的智能终端操作系统，为不同设备的智能化�
 
 ### 动画
 
-* [鸿蒙动画解析][animation]
+* [鸿蒙动画解析][animation] - 哔哩哔哩：STRAY_数码
+* [鸿蒙3.0动画超详细解析][hm3_animation] - 哔哩哔哩：MSEDGE
 
 ## 评价
 
@@ -69,6 +70,7 @@ HarmonyOS 是新一代的智能终端操作系统，为不同设备的智能化�
 * [几斤几两？华为鸿蒙系统动画超细解析（对比iOS/MIUI）【STRAY】][animation] - 哔哩哔哩
 
 [animation]: https://www.bilibili.com/video/BV1rr4y1C7Nz/
+[hm3_animation]: https://www.bilibili.com/video/BV1Le411A7rn
 
 声明：图片均来源于网络。如果侵犯了您的权力，请[联系我](mailto:jesse205@qq.com)，我会尽快删除。
 

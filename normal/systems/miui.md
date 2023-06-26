@@ -35,7 +35,7 @@
 
 ### 动画
 
-* [MIUI 动画解析][animation]
+* [MIUI 动画解析][animation] - 哔哩哔哩：STRAY_数码
 
 ## 评价
 
