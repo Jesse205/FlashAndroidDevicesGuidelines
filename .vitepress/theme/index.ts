@@ -3,8 +3,8 @@ import { Theme } from 'vitepress'
 import Score from './components/Score.vue'
 import Emoji from './components/Emoji.vue'
 import ToolInfo from './components/ToolInfo.vue'
-import './custom.scss'
-import './index.scss'
+import './styles/custom.scss'
+import './styles/index.scss'
 import Layout from './Layout.vue'
 
 

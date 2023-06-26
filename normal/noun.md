@@ -6,6 +6,8 @@
 
 ## Android 与安卓
 
+![Android Banner](https://platform-decentral.com/wp-content/uploads/2020/02/Android-Banner-1.png)
+
 ### 什么是 Android 开源项目？
 
 Android 开源项目 (AOSP) 是指打造出 Android 的人员、流程和源代码。
@@ -138,31 +140,38 @@ Root 有很多工具，常见的有：[Magisk](./danger_permissions/root/index.m
 
 ## 命令与终端
 
+简单来讲，命令就是**让电脑干一件事的“描述”**，终端就是**输入命令的地方**。
+
 关于它们的定义，您可以查看[《Windows 控制台和终端定义》](https://learn.microsoft.com/zh-cn/windows/console/definitions)。
 
-如果您想快速了解相关知识，建议观看尚硅谷的[《NodeJS入门：认识命令行工具》](https://www.bilibili.com/video/BV1gM411W7ex?p=6&vd_source=8a0088dd008c1b931f40fb1033994f70)视频
+尽管 [shell、cmd 与终端的含义不同](https://www.zhihu.com/question/40448945)，但在一般情况下，人们会**粗略地将这些东西划等号**。
 
 本文档内[所有的命令都在终端内输入](../faq/documents.md#命令的使用)。
 
-### 关于终端
+::: tip
+如果您想快速了解相关知识，建议观看尚硅谷的[《NodeJS入门：认识命令行工具》](https://www.bilibili.com/video/BV1gM411W7ex?p=6&vd_source=8a0088dd008c1b931f40fb1033994f70)视频
+:::
 
-尽管 [shell、cmd 与终端的含义不同](https://www.zhihu.com/question/40448945)，但在一般情况下，人们会粗略地将这些名词划等号。
+### Windows 终端
 
-#### Windows 终端
+**进入方法**：
 
 1. 点击开始菜单或按 「Windows 徽标键+R」
-2. 输入 `cmd` ，并按下回车键
-3. 在接下来弹出的窗口中输入您的指令
+2. 输入 `cmd` ，并按下回车键，即可进入终端。 \
+    ![从搜索进入](./images/terminal/enter_from_search.png)\
+    ![从运行进入](./images/terminal/enter_from_run.png)
 
-想要退出时直接关闭窗口即可
+**退出方法**：直接关闭窗口即可
 
-这是一个 Windows 控制台窗口主机 窗口（严格上来说是“控制台窗口主机”）的截图：
+::: tip
+这是一个 Windows 控制台窗口主机 的截图：
 ![Windows 控制台窗口主机](./images/terminal/windows_cmd.png)
 
 这是一个 Windows 终端的截图：
 ![Windows 终端](./images/terminal/windows_terminal.png)
 
-如果您使用的是 Windows 11+，您可以根据[《Windows11 设置 CMD 默认使用 Windows Terminal 启动》](https://blog.csdn.net/no1xium/article/details/123213625)将默认终端程序设置为 Windows 终端，这样您打开 CMD 时会自动打开更好看的 Windows 终端。
+如果您使用的是 Windows 11+ 或者 Windows10 19045.3086，您可以根据[《Windows11 设置 CMD 默认使用 Windows Terminal 启动》](https://blog.csdn.net/no1xium/article/details/123213625)将默认终端程序设置为 Windows 终端，这样您打开 CMD 时会自动打开更好看的 Windows 终端。
+:::
 
 ::: tip
 一般情况下，您可以直接将文件拖入终端内，快速输入文件路径
@@ -171,35 +180,32 @@ Root 有很多工具，常见的有：[Magisk](./danger_permissions/root/index.m
 ::: tip
 若使用 Powershell 而非 CMD，如果您想运行工作目录下的软件，请在每行命令前加 `./`。
 
-如果您不知道上面这句话是什么意思，那就不要使用 Powershell。
+如果您不知道上面这句话是什么意思，那就**不要使用 Powershell**。
 :::
 
-#### MacOS 终端
+### MacOS 终端
 
-在 Mac 上，请执行以下一项操作：
+在 Mac 上，请执行以下其中随便一项操作：
 
 * 点按程序坞中的「启动台」图标 ￼，在搜索栏中键入「终端」，然后点按「终端」。
 * 在「访达」￼ 中，打开「/应用程序/实用工具」文件夹，然后连按「终端」。
 
 想要退出时在「终端」App ￼中，选取「终端」>「退出终端」或输入 `exit` 命令。
 
-#### Linux 终端
+### Linux 终端
 
 **Linux用户还不会用终端？？？**
 
 ## 卡米
 
-**定义和来源**：
-
-在启动系统时卡在开机第一屏，这种情况发生在小米手机上，由于第一屏是小米 logo，故称“卡米”。
-
-为什么会导致“卡米”
+卡米就是在**启动系统时卡在开机第一屏**，这种情况发生在小米手机上，由于第一屏是小米 logo，故称“卡米”。
 
 可能是由于 Android 系统分区中的 boot 分区受到损伤，无法完成开机 BootLoader 引导。
 
 **解决办法**：
 
-尝试长按“音量-”和“电源”键（小米/红米手机）进入 fastboot 刷机模式，重新线刷刷机包，重写 boot 分区，完成开机。
+* 一般情况下长按“音量-”和“电源”键（小米/红米手机）[进入 fastboot 刷机模式](./modes/index.md#fastboot-模式)，重新线刷刷机包，重写 boot 分区，尝试开机。
+* 特殊情况下就需要对症下药了。您可以转到[《救砖指南》](/rescuing/index.md)
 
 ::: warning
 部分卡米无药可救，请谨慎刷机。
@@ -223,9 +229,12 @@ TWRP 是第三方 Recovery 的一种。有时使用 TWRP 代指第三方 Recover
 
 ## 参考链接
 
-* [【小白搞机入门】名词集-ROM、RAM、ramdisk](https://www.coolapk.com/feed/42682544?shareKey=ZjIwNzExZDUyYjczNjNkNTgzMTY~) - 酷安
-* [【小白搞机入门】名词集-BootLoader锁（BL锁）](https://www.coolapk.com/feed/42674591?shareKey=YzQ2MThhNmI5MmNiNjNkNTcwOGM~) - 酷安
-* [【小白搞机入门】名词集-卡米](https://www.coolapk.com/feed/42667909?shareKey=MWQ3MzZlMmQ4N2E2NjQ3OGI4NTg~)
+* [【小白搞机入门】名词集-ROM、RAM、ramdisk](https://www.coolapk.com/feed/42682544?shareKey=ZjIwNzExZDUyYjczNjNkNTgzMTY~) - 酷安：灬只会刷机养老
+* [【小白搞机入门】名词集-BootLoader锁（BL锁）](https://www.coolapk.com/feed/42674591?shareKey=YzQ2MThhNmI5MmNiNjNkNTcwOGM~) - 酷安：灬只会刷机养老
+* [【小白搞机入门】名词集-卡米](https://www.coolapk.com/feed/42667909?shareKey=MWQ3MzZlMmQ4N2E2NjQ3OGI4NTg~) - 酷安：灬只会刷机养老
 * [root](https://baike.baidu.com/item/root/73226) - 百度百科
 * [数据线](https://baike.baidu.com/item/%E6%95%B0%E6%8D%AE%E7%BA%BF/391946) - 百度百科
 * [常见问题解答](https://source.android.google.cn/docs/setup/about/faqs?hl=zh-cn#what-is-the-android-open-source-project) - Android 开源项目
+* [Android Banner](https://platform-decentral.com/android-banner-2/) - Platform Decentral
+
+声明：部分图片来源于网络。如果侵犯了您的权力，请[联系我](mailto:jesse205@qq.com)，我会尽快删除。

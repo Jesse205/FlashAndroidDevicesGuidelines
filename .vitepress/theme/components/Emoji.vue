@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { withBase } from 'vitepress';
+
 
 
 const props = defineProps<{
@@ -8,7 +10,7 @@ const props = defineProps<{
 </script>
 
 <template>
-    <img :src="`/emoji/${name}.png`" data-emoji/>
+    <img :src="withBase(`/emoji/${name}.png`)" data-emoji />
 </template>
 
 <style scoped>

@@ -29,18 +29,19 @@ next:
 ::: tip
 
 * 部分特别老的手机或者杂牌机没有 Bootloader 锁，甚至连 Bootloader 都没有。如果您正在操作一款像 Lenovo A788T 这样的手机，您可以直接跳过这篇。
+* 对于新手，强烈建议**使用备用机**尝试解锁，以免因刷机解锁干扰您的正常生活。
 
 :::
 
 ::: danger
 
-* **所有用户数据将会被清除，包括内部存储，切记备份！！！**
-* 部分手机解锁后将会熔断，无法还原。
+* **所有用户数据将会被清除，包括内部存储，请一定要做好备份！！！**
+* 部分手机解锁后**将会熔断**，无法还原。
 * 部分手机解锁后会失去保修资格。
 
 | 厂商 | 步骤            | 后果     |
 | ---- | --------------- | -------- |
-| Oppo | 解锁 BootLoader | 自毁 TEE |
+| OPPO | 解锁 BootLoader | 自毁 TEE |
 
 :::
 
@@ -56,11 +57,11 @@ next:
 :::
 
 * 情况一 解锁工具方法：[小米](./xiaomi.md#解锁步骤)、真我 GT
-  1. 下载并打开深度测试 APP，申请深度测试，等待审核通过 <Badge type="tip" text="真我 GT" />
+  1. 下载并打开深度测试 APP，申请深度测试，等待审核通过 <Badge text="真我 GT" />
   2. 在手机上寻找有关解锁选项，并全部设置为允许解锁的状态（一般在开发人员选项内）
-  3. 官网下载解锁工具 <Badge type="tip" text="小米" />
+  3. 官网下载解锁工具 <Badge text="小米" />
 * 情况二 解锁码方法：~~华为~~
-  1. 在手机上寻找有关解锁选项，并全部设置为允许解锁的状态（一般在开发人员选项内）<Badge type="tip" text="华为除外" />
+  1. 在手机上寻找有关解锁选项，并全部设置为允许解锁的状态（一般在开发人员选项内）<Badge text="华为除外" />
   2. 官网申请解锁码
 * 情况三：杂牌手机
   1. 在手机上寻找有关解锁选项，并全部设置为允许解锁的状态（一般在开发人员选项内）
@@ -89,9 +90,9 @@ next:
 * 情况三：杂牌手机、真我 GT
   1. 手机连接电脑
   2. 安装 [Platform-tools][PlatformTools] 工具
-  3. 进入 CMD，输入 `fastboot unlock`
-  4. 或输入 `fastboot flashing unlock` <Badge type="tip" text="真我 GT" />
-  5. 手机上选择“确认解锁”
+  3. 进入 CMD，输入 `fastboot unlock`\
+    或输入 `fastboot flashing unlock` <Badge text="真我 GT" />
+  4. 手机上选择“确认解锁”
 * 其他情况：等待补充
 
 ## 检查是否已解锁
@@ -119,6 +120,6 @@ next:
 
 ## 参考链接
 
-* [【小白搞机入门】名词集-BootLoader锁（BL锁）](https://www.coolapk.com/feed/42674591?shareKey=YzQ2MThhNmI5MmNiNjNkNTcwOGM~) - 酷安
-* [RealmeGT Root教程(ColorOS/RealmeUI)](https://www.coolapk.com/feed/42977573?shareKey=YzgwZGU2MTg1ZmMwNjQ5MDQxMjY~)
-* [杂牌机搞机之旅（一）——获得root权限（刷入magisk）](https://www.cnblogs.com/stars-one/p/10638548.html) - 博客园
+* [【小白搞机入门】名词集-BootLoader锁（BL锁）](https://www.coolapk.com/feed/42674591?shareKey=YzQ2MThhNmI5MmNiNjNkNTcwOGM~) - 酷安：灬只会刷机养老
+* [RealmeGT Root教程(ColorOS/RealmeUI)](https://www.coolapk.com/feed/42977573?shareKey=YzgwZGU2MTg1ZmMwNjQ5MDQxMjY~) - 酷安：然后成为老弟二号
+* [杂牌机搞机之旅（一）——获得root权限（刷入magisk）](https://www.cnblogs.com/stars-one/p/10638548.html) - 博客园：Stars-one

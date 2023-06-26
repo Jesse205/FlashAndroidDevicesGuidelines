@@ -27,9 +27,9 @@
 ### 二、开始解锁
 
 ::: warning
-华为部分手机无法通过 ADB 命令直接解锁，因此您可能需要 __通过第三方渠道解锁__。
+华为部分手机无法通过 ADB 命令直接解锁，因此您可能需要**通过第三方渠道解锁**。
 
-以下方法只适用于老设备，新设备已经关闭了解锁命令，您需要拆机才可以解锁。
+以下方法只适用于老设备，新设备已经关闭了解锁命令，您需要**拆机**才可以解锁。
 :::
 
 ::: danger
@@ -37,7 +37,7 @@
 :::
 
 ::: tip
-解锁之前请关闭查找手机（不要只退出账号）否则无法解锁。解锁后出现黄色开机警告为正常现象。
+解锁之前请**关闭查找手机（不要只退出账号）**，否则无法解锁。解锁后出现黄色开机警告为**正常现象**。
 :::
 
 1. 将手机用数据线连接电脑，进入 Fastboot 模式
@@ -47,23 +47,25 @@
 fastboot oem unlock <解锁码>
 ```
 
-> 如果您不知道这是什么意思，请参考[《命令的使用》](../../faq/documents.md)
+> 如果您不知道这是什么意思，请参考[《命令的使用》](/faq/documents.md)
 
 老一点的机型一般直接就解锁了，新一点的手机上可能会出现这样的提示：
 
 ![解锁提示](./images/unlock_ask.jpg)
 
-这时按音量加键调整到 `Yes` ，再按电源键确认就可以了。如果手机重启或低级格式化，最终 `Fastboot` 上显示红色 `Unlocked` ，即为解锁成功。
+这时按音量加键调整到 `Yes` ，再按电源键确认就可以了。
 
-## 检查是否已解锁
+如果手机重启或低级格式化，最终 `Fastboot` 上显示红色 `Unlocked` ，即为解锁成功。
 
-* __fastboot 状态__: 如果显示红色的 `PHONE Unlocked`。
-* __开机第一屏之后__: 如果显示 `Your device has been unlocked and can't be trusted.` ，并且提示文字为橙色，则说明手机解锁成功。
+## 确定是否已解锁
+
+* **fastboot 状态**: 如果显示红色的 `PHONE Unlocked`，则手机已解锁。
+* **开机第一屏之后**: 如果显示 `Your device has been unlocked and can't be trusted.` ，并且提示文字为橙色，则手机已解锁。
 
 ## 版权声明
 
-本文档已获得 [某贼](https://www.coolapk.com/u/3463951) 授权搬运并修改整理
+本文档已获得 [@某贼](https://www.coolapk.com/u/3463951) 授权搬运并修改整理
 
 ## 参考链接
 
-* [如何Root你的华为旧机？](https://www.coolapk.com/feed/26320412?shareKey=YzZmMjdiZjEwNThjNjEwZDQ5MGI~&shareUid=3463951&shareFrom=com.coolapk.market_11.3)
+* [如何Root你的华为旧机？](https://www.coolapk.com/feed/26320412?shareKey=YzZmMjdiZjEwNThjNjEwZDQ5MGI~&shareUid=3463951&shareFrom=com.coolapk.market_11.3) - 酷安：某贼

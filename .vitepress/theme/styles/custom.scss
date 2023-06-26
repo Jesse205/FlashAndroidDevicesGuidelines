@@ -43,31 +43,38 @@
 .medium-zoom-image--opened {
   z-index: 1000;
   background-color: var(--vp-c-bg);
+  image-rendering: -webkit-optimize-contrast;
 }
 
 /* 背景模糊 */
 :root {
   --vp-nav-bg-color: var(--vp-c-bg);
-  --vp-c-bg-elv: var(--vp-nav-bg-color);
-  --vp-c-bg-alt: #f6f6f7cc;
   --vp-c-bg: #ffffffcc;
+  --vp-c-bg-elv: var(--vp-nav-bg-color);
+  --vp-c-bg-elv-up: #ffffffcc;
+  --vp-c-bg-elv-down: #f6f6f7cc;
+  --vp-c-bg-elv-mute: #f6f6f7cc;
+  --vp-c-bg-alt: #f6f6f7cc;
   --vp-backdrop-bg-color: rgba(0, 0, 0, 0.1);
-  --vp-c-mute: #f6f6f766;
-  --vp-c-mute-light: #f9f9fc66;
-  --vp-c-mute-lighter: #ffffff66;
-  --vp-c-mute-dark: #e3e3e566;
-  --vp-c-mute-darker: #d7d7d966;
+  --vp-c-mute: #f6f6f7cc;
+  --vp-c-mute-light: #f9f9fccc;
+  --vp-c-mute-lighter: #ffffffcc;
+  --vp-c-mute-dark: #e3e3e5cc;
+  --vp-c-mute-darker: #d7d7d9cc;
 }
 
 .dark {
   --vp-c-bg: #1e1e2099;
   --vp-c-bg-elv: #25252966;
+  --vp-c-bg-elv-up: #31313666;
+  --vp-c-bg-elv-down: #1e1e2066;
+  --vp-c-bg-elv-mute: #31313666;
   --vp-c-bg-alt: #16161866;
-  --vp-c-mute: #31313666;
-  --vp-c-mute-light: #3a3a3c66;
-  --vp-c-mute-lighter: #50505366;
-  --vp-c-mute-dark: #2c2c3066;
-  --vp-c-mute-darker: #25252966;
+  --vp-c-mute: #31313699;
+  --vp-c-mute-light: #3a3a3c99;
+  --vp-c-mute-lighter: #50505399;
+  --vp-c-mute-dark: #2c2c3099;
+  --vp-c-mute-darker: #25252999;
 }
 
 .VPLocalNav::before,
