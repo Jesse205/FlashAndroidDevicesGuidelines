@@ -4,19 +4,19 @@
 
 ## 开始之前先来了解一些必备技能
 
-* [华为的各个模式](../../../../normal/modes/huawei.md)
+* [基础知识 > 华为的各个模式](/normal/modes/huawei.md)
 
 ## 准备的东西
 
 * 电脑
 * 手机
-* [数据线](../../../../normal/noun.md)
-* [ADB工具包](../../../../tools/platform-tools.md#adb-下载)
+* [数据线](/faq/knowledge.md#数据线-是什么-和-充电线-有什么区别)
+* [ADB工具包](/tools/platform-tools.md#adb-下载)
 * [Magisk](../index.md#下载-magisk)
 * SuperSU（安卓 4 到 6 使用，部分手机需要专用刷机包）
 * 以及一双灵巧的双手。
 
-## 解锁步骤
+## 操作步骤
 
 ### 一、解锁BL锁
 
@@ -26,34 +26,59 @@
 
 ### 二、刷入 TWRP
 
-首先你要找到适用于你手机的 TWRP。比如我要找荣耀7的，那就百度“荣耀7TWRP”，就能找到很多：
+首先你要找到适用于你手机的 TWRP。比如我要找荣耀 7的，那就[百度“荣耀 7 TWRP”](https://www.baidu.com/s?word=%E8%8D%A3%E8%80%80+7+TWRP)，就能找到很多：
 
-这么多 TWRP 选哪个，我个人首推花粉俱乐部里发布的，品质有保障。
+这么多 TWRP 选哪个，我个人首推**花粉俱乐部**（花粉俱乐部内所有相关帖子已屏蔽，请从**荣耀俱乐部**内查找）里发布的，品质有保障。
 
 > 向 HRT 团队致敬！
 
-下载之后如果是zip格式压缩包，就全部解压，里面一般有一键刷入.bat或者Run.bat之类的一键刷入脚本。运行它按照提示刷入即可。
+* 下载之后如果是 `zip` 格式压缩包，就全部解压，里面一般有一键刷入 `.bat` 或者 `Run.bat` 之类的一键刷入脚本。运行它按照提示刷入即可。
+* 如果下载下来只有 `img` 文件，那就需要手动刷入。继续回到 Fastboot，输入命令：
 
-如果下载下来只有img文件，那就需要手动刷入。继续回到Fastboot，输入命令：
+::: details 代码生成器
+您可以在这里直接生成您的代码
 
-``` shell
-fastboot flash recovery 此处拖入img文件
+注：如果使用生成器生成的代码，需要将终端工作目录切换至文件所在的目录。
+
+<label>img 文件：<FileInput @change="imgFilePath = $event" :default="imgFilePath" /></label>
+
+:::
+
+::: code-group
+
+``` shell-vue [EMUI 5 及之前]
+fastboot flash recovery {{imgFilePath}}
 ```
 
-然后回车即可。一般出现两个OKAY即为刷入成功。
-如果此命令报错 partition length get error，可以尝试用另外一条命令（一般为EMUI8及之后）：
-
-``` shell
-fastboot flash recovery_ramdisk 此处拖入img文件
+``` shell-vue [EMUI 8 及之后]
+fastboot flash recovery_ramdisk {{imgFilePath}}
 ```
 
-（此处感谢@魅族美学6 老哥测试！）
-之后用进入Recovery的方法进入TWRP。
-注意：TWRP文件名里不能有空格，如果有就改名去掉。如果刷完TWRP直接重启进系统，则TWRP可能被官方Recovery覆盖，需要重新刷入。留住TWRP的方法就是刷完进去Root一下，这样以后就不会自动被官方覆盖。
+:::
 
-### 三、刷入Root
+然后回车即可。一般出现两个 `OKAY` 即为刷入成功。
 
-刷入的 Root 包，Android 4~6 用 SuperSU，安卓7及以上用面具20.4。请对应你的安卓版本使用。Root 包不需要解压。
+::: tip
+如果第一条命令报错 `partition length get error`，可以尝试用另外一条命令（一般为 EMUI 8 及之后）.
+
+（此处感谢 @魅族美学6 老哥测试！）
+:::
+
+之后用[进入 Recovery 的方法](/normal/modes/huawei.md#recovery-模式)进入 TWRP。
+
+::: tip 注意
+
+* TWRP 文件名里**不能有空格**，如果有就改名去掉。（对于小白）
+* 如果刷完 TWRP 直接重启进系统，则 TWRP 可能**被官方 Recovery 覆盖**，需要重新刷入。
+* 留住 TWRP 的方法就是刷完进去 Root 一下，这样以后就不会自动被官方覆盖。
+
+:::
+
+### 三、刷入 Root
+
+::: info
+刷入的 Root 包，Android 4~6 用 SuperSU，安卓7及以上用面具 20.4。请对应你的安卓版本使用。Root 包不需要解压。
+:::
 
 如果你的 TWRP 可以正常读取内部存储，那直接把 Root 包拷到内部存储内安装就行了。但是实际上很多 TWRP 不能读取存储，所以这里介绍一个通用的方法：adb sideload。
 
@@ -65,7 +90,10 @@ adb sideload 此处拖入合适的Root包
 
 然后回车，等待刷入完成。
 
-完成后就可以开机了。如果开机之后弹出面具/SuperSU安装提示，安装就是了。如果开机桌面上没有面具/SuperSU也没关系，打开面具/SuperSU 的 zip 包，打开 common 文件夹，找到 Magisk.apk 或 Superuser.apk 解压出来，开文件传输复制到手机里安装即可。
+完成后就可以开机了。
+
+* 如果开机之后弹出 Magisk/SuperSU 安装提示，按照提示安装就是了。
+* 如果开机桌面上没有 Magisk/SuperSU 也没关系，打开 Magisk/SuperSU 的 zip 包，打开 common 文件夹，找到 Magisk.apk 或 Superuser.apk 解压出来，[安装到手机即可](/normal/installApk/index.md#安装电脑或其他设备上的软件)。
 
 ::: warning
 面具就用 20.4，不要升级。底层和管理器都不要升级。升级底层有变砖的风险，升级管理器可能出现无法授权的问题。
@@ -98,4 +126,10 @@ adb sideload 此处拖入合适的Root包
 
 ## 参考链接
 
-* [如何Root你的华为旧机？](https://www.coolapk.com/feed/26320412?shareKey=YzFmYzFkM2MxNzBlNjNkNjVhODE~)
+* [如何Root你的华为旧机？](https://www.coolapk.com/feed/26320412?shareKey=YzFmYzFkM2MxNzBlNjNkNjVhODE~) - 酷安：@某贼
+
+<script setup>
+import {ref} from 'vue'
+
+const imgFilePath = ref('<img文件名或路径>')
+</script>

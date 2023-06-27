@@ -154,12 +154,12 @@ ROOT 过程中手机可能会重新启动，属于正常现象。
 
 ## 相关链接
 
-* 基础知识：[Root](/normal/danger_permissions/root/index.md)
+* [基础知识 > Root](/normal/danger_permissions/root/index.md)
 
 ## 参考链接
 
 * [免工具获取凤凰安卓系统PhoenixOS电脑ROOT权限][凤凰系统官方Root] - 百度经验
-* [小米手机开启root权限从头到尾的步骤][MIUI官方Root] - 知乎
+* [小米手机开启root权限从头到尾的步骤][MIUI官方Root] - 知乎：@MMMRichest的章鱼
 
 [凤凰系统官方Root]: https://jingyan.baidu.com/article/020278114e0fa01bcc9ce5ad.html
 [MIUI官方Root]: https://zhuanlan.zhihu.com/p/499270772

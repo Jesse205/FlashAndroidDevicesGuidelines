@@ -223,6 +223,7 @@ export default defineConfig({
           text: '常用工具',
           link: '/tools/',
           items: [
+            { text: 'Platform-Tools', link: '/tools/platform-tools.html' },
             { text: '华为专用', link: '/tools/huawei/' },
             { text: '小米专用', link: '/tools/xiaomi/' },
           ]

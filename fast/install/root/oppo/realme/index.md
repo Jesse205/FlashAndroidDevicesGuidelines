@@ -121,7 +121,7 @@ C.使用Root工具箱
 
 ## 参考链接
 
-* [RealmeGT Root教程(ColorOS/RealmeUI)](https://www.coolapk.com/feed/42977573?shareKey=YzgwZGU2MTg1ZmMwNjQ5MDQxMjY~)
-* [底层固件安全性]
+* [RealmeGT Root教程(ColorOS/RealmeUI)](https://www.coolapk.com/feed/42977573?shareKey=YzgwZGU2MTg1ZmMwNjQ5MDQxMjY~) - 酷安：@然后成为老弟二号
+* [底层固件安全性] - 酷安：@Jpnx49Db0
 
 [底层固件安全性]:https://www.coolapk.com/feed/32067805?shareKey=YjQ3N2FiNDFjZDkwNjNkYjczNzM~&shareUid=14103126

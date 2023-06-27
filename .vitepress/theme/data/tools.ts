@@ -156,7 +156,7 @@ const sortedTools: ToolCategory[] = [
                 name: 'Scrcpy-PC',
                 url: 'https://github.com/Genymobile/scrcpy',
                 info: '显示和控制你的安卓设备',
-                license: 'ApaApache-2.0'
+                license: 'Apache-2.0'
             }
         ]
     }

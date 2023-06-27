@@ -5,9 +5,13 @@
 
 .screenshotList img {
   margin: 2px;
+  width: 200px;
   min-width: 200px;
   max-width: 200px;
-  width: 200px;
+}
+
+.screenshotList img,
+.border-img {
   border: 1px solid var(--vp-c-border);
   border-radius: 4px;
 }

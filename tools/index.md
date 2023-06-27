@@ -8,39 +8,39 @@
 
 ## 手机端（设备自身）
 
-* 权限管理
+* **权限管理**
   * <ToolInfo name="Shizuku" />
   * <ToolInfo name="Dhizuku" />
   * <ToolInfo name="App Ops" />
-* 编程开发
+* **编程开发**
   * <ToolInfo name="Activity Manager" />（创建快捷方式替代品）
   * <ToolInfo name="App Manager" />
   * <ToolInfo name="WADB" />
-* 冻结软件
+* **冻结软件**
   * <ToolInfo name="雹" />
-* 应用安装器
+* **应用安装器**
   * R-安装
   * <ToolInfo name="InstallerX" />
   * <ToolInfo name="SAI" />
-* 文件管理
+* **文件管理**
   * <ToolInfo name="MT 管理器" />
   * <ToolInfo name="质感文件" />
-* 工具箱
+* **工具箱**
   * <ToolInfo name="搞基工具箱" />
-* 环境检测
+* **环境检测**
   * Ruru
   * Momo
 
 ## 电脑端（外部设备）
 
-* 工具箱
+* **工具箱**
   * <ToolInfo name="Platform-Tools" />
   * <ToolInfo name="Mindows 工具箱-PC" />
-* 应用安装器
+* **应用安装器**
   * <ToolInfo name="APK 安装程序-PC" />
-* 工具箱
+* **工具箱**
   * <ToolInfo name="搞基工具箱-PC" />
-* 远程控制
+* **远程控制**
   * <ToolInfo name="Scrcpy-PC" />
   * Scrcpy 启动器 <Badge text="开发者：杰西205" />
   * 向日葵远程控制：免费的远程控制

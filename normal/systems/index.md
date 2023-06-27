@@ -4,8 +4,8 @@
 
 ::: tip
 
-* 如果您需要下载 ROM，请转到[《下载 ROM》](../../fast/download/index.md)。
-* 如果您需要刷入 ROM，请转到[《刷入 ROM》](../../fast/flash/system.md)。
+* 如果您需要下载 ROM，请转到 [快速开始 > 下载 ROM](/fast/download/index.md)。
+* 如果您需要刷入 ROM，请转到 [快速开始 > 刷入 ROM](/fast/flash/system.md)。
 
 :::
 
@@ -157,5 +157,5 @@ Android 将世界凝聚在一起。欢迎在您的设备上搭载 Android 开源
 
 ## 相关链接
 
-* [下载 ROM](../../fast/download/index.md) - 刷机指南
-* [刷入 ROM](../../fast/flash/system.md) - 刷机指南
+* [快速开始 > 下载 ROM](/fast/download/index.md) - 刷机指南
+* [快速开始 > 刷入 ROM](/fast/flash/system.md) - 刷机指南

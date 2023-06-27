@@ -5,10 +5,6 @@ next:
 ---
 # 解锁 Bootloader
 
-::: details 本页内容
-[[toc]]
-:::
-
 解锁一般指的是解锁 Bootloader。
 
 ::: warning
@@ -120,6 +116,6 @@ next:
 
 ## 参考链接
 
-* [【小白搞机入门】名词集-BootLoader锁（BL锁）](https://www.coolapk.com/feed/42674591?shareKey=YzQ2MThhNmI5MmNiNjNkNTcwOGM~) - 酷安：灬只会刷机养老
-* [RealmeGT Root教程(ColorOS/RealmeUI)](https://www.coolapk.com/feed/42977573?shareKey=YzgwZGU2MTg1ZmMwNjQ5MDQxMjY~) - 酷安：然后成为老弟二号
-* [杂牌机搞机之旅（一）——获得root权限（刷入magisk）](https://www.cnblogs.com/stars-one/p/10638548.html) - 博客园：Stars-one
+* [【小白搞机入门】名词集-BootLoader锁（BL锁）](https://www.coolapk.com/feed/42674591?shareKey=YzQ2MThhNmI5MmNiNjNkNTcwOGM~) - 酷安：@灬只会刷机养老
+* [RealmeGT Root教程(ColorOS/RealmeUI)](https://www.coolapk.com/feed/42977573?shareKey=YzgwZGU2MTg1ZmMwNjQ5MDQxMjY~) - 酷安：@然后成为老弟二号
+* [杂牌机搞机之旅（一）——获得root权限（刷入magisk）](https://www.cnblogs.com/stars-one/p/10638548.html) - 博客园：@Stars-one

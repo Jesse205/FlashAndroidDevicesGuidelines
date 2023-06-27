@@ -8,6 +8,10 @@
 可以在关闭了纯净模式的前提下，使用**华为应用市场**的打开方式来安装 APKS 安装包。
 :::
 
+前提条件是按照[通用方法](./index.md#使用第三方安装器安装)打开安装权限。
+
+EMUI 与 HarmonyOS 安装权限与原生稍微不一样，但大致操作路径是一样的。
+
 #### EMUI 11 及更低版本
 
 这些版本对安装第三方软件基本没有什么限制。在安装软件前，您可能需要[开启“未知来源应用下载”与关闭“外部来源应用检查”](#开启-未知来源应用下载-与关闭-外部来源应用检查)，确保您在安装软件过程中不被系统拦截，然后您可以使用[通用方法](./index.md#安装本机上的软件)安装软件了。
@@ -73,11 +77,6 @@ HarmonyOS 3.0 以下设备可以使用**华为应用市场**安装 APKS 安装�
 
 您在安装软件时可能出现风险提示，您没有直接看到“继续安装”按钮。您可以试试以下方法继续安装。
 
-<div class="screenshotList">
-<img src="./images/hmos/hoteye/understand_checkbox.jpg" alt="勾选选择框" title="勾选选择框"/>
-<img src="./images/hmos/hoteye/understand_btn.jpg" alt="点击按钮" title="点击按钮"/>
-</div>
-
 #### 火眼金睛
 
 已知适用此方法的报毒类型：
@@ -89,6 +88,11 @@ HarmonyOS 3.0 以下设备可以使用**华为应用市场**安装 APKS 安装�
 1. 点击“了解更多”
 2. 勾选“已了解此应用存在的风险”
 3. 点击“仍然安装”
+
+<div class="screenshotList">
+<img src="./images/hmos/hoteye/understand_checkbox.jpg" alt="勾选选择框" title="勾选选择框"/>
+<img src="./images/hmos/hoteye/understand_btn.jpg" alt="点击按钮" title="点击按钮"/>
+</div>
 
 #### 断网大法
 
@@ -142,7 +146,7 @@ HarmonyOS 3.0 以下设备可以使用**华为应用市场**安装 APKS 安装�
 此漏洞在新版本 HarmonyOS 中已修复。
 :::
 
-### 关闭“监控 ADB 安装应用”
+### 关闭 “监控 ADB 安装应用”
 
 如果不关闭此开关，会导致使用第三方应用市场静默安装、使用第三方安装器安装时都会弹出页面确认安装。
 

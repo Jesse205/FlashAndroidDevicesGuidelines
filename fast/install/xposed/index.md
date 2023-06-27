@@ -50,7 +50,7 @@ Edxposed 拥有三个不同的版本
 
 ## 相关链接
 
-* 基础知识：[Xposed](/normal/danger_permissions/xposed/index.md)
+* [基础知识 > Xposed](/normal/danger_permissions/xposed/index.md)
 
 ## 参考链接
 

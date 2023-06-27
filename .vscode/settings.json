@@ -22,10 +22,12 @@
                 "meter",
                 "Emoji",
                 "Score",
-                "ToolInfo"
+                "ToolInfo",
+                "label"
             ]
         },
         "MD025": false,
-        "MD041": false
+        "MD041": false,
+        "MD029": false
     }
 }
