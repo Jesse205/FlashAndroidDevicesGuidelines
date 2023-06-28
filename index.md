@@ -1,5 +1,6 @@
 ---
 title: false
+titleTemplate: false
 ---
 
 # 刷机指南
