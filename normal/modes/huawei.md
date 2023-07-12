@@ -59,7 +59,12 @@ eRecovery 只有下载系统恢复包并恢复的作用，其他的清除数据�
 
 ## 安全模式
 
-* 支持[通用方法](./index.md#安全模式)，但是**部分机型不支持**在电源菜单中长按进入。
+* 支持[通用方法](./index.md#安全模式)，但是**部分机型不支持**在电源菜单中长按进入，并且必须**长按重启菜单**。
+  * 长按电源菜单中重启按钮进入
+    <div class="screenshotList pad">
+    <img src="./images/huawei/power_menu_reboot_long_click.jpg" alt="长按重启按钮" title="长按重启按钮"/>
+    <img src="./images/huawei/power_menu_safemode.jpg" alt="出现安全模式按钮" title="出现安全模式按钮"/>
+    </div>
 * EMUI 9.1 及以上版本：开机过程中长按电源键和音量上键。
 * EMUI 9.1 以下版本：在开机过程中同时电源键和音量下键完成开机。
 * Mate30 Pro 系列：手机开机振动后，连续按电源键5次进入。
