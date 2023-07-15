@@ -43,9 +43,9 @@ export default defineConfig({
         items: [
           // { text: '选购设备', link: '#' },
           { text: '名词集', link: '/normal/noun.html' },
-          { text: '操作系统', link: '/normal/systems/' },
+          { text: '各种开机模式', link: '/normal/modes/' },
           { text: '分区和映像', link: '/normal/partitions/' },
-          { text: '各种模式', link: '/normal/modes/' },
+          { text: '操作系统', link: '/normal/systems/' },
           { text: '安装软件', link: '/normal/installApk/' },
           // { text: '刷机包', link: '#' },
         ]
@@ -134,6 +134,23 @@ export default defineConfig({
           items: [
             { text: '名词集', link: '/normal/noun.html' },
             {
+              text: '各种开机模式',
+              link: '/normal/modes/',
+              collapsed: true,
+              items: [
+                { text: '华为', link: '/normal/modes/huawei.html' },
+                { text: '小米', link: '/normal/modes/xiaomi.html' },
+              ]
+            },
+            {
+              text: '分区和映像',
+              link: '/normal/partitions/',
+              collapsed: true,
+              items: [
+                { text: '华为', link: '/normal/partitions/huawei.html' },
+              ]
+            },
+            {
               text: '操作系统',
               link: '/normal/systems/',
               collapsed: true,
@@ -146,23 +163,6 @@ export default defineConfig({
                 { text: 'Windows', link: '/normal/systems/windows.html' },
                 { text: '百度云 OS', link: '/normal/systems/baiduos.html' },
               ],
-            },
-            {
-              text: '分区和映像',
-              link: '/normal/partitions/',
-              collapsed: true,
-              items: [
-                { text: '华为', link: '/normal/partitions/huawei.html' },
-              ]
-            },
-            {
-              text: '各种模式',
-              link: '/normal/modes/',
-              collapsed: true,
-              items: [
-                { text: '华为', link: '/normal/modes/huawei.html' },
-                { text: '小米', link: '/normal/modes/xiaomi.html' },
-              ]
             },
             {
               text: '安装软件',

@@ -29,8 +29,8 @@
 
 1. 点击“设置”图标，进入系统设置
     <div class="screenshotList">
-    <img src="./images/android4/step1.png" alt="进入系统设置" title="进入系统设置"/>
-    <img src="./images/android7/step1.png" alt="进入系统设置" title="进入系统设置"/>
+    <img src="./images/android4/step1.webp" alt="进入系统设置" title="进入系统设置"/>
+    <img src="./images/android7/step1.webp" alt="进入系统设置" title="进入系统设置"/>
     </div>
 2. 点击“安全”页面，找到“未知来源”，将其开启/勾选
     <div class="screenshotList">
@@ -50,7 +50,7 @@
 
 1. 点击“设置”图标，进入系统设置
     <div class="screenshotList">
-    <img src="./images/android8/step1.png" alt="进入系统设置" title="进入系统设置"/>
+    <img src="./images/android8/step1.webp" alt="进入系统设置" title="进入系统设置"/>
     </div>
 2. 进入“应用和通知”，点击“高级”（部分手机无此选项），找到“特殊应用权限”并进入
     <div class="screenshotList">

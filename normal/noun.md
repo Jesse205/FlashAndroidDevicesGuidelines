@@ -48,7 +48,7 @@ Android Inc.于2003年10月由安迪·鲁宾、利奇·米纳尔、尼克·席�
 
 ### 为什么市面上安卓系统这么少？
 
-市面上有很多非常好用的安卓系统。[《操作系统概览》](./systems/index.md)列出了很多常见的安卓系统，以及其他非安卓系统。
+实际上有很多非常好用的安卓系统。[《操作系统概览》](./systems/index.md)列出了很多常见的安卓系统，以及其他非安卓系统。
 
 ## 各式各样的「锁」
 
@@ -66,7 +66,7 @@ BootLoader 锁，简称“BL锁”。从字面意义上理解，是手机厂商�
 
 **相关链接：**
 
-* [快速上手 > 解锁 Bootloader](../fast/unlock/index.md)
+- [快速上手 > 解锁 Bootloader](../fast/unlock/index.md)
 
 ### 锁屏锁
 
@@ -96,7 +96,7 @@ Android 设备包含若干个分区，这些分区在启动过程中发挥不同
 部分设备为了支持 A/B 更新，把 boot、system、vendor 和 radio 配置了两个槽位（如：`system_a`，`system_b`）。
 :::
 
-* **ramdisk**：中文为虚拟硬盘，本质上是借用了部分机身存储（ROM）的空间，存放系统的缓冲文件。而存放于 `system` 分区下的 `ramdisk` 分区可以镜像部分操作系统驱动文件，帮助跑通 BootLoader 和 kernel 等开机引导程序。当然，当前手机厂商大肆宣传的运行内存拓展技术，也是基于一个 `ramdisk` 分区（作者本人不建议开启相关内存拓展技术）
+- **ramdisk**：中文为虚拟硬盘，本质上是借用了部分机身存储（ROM）的空间，存放系统的缓冲文件。而存放于 `system` 分区下的 `ramdisk` 分区可以镜像部分操作系统驱动文件，帮助跑通 BootLoader 和 kernel 等开机引导程序。当然，当前手机厂商大肆宣传的运行内存拓展技术，也是基于一个 `ramdisk` 分区（作者本人不建议开启相关内存拓展技术）
 
 > 此处等待查证
 
@@ -104,23 +104,23 @@ Android 设备包含若干个分区，这些分区在启动过程中发挥不同
 
 ## ROM、RAM
 
-* **RAM**：全称 Random Access Memory，中文名随即存取存储器，是与 CPU 直接交互的存储结构，可以随意读取或写入，具有数据易丢失性（断电时存储在RAM中的数据会丢失），可以理解为 ROM 和 CPU 之间的临时桥梁，即运行内存。
-* **ROM**：全称 Read Only Memory，中文名只读存储器，是手机的内部储存空间，存放着 Android 系统的所有分区及文件，当某文件需要交予 CPU 进行处理时，则需要先行写入 RAM 中，再被 CPU 所读取。
+- **RAM**：全称 Random Access Memory，中文名随即存取存储器，是与 CPU 直接交互的存储结构，可以随意读取或写入，具有数据易丢失性（断电时存储在RAM中的数据会丢失），可以理解为 ROM 和 CPU 之间的临时桥梁，即运行内存。
+- **ROM**：全称 Read Only Memory，中文名只读存储器，是手机的内部储存空间，存放着 Android 系统的所有分区及文件，当某文件需要交予 CPU 进行处理时，则需要先行写入 RAM 中，再被 CPU 所读取。
 
 ::: tip
 刷机包也被称为 ROM 包，或简称为 ROM，也就是一个存放系统文件的文件包。
 :::
 
-* RAM 的性能和价格等各方面都高于 ROM，当然在手机上搭载的空间也更小。
-* ROM 的性能更弱，但是在空间大小和价格方面优势明显。
+- RAM 的性能和价格等各方面都高于 ROM，当然在手机上搭载的空间也更小。
+- ROM 的性能更弱，但是在空间大小和价格方面优势明显。
 
 ## ROOT
 
 相关链接：
 
-* [Root 介绍](./danger_permissions/root/index.md)
-* [百度百科](https://baike.baidu.com/item/root/73226)
-* [获取 Root](../fast/install/root/index.md)
+- [Root 介绍](./danger_permissions/root/index.md)
+- [百度百科](https://baike.baidu.com/item/root/73226)
+- [获取 Root](../fast/install/root/index.md)
 
 一般来说，ROOT 可以表示一种较高级的用户权限，即“根权限”。也可以表示获取根权限的动作。
 
@@ -148,31 +148,37 @@ Root 有很多工具，常见的有：[Magisk](./danger_permissions/root/index.m
 
 ### Windows 终端
 
-**进入方法**：
+![Windows Terminal Logos](./images/terminal/windows_terminal_logos.webp)
 
-1. 点击开始菜单或按 「Windows 徽标键+R」
-2. 输入 `cmd` ，并按下回车键，即可进入终端。 \
-    ![从搜索进入](./images/terminal/enter_from_search.png)\
-    ![从运行进入](./images/terminal/enter_from_run.png)
+Windows 命令行壳子有两种，一种是“命令提示符”（也叫“CMD”），一种是“PowerShell”
 
-**退出方法**：直接关闭窗口即可
+- **进入方法**：
+  1. 点击「开始菜单」、「搜索」或者按「Windows 徽标键+R」
+  2. 输入 `cmd` ，并按下回车键↵，即可进入终端。
+    <div class="imageList">
+    <img src="./images/terminal/enter_from_search.webp" width="600" alt="从搜索进入" />
+    <img src="./images/terminal/enter_from_run.png" alt="从运行进入" />
+    </div>
+- **退出方法**：直接关闭窗口即可
+    ![关闭窗口](./images/terminal/close.png)
 
 ::: tip
-这是一个 Windows 控制台窗口主机 的截图：
+这是一个「**Windows 控制台窗口主机**」的截图：
 ![Windows 控制台窗口主机](./images/terminal/windows_cmd.png)
 
-这是一个 Windows 终端的截图：
-![Windows 终端](./images/terminal/windows_terminal.png)
+这是一个「**Windows 终端**」的截图：
+![Windows 终端](./images/terminal/windows_terminal.webp)
 
 如果您使用的是 Windows 11+ 或者 Windows10 19045.3086，您可以根据[《Windows11 设置 CMD 默认使用 Windows Terminal 启动》](https://blog.csdn.net/no1xium/article/details/123213625)将默认终端程序设置为 Windows 终端，这样您打开 CMD 时会自动打开更好看的 Windows 终端。
 :::
 
 ::: tip
-一般情况下，您可以直接将文件拖入终端内，快速输入文件路径
+一般情况下，您可以直接将文件**拖入**终端内，快速输入文件路径
+![拖入文件](./images/terminal/drop_file.png)
 :::
 
 ::: tip
-若使用 Powershell 而非 CMD，如果您想运行工作目录下的软件，请在每行命令前加 `./`。
+若使用 Powershell 而非 CMD，如果您想**运行工作目录下的软件**，请在每行命令前加 `./`。
 
 如果您不知道上面这句话是什么意思，那就**不要使用 Powershell**。
 :::
@@ -181,14 +187,14 @@ Root 有很多工具，常见的有：[Magisk](./danger_permissions/root/index.m
 
 在 Mac 上，请执行以下其中随便一项操作：
 
-* 点按程序坞中的「启动台」图标 ￼，在搜索栏中键入「终端」，然后点按「终端」。
-* 在「访达」￼ 中，打开「/应用程序/实用工具」文件夹，然后连按「终端」。
+- 点按程序坞中的「启动台」图标 ￼，在搜索栏中键入「终端」，然后点按「终端」。
+- 在「访达」￼ 中，打开「/应用程序/实用工具」文件夹，然后连按「终端」。
 
 想要退出时在「终端」App ￼中，选取「终端」>「退出终端」或输入 `exit` 命令。
 
 ### Linux 终端
 
-**Linux用户还不会用终端？？？**
+- **Linux用户还不会用终端？？？**
 
 ## 卡米
 
@@ -198,8 +204,8 @@ Root 有很多工具，常见的有：[Magisk](./danger_permissions/root/index.m
 
 **解决办法**：
 
-* 一般情况下长按“音量-”和“电源”键（小米/红米手机）[进入 fastboot 刷机模式](./modes/index.md#fastboot-模式)，重新线刷刷机包，重写 boot 分区，尝试开机。
-* 特殊情况下就需要对症下药了。您可以转到[《救砖指南》](/rescuing/index.md)
+- 一般情况下长按“音量-”和“电源”键（小米/红米手机）[进入 fastboot 刷机模式（其他机型请点这里）](./modes/index.md#fastboot-模式)，重新线刷刷机包，重写 boot 分区，尝试开机。
+- 特殊情况下就需要对症下药了。您可以转到[《救砖指南》](/rescuing/index.md)
 
 ::: warning
 部分卡米无药可救，请谨慎刷机。
@@ -211,7 +217,7 @@ Root 有很多工具，常见的有：[Magisk](./danger_permissions/root/index.m
 
 **相关链接：**
 
-* [通用系统映像 (GSI)](https://developer.android.google.cn/topic/generic-system-image?hl=zh-cn) - Android 开发者
+- [通用系统映像 (GSI)](https://developer.android.google.cn/topic/generic-system-image?hl=zh-cn) - Android 开发者
 
 ## TWRP
 
@@ -223,12 +229,13 @@ TWRP 是第三方 Recovery 的一种。有时使用 TWRP 代指第三方 Recover
 
 ## 参考链接
 
-* [【小白搞机入门】名词集-ROM、RAM、ramdisk](https://www.coolapk.com/feed/42682544?shareKey=ZjIwNzExZDUyYjczNjNkNTgzMTY~) - 酷安：灬只会刷机养老
-* [【小白搞机入门】名词集-BootLoader锁（BL锁）](https://www.coolapk.com/feed/42674591?shareKey=YzQ2MThhNmI5MmNiNjNkNTcwOGM~) - 酷安：灬只会刷机养老
-* [【小白搞机入门】名词集-卡米](https://www.coolapk.com/feed/42667909?shareKey=MWQ3MzZlMmQ4N2E2NjQ3OGI4NTg~) - 酷安：灬只会刷机养老
-* [root](https://baike.baidu.com/item/root/73226) - 百度百科
-* [数据线](https://baike.baidu.com/item/%E6%95%B0%E6%8D%AE%E7%BA%BF/391946) - 百度百科
-* [常见问题解答](https://source.android.google.cn/docs/setup/about/faqs?hl=zh-cn#what-is-the-android-open-source-project) - Android 开源项目
-* [Android Banner](https://platform-decentral.com/android-banner-2/) - Platform Decentral
+- [【小白搞机入门】名词集-ROM、RAM、ramdisk](https://www.coolapk.com/feed/42682544?shareKey=ZjIwNzExZDUyYjczNjNkNTgzMTY~) - 酷安：灬只会刷机养老
+- [【小白搞机入门】名词集-BootLoader锁（BL锁）](https://www.coolapk.com/feed/42674591?shareKey=YzQ2MThhNmI5MmNiNjNkNTcwOGM~) - 酷安：灬只会刷机养老
+- [【小白搞机入门】名词集-卡米](https://www.coolapk.com/feed/42667909?shareKey=MWQ3MzZlMmQ4N2E2NjQ3OGI4NTg~) - 酷安：灬只会刷机养老
+- [root](https://baike.baidu.com/item/root/73226) - 百度百科
+- [数据线](https://baike.baidu.com/item/%E6%95%B0%E6%8D%AE%E7%BA%BF/391946) - 百度百科
+- [常见问题解答](https://source.android.google.cn/docs/setup/about/faqs?hl=zh-cn#what-is-the-android-open-source-project) - Android 开源项目
+- [Windows Terminal](https://github.com/microsoft/terminal) - Github：@Microsoft
+- [Android Banner](https://platform-decentral.com/android-banner-2/) - Platform Decentral
 
 声明：部分图片来源于网络。如果侵犯了您的权力，请[联系我](mailto:jesse205@qq.com)，我会尽快删除。

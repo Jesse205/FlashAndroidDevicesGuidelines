@@ -71,9 +71,9 @@ eRecovery 只有下载系统恢复包并恢复的作用，其他的清除数据�
 
 ## 版权声明
 
-本文档已获得 [某贼](https://www.coolapk.com/u/3463951) 授权搬运并修改整理
+本文档已获得 [@某贼](https://www.coolapk.com/u/3463951) 授权搬运并修改整理
 
 ## 参考链接
 
-* [如何Root你的华为旧机？](https://www.coolapk.com/feed/26320412?shareKey=YzZmMjdiZjEwNThjNjEwZDQ5MGI~&shareUid=3463951&shareFrom=com.coolapk.market_11.3)
+* [如何Root你的华为旧机？](https://www.coolapk.com/feed/26320412?shareKey=YzZmMjdiZjEwNThjNjEwZDQ5MGI~&shareUid=3463951&shareFrom=com.coolapk.market_11.3) - 酷安：@某贼
 * [华为手机/平板安全模式简介](https://consumer.huawei.com/cn/support/content/zh-cn00737976/) - 华为官网

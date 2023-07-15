@@ -1,10 +1,15 @@
-.screenshotList {
+.screenshotList,
+.imageList {
   display: flex;
   overflow: auto;
+  align-items: flex-start;
+}
+.imageList img,
+.screenshotList img {
+  margin: 2px;
 }
 
 .screenshotList img {
-  margin: 2px;
   width: 200px;
   min-width: 200px;
   max-width: 200px;

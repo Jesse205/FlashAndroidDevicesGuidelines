@@ -162,3 +162,13 @@ img.medium-zoom-image {
     box-shadow: var(--vp-shadow-4);
   }
 }
+
+// 始终显示下划线，方便区分链接
+.vp-doc .custom-block a {
+  text-decoration: underline;
+  color: var(--vp-c-brand-darker);
+}
+
+.vp-doc .custom-block a:hover {
+  color: var(--vp-c-brand-lighter);
+}

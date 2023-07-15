@@ -15,8 +15,8 @@
 
 <img class="banner-img" src="./images/logo/hmos.png" alt="HarmonyOS LOGO"/>
 
-* [查看详情](./harmonyos.md) - HarmonyOS
-* 查看详情 - EMUI
+* [查看详情](./harmonyos.md) - HarmonyOS、EMUI 12+
+* 查看详情 - EMUI 11-
 * 查看详情 - MagicUI/MagicOS
 
 ### MIUI - 小米

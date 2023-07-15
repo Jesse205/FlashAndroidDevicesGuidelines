@@ -46,10 +46,10 @@ adb --version
 
 因为 ADB 工具是 Platform-Tools 的一部分，所以您需要下载 Platform-Tools。
 
-有关详细信息，请参阅 [Platform-Tools 下载](/tools/platform-tools.md#platform-tools-下载)
+有关更多信息，请参阅 [Platform-Tools 下载](/tools/platform-tools.md#platform-tools-下载)
 
 ::: tip
-Android Studio 会自动下载 Platform-Tools。如果您曾今使用过 Android Studio，则无需手动安装此工具。
+Android Studio 会自动下载 Platform-Tools。如果您曾今使用过 Android Studio，则可能无需手动安装此工具。
 :::
 
 ### 常见用法
@@ -69,6 +69,10 @@ Android Studio 会自动下载 Platform-Tools。如果您曾今使用过 Android
 请阅读 [常用工具 > 刷入 ROM：ADB Sideload](/fast/flash/system.md#adb-sideload)
 
 [adb安装软件]: ../../installApk/index.md#安装电脑或其他设备上的软件
+
+## Shizuku
+
+敬请期待
 
 ## Awesome ADB | 令人惊叹的 ADB
 

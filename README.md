@@ -13,7 +13,7 @@
 
 您可以通过以下链接来访问文档
 
-* ~~Netlify: <https://efadg.netlify.app/>~~
+* ~~Netlify: https:\/\/efadg.netlify.app\/~~
 * Github Pages: <https://jesse205.github.io/FlashAndroidDevicesGuidelines>
 
 > **Note**\

@@ -104,6 +104,10 @@ next:
   * **fastboot 状态**: 如果显示红色的 `PHONE Unlocked`
   * **开机第一屏之后**: 如果显示 `Your device has been unlocked and can't be trusted.` ，并且提示文字为橙色，则说明手机解锁成功
 
+## 附言
+
+解锁后**赶紧备份手机关键分区**。部分分区在每部手机内是独一无二的，丢了就真丢了，手机也真废了。
+
 ## 相关链接
 
 * [[名词集] Bootloader 锁](/normal/noun.md)

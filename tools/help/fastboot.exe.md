@@ -1,3 +1,4 @@
+::: details fastboot 汉化版帮助文件
 
 ``` txt:no-line-numbers
 使用方法： fastboot [ <选项> ] <命令>
@@ -31,7 +32,9 @@
   -S <size>[K|M|G]                         自动疏散大于尺寸的文件。  0表示禁用
 ```
 
-::: details 原始帮助文件
+:::
+
+::: details fastboot 原始帮助文件
 
 ``` txt:no-line-numbers
 usage: fastboot [ <option> ] <command>

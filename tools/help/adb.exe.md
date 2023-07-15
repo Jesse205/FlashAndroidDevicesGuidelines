@@ -1,5 +1,5 @@
 
-::: details 原始帮助文件
+::: details adb 原始帮助文件
 
 ``` txt:no-line-numbers
 Android Debug Bridge version 1.0.31

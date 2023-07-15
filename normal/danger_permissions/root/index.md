@@ -12,8 +12,8 @@ ROOT 的权限高于 [ADB（Android Debug Bridge）](/tools/platform-tools.md#ad
 
 有些时候您的需求不必使用 Root。您可以选择以下工具使用其他权限代替 Root。
 
-* 您可以使用 [Shizuku](https://shizuku.rikka.app/zh-hans/) 将 [ADB 权限](../adb/index.md) 共享给其他应用
-* 您可以使用 [Dhizuku](https://github.com/iamr0s/Dhizuku) 将 [Device Owner (设备所有者) 权限](../device_owner/index.md) 共享给其他应用
+- 您可以使用 [Shizuku](https://shizuku.rikka.app/zh-hans/) 将 [ADB 权限](../adb/index.md) 共享给其他应用
+- 您可以使用 [Dhizuku](https://github.com/iamr0s/Dhizuku) 将 [Device Owner (设备所有者) 权限](../device_owner/index.md) 共享给其他应用
 
 :::
 
@@ -31,18 +31,18 @@ Magisk，别名叫做“面具”
 
 这是目前主流的 Root 方式
 
-* **一些突出特点**：
-  * **MagiskSU**：为应用程序提供 root 访问权限
-  * **Magisk 模块**：通过安装模块修改只读分区
-  * **MagiskBoot**：用于解压缩和重新打包 Android 启动映像的最完整工具
-  * **Zygisk**：在每个 Android 应用程序的进程中运行代码
-* **[Github 仓库](https://github.com/topjohnwu/Magisk)**
-* **[安装教程](/fast/install/root/index.md#magisk)**
-* **下载地址：**
-  * [GitHub Releases](https://github.com/topjohnwu/Magisk/releases/latest) <Badge type="tip" text="官方" />
-* **相关链接**：
-  * [刷入 Magisk](/fast/install/root/index.md#magisk)
-  * [Magisk 中文文档](https://jesse205.github.io/MagiskChineseDocument/) <Badge type="tip" text="本站翻译" />
+- **一些突出特点**：
+  - **MagiskSU**：为应用程序提供 root 访问权限
+  - **Magisk 模块**：通过安装模块修改只读分区
+  - **MagiskBoot**：用于解压缩和重新打包 Android 启动映像的最完整工具
+  - **Zygisk**：在每个 Android 应用程序的进程中运行代码
+- **[Github 仓库](https://github.com/topjohnwu/Magisk)**
+- **[安装教程](/fast/install/root/index.md#magisk)**
+- **下载地址：**
+  - [GitHub Releases](https://github.com/topjohnwu/Magisk/releases/latest) <Badge type="tip" text="官方" />
+- **相关链接**：
+  - [刷入 Magisk](/fast/install/root/index.md#magisk)
+  - [Magisk 中文文档](https://jesse205.github.io/MagiskChineseDocument/) <Badge type="tip" text="本站翻译" />
 
 ### KernelSU <Badge type="tip" text="推荐" />
 
@@ -52,17 +52,17 @@ KernelSU 是 Android GKI 设备的 root 解决方案，它工作在内核模式�
 
 这是新型 root 方案。目前正在完善
 
-* **一些突出特点：**
-  * **基于内核**：KernelSU 运行在内核空间，对用户空间应用有更强的掌控。
-  * **白名单访问控制**：只有被授权的 App 才可以访问 `su`，而其他 App 无法感知其存在。
-  * **模块支持**：KernelSU 支持通过 overlayfs 修改 /system，它甚至可以使 /system 可写。
-  * **开源**：KernelSU 是 GPL-3 许可下的开源项目。
-* **[官方网站](https://kernelsu.org/zh_CN/)**
-* **[安装教程](/fast/install/root/index.md#kernelsu)**
-* **下载地址：**
-  * [GitHub Releases](https://github.com/tiann/KernelSU/releases) <Badge type="tip" text="官方" />
-* **相关链接：**
-  * [刷入 KernelSU](/fast/install/root/index.md#kernelsu)
+- **一些突出特点：**
+  - **基于内核**：KernelSU 运行在内核空间，对用户空间应用有更强的掌控。
+  - **白名单访问控制**：只有被授权的 App 才可以访问 `su`，而其他 App 无法感知其存在。
+  - **模块支持**：KernelSU 支持通过 overlayfs 修改 /system，它甚至可以使 /system 可写。
+  - **开源**：KernelSU 是 GPL-3 许可下的开源项目。
+- **[官方网站](https://kernelsu.org/zh_CN/)**
+- **[安装教程](/fast/install/root/index.md#kernelsu)**
+- **下载地址：**
+  - [GitHub Releases](https://github.com/tiann/KernelSU/releases) <Badge type="tip" text="官方" />
+- **相关链接：**
+  - [刷入 KernelSU](/fast/install/root/index.md#kernelsu)
   
 ## SuperUser
 
@@ -70,13 +70,13 @@ KernelSU 是 Android GKI 设备的 root 解决方案，它工作在内核模式�
 
 ### SuperSU
 
-* **下载地址：**
-  * [非官方下载](https://supersuroot.org/download/)
-  * [123 云盘下载](https://www.123pan.com/s/G7a9-mpek) <Badge type="warning" text="搬运" />
-  * [百度网盘下载](https://pan.baidu.com/s/1D-xltDWSZHZmKbqULMknsw?pwd=jxnb)（提取码：jxnb） <Badge type="warning" text="搬运" />
-* **相关链接：**：
-  * [非官方网站](https://supersuroot.org/)
-  * [让 SuperSU 接管权限](./to_supersu.md)
+- **下载地址：**
+  - [非官方下载](https://supersuroot.org/download/)
+  - [123 云盘下载](https://www.123pan.com/s/G7a9-mpek) <Badge type="warning" text="搬运" />
+  - [百度网盘下载](https://pan.baidu.com/s/1D-xltDWSZHZmKbqULMknsw?pwd=jxnb)（提取码：jxnb） <Badge type="warning" text="搬运" />
+- **相关链接：**：
+  - [非官方网站](https://supersuroot.org/)
+  - [让 SuperSU 接管权限](./to_supersu.md)
 
 ### 一键 Root 工具
 
@@ -88,17 +88,23 @@ KernelSU 是 Android GKI 设备的 root 解决方案，它工作在内核模式�
 
 主流的一键工具有
 
-* **360超级ROOT** <Badge type="warning" text="已停止运营" />：对 360 自家软件兼容友好 <Badge type="tip" text="老设备推荐" />
-* **KingRoot** <Badge type="warning" text="已停止运营" />：覆盖机型广，但是有一点臃肿 <Badge type="tip" text="老设备推荐" />
-* **YoRoot**：支持 Root 华为部分老机型
+- **360超级ROOT** <Badge type="warning" text="已停止运营" />：对 360 自家软件兼容友好 <Badge type="tip" text="老设备推荐" />
+- **KingRoot** <Badge type="warning" text="已停止运营" />：覆盖机型广，但是有一点臃肿 <Badge type="tip" text="老设备推荐" />
+- **YoRoot**：支持 Root 华为部分老机型
 
 对于这些一键 Root 工具，机型不一样体验也不一样，建议都试试，有些 Root 工具至今也可以使用。
 
-* 安装教程：**[快速上手 > 一键 Root 工具](/fast/install/root/index.md#一键-root-工具)**
+- 安装教程：**[快速上手 > 一键 Root 工具](/fast/install/root/index.md#一键-root-工具)**
 
 ## Root 原理
 
 敬请期待
+
+## 切换 ROOT 管理器
+
+如果您的设备已成功 Root，并且您不喜欢当前的 Root 管理器，您可以按照以下教程转换管理器
+
+- [转 SuperSU](./to_supersu.md)
 
 ## Awesome Root | 令人惊叹的 Root
 
@@ -106,8 +112,8 @@ KernelSU 是 Android GKI 设备的 root 解决方案，它工作在内核模式�
 
 ## 相关链接
 
-* [快速上手 > 获取 Root](/fast/install/root/index.md)
+- [快速上手 > 获取 Root](/fast/install/root/index.md)
 
 ## 参考链接
 
-* [root](https://baike.baidu.com/item/root/73226) - 百度百科
+- [root](https://baike.baidu.com/item/root/73226) - 百度百科
