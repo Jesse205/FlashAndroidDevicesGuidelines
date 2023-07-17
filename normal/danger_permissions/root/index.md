@@ -58,6 +58,7 @@ KernelSU 是 Android GKI 设备的 root 解决方案，它工作在内核模式�
   - **模块支持**：KernelSU 支持通过 overlayfs 修改 /system，它甚至可以使 /system 可写。
   - **开源**：KernelSU 是 GPL-3 许可下的开源项目。
 - **[官方网站](https://kernelsu.org/zh_CN/)**
+- **[非官方支持的设备](https://kernelsu.org/zh_CN/guide/unofficially-support-devices.html)**
 - **[安装教程](/fast/install/root/index.md#kernelsu)**
 - **下载地址：**
   - [GitHub Releases](https://github.com/tiann/KernelSU/releases) <Badge type="tip" text="官方" />
