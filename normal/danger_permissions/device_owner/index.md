@@ -6,6 +6,10 @@
 您可以使用 [Dhizuku](https://github.com/iamr0s/Dhizuku) 将 Device Owner 权限共享给其他应用
 :::
 
+## Dhizuku
+
+敬请期待
+
 ## Awesome Device Owner | 令人惊叹的设备所有者
 
 <!--@include: ./awesome.md -->

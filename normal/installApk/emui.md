@@ -35,11 +35,17 @@ EMUI 与 HarmonyOS 安装权限与原生稍微不一样，但大致操作路径�
 与[通用方法](./index.md#使用第三方安装器安装)保持一致。
 
 ::: tip
-HarmonyOS 3.0 及更高设备可能无法将第三方安装器设为默认。
+HarmonyOS 3.0 及更高设备可能**无法**将第三方安装器设为默认。
 :::
 
 ::: tip
 HarmonyOS 3.0 以下设备可以使用**华为应用市场**安装 APKS 安装包，无需使用第三方安装器。
+
+<div class="screenshotList">
+<img src="./images/hmos/appgallery/install_apks.webp" alt="使用华为应用市场安装 APKS" title="使用华为应用市场安装 APKS"/>
+<img src="./images/hmos/appgallery/install_apks_2.webp" alt="提取 apk 文件" title="提取 apk 文件"/>
+<img src="./images/hmos/appgallery/install_apks_3.webp" alt="风险提示" title="风险提示"/>
+</div>
 :::
 
 ## 安装其他设备的软件
@@ -60,11 +66,11 @@ HarmonyOS 3.0 以下设备可以使用**华为应用市场**安装 APKS 安装�
 
 您有两种方法关闭“纯净模式”，但我们推荐您使用官方方法。
 
-* 官方方法：
+- 官方方法：
    1. 点击“设置图标”，进入系统设置
    2. 进入“纯净模式”，并关闭此功能。如果过程中询问您锁屏或者账号密码，请输入正确的密码。
-* 修改数据库 <Badge type="danger" text="本操作风险太大，作者没有经过测试，请谨慎使用" />
-  * 敬请期待
+- 修改数据库 <Badge type="danger" text="本操作风险太大，作者没有经过测试，请谨慎使用" />
+  - 敬请期待
 
 ### HarmonyOS 关闭 “增强防护”
 
@@ -81,7 +87,7 @@ HarmonyOS 3.0 以下设备可以使用**华为应用市场**安装 APKS 安装�
 
 已知适用此方法的报毒类型：
 
-* 该应用含不良信息
+- 该应用含不良信息
 
 操作步骤：
 
@@ -90,8 +96,8 @@ HarmonyOS 3.0 以下设备可以使用**华为应用市场**安装 APKS 安装�
 3. 点击“仍然安装”
 
 <div class="screenshotList">
-<img src="./images/hmos/hoteye/understand_checkbox.jpg" alt="勾选选择框" title="勾选选择框"/>
-<img src="./images/hmos/hoteye/understand_btn.jpg" alt="点击按钮" title="点击按钮"/>
+<img src="./images/hmos/hoteye/understand_checkbox.webp" alt="勾选选择框" title="勾选选择框"/>
+<img src="./images/hmos/hoteye/understand_btn.webp" alt="点击按钮" title="点击按钮"/>
 </div>
 
 #### 断网大法
@@ -100,7 +106,7 @@ HarmonyOS 3.0 以下设备可以使用**华为应用市场**安装 APKS 安装�
 
 已知适用此方法的报毒类型：
 
-* 来源可能被恶意篡改
+- 来源可能被恶意篡改
 
 操作步骤：
 
@@ -108,8 +114,8 @@ HarmonyOS 3.0 以下设备可以使用**华为应用市场**安装 APKS 安装�
 2. 重新尝试安装软件
 
 <div class="screenshotList">
-<img src="./images/hmos/offline/bug.jpg" alt="提示打开网络bug" title="提示打开网络bug"/>
-<img src="./images/hmos/offline/end.jpg" alt="通过校验" title="通过校验"/>
+<img src="./images/hmos/offline/bug.webp" alt="提示打开网络bug" title="提示打开网络bug"/>
+<img src="./images/hmos/offline/end.webp" alt="通过校验" title="通过校验"/>
 </div>
 
 #### 切换来源
@@ -118,7 +124,7 @@ HarmonyOS 3.0 以下设备可以使用**华为应用市场**安装 APKS 安装�
 
 已知适用此方法的报毒类型：
 
-* 来源可能被恶意篡改
+- 来源可能被恶意篡改
 
 操作步骤：
 
@@ -131,7 +137,7 @@ HarmonyOS 3.0 以下设备可以使用**华为应用市场**安装 APKS 安装�
 
 已知适用此方法的报毒类型：
 
-* 所有类型
+- 所有类型
 
 操作步骤：
 

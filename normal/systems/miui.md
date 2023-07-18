@@ -1,6 +1,6 @@
 # MIUI
 
-<img class="banner-cover" src="./images/logo/miui.webp" alt="LOGO"/>
+<img class="banner-cover" src="./images/logo/miui_cover.webp" alt="LOGO"/>
 
 - **官方网站**：<https://home.miui.com/>
   - **MIUI12**：<https://miui12.home.miui.com/>
@@ -45,12 +45,17 @@
 
 ### 字体
 
-- Mi Sans
-- 小米兰亭 Pro
+#### Mi Sans
+
+- 字重：Thin / Extralight / Light / Normal / Regular / Medium / DemiBold / SemiBold / Bold / Heavy
+- 语言：简体中文 / 拉丁 / 西里尔 / 希腊
+- [定制字体 - 汉仪字库](https://www.hanyi.com.cn/orderFont)
+
+#### 小米兰亭 Pro
 
 ### 动画
 
-- [MIUI 动画解析][animation] - 哔哩哔哩：STRAY_数码
+- [MIUI 动画解析][animation] - 哔哩哔哩：@STRAY_数码
 
 ## 评价
 
@@ -68,6 +73,28 @@
 - 对系统工具开发者不友好
 - 拥有 MIUI 专属的开屏广告
 
+## API 变更
+
+### 状态栏图标
+
+无单色图标
+
+- 变更版本：？？？
+
+### 文件
+
+无法使用 SAF 框架选择器
+
+“文件”被禁用
+
+- 变更版本：？？？
+
+### 软件
+
+无法安装 APKS
+
+- 变更版本：？？？
+
 ## 相关链接
 
 - 百科
@@ -79,7 +106,6 @@
 - [网传小米 MIUI 13 测试版曝光：安卓 12、安卓 11 两个版本][13-RS]
 - [难分伯仲？iOS VS MIUI 动画解析对比（超详细）][animation] - 哔哩哔哩：@STRAY_数码
 - [MIUI十年发展史——写在MIUI12发布之际](https://zhuanlan.zhihu.com/p/136376710) - 知乎：@逆铭
-- 
 
 [animation]: https://www.bilibili.com/video/BV12h411e7p1/
 [13-RS]: https://post.smzdm.com/p/aenzx5xz/

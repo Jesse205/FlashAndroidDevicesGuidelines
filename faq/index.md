@@ -16,6 +16,10 @@
 
 开机 Magisk APP里当前版本有显示即为成功，SuperSU 打开不出现“您的手机尚未Root”弹窗即为成功。
 
+## Magisk 一直检查更新怎么办
+
+不管他，不影响使用，不要更新。
+
 ## Xposed 框架怎么刷
 
 如果要刷的话，Android 4~7 建议用原版 Xposed 框架，Android 8 建议用 EdXposed，但是刷后可能会出问题，新手不是刚需还是不建议尝试了。

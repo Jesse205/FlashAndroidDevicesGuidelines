@@ -61,8 +61,14 @@ GSI 包一般只有 `system.img` ，因此，您通常情况下最终会得到�
 如果您没有 SD 卡，或者内部存储不方便解密，您可以选择这种方式**直接刷入电脑上 zip 刷机包**。
 
 ::: tip
-这种方法需要您的 Recovery 支持 Sideload 功能，并且 ADB 版本处于
+这种方法需要您的 Recovery 支持 Sideload 功能，并且 ADB 版本处于 `??` 以上
 :::
+
+核心代码：
+
+``` bash:no-line-numbers
+adb sideload <OTA包路径>
+```
 
 1. 进入第三方 Recovery，选择“更多”，然后选择“ADB Sideload”
 2. 您可以选择是否清除缓存。选择完毕后，向右滑动滑块继续。

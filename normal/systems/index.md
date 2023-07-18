@@ -21,7 +21,7 @@
 
 ### MIUI - 小米
 
-<img class="banner-img" src="./images/logo/miui.png" alt="MIUI LOGO"/>
+<img class="banner-img" src="./images/logo/miui.webp" alt="MIUI LOGO"/>
 
 * [查看详情](./miui.md)
 

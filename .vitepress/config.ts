@@ -24,8 +24,8 @@ export default defineConfig({
         text: '快速开始',
         activeMatch: '/fast/',
         items: [
-          { text: '解锁 Bootloader', link: '/fast/unlock/', },
-          { text: '下载 ROM', link: '/fast/download/' },
+          { text: '解锁 Bootloader', link: '/fast/unlock/', activeMatch: '/fast/unlock/' },
+          { text: '下载 ROM', link: '/fast/download/', activeMatch: '/fast/download/' },
           { text: '刷入 ROM', link: '/fast/flash/system.html' },
           {
             text: '更多教程',
@@ -43,10 +43,10 @@ export default defineConfig({
         items: [
           // { text: '选购设备', link: '#' },
           { text: '名词集', link: '/normal/noun.html' },
-          { text: '各种开机模式', link: '/normal/modes/' },
-          { text: '分区和映像', link: '/normal/partitions/' },
-          { text: '操作系统', link: '/normal/systems/' },
-          { text: '安装软件', link: '/normal/installApk/' },
+          { text: '各种开机模式', link: '/normal/modes/', activeMatch: '/normal/modes/' },
+          { text: '分区和映像', link: '/normal/partitions/', activeMatch: '/normal/partitions/' },
+          { text: '操作系统', link: '/normal/systems/', activeMatch: '/normal/systems/' },
+          { text: '安装软件', link: '/normal/installApk/', activeMatch: '/normal/installApk/' },
           // { text: '刷机包', link: '#' },
         ]
       },
@@ -201,7 +201,7 @@ export default defineConfig({
           ]
         }
       ],
-      '/faq/|/rollover/': [
+      '/faq/': [
         {
           text: '常见问题与解答',
           link: '/faq/',
@@ -214,8 +214,14 @@ export default defineConfig({
           items: [
             { text: '基本知识', link: '/faq/knowledge.html' },
             { text: '文档说明', link: '/faq/documents.html' },
-            { text: '翻车案例', link: '/rollover/' },
+
           ]
+        }
+      ],
+      '/rollover/': [
+        {
+          text: '翻车案例',
+          link: '/rollover/',
         }
       ],
       '/tools/': [

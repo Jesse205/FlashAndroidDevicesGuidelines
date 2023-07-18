@@ -19,7 +19,7 @@ HarmonyOS 是新一代的智能终端操作系统，为不同设备的智能化�
 
 - **EMUI 12**：
 
-<div class="screenshotList emui12">
+<div class="screenshotList">
 <img src="./images/screenshots/emui/huawei-emui-12-1.webp" alt="时钟" title="时钟" />
 <img src="./images/screenshots/emui/huawei-emui-12-2.webp" alt="图库" title="图库" />
 <img src="./images/screenshots/emui/huawei-emui-12-3.webp" alt="桌面" title="桌面" />
@@ -53,6 +53,8 @@ HarmonyOS 是新一代的智能终端操作系统，为不同设备的智能化�
 
 ### 用户界面：HarmonyOS Design
 
+<img src="./images/design_logo/harmonyos.webp" class="cover-img-ui" alt="设计封面" />
+
 HarmonyOS 回归本源设计，从浩瀚宇宙中抽象出动态语言，模拟真实世界中的物理动力学，将万有引力融入到动效设计中。引入轻拟物美学风格，以真实生活中的质感，为用户带来全新交互体验。跨设备的超级终端一拖即连，万能卡片轻轻一滑即可获取所需信息，带来全场景智慧生活新体验。
 
 - [设计文档](https://developer.harmonyos.com/cn/design/)
@@ -60,12 +62,16 @@ HarmonyOS 回归本源设计，从浩瀚宇宙中抽象出动态语言，模拟�
 
 ### 字体：HarmonyOS Sans
 
-<img src="./images/font_logo/harmonyos_sans.png" width="300" />
+<img src="./images/font_logo/harmonyos_sans.png" class="cover-img-ui" alt="字体封面" />
 
 > HarmonyOS Sans字体版权归华为所有
 
-- [鸿蒙官网下载](https://developer.harmonyos.com/resource/image/design/resource/download/general/HarmonyOS-Sans.zip) <Badge text="推荐" />
-- [汉仪官网下载](https://hanyiwebsite.oss-cn-beijing.aliyuncs.com/fonts/HarmonyOS_Sans.zip)
+- 字重：Thin / Light / Regular / Medium / Bold / Black
+- 语言：简体中文 / 繁体中文 / 拉丁 / 西里尔 / 希腊 / 阿拉伯
+- [定制字体 - 汉仪字库](https://www.hanyi.com.cn/orderFont)
+- 下载
+  - [鸿蒙官网下载](https://developer.harmonyos.com/resource/image/design/resource/download/general/HarmonyOS-Sans.zip) <Badge text="推荐" />
+  - [汉仪官网下载](https://hanyiwebsite.oss-cn-beijing.aliyuncs.com/fonts/HarmonyOS_Sans.zip)
 
 ### 动画
 
@@ -87,6 +93,14 @@ HarmonyOS 回归本源设计，从浩瀚宇宙中抽象出动态语言，模拟�
 - 系统版本无法准确对应安卓版本
 - 限制用户更换桌面
 - 系统布局陈旧，相当于 Android 8
+
+## API 变更
+
+### 状态栏图标
+
+无单色图标
+
+- 变更版本：Harmony OS 4
 
 ## 相关链接
 

@@ -196,19 +196,22 @@ Windows 命令行壳子有两种，一种是“命令提示符”（也叫“CMD
 
 - **Linux用户还不会用终端？？？**
 
-## 卡米
+## 卡 Mi、卡安卓
 
 卡米就是在**启动系统时卡在开机第一屏**，这种情况发生在小米手机上，由于第一屏是小米 logo，故称“卡米”。
 
-可能是由于 Android 系统分区中的 boot 分区受到损伤，无法完成开机 BootLoader 引导。
+<!-- 可能是由于 Android 系统分区中的 boot 分区受到损伤，无法完成开机 BootLoader 引导。 -->
 
 **解决办法**：
 
-- 一般情况下长按“音量-”和“电源”键（小米/红米手机）[进入 fastboot 刷机模式（其他机型请点这里）](./modes/index.md#fastboot-模式)，重新线刷刷机包，重写 boot 分区，尝试开机。
+- 一般情况下长按“音量-”和“电源”键（小米/红米手机）[进入 fastboot 刷机模式（其他机型请点这里）](./modes/index.md#fastboot-模式)，重新线刷刷机包，尝试开机。
 - 特殊情况下就需要对症下药了。您可以转到[《救砖指南》](/rescuing/index.md)
 
 ::: warning
-部分卡米无药可救，请谨慎刷机。
+
+- 实在不行，可以尝试售后
+- 部分卡米无药可救，请谨慎刷机。
+
 :::
 
 ## 通用系统映像 (GSI)
@@ -229,9 +232,9 @@ TWRP 是第三方 Recovery 的一种。有时使用 TWRP 代指第三方 Recover
 
 ## 参考链接
 
-- [【小白搞机入门】名词集-ROM、RAM、ramdisk](https://www.coolapk.com/feed/42682544?shareKey=ZjIwNzExZDUyYjczNjNkNTgzMTY~) - 酷安：灬只会刷机养老
-- [【小白搞机入门】名词集-BootLoader锁（BL锁）](https://www.coolapk.com/feed/42674591?shareKey=YzQ2MThhNmI5MmNiNjNkNTcwOGM~) - 酷安：灬只会刷机养老
-- [【小白搞机入门】名词集-卡米](https://www.coolapk.com/feed/42667909?shareKey=MWQ3MzZlMmQ4N2E2NjQ3OGI4NTg~) - 酷安：灬只会刷机养老
+- [【小白搞机入门】名词集-ROM、RAM、ramdisk](https://www.coolapk.com/feed/42682544?shareKey=ZjIwNzExZDUyYjczNjNkNTgzMTY~) - 酷安：@灬只会刷机养老
+- [【小白搞机入门】名词集-BootLoader锁（BL锁）](https://www.coolapk.com/feed/42674591?shareKey=YzQ2MThhNmI5MmNiNjNkNTcwOGM~) - 酷安：@灬只会刷机养老
+- [【小白搞机入门】名词集-卡米](https://www.coolapk.com/feed/42667909?shareKey=MWQ3MzZlMmQ4N2E2NjQ3OGI4NTg~) - 酷安：@灬只会刷机养老
 - [root](https://baike.baidu.com/item/root/73226) - 百度百科
 - [数据线](https://baike.baidu.com/item/%E6%95%B0%E6%8D%AE%E7%BA%BF/391946) - 百度百科
 - [常见问题解答](https://source.android.google.cn/docs/setup/about/faqs?hl=zh-cn#what-is-the-android-open-source-project) - Android 开源项目

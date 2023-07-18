@@ -49,7 +49,7 @@ adb --version
 有关更多信息，请参阅 [Platform-Tools 下载](/tools/platform-tools.md#platform-tools-下载)
 
 ::: tip
-Android Studio 会自动下载 Platform-Tools。如果您曾今使用过 Android Studio，则可能无需手动安装此工具。
+Android Studio 会自动下载 Platform-Tools。如果您曾今使用过 Android Studio，则可能无需手动下载此工具。
 :::
 
 ### 常见用法

@@ -16,26 +16,24 @@ Havoc-OS 是一个基于安卓开源项目的售后固件，其灵感来自于�
 ## 屏幕截图
 
 <div class="screenshotList">
-<img src="https://havoc-os.com/src/img/screenshots/Screenshot_3.png" alt="桌面" title="桌面"/>
-<img src="https://havoc-os.com/src/img/screenshots/Screenshot_10.png" alt="锁屏3" title="锁屏3"/>
-<img src="https://havoc-os.com/src/img/screenshots/Screenshot_1.png" alt="锁屏" title="锁屏"/>
-<img src="https://havoc-os.com/src/img/screenshots/Screenshot_2.png" alt="锁屏2" title="锁屏2"/>
-<img src="https://havoc-os.com/src/img/screenshots/Screenshot_4.png" alt="通知栏" title="通知栏"/>
-<img src="https://havoc-os.com/src/img/screenshots/Screenshot_5.png" alt="控制栏" title="控制栏"/>
-<img src="https://havoc-os.com/src/img/screenshots/Screenshot_7.png" alt="设置页面" title="设置页面"/>
-<img src="https://havoc-os.com/src/img/screenshots/Screenshot_8.png" alt="特色设置页面" title="特色设置页面"/>
-<img src="https://havoc-os.com/src/img/screenshots/Screenshot_9.png" alt="任务管理" title="任务管理"/>
-<img src="https://havoc-os.com/src/img/screenshots/Screenshot_6.png" alt="电源菜单" title="电源菜单"/>
+<img src="./images/screenshots/havocos/Screenshot_1.png" alt="锁屏" title="锁屏" />
+<img src="./images/screenshots/havocos/Screenshot_2.png" alt="桌面" title="桌面" />
+<img src="./images/screenshots/havocos/Screenshot_3.png" alt="通知栏" title="通知栏" />
+<img src="./images/screenshots/havocos/Screenshot_4.png" alt="控制栏" title="控制栏" />
+<img src="./images/screenshots/havocos/Screenshot_6.png" alt="设置页面" title="设置页面" />
+<img src="./images/screenshots/havocos/Screenshot_5.png" alt="关于页面" title="关于页面" />
+<img src="./images/screenshots/havocos/Screenshot_7.png" alt="安卓版本" title="安卓版本" />
+<img src="./images/screenshots/havocos/Screenshot_8.png" alt="系统更新" title="系统更新" />
 </div>
 
 ::: details 历史版本
 <div class="screenshotList">
-<img src="https://a.fsdn.com/con/app/proj/havoc-os/screenshots/Screenshot_Ruthless_Launcher_20180803-133540.png/max/max/1" alt="桌面" title="桌面"/>
-<img src="https://a.fsdn.com/con/app/proj/havoc-os/screenshots/Screenshot_Ruthless_Launcher_20180803-133603.png/max/max/1" alt="通知栏" title="通知栏"/>
-<img src="https://a.fsdn.com/con/app/proj/havoc-os/screenshots/Screenshot_Ruthless_Launcher_20180803-133607.png/max/max/1" alt="控制栏" title="控制栏"/>
-<img src="https://a.fsdn.com/con/app/proj/havoc-os/screenshots/Screenshot_Settings_20180803-133611.png/max/max/1" alt="设置页面" title="设置页面"/>
-<img src="https://a.fsdn.com/con/app/proj/havoc-os/screenshots/Screenshot_Settings_20180803-012439.png/max/max/1" alt="关于页面" title="关于页面"/>
-<img src="https://a.fsdn.com/con/app/proj/havoc-os/screenshots/Screenshot_Ruthless_Launcher_20180803-133626.png/max/max/1" alt="音量调节" title="音量调节"/>
+<img src="https://a.fsdn.com/con/app/proj/havoc-os/screenshots/Screenshot_Ruthless_Launcher_20180803-133540.png/max/max/1" alt="桌面" title="桌面" loading="lazy" />
+<img src="https://a.fsdn.com/con/app/proj/havoc-os/screenshots/Screenshot_Ruthless_Launcher_20180803-133603.png/max/max/1" alt="通知栏" title="通知栏" loading="lazy" />
+<img src="https://a.fsdn.com/con/app/proj/havoc-os/screenshots/Screenshot_Ruthless_Launcher_20180803-133607.png/max/max/1" alt="控制栏" title="控制栏" loading="lazy" />
+<img src="https://a.fsdn.com/con/app/proj/havoc-os/screenshots/Screenshot_Settings_20180803-133611.png/max/max/1" alt="设置页面" title="设置页面" loading="lazy" />
+<img src="https://a.fsdn.com/con/app/proj/havoc-os/screenshots/Screenshot_Settings_20180803-012439.png/max/max/1" alt="关于页面" title="关于页面" loading="lazy" />
+<img src="https://a.fsdn.com/con/app/proj/havoc-os/screenshots/Screenshot_Ruthless_Launcher_20180803-133626.png/max/max/1" alt="音量调节" title="音量调节" loading="lazy" />
 </div>
 :::
 
@@ -59,10 +57,7 @@ Havoc-OS 是一个基于安卓开源项目的售后固件，其灵感来自于�
 
 ### 用户界面：Material Design <Badge type="tip" text="灵感来源" />
 
-* [Material Design 3 设计文档](https://m3.material.io/)
-* [Material Design 2 设计文档](https://m2.material.io/)
-* [Material Design 1 设计文档](https://m1.material.io/)
-* [Material Design 1 中文设计文档](https://www.mdui.org/design/)（非官方） - MDUI
+<!--@include: ./design/material_fragment.md -->
 
 ## 评价
 

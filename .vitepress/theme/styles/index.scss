@@ -4,6 +4,7 @@
   overflow: auto;
   align-items: flex-start;
 }
+
 .imageList img,
 .screenshotList img {
   margin: 2px;
@@ -35,4 +36,9 @@
 
 .cover-img {
   width: 100%;
+}
+
+.cover-img-ui {
+  border-radius: 16px;
+  width: 300px;
 }

@@ -32,10 +32,9 @@
 
 ### 用户界面：Material Design
 
-* [Material Design 3 设计文档](https://m3.material.io/)
-* [Material Design 2 设计文档](https://m2.material.io/)
-* [Material Design 1 设计文档](https://m1.material.io/)
-* [Material Design 1 中文设计文档](https://www.mdui.org/design/)（非官方） - MDUI
+<!--@include: ./design/material_fragment.md -->
+
+### 字体：Roboto
 
 ## 评价
 

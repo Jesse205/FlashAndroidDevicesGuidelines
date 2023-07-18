@@ -25,7 +25,7 @@ ROOT 的权限高于 [ADB（Android Debug Bridge）](/tools/platform-tools.md#ad
 
 ### Magisk <Badge type="tip" text="推荐" />
 
-![Magisk Logo](./images/magisk.png)
+![Magisk Logo](/tools/images/root/images/magisk_banner.png)
 
 Magisk，别名叫做“面具”
 
@@ -46,7 +46,7 @@ Magisk，别名叫做“面具”
 
 ### KernelSU <Badge type="tip" text="推荐" />
 
-![KernelSU Logo](./images/kernelsu.png)
+![KernelSU Logo](/tools/images/root/images/kernelsu_banner.png)
 
 KernelSU 是 Android GKI 设备的 root 解决方案，它工作在内核模式，并直接在内核空间中为用户空间应用程序授予 root 权限。
 
