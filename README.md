@@ -21,6 +21,8 @@
 
 ## 其他内容
 
+* [手机代号收集](./codename/README.md)
+
 这些是安卓爱好者聚集地，您可以在这些社区了解更多内容：
 
 * [酷安](https://www.coolapk.com/)
