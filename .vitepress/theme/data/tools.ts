@@ -167,6 +167,4 @@ sortedTools.forEach((category: ToolCategory) => {
     tools.push(...category.items)
 })
 
-
-
 export default tools

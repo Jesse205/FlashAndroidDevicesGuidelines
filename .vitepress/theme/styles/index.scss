@@ -1,3 +1,6 @@
+@import url(./override/custom.scss);
+@import url(./override/zoom.scss);
+
 .screenshotList,
 .imageList {
   display: flex;

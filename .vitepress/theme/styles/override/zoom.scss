@@ -1,0 +1,10 @@
+/* 让图片置于顶层显示 */
+.medium-zoom-overlay {
+  z-index: 1000;
+}
+
+.medium-zoom-image--opened {
+  z-index: 1000;
+  background-color: var(--vp-c-bg);
+  image-rendering: -webkit-optimize-contrast;
+}

@@ -23,7 +23,8 @@
                 "Emoji",
                 "Score",
                 "ToolInfo",
-                "label"
+                "label",
+                "a"
             ]
         },
         "MD025": false,
