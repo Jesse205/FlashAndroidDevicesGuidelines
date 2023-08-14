@@ -4,12 +4,12 @@
 
 拥有 Pixel 的体验，附带谷歌的 APP，有时会简称为 PE。
 
-* **官方网站**：<https://download.pixelexperience.org/>
-* **官方下载**：<https://download.pixelexperience.org/>
+- **官方网站**：<https://download.pixelexperience.org/>
+- **官方下载**：<https://download.pixelexperience.org/>
 
 ## 屏幕截图
 
-* **Android 12L**：
+- **Android 12L**：
 
 <div class="screenshotList">
 <img src="https://forum.xda-developers.com/attachments/screenshot_20220324-202403_settings-png.5569961/" alt="关于" title="关于"/>
@@ -19,7 +19,7 @@
 
 ::: details 历史版本
 
-* **Android 9.0**：
+- **Android 9.0**：
 
 <div class="screenshotList">
 <img src="https://forum.xda-developers.com/attachments/screenshot_20181208-052947-jpg.4660871/" alt="主页面" title="主页面"/>
@@ -39,20 +39,20 @@
 
 ### 优点
 
-* 完美的 Material Design 设计，并且为 Google 风格
-* 拥有录音机、录屏、计算器等常用工具
-* 适配积极（包括第三方）
-* 内置 Gapps
+- 完美的 Material Design 设计，并且为 Google 风格
+- 拥有录音机、录屏、计算器等常用工具
+- 适配积极（包括第三方）
+- 内置 Gapps
 
 ### 缺点
 
-* 系统相对简陋
+- 系统相对简陋
 
 ## 参考链接
 
-* [\[ROM\]\[9.0\]\[UNOFFICIAL\] Pixel Experience 9.0 \[09 Feb 2019\]](https://forum.xda-developers.com/t/rom-9-0-unofficial-pixel-experience-9-0-09-feb-2019.3876747/) - XDA Forums
-* [\[EOL\] \[ROM\] \[A12L\] Pixel Experience | UNOFFICIAL | HAYDN/IN | - by Termination5646](https://forum.xda-developers.com/t/eol-rom-a12l-pixel-experience-unofficial-haydn-in-by-termination5646.4421237/) - XDA Forums
-* [\[ROM\] \[13\] \[lavender\] \[OFFICIAL\] PixelExperience \[AOSP\]](https://forum.xda-developers.com/t/rom-13-lavender-official-pixelexperience-aosp.4470689/)
+- [\[ROM\]\[9.0\]\[UNOFFICIAL\] Pixel Experience 9.0 \[09 Feb 2019\]](https://forum.xda-developers.com/t/rom-9-0-unofficial-pixel-experience-9-0-09-feb-2019.3876747/) - XDA Forums
+- [\[EOL\] \[ROM\] \[A12L\] Pixel Experience | UNOFFICIAL | HAYDN/IN | - by Termination5646](https://forum.xda-developers.com/t/eol-rom-a12l-pixel-experience-unofficial-haydn-in-by-termination5646.4421237/) - XDA Forums
+- [\[ROM\] \[13\] \[lavender\] \[OFFICIAL\] PixelExperience \[AOSP\]](https://forum.xda-developers.com/t/rom-13-lavender-official-pixelexperience-aosp.4470689/)
 
 声明：图片均来源于网络。如果侵犯了您的权力，请[联系我](mailto:jesse205@qq.com)，我会尽快删除。
 

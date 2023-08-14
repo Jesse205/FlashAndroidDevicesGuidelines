@@ -155,7 +155,7 @@ export default defineConfig({
               link: '/normal/systems/',
               collapsed: true,
               items: [
-                { text: 'HarmonyOS', link: '/normal/systems/harmonyos.html' },
+                { text: 'EMUI 类', link: '/normal/systems/emui.html' },
                 { text: 'MIUI', link: '/normal/systems/miui.html' },
                 { text: 'LineageOS', link: '/normal/systems/lineageos.html' },
                 { text: 'PixelExperience', link: '/normal/systems/pixelexperience.html' },
