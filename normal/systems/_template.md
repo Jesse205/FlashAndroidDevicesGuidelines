@@ -1,7 +1,7 @@
 <!-- 操作系统模板 -->
 # <系统正式名称>
 
-<img class="banner-img" src="<封面地址>" alt="LOGO"/>
+<img class="banner-img" _src="<封面地址>" alt="LOGO"/>
 
 <系统介绍>
 
@@ -10,9 +10,9 @@
 ## 系统截图
 
 <div class="screenshotList">
-<img src="<截图地址1>" alt="<描述>" title="<描述>" loading="lazy" />
-<img src="<截图地址2>" alt="<描述>" title="<描述>" loading="lazy" />
-<img src="<截图地址3>" alt="<描述>" title="<描述>" loading="lazy" />
+<img _src="<截图地址1>" alt="<描述>" title="<描述>" loading="lazy" />
+<img _src="<截图地址2>" alt="<描述>" title="<描述>" loading="lazy" />
+<img _src="<截图地址3>" alt="<描述>" title="<描述>" loading="lazy" />
 </div>
 
 ## 版本

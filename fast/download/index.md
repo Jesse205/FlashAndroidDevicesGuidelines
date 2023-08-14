@@ -56,7 +56,7 @@ ROM有几种类型可以选择
 
 ### EMUI/HarmonyOS/MagicUI/MagicOS - 华为/荣耀
 
-- [HarmonyOS 更多信息](../../normal/systems/harmonyos.md)
+- [更多信息](/normal/systems/emui.md)
 
 **官方下载**：
 
