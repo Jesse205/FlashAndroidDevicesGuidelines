@@ -1,14 +1,23 @@
 import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
+const base = '/FlashAndroidDevicesGuidelines'
 export default defineConfig({
   lang: 'zh-CN',
   title: "刷机指南",
   description: "不仅仅是刷机指南",
   lastUpdated: true,
-  base: '/FlashAndroidDevicesGuidelines',
+  base,
+  head: [
+    ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: base + '/icons/apple-touch-icon.png' }],
+    ['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: base + '/favicon-32x32.png' }],
+    ['link', { rel: 'icon', type: 'image/png', sizes: '16x16', href: base + '/favicon-16x16.png' }],
+    ['link', { rel: 'manifest', href: base + '/manifest.webmanifest' }],
+    ['link', { rel: 'mask-icon', href: base + '/icons/safari-pinned-tab.svg', color: '#4285f4' }]
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    logo: '/logo.svg',
     outlineTitle: '本页内容',
     lastUpdatedText: '更新时间',
     darkModeSwitchLabel: '深色模式',
