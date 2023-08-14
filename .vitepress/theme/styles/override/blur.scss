@@ -135,12 +135,16 @@
   --vp-c-bg-elv-down: #f6f6f7cc;
   --vp-c-bg-elv-mute: #f6f6f7cc;
   --vp-c-bg-alt: #f6f6f7cc;
-  --vp-backdrop-bg-color: rgba(0, 0, 0, 0.1);
+  --vp-c-bg-soft: #f6f6f7cc;
+  --vp-c-bg-soft-up: #f9f9facc;
+  --vp-c-bg-soft-down: #e3e3e5cc;
+  --vp-c-bg-soft-mute: #e3e3e5cc;
   --vp-c-mute: #f6f6f7cc;
   --vp-c-mute-light: #f9f9fccc;
   --vp-c-mute-lighter: #ffffffcc;
   --vp-c-mute-dark: #e3e3e5cc;
   --vp-c-mute-darker: #d7d7d9cc;
+  --vp-backdrop-bg-color: rgba(0, 0, 0, 0.1);
 }
 
 .dark {
@@ -155,33 +159,70 @@
   --vp-c-mute-lighter: #50505399;
   --vp-c-mute-dark: #2c2c3099;
   --vp-c-mute-darker: #25252999;
+  --vp-c-bg-soft: #25252999;
+  --vp-c-bg-soft-up: #32323899;
+  --vp-c-bg-soft-down: #1e1e2099;
+  --vp-c-bg-soft-mute: #32323899;
 }
 
-.VPLocalNav::before,
-.VPNavBar.fill .content-body::before,
+.VPNavBar:not(.has-sidebar),
+.VPNavBar.has-sidebar .content-body::before,
 .VPLocalNav .items,
-.VPNavBarExtra .menu,
+.VPLocalNav::before,
+.VPSidebar,
 .VPFlyout .menu,
 .shell,
 .medium-zoom-image--opened,
-.VPSidebar.open,
 .VPNavScreen {
   backdrop-filter: blur(16px);
+}
+
+/* 去除最内部的背景色，因为外部已经有一个半透明背景色了 */
+.VPNavBar:not(.has-sidebar) .content-body {
+  background: none !important;
+}
+
+/* VPLocalNav与VPNavBar不能直接添加模糊，否则会使子元素失效 */
+.VPLocalNav::before,
+.VPNavBar.has-sidebar .content-body::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+/* 去除顶部空白 */
+.VPLocalNav.reached-top {
+  border-top: none;
+}
+
+/* 将白色阴影改为下划线 */
+@media (min-width: 960px) {
+  .VPNavBar.has-sidebar .curtain {
+    height: 1px !important;
+    bottom: 0px !important;
+    border-bottom: 1px solid var(--vp-c-gutter);
+  }
+
+  .VPNavBar.has-sidebar .curtain::before {
+    content: none !important;
+  }
+}
+
+// 背景作为分割线，但要使背景透明才行
+.VPLocalNav .items {
+  background: none;
 }
 
 .VPFlyout .menu {
   border-radius: 12px;
 }
 
-/* 搜索框添加阴影 */
+// 搜索框添加阴影
 .shell,
 .medium-zoom-image--opened[style*="transform"] {
   box-shadow: var(--vp-shadow-4);
-}
-
-.medium-zoom-image--opened[style*="transform"] {
-  animation-duration: 0.3s;
-  animation-name: dialog-open;
 }
 
 /* 选择器强度不够，标签名来凑 */
@@ -190,65 +231,17 @@ img.medium-zoom-image {
     box-shadow 0.3s cubic-bezier(0.2, 0, 0.2, 1) !important;
 }
 
-/* VPLocalNav与VPNavBar不能直接添加模糊，否则会使子元素失效 */
-.VPLocalNav::before,
-.VPNavBar.fill .content-body::before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-}
-
-/* 将白色阴影改为下划线 */
-.VPNavBar.has-sidebar .curtain {
-  border-bottom: 1px solid transparent;
-  height: 1px !important;
-  bottom: 0px !important;
-}
-
-.VPNavBar.fill.has-sidebar .curtain {
-  border-bottom-color: var(--vp-c-gutter);
-}
-
-.VPNavBar.has-sidebar .curtain::before {
-  content: unset !important;
-}
-
-/* 去除最外部的背景色，因为内部已经有一个半透明背景色了 */
-.VPNavBar {
-  background: none !important;
-}
-
-/* 去除顶部空白 */
-.VPLocalNav.reached-top {
-  border-top: none;
-}
-
-/* 设置以下背景色，因为可能有动画干扰，效果不好 */
-@media (min-width: 960px) {
-  .VPNavBar.has-sidebar .content-body,
-  .VPNavBar .content-body {
-    background-color: var(--vp-nav-bg-color);
-  }
-}
-
 @keyframes dialog-open {
   from {
-    box-shadow: none;
+    opacity: 0;
   }
 
   to {
-    box-shadow: var(--vp-shadow-4);
+    opacity: 1;
   }
 }
 
-// 始终显示下划线，方便区分链接
-.vp-doc .custom-block a {
-  text-decoration: underline;
-  color: var(--vp-c-brand-darker);
-}
-
-.vp-doc .custom-block a:hover {
-  color: var(--vp-c-brand-lighter);
+.shell,
+.backdrop {
+  animation: dialog-open 0.3s;
 }

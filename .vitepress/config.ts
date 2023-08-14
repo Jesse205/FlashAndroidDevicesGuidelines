@@ -266,13 +266,14 @@ export default defineConfig({
       options: {
         translations: {
           button: {
-            buttonText: "搜索"
+            buttonText: "搜索",
+            buttonAriaLabel: '搜索'
           },
           modal: {
             displayDetails: '显示具详情信息',
             resetButtonTitle: '清空内容',
             backButtonTitle: '关闭搜索',
-            noResultsText: '未找到',
+            noResultsText: '未找到相关内容',
             footer: {
               selectText: '选择',
               selectKeyAriaLabel: '进入',
