@@ -6,6 +6,8 @@ titleTemplate: false
 
 <img src="./images/logo.svg" width="300"/>
 
+> 本 LOGO 使用了 HarmonyOS Sans 字体
+
 ## 介绍
 
 这个是 [Jesse205](https://gitee.com/Jesse205) 搬运并整理的刷机指南。\

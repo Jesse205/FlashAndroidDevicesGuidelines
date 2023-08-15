@@ -2,6 +2,8 @@
 
 <img src="./images/logo.svg" width="300"/>
 
+> 本 LOGO 使用了 HarmonyOS Sans 字体
+
 这个是 Jesse205 搬运并整理的刷机指南。该文档旨在编写全国免费、实用、最严谨、最完善、最准确的文档。文档仓库部署在 Gitee 和 GitHub 上，欢迎 Star！
 
 > 此刷机指南不仅仅提供刷机的指南，还提供各种各样玩机教程！
