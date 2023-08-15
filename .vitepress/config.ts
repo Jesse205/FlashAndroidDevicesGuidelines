@@ -111,8 +111,8 @@ export default defineConfig({
               text: '解锁 Bootloader', link: '/fast/unlock/',
               collapsed: true,
               items: [
-                { text: '华为', link: '/fast/unlock/huawei.html' },
-                { text: '小米', link: '/fast/unlock/xiaomi.html' },
+                { text: '华为', link: '/fast/unlock/huawei/' },
+                { text: '小米', link: '/fast/unlock/xiaomi/' },
               ]
             },
             { text: '下载 ROM', link: '/fast/download/' },
