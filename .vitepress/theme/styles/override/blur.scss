@@ -37,7 +37,7 @@
   --vp-c-bg-soft-mute: #32323899;
 }
 
-.VPNavBar:not(.has-sidebar)::before,
+.VPNav:not(.has-sidebar)::before,
 .VPNavBar.has-sidebar .content-body::before,
 .VPLocalNav .items,
 .VPLocalNav::before,
@@ -55,7 +55,7 @@
 }
 
 /* VPLocalNav与VPNavBar不能直接添加模糊，否则会使子元素失效 */
-.VPNavBar:not(.has-sidebar)::before,
+.VPNav:not(.has-sidebar)::before,
 .VPLocalNav::before,
 .VPNavBar.has-sidebar .content-body::before {
   content: "";
