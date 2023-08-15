@@ -2,8 +2,8 @@
 
 ## 硬件要求
 
-* 装有 [ADB 工具](../../tools/platform-tools.md#adb-工具)的电脑
-* 华为手机（系统为 EMUI 9 及以下，但是如果你的华为设备搭载 MTK 芯片的话，即使是鸿蒙系统也有可能解锁，比如华为畅享20系列，20se（PPA）除外）
+- 装有 [ADB 工具](/tools/platform-tools.md#adb-工具)的电脑
+- 华为手机（系统为 EMUI 9 及以下，但是如果你的华为设备搭载 MTK 芯片的话，即使是鸿蒙系统也有可能解锁，比如华为畅享20系列，20se（PPA）除外）
 
 ## 解锁步骤
 
@@ -15,10 +15,10 @@
 
 您也可以通过第三方渠道获取解锁码或者直接解锁 Bootloader。
 
-* 使用 [PotatoNV](https://github.com/mashed-potatoes/PotatoNV) 解锁 <Badge type="tip" text="免费" /> [查看教程](https://zhuanlan.zhihu.com/p/397173427)
-* 联系 [@某贼](http://www.coolapk.com/u/3463951) <Badge type="tip" text="免费" />（[某贼之言](https://www.coolapk.com/feed/25219974?shareKey=ZDc3M2ExYmZlNjQ2NjA3MTc2ZGY~)）
-* 某宝购买 <Badge type="warning" text="付费" />
-* 联系酷安 @stuff233 <Badge type="warning" text="付费" />
+- 使用 [PotatoNV](https://github.com/mashed-potatoes/PotatoNV) 解锁 <Badge type="tip" text="免费" /> [查看教程](https://zhuanlan.zhihu.com/p/397173427)
+- 联系 [@某贼](http://www.coolapk.com/u/3463951) <Badge type="tip" text="免费" />（[某贼之言](https://www.coolapk.com/feed/25219974?shareKey=ZDc3M2ExYmZlNjQ2NjA3MTc2ZGY~)）
+- 某宝购买 <Badge type="warning" text="付费" />
+- 联系酷安 @stuff233 <Badge type="warning" text="付费" />
 
 ::: tip
 大佬们有时候可能不在，请耐心等待。
@@ -29,7 +29,7 @@
 ::: warning
 华为部分手机无法通过 ADB 命令直接解锁，因此您可能需要**通过第三方渠道解锁**。
 
-以下方法只适用于老设备，新设备已经关闭了解锁命令，您需要**拆机**才可以解锁。
+以下方法只适用于老设备。新设备已经关闭了解锁命令，您可能需要**拆机**才可以解锁。
 :::
 
 ::: danger
@@ -59,8 +59,8 @@ fastboot oem unlock <解锁码>
 
 ## 确定是否已解锁
 
-* **fastboot 状态**: 如果显示红色的 `PHONE Unlocked`，则手机已解锁。
-* **开机第一屏之后**: 如果显示 `Your device has been unlocked and can't be trusted.` ，并且提示文字为橙色，则手机已解锁。
+- **fastboot 状态**: 如果显示红色的 `PHONE Unlocked`，则手机已解锁。
+- **开机第一屏之后**: 如果显示 `Your device has been unlocked and can't be trusted.` ，并且提示文字为橙色，则手机已解锁。
 
 ## 版权声明
 
@@ -68,4 +68,4 @@ fastboot oem unlock <解锁码>
 
 ## 参考链接
 
-* [如何Root你的华为旧机？](https://www.coolapk.com/feed/26320412?shareKey=YzZmMjdiZjEwNThjNjEwZDQ5MGI~&shareUid=3463951&shareFrom=com.coolapk.market_11.3) - 酷安：@某贼
+- [如何Root你的华为旧机？](https://www.coolapk.com/feed/26320412?shareKey=YzZmMjdiZjEwNThjNjEwZDQ5MGI~&shareUid=3463951&shareFrom=com.coolapk.market_11.3) - 酷安：@某贼

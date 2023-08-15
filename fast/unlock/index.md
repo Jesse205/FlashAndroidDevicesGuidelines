@@ -52,16 +52,16 @@ next:
 
 :::
 
-* 情况一 解锁工具方法：[小米](./xiaomi.md#解锁步骤)、真我 GT
+* **情况一 解锁工具方法**：[小米](./xiaomi.md#解锁步骤)、真我 GT
   1. 下载并打开深度测试 APP，申请深度测试，等待审核通过 <Badge text="真我 GT" />
-  2. 在手机上寻找有关解锁选项，并全部设置为允许解锁的状态（一般在开发人员选项内）
+  2. 在手机上寻找有关解锁选项，并全部设置为允许解锁的状态（一般在开发人员选项内）<Badge text="小米" /> <Badge text="真我 GT" />
   3. 官网下载解锁工具 <Badge text="小米" />
-* 情况二 解锁码方法：~~华为~~
+* **情况二 解锁码方法**：~~华为~~
   1. 在手机上寻找有关解锁选项，并全部设置为允许解锁的状态（一般在开发人员选项内）<Badge text="华为除外" />
-  2. 官网申请解锁码
-* 情况三：杂牌手机
+  2. 官网申请解锁码 <Badge text="华为" />
+* **情况三**：杂牌手机
   1. 在手机上寻找有关解锁选项，并全部设置为允许解锁的状态（一般在开发人员选项内）
-* 其他情况：等待补充
+* **其他情况**：等待补充
 
 ## 开始解锁 Bootloader
 
@@ -76,20 +76,20 @@ next:
 * Vivo（敬请期待）
 :::
 
-* 情况一 解锁工具方法：[小米](./xiaomi.md#解锁步骤)
+* **情况一 解锁工具方法**：[小米](./xiaomi.md#解锁步骤)
   1. 手机连接电脑
   2. 打开解锁工具，按照提示解锁
-* 情况二 解锁码方法：~~华为~~
+* **情况二 解锁码方法**：~~华为~~
   1. 手机连接电脑
-  2. 安装 [Platform-tools][PlatformTools] 工具，进入 CMD，输入 `fastboot unlock <解锁码>`
+  2. 安装 [Platform-tools][PlatformTools] 工具，进入 CMD，输入 `fastboot oem unlock <解锁码>`
   3. 手机上选择“确认解锁”
-* 情况三：杂牌手机、真我 GT
+* **情况三**：真我 GT、杂牌手机
   1. 手机连接电脑
   2. 安装 [Platform-tools][PlatformTools] 工具
-  3. 进入 CMD，输入 `fastboot unlock`\
-    或输入 `fastboot flashing unlock` <Badge text="真我 GT" />
+  3. 进入 CMD，输入 `fastboot flashing unlock` <Badge text="真我 GT" />\
+    或输入 `fastboot flashing unlock`
   4. 手机上选择“确认解锁”
-* 其他情况：等待补充
+* **其他情况**：等待补充
 
 ## 检查是否已解锁
 
