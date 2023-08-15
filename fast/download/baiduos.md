@@ -1,14 +1,26 @@
 # 百度云 OS 下载
 
+## 官方下载
+
+未知，且以已关闭
+
+## 第三方下载
+
+-**奇兔刷机** <Badge type="warning" text="第三方" /> ：<http://rom.7to.cn/search.html?key=55m+5bqm5LqR>
+
 ## 华为
 
+敬请期待
+
 ## 小米
+
+敬请期待
 
 ## 联想
 
 ### Lenovo A788T
 
-__@houseTimeR__：
+**@houseTimeR**：
 
 | 名称           | ROM 版本 | Android | 发布网站                       | 下载                           |
 | -------------- | -------- | ------- | ------------------------------ | ------------------------------ |
@@ -20,7 +32,7 @@ __@houseTimeR__：
 [houseTimeR_A788T_3]: https://tieba.baidu.com/p/4742279453?pid=96478657615&cid=#96478657615
 [houseTimeR_A788T_4]: https://pan.baidu.com/s/1eSE2r4I?pwd=i58r
 
-__@huayi550__：
+**@huayi550**：
 
 | 名称    | Android | 下载 |
 | ------- | ------- | ---- |

@@ -15,9 +15,7 @@
 :::
 
 * **官方网站**：未知，且以已关闭
-* **下载地址**：
-  * **奇兔刷机** <Badge type="warning" text="第三方" /> ：<http://rom.7to.cn/search.html?key=55m+5bqm5LqR>
-  * [本站整理](../../fast/download/baiduos.md) <Badge type="warning" text="第三方" />
+* **[下载地址](/fast/download/baiduos.md)**
 
 ## 系统截图
 

@@ -14,22 +14,30 @@
   margin: 2px;
 }
 
-.screenshotList img {
-  width: 200px;
-  min-width: 200px;
-  max-width: 200px;
-}
-
 .screenshotList img,
 .border-img {
   border: 1px solid var(--vp-c-border);
   border-radius: 4px;
 }
 
+.screenshotList img,
+.screenshotList.phone img {
+  width: 200px;
+  min-width: 200px;
+  max-width: 200px;
+}
+
 .screenshotList.pad img {
   width: 600px;
   min-width: 600px;
   max-width: 600px;
+}
+
+.screenshotList.fix-height img{
+  width: auto;
+  min-width: unset;
+  max-width: unset;
+  height: 400px;
 }
 
 .banner-img {

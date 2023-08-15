@@ -30,11 +30,11 @@ ROM有几种类型可以选择
 
 ## 预装 ROM
 
-| 名称                                            | 开发商 | 下载链接                                    | 本站搜集                 |
-| ----------------------------------------------- | ------ | ------------------------------------------- | ------------------------ |
-| MIUI                                            | 小米   | [查看详情](../../normal/systems/miui.md)    | /                        |
-| 百度云 OS <Badge type="danger" text="已停更" /> | 百加   | [查看详情](../../normal/systems/baiduos.md) | [查看详情](./baiduos.md) |
-| Pixel                                           | Google | [查看详情][Pixel官方下载]                   | /                        |
+| 名称                                                                          | 开发商 | 下载链接 / 本站搜集       |
+| ----------------------------------------------------------------------------- | ------ | ------------------------- |
+| [MIUI](/normal/systems/miui.md)                                               | 小米   | [查看详情](./miui.md)     |
+| [百度云 OS](/normal/systems/baiduos.md) <Badge type="danger" text="已停更" /> | 百加   | [查看详情](./baiduos.md)  |
+| Pixel                                                                         | Google | [查看详情][Pixel官方下载] |
 
 ### ColorOS/氢 OS/氧 OS - Oppo/OnePlus
 

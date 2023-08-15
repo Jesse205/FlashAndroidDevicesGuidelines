@@ -1,3 +1,8 @@
+---
+next:
+  text: '下载 ROM'
+  link: '/fast/download/'
+---
 # 华为解锁
 
 ## 硬件要求
@@ -43,7 +48,7 @@
 1. 将手机用数据线连接电脑，进入 Fastboot 模式
 2. 打开 adb 工具包里的命令行，输入指令（不带尖括号）：
 
-``` bash
+``` bash:no-line-numbers
 fastboot oem unlock <解锁码>
 ```
 
@@ -61,6 +66,18 @@ fastboot oem unlock <解锁码>
 
 - **fastboot 状态**: 如果显示红色的 `PHONE Unlocked`，则手机已解锁。
 - **开机第一屏之后**: 如果显示 `Your device has been unlocked and can't be trusted.` ，并且提示文字为橙色，则手机已解锁。
+
+## 解锁完成
+
+解锁完成后可以刷入第三方 ROM、获取 Root 等操作了。
+
+::: tip
+如果你是新手，不妨先尝试一下[简单的 Root](/fast/install/root/huawei/index.md)，再考虑刷入其他 ROM！
+:::
+
+::: danger
+解锁后**赶紧备份手机关键分区**。部分分区在每部手机内是独一无二的，丢了就真丢了，手机也真废了。
+:::
 
 ## 版权声明
 

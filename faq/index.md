@@ -10,7 +10,7 @@
 
 ### sideload 失败，手机提示adb版本过低需要升级 (`you need adb 1.0.32 or newer to apply sideload`) 怎么办
 
-电脑使用的 adb 工具版本过低不支持 sideload。[请升级 ADB 版本](../tools/platform-tools.md)
+电脑使用的 adb 工具版本过低不支持 sideload。[请升级 ADB 版本](../tools/platform-tools.md)。
 
 ## 如何判断 Magisk 或 SuperSU 有没有刷成功
 
