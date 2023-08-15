@@ -1,4 +1,4 @@
-::: details fastboot 汉化版帮助文件
+::: details fastboot 中文帮助文件
 
 ``` txt:no-line-numbers
 使用方法： fastboot [ <选项> ] <命令>

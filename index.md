@@ -54,6 +54,8 @@ titleTemplate: false
 
 :::
 
+该分类将引导您一步一步刷入第三方 ROM。
+
 1. [解锁 Bootloader](./fast/unlock/index.md)
 2. [下载刷机包](./fast/download/index.md)
 3. [刷入系统](./fast/flash/system.md)
@@ -66,18 +68,18 @@ titleTemplate: false
 
 ## 基础知识
 
-1. 手机的选购
-2. [安装第三方软件](./normal/installApk/index.md) <Badge text="不通过自带的应用市场" />
-3. [操作系统概览](./normal/systems/index.md)
-4. [名词集](./normal/noun.md)
-5. [分区和映像](./normal/partitions/index.md)
-6. [ADB 工具的使用](./normal/danger_permissions/adb/index.md)
-7. 刷机包的说明
+- 手机的选购
+- [安装第三方软件](./normal/installApk/index.md) <Badge text="不通过自带的应用市场" />
+- [操作系统概览](./normal/systems/index.md)
+- [名词集](./normal/noun.md)
+- [分区和映像](./normal/partitions/index.md)
+- [ADB 工具的使用](./normal/danger_permissions/adb/index.md)
+- 刷机包的说明
 
 ## 深入“刷机”
 
-1. 更多名词集
-2. 系统分区及结构
+- 更多名词集
+- 系统分区及结构
 
 ### 编译属于自己的 ROM
 
