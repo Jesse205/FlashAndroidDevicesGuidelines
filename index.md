@@ -4,10 +4,12 @@ titleTemplate: false
 
 # 刷机指南
 
+<img src="./logo.svg" width="300"/>
+
 ## 介绍
 
 这个是 [Jesse205](https://gitee.com/Jesse205) 搬运并整理的刷机指南。\
-文档仓库在 Gitee 上，欢迎 Star！
+文档仓库在 Gitee 和 GitHub 上，欢迎 Star！
 
 - 此刷机指南不仅仅提供刷机的指南，接受手机、电视和电脑等的内容，还提供各种各样玩机教程！
 - 本教程尽量保证所有资源都有一手资源获取渠道，因此您可以放心下载。<small>（有时为了提速可能会提供二手下载渠道）</small>
@@ -26,14 +28,14 @@ titleTemplate: false
 
 ::: warning
 
-刷机千万次，安全第一条\
-刷机不规范，机主两行泪
+刷机千万次，备份第一步。\
+刷机不规范，机主两行泪。
 
 [点击此处查看翻车案例](./rollover/index.md)
 
 ---
 
-在浏览本文档前，请先浏览[《文档说明》（点击此处开始浏览）](./faq/documents.md)与[《注意事项》](./normal/notes/index.md)，以防止您迷茫或翻车。
+在浏览本文档前，建议浏览[《文档说明》（点击此处开始浏览）](./faq/documents.md)与[《注意事项》](./normal/notes/index.md)，以防止您迷茫或翻车。
 
 在浏览本文档时，请务必仔细文档内容。**因您操作失误导致的损失我们不负责。**
 
@@ -63,7 +65,7 @@ titleTemplate: false
 ## 基础知识
 
 1. 手机的选购
-2. [安装第三方软件](./normal/installApk/index.md) <Badge type="tip" text="不通过自带的应用市场" />
+2. [安装第三方软件](./normal/installApk/index.md) <Badge text="不通过自带的应用市场" />
 3. [操作系统概览](./normal/systems/index.md)
 4. [名词集](./normal/noun.md)
 5. [分区和映像](./normal/partitions/index.md)
@@ -89,7 +91,7 @@ titleTemplate: false
 
 ## 其他教程
 
-- [Magisk 中文文档](https://jesse205.github.io/MagiskChineseDocument/) <Badge type="tip" text="本站翻译" />
+- [Magisk 中文文档](https://jesse205.github.io/MagiskChineseDocument/) <Badge text="本站翻译" />
 - [Android 开发者](https://developer.android.google.cn/?hl=zh-cn)
 - [Android 开源项目](https://source.android.google.cn/?hl=zh-cn)
 
@@ -125,11 +127,11 @@ titleTemplate: false
 4. 新建 Pull Request
 
 ::: tip
-您可以直接编辑文件，Gitee 会自动处理一些东西。
+您可以直接编辑文件，Gitee 和 GitHub 会自动处理一些东西。
 :::
 
 ::: tip
-如果您不使用 Gitee，也可以使用 GitHub。但是使用 GitHub 修改代码后需要同步到 Gitee 内，否则您的文档会被覆盖。如果您发现此类问题，您可以联系我解决。
+如果您不想使用 Gitee，也可以使用 GitHub。但是使用 GitHub 修改代码后需要我同步到 Gitee 内，否则您的文档会被覆盖。如果您发现此类问题，您可以联系我解决。
 :::
 
 > 由于本人刷机知识短浅，文档中出现不完善的地方很正常。希望您可以帮我改进此文档，非常感谢！
