@@ -5,14 +5,16 @@
 ::: tip
 此页面是Android 通用的安装教程。您可能需要浏览专门针对您手机系统的文章，但推荐您先阅读完这篇文章后再阅读下面的文章。
 
-- [华为的 EMUI、HarmonyOS 和荣耀的 MagicUI、MagicOS 等 EMUI 系列系统](./emui.md)
-- 小米的 MIUI
+- [EMUI、HarmonyOS、MagicUI、MagicOS 等 EMUI 系列](./emui.md) - 华为、荣耀
+- MIUI - 小米
 
 :::
 
-## 安装本机上的软件
+## 安装本地软件
 
-### 一、开启安装权限
+### 使用官方安装器安装
+
+#### 一、开启安装权限
 
 ::: tip 此部分可以跳过
 一般情况下您不需要手动开启安装权限。因为当需要安装软件时，系统会引导您直接开启权限。
@@ -26,6 +28,8 @@
 :::
 
 #### Android 7及以下
+
+本段以 Android 4 和 Android 7 为例。
 
 1. 点击“设置”图标，进入系统设置
     <div class="screenshotList">
@@ -48,6 +52,8 @@
 
 #### Android 8 及以上
 
+本段以 Android 8 为例。
+
 1. 点击“设置”图标，进入系统设置
     <div class="screenshotList">
     <img src="./images/android8/step1.webp" alt="进入系统设置" title="进入系统设置"/>
@@ -66,9 +72,7 @@
     <img src="./images/android8/step3.4.webp" alt="打开“允许来自此来源的应用”" title="打开“允许来自此来源的应用”"/>
     </div>
 
-### 二、开始安装软件
-
-#### 使用官方安装器安装
+#### 二、开始安装软件
 
 官方的安装器名称为“打包安装程序”、“软件包安装程序”或“应用安装器”。通常情况下，设备默认的就是官方的安装器。
 
@@ -92,12 +96,12 @@
 
 :::
 
-#### 使用第三方安装器安装
+### 使用第三方安装器安装
 
 主流的安装器：
 
 - <ToolInfo name="InstallerX" /> <Badge type="tip" text="支持 APKS" />
-- <ToolInfo name="SAI" />
+- <ToolInfo name="SAI" /> <Badge type="tip" text="支持 APKS" />
 - R-安装
 
 ::: details 还有一些文件管理也支持直接安装软件
@@ -114,7 +118,11 @@
 或者，您可以通过一些方法锁定第三方安装器
 :::
 
-## 安装电脑或其他设备上的软件
+::: danger
+当您无法设置默认安装器的情况下，请不要尝试冻结“应用安装器”、“打包安装程序”等官方安装器，这种行为可能**导致部分数据丢失**（系统会自动重置），严重的会**卡开机动画**（系统不会会自动重置），并且 **ADB 也无法挽救**。
+:::
+
+## 通过电脑 (其他设备) 安装软件
 
 如果您想直接把您的电脑上面的安装包安装到您的手机内，您可以使用 ADB 安装软件
 
@@ -124,7 +132,7 @@
 
 常用命令：
 
-```bash
+```bash:no-line-numbers
 adb install -r xxx.apk
 ```
 
@@ -132,7 +140,7 @@ adb install -r xxx.apk
 
 完整命令：
 
-```bash
+```bash:no-line-numbers
 db install [-l] [-r] [-s] [--algo <algorithm name> --key <hex-encoded key> --iv <hex-encoded iv>] <file>
 ```
 
