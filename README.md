@@ -1,6 +1,6 @@
 # 刷机指南
 
-<img src="./public/logo.svg" width="300"/>
+<img src="./images/logo.svg" width="300"/>
 
 这个是 Jesse205 搬运并整理的刷机指南。该文档旨在编写全国免费、实用、最严谨、最完善、最准确的文档。文档仓库部署在 Gitee 和 GitHub 上，欢迎 Star！
 

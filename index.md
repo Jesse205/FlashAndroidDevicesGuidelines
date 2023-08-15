@@ -4,7 +4,7 @@ titleTemplate: false
 
 # 刷机指南
 
-<img src="./logo.svg" width="300"/>
+<img src="./images/logo.svg" width="300"/>
 
 ## 介绍
 
