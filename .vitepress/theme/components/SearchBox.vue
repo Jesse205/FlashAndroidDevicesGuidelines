@@ -59,10 +59,11 @@ watchEffect(() => {
     appearance: listbox;
     background: transparent;
     padding: 2px 4px;
+    margin-right: 4px;
 }
 
 .SearchBox-button{
-    margin: 2px;
+    margin: 4px;
 }
 
 </style>

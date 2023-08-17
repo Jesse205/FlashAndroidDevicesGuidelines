@@ -55,7 +55,7 @@ function emitValue(e: Event) {
 .VFInput {
     height: 100%;
     width: 100%;
-    padding: 2px 4px;
+    padding: 4px 8px;
     font-size: .875rem;
     border-color: var(--vp-input-border-color);
     transition: border-color 0.25s;

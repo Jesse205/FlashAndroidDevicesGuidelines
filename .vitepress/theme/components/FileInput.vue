@@ -104,7 +104,7 @@ function selectFileHandler(event: Event) {
 
 .button,
 .button.VPButton.medium {
-    border-radius: 8px;
+    // border-radius: 8px;
     margin: 4px;
 }
 </style>
