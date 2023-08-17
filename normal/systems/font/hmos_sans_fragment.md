@@ -1,5 +1,5 @@
 
-<img src="./images/font_logo/harmonyos_sans.png" class="cover-img-ui" alt="字体封面" />
+<img src="/normal/systems/images/font_logo/harmonyos_sans.png" class="cover-img-ui" alt="字体封面" />
 
 > HarmonyOS Sans字体版权归华为所有
 
