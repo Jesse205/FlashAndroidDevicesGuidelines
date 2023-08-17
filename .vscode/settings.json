@@ -24,7 +24,8 @@
                 "Score",
                 "ToolInfo",
                 "label",
-                "a"
+                "a",
+                "SearchBox"
             ]
         },
         "MD025": false,

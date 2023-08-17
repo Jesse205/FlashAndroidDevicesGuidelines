@@ -62,7 +62,7 @@ next:
 解锁完成后可以刷入第三方 ROM、获取 Root 等操作了。
 
 ::: tip
-如果你是新手，不妨先尝试一下[简单的 Root](../install/root/index.md)，再考虑刷入其他 ROM！
+如果你是新手，不妨先尝试一下[简单的 Root](/fast/install/root/index.md)，再考虑刷入其他 ROM！
 :::
 
 ::: danger

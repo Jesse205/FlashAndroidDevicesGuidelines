@@ -1,10 +1,12 @@
 # 获取 Root
 
 ::: info
-<!--@include: ../../../normal/danger_permissions/root/summary.md -->
+<!--@include: @/normal/danger_permissions/root/summary.md -->
 :::
 
-获取 Root 的方式有好多种，获取 Root 的工具也有好多种。本文章按照 Root 工具的顺序展开编写。
+获取 Root 的方式有好多种，获取 Root 的工具也有好多种。
+
+<!-- 本文章按照 Root 工具的顺序展开编写。 -->
 
 本文章给出了很多链接。您可以点击那些链接查看更专业的教程。
 
@@ -17,38 +19,51 @@
 * 魅族（敬请期待）
 * OPPO（敬请期待）
 * Vivo（敬请期待）
+
+您也可以使用百度搜索您的手机型号+root，查找您的设备专用的 root 方法（注意别点广告，部分资源实际上是免费的）。
+
+<SearchBox content="红米 Note 11 5G root"/>
+
 :::
 
 ::: tip
-关于这些工具的详细介绍：[Root](/normal/danger_permissions/root/index.md)
+关于这些工具的详细介绍：[基础知识 > 危险权限 > Root](/normal/danger_permissions/root/index.md)
 :::
 
-## 兼容性表格
+## Root 工具
 
-<!--@include: ../../../normal/danger_permissions/root/compatibility.md -->
+不同的工具有不同的安装方法。
 
-## Magisk <Badge type="tip" text="推荐" />
+### 兼容性表格
+
+您的设备可能值支持里面一个或者多个工具，具体请见以下表格。
+
+<!--@include: @/normal/danger_permissions/root/compatibility.md -->
+
+除此之外，您的设备还可能需要特供的 root 包/软件。
+
+### Magisk <Badge type="tip" text="推荐" />
 
 Magisk，别名叫做“面具”
 
 这是目前主流的 Root 方式
 
-* **适用系统**：Android 5.0 - Android 13
+* **适用系统**：Android 6.0 - Android 13
 * **相关链接**：
   * [Github 仓库](https://github.com/topjohnwu/Magisk) <Badge type="tip" text="官方" />
   * [Magisk 中文文档](https://jesse205.github.io/MagiskChineseDocument/)
 
-### 下载 Magisk
+#### 下载 Magisk
 
 * [GitHub Releases](https://github.com/topjohnwu/Magisk/releases/latest) <Badge type="tip" text="官方" />
 * [123云盘](https://www.123pan.com/s/G7a9-mjek.html) <Badge type="tip" text="本站搬运" />
 
-### 安装 Magisk
+#### 安装 Magisk
 
 * [Installation](https://topjohnwu.github.io/Magisk/install.html) - Magisk <Badge type="tip" text="官方" />
 * [安装](https://jesse205.github.io/MagiskChineseDocument/install.html) - Magisk 中文文档 <Badge type="warning" text="非官方" /> <Badge type="tip" text="本站汉化" />
 
-## KernelSU <Badge type="tip" text="推荐" />
+### KernelSU <Badge type="tip" text="推荐" />
 
 Android 上的内核级的 root 方案，这是新型 root 方案。目前正在完善
 
@@ -62,7 +77,7 @@ Android 上的内核级的 root 方案，这是新型 root 方案。目前正在
   * [官方网站](https://kernelsu.org/) <Badge type="tip" text="官方" />
   * [GitHub 仓库](https://github.com/tiann/KernelSU) <Badge type="tip" text="官方" />
 
-## SuperSU
+### SuperSU
 
 ::: warning
 这是 Android 8 以及之前常用的 Root 获取方式
@@ -78,37 +93,39 @@ SuperSU，别名叫做“超级权限”
 部分手机需要专用刷机包，因此这段教程附带的文件，甚至是这段教程都可能不适用于您的手机
 :::
 
-### 下载 SuperSU
+#### 下载 SuperSU
 
 * [非官方下载](https://supersuroot.org/download/)
 * [123 云盘下载](https://www.123pan.com/s/G7a9-mpek) <Badge type="tip" text="本站搬运" />
 * [百度网盘下载](https://pan.baidu.com/s/1D-xltDWSZHZmKbqULMknsw?pwd=jxnb) <Badge type="tip" text="提取码：jxnb" /> <Badge type="warning" text="本站搬运但未知安全性" />
 
-### 安装 SuperSU
+#### 安装 SuperSU
 
 敬请期待
 
-## SuperUser
+### SuperUser
 
 SuperUser，别名叫做“超级用户”。
 
 * **适用系统**: 未知（敬请期待），至今仍旧有一部分系统在使用
 
-### 下载 SuperUser
+#### 下载 SuperUser
 
 敬请期待
 
-### 安装 SuperUser
+#### 安装 SuperUser
 
 敬请期待
 
-## 一键 Root 工具
+### 一键 Root 工具
 
 ::: warning
 这是 Android 5 之前常用的获取 Root 方法
 
 此方法几乎不适用于现代所有的手机，请不要对一键 Root 抱有希望。
 :::
+
+使用一键 Root 工具就像开关机一样简单！
 
 主流的一键工具有
 
@@ -118,9 +135,13 @@ SuperUser，别名叫做“超级用户”。
 
 对于这些一键 Root 工具，机型不一样体验也不一样，建议都试试，有些 Root 工具至今也可以使用。
 
-### 手机端一键 Root
+#### 手机一键 Root
 
-打开一键 Root 工具后，点击「开始 ROOT」（或者其他按钮），等待 ROOT 成功即可
+使用手机端一键 Root，方便快捷。
+
+1. 打开一键 Root 工具
+2. 点击「开始 ROOT」（或者其他如“一键 Root”按钮）
+3. 等待 ROOT 成功即可
 
 ::: tip
 ROOT 过程中手机可能会重新启动，属于正常现象。
@@ -130,13 +151,15 @@ ROOT 过程中手机可能会重新启动，属于正常现象。
 很多一键 Root 工具已停止维护，建议改用其他方法。
 :::
 
-### 电脑辅助一键 Root
+#### 电脑一键 Root
+
+部分手机会 Root 失败，这时候就需要使用电脑来 Root 了。
 
 1. 安装一键 ROOT 工具对应的电脑端
 2. 手机连接电脑，并安装驱动
 3. 点击「开始 ROOT」（或者其他按钮）
 
-## 内置 Root
+### 内置 Root
 
 在以前，许多 Rom 都内置了Root。比如 MIUI，百度云 OS 等，还有各种各样官改 ROM。您通常需要在设置内打开 Root 开关后即可使用 Root
 

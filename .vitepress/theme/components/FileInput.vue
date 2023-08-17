@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { ref, watchEffect } from 'vue'
 import VPButton from 'vitepress/dist/client/theme-default/components/VPButton.vue'
+import VFInput from './VFInput.vue'
 
 const fileInput = ref<HTMLInputElement>()
 
@@ -85,7 +86,7 @@ function selectFileHandler(event: Event) {
         <span>
             <slot>请选择文件</slot>：
         </span>
-        <input class="nameInput" v-model="name" :placeholder="holderName" />
+        <VFInput class="nameInput" v-model="name" :placeholder="holderName" />
         <VPButton class="button" text="选择" theme="alt" @click="selectFileHandler" />
         <input ref="fileInput" class="fileInput" type="file" @change="fileChangeHandler" />
     </div>
@@ -95,25 +96,6 @@ function selectFileHandler(event: Event) {
 .inputArea {
     display: flex;
     align-items: center;
-}
-
-
-.nameInput {
-    background-color: var(--vp-input-bg-color);
-    border: var(--vp-input-border-color) solid 1px;
-    padding: 2px 8px;
-    height: 40px;
-    border-radius: 8px;
-    transition: border-color 0.25s;
-    margin: 4px;
-}
-
-.nameInput:hover {
-    border-color: var(--vp-input-hover-border-color);
-}
-
-.nameInput:focus {
-    border-color: var(--vp-c-brand);
 }
 
 .fileInput {
