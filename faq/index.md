@@ -2,7 +2,7 @@
 
 本篇假设您已经有了一定的关于计算机的知识。如果您刚学会使用计算机或者手机，我们不建议您立刻开始刷机。当然这不妨碍您阅读[《基本知识》](./knowledge.md)
 
-每个机型有自己的常见问题与解答，但是仍然建议您先阅读本页的内容然后再阅读您机型的内容
+每个机型有自己的常见问题与解答，但是仍然建议您先阅读本页的内容然后再阅读您机型的内容。
 
 * [华为](./huawei.md)
 
@@ -10,7 +10,7 @@
 
 ### sideload 失败，手机提示adb版本过低需要升级 (`you need adb 1.0.32 or newer to apply sideload`) 怎么办
 
-电脑使用的 adb 工具版本过低不支持 sideload。[请升级 ADB 版本](../tools/platform-tools.md)。
+电脑使用的 adb 工具版本过低不支持 sideload。[请升级 ADB 版本](/tools/platform-tools.md#platform-tools-下载与安装)。
 
 ## 如何判断 Magisk 或 SuperSU 有没有刷成功
 
@@ -24,7 +24,7 @@
 
 如果要刷的话，Android 4~7 建议用原版 Xposed 框架，Android 8 建议用 EdXposed，但是刷后可能会出问题，新手不是刚需还是不建议尝试了。
 
-您可以参考[《安装 Xposed》](../fast/install/xposed/index.md)
+您可以参考[《安装 Xposed》](/fast/install/xposed/index.md)
 
 ## 参考链接
 

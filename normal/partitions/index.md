@@ -40,15 +40,15 @@ Android 8.0 以前刷机需要连同 `boot.img` 一起刷入。之后由于引�
 
 ## 更多分区
 
-* [华为的分区和映像](huawei.md)
-* 小米的分区和映像
-* 三星的分区和映像
-* [系统分区及结构](../../details/partitions/index.md)
+- [华为的分区和映像](huawei.md)
+- 小米的分区和映像
+- 三星的分区和映像
+- [系统分区及结构](../../details/partitions/index.md)
 
 ## 相关链接
 
-* [安卓中的各种开机模式](../modes/index.md)
+- [基础知识 > 安卓中的各种开机模式](../modes/index.md)
 
 ## 参考链接
 
-* [分区和映像](https://source.android.google.cn/docs/core/architecture/bootloader/partitions-images?hl=zh_cn) - Android 开源项目
+- [分区和映像](https://source.android.google.cn/docs/core/architecture/bootloader/partitions-images?hl=zh_cn) - Android 开源项目

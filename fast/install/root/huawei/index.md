@@ -163,8 +163,6 @@ adb sideload {{rootZipFilePath}}
 
 详情请见[《常见问题与解答》](/faq/index.md)与[《华为手机 常见问题与解答》](/faq/huawei.md)
 
-
-
 ## 版权声明
 
 本文档已获得 [@某贼](http://www.coolapk.com/u/3463951) 授权搬运并修改整理

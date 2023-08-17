@@ -23,6 +23,10 @@ Android Studio 会自动下载 Platform-Tools。如果您曾今使用过 Android
 
 > 部分工具、工具箱、手机助手内自带 ADB 组件，而 Platform-Tools 内其他组件很少用得到，因此大部分情况下您**无需手动安装 Platform-Tools**。
 
+您可以选择一键安装方法，或者是原始安装方法。
+
+对于一般人来说，推荐一键安装，安装器会自动帮助用户配置一系列设置的。
+
 ### 一键安装 <Badge text="对小白友好" />
 
 #### Windows 一键安装
@@ -35,6 +39,10 @@ Android Studio 会自动下载 Platform-Tools。如果您曾今使用过 Android
 
 ::: warning
 通过傻瓜式安装的 Platform-Tools 版本可能低于官网版本，小部分功能可能无法使用。
+:::
+
+::: tip
+一般人的电脑装的都是 Windows，因此看本段教程安装就可以了。
 :::
 
 <!-- TODO: 一键安装工具，自动下载最新版本 -->
@@ -104,22 +112,22 @@ sudo apt install adb
 
 ::: code-group
 
-``` cmd:no-line-numbers{1} [命令提示符]
-C:\Users\USER>adb version
+``` cmd:no-line-numbers [命令提示符]
+C:\Users\USER>adb version // [!code focus]
 Android Debug Bridge version 1.0.41
 Version 33.0.0-8141338
 Installed as C:\Program Files (x86)\platform-tools\adb.exe
 ```
 
-``` ps:no-line-numbers{1} [PowerShell]
-PS C:\Users\USER> adb version
+``` ps:no-line-numbers [PowerShell]
+PS C:\Users\USER> adb version // [!code focus]
 Android Debug Bridge version 1.0.41
 Version 33.0.0-8141338
 Installed as C:\Program Files (x86)\platform-tools\adb.exe
 ```
 
-``` bash:no-line-numbers{1} [Linux: Bash]
-user@DESKTOP-93UT1LQ:~$ adb version
+``` bash:no-line-numbers [Linux: Bash]
+user@DESKTOP-93UT1LQ:~$ adb version // [!code focus]
 Android Debug Bridge version 1.0.41
 Version 28.0.2-debian
 Installed as /usr/lib/android-sdk/platform-tools/adb

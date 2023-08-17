@@ -132,11 +132,18 @@
 
 常用命令：
 
-```bash:no-line-numbers
-adb install -r xxx.apk
+:::: details ✏命令生成器
+您可以在这里直接生成您的命令。
+
+<FileInput @change="apkFilePath = $event" holder="xxx.apk">.apk 安装包</FileInput>
+
+::::
+
+```bash-vue :no-line-numbers
+adb install -r {{apkFilePath}}
 ```
 
-这条命令的意思是：覆盖安装 `xxx.apk` 。
+这条命令的意思是：覆盖安装 `{{apkFilePath}}` 。
 
 完整命令：
 
@@ -173,4 +180,10 @@ db install [-l] [-r] [-s] [--algo <algorithm name> --key <hex-encoded key> --iv 
 
 ::::
 
-## 参考链接
+<!-- ## 参考链接 -->
+
+<script setup>
+import {ref} from 'vue'
+
+const apkFilePath = ref('')
+</script>

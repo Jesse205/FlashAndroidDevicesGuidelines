@@ -219,6 +219,10 @@ export default defineConfig({
           ]
         },
         {
+          text: '注意事项',
+          link: '/faq/notes/',
+        },
+        {
           text: '其他内容',
           items: [
             { text: '基本知识', link: '/faq/knowledge.html' },
@@ -300,5 +304,6 @@ export default defineConfig({
   },
   markdown: {
     lineNumbers: true,
+    theme: 'material-theme-palenight',
   }
 })

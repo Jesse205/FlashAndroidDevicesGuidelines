@@ -4,6 +4,17 @@
 
 > 系列说明：该系列旨在用刷机的角度解释机圈术语或专有名词等，起工具性作用。由于作者认识浅薄，很多方面不能解释到十全十美，仅供参考。系列中收录的解决办法并非万能，请谨慎使用，也欢迎点击底部“在 Gitee 上编辑此页面”帮我改正！
 
+::: tip
+
+本页内容多？看不过来？试试浏览器的搜索功能吧！
+
+<div class="imageList">
+<img src="./images/browser_search/menu_button.png" alt="1. 点击菜单按钮" title="1. 点击菜单按钮" />
+<img src="./images/browser_search/search_item.png" alt="2. 点击“在页面上查找”" title="2. 点击“在页面上查找”" />
+</div>
+
+:::
+
 ## Android 与安卓
 
 ![Android Banner](https://platform-decentral.com/wp-content/uploads/2020/02/Android-Banner-1.png)
@@ -196,15 +207,25 @@ Windows 命令行壳子有两种，一种是“命令提示符”（也叫“CMD
 
 - **Linux用户还不会用终端？？？**
 
-## 卡 Mi、卡安卓
+## 卡 Mi、卡安卓、卡开机动画、卡第一屏
 
 卡米就是在**启动系统时卡在开机第一屏**，这种情况发生在小米手机上，由于第一屏是小米 logo，故称“卡米”。
+
+开机屏幕一般分为两个阶段，第一个阶段为静态logo，第二个阶段为开机动画。
+
+部分手机解锁后还会有另一个阶段：警告屏幕。
+
+| 别称    | 实际     |
+| ------- | -------- |
+| 卡 Mi   | 卡第一屏 |
+| 卡 logo | 卡第一屏 |
+| 卡安卓  | ？？     |
 
 <!-- 可能是由于 Android 系统分区中的 boot 分区受到损伤，无法完成开机 BootLoader 引导。 -->
 
 **解决办法**：
 
-- 一般情况下长按“音量-”和“电源”键（小米/红米手机）[进入 fastboot 刷机模式（其他机型请点这里）](./modes/index.md#fastboot-模式)，重新线刷刷机包，尝试开机。
+- 一般情况下长按“音量-”和“电源”键（小米手机）[进入 fastboot 刷机模式（其他机型请点这里）](./modes/index.md#fastboot-模式)，重新线刷刷机包，尝试开机。
 - 特殊情况下就需要对症下药了。您可以转到[《救砖指南》](/rescuing/index.md)
 
 ::: warning
@@ -220,6 +241,7 @@ Windows 命令行壳子有两种，一种是“命令提示符”（也叫“CMD
 
 **相关链接：**
 
+- [快速上手 > 刷入 ROM > 通用系统映像](/fast/flash/system.md#通用系统映像-gsi)
 - [通用系统映像 (GSI)](https://developer.android.google.cn/topic/generic-system-image?hl=zh-cn) - Android 开发者
 
 ## TWRP

@@ -38,8 +38,8 @@ Android 调试桥 (adb) 是一种功能多样的命令行工具，可让您与�
 ::: tip
 需要 ADB 30.0.0 或者以上版本。您可以输入以下代码查看 ADB 版本
 
-```bash
-$ adb --version
+```bash:no-line-numbers
+$ adb --version // [!code focus]
 Android Debug Bridge version 1.0.41
 Version 28.0.2-debian
 Installed as /usr/lib/android-sdk/platform-tools/adb
@@ -54,7 +54,7 @@ Installed as /usr/lib/android-sdk/platform-tools/adb
 
 因为 ADB 工具是 Platform-Tools 的一部分，所以您需要下载 Platform-Tools。
 
-有关更多信息，请参阅 [Platform-Tools 下载](/tools/platform-tools.md#platform-tools-下载)
+有关更多信息，请参阅 [实用工具 > Platform-Tools > Platform-Tools 下载与安装](/tools/platform-tools.md#platform-tools-下载与安装)。
 
 Linux 系统可通过 `apt` 等包管理工具安装
 
@@ -79,22 +79,22 @@ Android Studio 会自动下载 Platform-Tools。如果您曾今使用过 Android
 
 ::: code-group
 
-``` cmd:no-line-numbers{1} [命令提示符]
-C:\Users\USER>adb version
+``` cmd:no-line-numbers [命令提示符]
+C:\Users\USER>adb version // [!code focus]
 Android Debug Bridge version 1.0.41
 Version 33.0.0-8141338
 Installed as C:\Program Files (x86)\platform-tools\adb.exe
 ```
 
-``` ps:no-line-numbers{1} [PowerShell]
-PS C:\Users\USER> adb version
+``` ps:no-line-numbers [PowerShell]
+PS C:\Users\USER> adb version // [!code focus]
 Android Debug Bridge version 1.0.41
 Version 33.0.0-8141338
 Installed as C:\Program Files (x86)\platform-tools\adb.exe
 ```
 
-``` bash:no-line-numbers{1} [Linux: Bash]
-user@DESKTOP-93UT1LQ:~$ adb version
+``` bash:no-line-numbers [Linux: Bash]
+user@DESKTOP-93UT1LQ:~$ adb version // [!code focus]
 Android Debug Bridge version 1.0.41
 Version 28.0.2-debian
 Installed as /usr/lib/android-sdk/platform-tools/adb

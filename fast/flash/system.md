@@ -23,7 +23,7 @@ prev:
 
 ## 二、开始刷入
 
-### GSI 包 <Badge type="tip" text="新的刷机包" />
+### 通用系统映像 (GSI) <Badge type="tip" text="新的刷机包" />
 
 GSI 包一般只有 `system.img` ，因此，您通常情况下最终会得到到一个以 `.img` 结尾的文件。
 
