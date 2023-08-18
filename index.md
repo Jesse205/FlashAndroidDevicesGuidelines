@@ -125,10 +125,11 @@ titleTemplate: false
 
 ## 参与贡献
 
-1. Fork [本仓库](https://gitee.com/Jesse205/FlashAndroidDevicesGuidelines)
-2. 新建 Feat_xxx 分支
-3. 提交代码
-4. 新建 Pull Request
+1. 阅读[《贡献指南》](./CONTRIBUTING.md)
+2. Fork [本仓库](https://gitee.com/Jesse205/FlashAndroidDevicesGuidelines)
+3. 新建 Feat_xxx 分支
+4. 提交代码
+5. 新建 Pull Request
 
 ::: tip
 您可以直接编辑文件，Gitee 和 GitHub 会自动处理一些东西。
