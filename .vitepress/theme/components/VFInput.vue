@@ -5,6 +5,7 @@ interface Props {
     value?: string
     name?: string
     prependLine?: boolean
+    placeholder?: string
 }
 
 const props = withDefaults(defineProps<Props>(), {
@@ -31,7 +32,7 @@ function emitValue(e: Event) {
             <slot name="prepend"></slot>
         </div>
         <input class="VFInput" :class="{ 'VFInput-prependLine': prependLine }" :value="props.modelValue || value"
-            @input="emitValue" :name="props.name" />
+            @input="emitValue" :name="props.name" :placeholder="props.placeholder" />
     </div>
 </template>
 
