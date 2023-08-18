@@ -68,11 +68,11 @@
 
 ::: code-group
 
-``` shell-vue [EMUI 5 及之前]
+``` shell-vue :no-line-numbers [EMUI 5 及之前]
 fastboot flash recovery {{imgFilePath}}
 ```
 
-``` shell-vue [EMUI 8 及之后]
+``` shell-vue :no-line-numbers [EMUI 8 及之后]
 fastboot flash recovery_ramdisk {{imgFilePath}}
 ```
 

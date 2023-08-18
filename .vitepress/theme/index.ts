@@ -6,6 +6,8 @@ import Emoji from './components/Emoji.vue'
 import ToolInfo from './components/ToolInfo.vue'
 import FileInput from './components/FileInput.vue'
 import SearchBox from './components/SearchBox.vue'
+import VFInput from './components/VFInput.vue'
+import CGInput from './components/CGInput.vue'
 
 import './styles/index.scss'
 
@@ -23,6 +25,8 @@ export default <Theme>{
         app.component('ToolInfo', ToolInfo)
         app.component('FileInput', FileInput)
         app.component('SearchBox', SearchBox)
+        app.component('VFInput', VFInput)
+        app.component('CGInput', CGInput)
     },
     setup() {
         // Zoom

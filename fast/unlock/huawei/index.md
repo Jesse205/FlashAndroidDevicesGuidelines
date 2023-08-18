@@ -48,8 +48,23 @@ next:
 1. 将手机用数据线连接电脑，进入 Fastboot 模式
 2. 打开 adb 工具包里的命令行，输入指令（不带尖括号）：
 
-``` bash:no-line-numbers
-fastboot oem unlock <解锁码>
+:::: details 🛠命令生成器
+您可以在这里直接生成您的命令。
+
+1. 将信息填写到输入框，如果是文件则可以拖入输入框。
+2. 复制命令，将命令粘贴到终端内
+3. 运行命令
+
+::: tip
+注：如果使用生成器生成的命令，需要将终端工作目录切换至文件所在的目录才能继续使用。
+:::
+
+<CGInput @change="unlockCode = $event" holder="<解锁码>">解锁码</CGInput>
+
+::::
+
+``` bash-vue :no-line-numbers
+fastboot oem unlock {{unlockCode}}
 ```
 
 > 如果您不知道这是什么意思，请参考[《命令的使用》](/faq/documents.md)
@@ -86,3 +101,9 @@ fastboot oem unlock <解锁码>
 ## 参考链接
 
 - [如何Root你的华为旧机？](https://www.coolapk.com/feed/26320412?shareKey=YzZmMjdiZjEwNThjNjEwZDQ5MGI~&shareUid=3463951&shareFrom=com.coolapk.market_11.3) - 酷安：@某贼
+
+<script setup>
+import {ref} from 'vue'
+
+const unlockCode = ref('')
+</script>

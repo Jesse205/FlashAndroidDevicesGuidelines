@@ -1,10 +1,6 @@
 <script setup lang="ts">
 import { ref, watchEffect } from 'vue'
-import VPButton from 'vitepress/dist/client/theme-default/components/VPButton.vue'
 import VFInput from './VFInput.vue'
-
-const fileInput = ref<HTMLInputElement>()
-
 
 const props = defineProps<{
     default?: string
@@ -28,14 +24,10 @@ function emitName(name: string) {
     }
 }
 
-function fileChangeHandler(event: Event) {
-    let fileName = (fileInput.value?.files ?? [])[0]?.name
-    name.value = fileName
-}
-
 watchEffect(() => {
     emitName(name.value)
 })
+
 
 function dropHandler(event: DragEvent) {
     const dataTransfer = event.dataTransfer
@@ -44,13 +36,7 @@ function dropHandler(event: DragEvent) {
     if (dataTransfer.items) {
         for (var i = 0; i < dataTransfer.items.length; i++) {
             const item = dataTransfer.items[i]
-            if (item.kind === "file") {
-                let file = item.getAsFile()
-                if (file?.name) {
-                    name.value = file.name
-                    break
-                }
-            } else if (item.kind === 'string') {
+            if (item.kind === 'string') {
                 item.getAsString((s) => {
                     name.value = s
                 })
@@ -67,22 +53,15 @@ function dragoverHandler(event: DragEvent) {
     dataTransfer.dropEffect = 'link'
 }
 
-function selectFileHandler(event: Event) {
-    fileInput.value?.focus()
-    fileInput.value?.click()
-}
-
 </script>
 
 <template>
     <div class="inputArea" @drop.prevent="dropHandler"
         @dragover.prevent="dragoverHandler">
         <span>
-            <slot>请选择文件</slot>：
+            <slot>请输入内容</slot>：
         </span>
         <VFInput class="nameInput" v-model="name" :placeholder="holderName" />
-        <VPButton class="button" text="选择" theme="alt" @click="selectFileHandler" />
-        <input ref="fileInput" class="fileInput" type="file" @change="fileChangeHandler" />
     </div>
 </template>
 
@@ -92,13 +71,4 @@ function selectFileHandler(event: Event) {
     align-items: center;
 }
 
-.fileInput {
-    display: none;
-}
-
-.button,
-.button.VPButton.medium {
-    // border-radius: 8px;
-    margin: 4px;
-}
 </style>

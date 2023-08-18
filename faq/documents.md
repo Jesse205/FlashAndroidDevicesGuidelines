@@ -74,13 +74,32 @@
 
 比如，您看到这样一段命令
 
-``` bash
-fastboot oem unlock <解锁码>
+:::: details 🛠命令生成器
+您可以在这里直接生成您的命令。
+
+1. 将信息填写到输入框，如果是文件则可以拖入输入框。
+2. 复制命令，将命令粘贴到终端内
+3. 运行命令
+
+::: tip
+注：如果使用生成器生成的命令，需要将终端工作目录切换至文件所在的目录才能继续使用。
+:::
+
+<CGInput @change="unlockCode = $event" holder="<解锁码>">解锁码</CGInput>
+
+::::
+
+``` bash-vue :no-line-numbers
+fastboot oem unlock {{unlockCode}}
 ```
 
-这句话的意思是让 fastboot 软件（在这里指的是 `fastboot.exe` ）使用 `<解锁码>` 解锁手机。
+这句话的意思是让 fastboot 软件（在这里指的是 `fastboot.exe` ）使用 `{{unlockCode}}` 解锁手机。
 
 在实际输入的时候，**不要原封不动地将 `<解锁码>` 输入到命令行中**，而是用你获取到的解锁码代替 `<解锁码>` 输入。
+
+::: tip
+您可以使用“命令生成器”来生成您的指令，之后直接粘贴到终端内就能运行。
+:::
 
 ![错误示例](./images/demo/command/replace/wrong.png)
 
@@ -110,3 +129,9 @@ fastboot oem unlock <解锁码>
 ### 预编译文档
 
 敬请期待
+
+<script setup>
+import {ref} from 'vue'
+
+const unlockCode = ref('')
+</script>
