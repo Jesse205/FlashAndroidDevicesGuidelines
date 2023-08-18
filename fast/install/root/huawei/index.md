@@ -62,7 +62,7 @@
 注：如果使用生成器生成的命令，需要将终端工作目录切换至文件所在的目录才能继续使用。
 :::
 
-<FileInput @change="imgFilePath = $event" holder="<img文件名或路径>">.img 文件</FileInput>
+<CGFileInput @change="imgFilePath = $event" holder="<img文件名或路径>">.img 文件</CGFileInput>
 
 ::::
 
@@ -136,7 +136,7 @@ fastboot flash recovery_ramdisk {{imgFilePath}}
 注：如果使用生成器生成的命令，需要将终端工作目录切换至文件所在的目录才能继续使用。
 :::
 
-<FileInput @change="rootZipFilePath = $event" holder="<合适的Root包>">.zip 格式的 Root 包</FileInput>
+<CGFileInput @change="rootZipFilePath = $event" holder="<合适的Root包>">.zip 格式的 Root 包</CGFileInput>
 
 ::::
 
@@ -199,7 +199,7 @@ adb sideload {{rootZipFilePath}}
 :::
 
 <CGInput @change="ramdiskPartitionName = $event" holder="ramdisk">分区名</CGInput>
-<FileInput @change="magiskPatchedFilePath = $event" holder="<magisk_patched.img路径>">magisk_patched.img</FileInput>
+<CGFileInput @change="magiskPatchedFilePath = $event" holder="<magisk_patched.img路径>">magisk_patched.img</CGFileInput>
 
 ::::
 

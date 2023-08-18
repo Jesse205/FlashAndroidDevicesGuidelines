@@ -135,7 +135,7 @@
 :::: details 🛠命令生成器
 您可以在这里直接生成您的命令。
 
-<FileInput @change="apkFilePath = $event" holder="xxx.apk">.apk 安装包</FileInput>
+<CGFileInput @change="apkFilePath = $event" holder="xxx.apk">.apk 安装包</CGFileInput>
 
 ::::
 
