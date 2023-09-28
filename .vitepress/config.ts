@@ -2,18 +2,19 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 const base = '/FlashAndroidDevicesGuidelines'
+
 export default defineConfig({
   lang: 'zh-CN',
-  title: "刷机指南",
-  description: "不仅仅是刷机指南",
+  title: '刷机指南',
+  description: '不仅仅是刷机指南',
   lastUpdated: true,
   base,
   head: [
-    ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: base + '/icons/apple-touch-icon.png' }],
-    ['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: base + '/favicon-32x32.png' }],
-    ['link', { rel: 'icon', type: 'image/png', sizes: '16x16', href: base + '/favicon-16x16.png' }],
-    ['link', { rel: 'manifest', href: base + '/manifest.webmanifest' }],
-    ['link', { rel: 'mask-icon', href: base + '/icons/safari-pinned-tab.svg', color: '#4285f4' }]
+    ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: `${base}icons/apple-touch-icon.png` }],
+    ['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: `${base}favicon-32x32.png` }],
+    ['link', { rel: 'icon', type: 'image/png', sizes: '16x16', href: `${base}favicon-16x16.png` }],
+    ['link', { rel: 'manifest', href: `${base}manifest.webmanifest` }],
+    ['link', { rel: 'mask-icon', href: `${base}icons/safari-pinned-tab.svg`, color: '#4285f4' }]
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -41,7 +42,7 @@ export default defineConfig({
             items: [
               { text: '刷入 Recovery', link: '/fast/flash/recovery.html' },
               { text: '获取 Root', link: '/fast/install/root/' },
-              { text: '安装 Xposed', link: '/fast/install/xposed/' },
+              { text: '安装 Xposed', link: '/fast/install/xposed/' }
             ]
           }
         ]
@@ -55,7 +56,7 @@ export default defineConfig({
           { text: '各种开机模式', link: '/normal/modes/', activeMatch: '/normal/modes/' },
           { text: '分区和映像', link: '/normal/partitions/', activeMatch: '/normal/partitions/' },
           { text: '操作系统', link: '/normal/systems/', activeMatch: '/normal/systems/' },
-          { text: '安装软件', link: '/normal/installApk/', activeMatch: '/normal/installApk/' },
+          { text: '安装软件', link: '/normal/installApk/', activeMatch: '/normal/installApk/' }
           // { text: '刷机包', link: '#' },
         ]
       },
@@ -86,18 +87,18 @@ export default defineConfig({
           {
             text: '常用工具',
             link: '/tools/',
-            activeMatch: '/tools/',
+            activeMatch: '/tools/'
           },
           {
             text: '翻车案例',
             link: '/rollover/',
-            activeMatch: '/rollover/',
+            activeMatch: '/rollover/'
           },
           {
             text: '救砖指南',
             link: '/rescuing/',
-            activeMatch: '/rescuing/',
-          },
+            activeMatch: '/rescuing/'
+          }
         ]
       }
     ],
@@ -108,16 +109,17 @@ export default defineConfig({
           text: '快速开始',
           items: [
             {
-              text: '解锁 Bootloader', link: '/fast/unlock/',
+              text: '解锁 Bootloader',
+              link: '/fast/unlock/',
               collapsed: true,
               items: [
                 { text: '华为', link: '/fast/unlock/huawei/' },
-                { text: '小米', link: '/fast/unlock/xiaomi/' },
+                { text: '小米', link: '/fast/unlock/xiaomi/' }
               ]
             },
             { text: '下载 ROM', link: '/fast/download/' },
-            { text: '刷入 ROM', link: '/fast/flash/system.html' },
-          ],
+            { text: '刷入 ROM', link: '/fast/flash/system.html' }
+          ]
         },
         {
           text: '更多教程',
@@ -129,11 +131,10 @@ export default defineConfig({
               collapsed: true,
               items: [
                 { text: '华为', link: '/fast/install/root/huawei/' },
-                { text: '小米', link: '/fast/install/root/xiaomi/' },
-              ],
+                { text: '小米', link: '/fast/install/root/xiaomi/' }
+              ]
             },
-            { text: '安装 Xposed', link: '/fast/install/xposed/' },
-
+            { text: '安装 Xposed', link: '/fast/install/xposed/' }
           ]
         }
       ],
@@ -148,16 +149,14 @@ export default defineConfig({
               collapsed: true,
               items: [
                 { text: '华为', link: '/normal/modes/huawei.html' },
-                { text: '小米', link: '/normal/modes/xiaomi.html' },
+                { text: '小米', link: '/normal/modes/xiaomi.html' }
               ]
             },
             {
               text: '分区和映像',
               link: '/normal/partitions/',
               collapsed: true,
-              items: [
-                { text: '华为', link: '/normal/partitions/huawei.html' },
-              ]
+              items: [{ text: '华为', link: '/normal/partitions/huawei.html' }]
             },
             {
               text: '操作系统',
@@ -170,19 +169,16 @@ export default defineConfig({
                 { text: 'PixelExperience', link: '/normal/systems/pixelexperience.html' },
                 { text: 'Havoc OS', link: '/normal/systems/havocos.html' },
                 { text: 'Windows', link: '/normal/systems/windows.html' },
-                { text: '百度云 OS', link: '/normal/systems/baiduos.html' },
-              ],
+                { text: '百度云 OS', link: '/normal/systems/baiduos.html' }
+              ]
             },
             {
               text: '安装软件',
               link: '/normal/installApk/',
               collapsed: true,
-              items: [
-                { text: 'EMUI 类', link: '/normal/installApk/emui.html' },
-              ]
-            },
-
-          ],
+              items: [{ text: 'EMUI 类', link: '/normal/installApk/emui.html' }]
+            }
+          ]
         },
         {
           text: '危险权限',
@@ -191,22 +187,20 @@ export default defineConfig({
               text: 'Root',
               link: '/normal/danger_permissions/root/',
               collapsed: true,
-              items: [
-                { text: '让 SuperSU 接管权限', link: '/normal/danger_permissions/root/to_supersu.html' },
-              ]
+              items: [{ text: '让 SuperSU 接管权限', link: '/normal/danger_permissions/root/to_supersu.html' }]
             },
             {
               text: 'Xposed',
-              link: '/normal/danger_permissions/xposed/',
+              link: '/normal/danger_permissions/xposed/'
             },
             {
               text: 'ADB',
-              link: '/normal/danger_permissions/adb/',
+              link: '/normal/danger_permissions/adb/'
             },
             {
               text: '设备所有者',
-              link: '/normal/danger_permissions/device_owner/',
-            },
+              link: '/normal/danger_permissions/device_owner/'
+            }
           ]
         }
       ],
@@ -214,27 +208,24 @@ export default defineConfig({
         {
           text: '常见问题与解答',
           link: '/faq/',
-          items: [
-            { text: '华为刷机', link: '/faq/huawei.html' },
-          ]
+          items: [{ text: '华为刷机', link: '/faq/huawei.html' }]
         },
         {
           text: '注意事项',
-          link: '/faq/notes/',
+          link: '/faq/notes/'
         },
         {
           text: '其他内容',
           items: [
             { text: '基本知识', link: '/faq/knowledge.html' },
-            { text: '文档说明', link: '/faq/documents.html' },
-
+            { text: '文档说明', link: '/faq/documents.html' }
           ]
         }
       ],
       '/rollover/': [
         {
           text: '翻车案例',
-          link: '/rollover/',
+          link: '/rollover/'
         }
       ],
       '/tools/': [
@@ -244,16 +235,22 @@ export default defineConfig({
           items: [
             { text: 'Platform-Tools', link: '/tools/platform-tools.html' },
             { text: '华为专用', link: '/tools/huawei/' },
-            { text: '小米专用', link: '/tools/xiaomi/' },
+            { text: '小米专用', link: '/tools/xiaomi/' }
           ]
         },
         {
           text: '令人惊叹',
           items: [
             { text: 'Root 相关', link: '/normal/danger_permissions/root/index.md#awesome-root-令人惊叹的-root' },
-            { text: 'Xposed 相关', link: '/normal/danger_permissions/xposed/index.md#awesome-xposed-令人惊叹的-xposed' },
+            {
+              text: 'Xposed 相关',
+              link: '/normal/danger_permissions/xposed/index.md#awesome-xposed-令人惊叹的-xposed'
+            },
             { text: 'ADB 相关', link: '/normal/danger_permissions/adb/index.md#awesome-adb-令人惊叹的-adb' },
-            { text: '设备所有者相关', link: '/normal/danger_permissions/device_owner/index.md#awesome-device-owner-令人惊叹的设备所有者' },
+            {
+              text: '设备所有者相关',
+              link: '/normal/danger_permissions/device_owner/index.md#awesome-device-owner-令人惊叹的设备所有者'
+            }
           ]
         }
       ]
@@ -271,7 +268,7 @@ export default defineConfig({
 
     editLink: {
       pattern: 'https://gitee.com/Jesse205/FlashAndroidDevicesGuidelines/edit/master/:path',
-      text: '在 Gitee 上编辑此页面',
+      text: '在 Gitee 上编辑此页面'
     },
 
     search: {
@@ -279,11 +276,11 @@ export default defineConfig({
       options: {
         translations: {
           button: {
-            buttonText: "搜索",
+            buttonText: '搜索',
             buttonAriaLabel: '搜索'
           },
           modal: {
-            displayDetails: '显示具详情信息',
+            displayDetails: '显示详情信息',
             resetButtonTitle: '清空内容',
             backButtonTitle: '关闭搜索',
             noResultsText: '未找到相关内容',
@@ -304,6 +301,6 @@ export default defineConfig({
   },
   markdown: {
     lineNumbers: true,
-    theme: 'material-theme-palenight',
+    theme: 'material-theme-palenight'
   }
 })
