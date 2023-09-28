@@ -1,8 +1,10 @@
 :root {
   /* Base Colors */
   /* https://github.com/chromium/chromium/blob/main/ui/chromeos/styles/cros_palette.json5 */
-  --c-google-blue-50-alpha: #4285f419;
+  --c-google-blue-50-alpha: #4285f420;
+  --c-google-blue-100-alpha: #4285f44d;
   --c-google-blue-50: #e8f0fe;
+  --c-google-blue-300: #8ab4f8;
   --c-google-blue-400: #669df6;
   --c-google-blue-500: #4285f4;
   --c-google-blue-600: #1a73e8;
@@ -10,27 +12,12 @@
   --c-google-blue-800: #185abc;
 
   /* Theme Colors */
-  --vp-c-brand: var(--c-google-blue-600);
-  --vp-c-brand-light: var(--c-google-blue-500);
-  --vp-c-brand-lighter: var(--c-google-blue-400);
-  --vp-c-brand-dark: var(--c-google-blue-700);
-  --vp-c-brand-darker: var(--c-google-blue-800);
-
-  /* Badges */
-  --vp-badge-tip-border: var(--vp-c-brand-dark);
-  --vp-badge-tip-text: var(--vp-c-brand);
-  --vp-badge-tip-bg: var(--c-google-blue-50-alpha);
-
-  /* Custom Blocks */
-  --vp-custom-block-tip-border: var(--vp-c-brand);
-  --vp-custom-block-tip-text: var(--vp-c-brand-dark);
-
-  /* Search */
-  --vp-local-search-highlight-bg: var(--vp-c-brand);
-  --vp-local-search-highlight-text: var(--vp-c-white);
+  --vp-c-brand-1: var(--c-google-blue-600);
+  --vp-c-brand-2: var(--c-google-blue-400);
+  --vp-c-brand-3: var(--c-google-blue-400);
+  --vp-c-brand-soft: var(--c-google-blue-50-alpha);
 }
 
 ::selection {
-  background-color: var(--vp-c-brand);
-  color: white;
+  background-color: var(--c-google-blue-100-alpha);
 }
