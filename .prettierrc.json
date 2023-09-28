@@ -1,0 +1,23 @@
+{
+  "semi": false,
+  "printWidth": 120,
+  "trailingComma": "none",
+  "singleAttributePerLine": false,
+  "endOfLine": "auto",
+  "embeddedLanguageFormatting": "auto",
+  "arrowParens": "always",
+  "useTabs": false,
+  "tabWidth": 2,
+  "quoteProps": "as-needed",
+  "bracketSpacing": true,
+  "singleQuote": false,
+  "overrides": [
+    {
+      "files": ["**/*.js", "**/*.ts", "**/*.vue"],
+      "options": {
+        "singleQuote": true
+      }
+    }
+  ],
+  "proseWrap": "preserve"
+}

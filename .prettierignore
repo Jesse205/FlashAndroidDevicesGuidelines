@@ -1,0 +1,10 @@
+# Ignore artifacts:
+build
+/dist
+/dev-dist
+coverage
+/src-tauri/target
+
+node_modules
+/public/api
+yarn.lock
