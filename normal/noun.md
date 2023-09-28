@@ -107,7 +107,7 @@ Android 设备包含若干个分区，这些分区在启动过程中发挥不同
 部分设备为了支持 A/B 更新，把 boot、system、vendor 和 radio 配置了两个槽位（如：`system_a`，`system_b`）。
 :::
 
-- **ramdisk**：中文为虚拟硬盘，本质上是借用了部分机身存储（ROM）的空间，存放系统的缓冲文件。而存放于 `system` 分区下的 `ramdisk` 分区可以镜像部分操作系统驱动文件，帮助跑通 BootLoader 和 kernel 等开机引导程序。当然，当前手机厂商大肆宣传的运行内存拓展技术，也是基于一个 `ramdisk` 分区（作者本人不建议开启相关内存拓展技术）
+- **ramdisk**：中文为虚拟硬盘，本质上是借用了部分机身存储（ROM）的空间，存放系统的缓冲文件。而存放于 `system` 分区下的 `ramdisk` 分区可以镜像部分操作系统驱动文件，帮助跑通 BootLoader 和 kernel 等开机引导程序。当然，当前手机厂商大肆宣传的运行内存拓展技术，也是基于一个 `ramdisk` 分区
 
 > 此处等待查证
 
@@ -127,15 +127,9 @@ Android 设备包含若干个分区，这些分区在启动过程中发挥不同
 
 ## ROOT
 
-相关链接：
-
-- [Root 介绍](./danger_permissions/root/index.md)
-- [百度百科](https://baike.baidu.com/item/root/73226)
-- [获取 Root](../fast/install/root/index.md)
-
 一般来说，ROOT 可以表示一种较高级的用户权限，即“根权限”。也可以表示获取根权限的动作。
 
-ROOT 的权限高于 [ADB（Android Debug Bridge）](../tools/platform-tools.md#adb-工具)权限，因此 ADB 无法完全代替 ROOT。
+ROOT 的权限高于 [ADB](./danger_permissions/adb/index.md) 权限，因此 ADB 无法完全代替 ROOT。
 
 Root 有很多工具，常见的有：[Magisk](./danger_permissions/root/index.md#magisk)、[KernelSU](./danger_permissions/root/index.md#kernelsu)
 
@@ -143,17 +137,29 @@ Root 有很多工具，常见的有：[Magisk](./danger_permissions/root/index.m
 有关 Magisk、KernelSU 等更多内容，请参考[《Root》](./danger_permissions/root/index.md)。
 :::
 
+相关链接：
+
+- [Root 介绍](./danger_permissions/root/index.md)
+- [百度百科](https://baike.baidu.com/item/root/73226)
+- [获取 Root](../fast/install/root/index.md)
+
 ## 命令与终端
 
 简单来讲，命令就是**让电脑干一件事的“描述”**，终端就是**输入命令的地方**。
 
+命令大概长这样：
+
+``` bash:no-line-numbers
+echo "hello world"
+```
+
 关于它们的定义，您可以查看[《Windows 控制台和终端定义》](https://learn.microsoft.com/zh-cn/windows/console/definitions)。
 
-尽管 [shell、cmd 与终端的含义不同](https://www.zhihu.com/question/40448945)，但在一般情况下，人们会**粗略地将这些东西划等号**。
+> 尽管 [shell、cmd 与终端的含义不同](https://www.zhihu.com/question/40448945)，但在一般情况下，人们会**粗略地将这些东西划等号**。
 
-本文档内[所有的命令都在终端内输入](../faq/documents.md#命令的使用)。
+本文档内所有的命令都在终端内输入。具体用法，请参考[《文档说明：命令怎么用》](/faq/documents.md#命令怎么用)。
 
-::: tip
+::: tip 📽 视频教程
 如果您想快速了解相关知识，建议观看尚硅谷的[《NodeJS入门：认识命令行工具》](https://www.bilibili.com/video/BV1gM411W7ex?p=6&vd_source=8a0088dd008c1b931f40fb1033994f70)视频
 :::
 
@@ -161,13 +167,25 @@ Root 有很多工具，常见的有：[Magisk](./danger_permissions/root/index.m
 
 ![Windows Terminal Logos](./images/terminal/windows_terminal_logos.webp)
 
-Windows 命令行壳子有两种，一种是“命令提示符”（也叫“CMD”），一种是“PowerShell”
+Windows 命令行 shell 有两种：
+
+- <Emoji name="cmd"/> 命令提示符（也叫“CMD”）
+- <Emoji name="powershell"/> PowerShell
+
+高级用户推荐使用 <Emoji name="powershell"/> PowerShell，初学用户推荐使用 <Emoji name="cmd"/> CMD
+
+::: tip
+
+- 若使用 <Emoji name="powershell"/> Powershell，如果要运行**工作目录**下的软件，需在每行命令前加 `./`。
+- 如果您不知道上面这句话是什么意思，那就**不要使用 <Emoji name="powershell"/> Powershell**。
+
+:::
 
 - **进入方法**：
   1. 点击「开始菜单」、「搜索」或者按「Windows 徽标键+R」
   2. 输入 `cmd` ，并按下回车键↵，即可进入终端。
     <div class="imageList">
-    <img src="./images/terminal/enter_from_search.webp" width="600" alt="从搜索进入" />
+    <img src="./images/terminal/enter_from_search.webp" width="500" alt="从搜索进入" />
     <img src="./images/terminal/enter_from_run.png" alt="从运行进入" />
     </div>
 - **退出方法**：直接关闭窗口即可
@@ -188,11 +206,6 @@ Windows 命令行壳子有两种，一种是“命令提示符”（也叫“CMD
 ![拖入文件](./images/terminal/drop_file.png)
 :::
 
-::: tip
-若使用 Powershell 而非 CMD，如果您想**运行工作目录下的软件**，请在每行命令前加 `./`。
-
-如果您不知道上面这句话是什么意思，那就**不要使用 Powershell**。
-:::
 
 ### MacOS 终端
 

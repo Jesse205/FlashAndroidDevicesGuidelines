@@ -6,9 +6,9 @@
 
 | 工具名称       | 最低支持    | 最高支持      |
 | -------------- | ----------- | ------------- |
-| Magisk v26.1   | Android 6.0 | Android 13    |
-| Magisk v23.0   | Android 5.0 | Android 13    |
-| Magisk v18.1   | Android 4.2 | Android 13    |
+| Magisk v26.1+  | Android 6.0 | Android 13    |
+| Magisk v23.0+  | Android 5.0 | Android 13    |
+| Magisk v18.1+  | Android 4.2 | Android 13    |
 | Magisk         | Android 5.0 | Android 13    |
 | KernelSU       | 内核 4.4    | 未知          |
 | SuperSU        | Android 2.3 | Android 7     |

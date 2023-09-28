@@ -2,10 +2,13 @@
 prev:
   text: '下载 ROM'
   link: '../download/'
+next:
+  text: '刷入 Recovery'
+  link: '/fast/flash/recovery.html'
 ---
 # 刷入 ROM
 
-刷入 ROM 之前，请确保您的手机已解锁。如果您的手机未解锁，[请先解锁](../unlock/index.md)。
+刷入 ROM 之前，请确保您的手机已解锁。如果您的手机未解锁，[请先解锁](/fast/unlock/index.md)。
 
 ::: danger
 
@@ -13,6 +16,10 @@ prev:
 * 此方法为通用方法，**不代表一定可以这样操作**。如果您买到了杂牌机，可以试试以下方法
 * 您需要根**据您的手机的实际情况**和您要**刷入的 ROM** **按需增加/删除/修改**步骤，同一个型号不同版本**也有可能不一样**
 
+:::
+
+::: tip
+由于文档结构设计失误，建议初学者**先从[获取 Root](/fast/install/root/index.md) 开始学习**。
 :::
 
 ## 一、去校验、解密

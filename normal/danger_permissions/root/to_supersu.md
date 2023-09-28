@@ -8,8 +8,8 @@
 
 1. 从酷安或者其他的地方下载并安装 SuperSU 软件。
 2. 使用 `getenforce` 命令查看当前 SELinux 的开启状态。
-   * 如果显示 `Disabled` 或 `Permissive` 则说明 SELinux 是关闭的。
-   * 如果显示 `Enforcing` 则说明 SELinux 是开启的。对于显示 `Enforcing` 的情况，你需要执行 `setenforce 0` 命令来关闭 SELinux。
+   - 如果显示 `Disabled` 或 `Permissive` 则说明 SELinux 是关闭的。
+   - 如果显示 `Enforcing` 则说明 SELinux 是开启的。对于显示 `Enforcing` 的情况，你需要执行 `setenforce 0` 命令来关闭 SELinux。
 3. 挂载 `/system` 可读写，然后将 `SuperSU` 卡刷包内的 `/arm/su` 解压出来，重命名为 `sudaemon` ，然后移动到 `/system/xbin` 文件夹内，并修改文件权限为 `777` ( `xbin` 文件夹可能需要手动创建)。
 4. 执行 `/system/xbin/sudaemon --auto-daemon &` 命令，来启动 `SuperSU` 的管理进程。
 5. 解压 SuperSU 刷机包里的 `/arm/su` 文件，将它移动到 `/system/bin` (移动时如果提示已有此文件，就点击替换) 并修改文件权限为 `777` 。
@@ -33,4 +33,4 @@
 
 ## 参考链接
 
-* [让superSU接管root权限](https://www.coolapk.com/feed/42614008?shareKey=ZDJlYWEzY2ViY2E1NjQ2NTJlNzI~) - 酷安
+- [让superSU接管root权限](https://www.coolapk.com/feed/42614008?shareKey=ZDJlYWEzY2ViY2E1NjQ2NTJlNzI~) - 酷安

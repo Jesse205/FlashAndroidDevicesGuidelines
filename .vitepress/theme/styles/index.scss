@@ -33,7 +33,7 @@
   max-width: 600px;
 }
 
-.screenshotList.fix-height img{
+.screenshotList.fix-height img {
   width: auto;
   min-width: unset;
   max-width: unset;
@@ -53,4 +53,21 @@
 .cover-img-ui {
   border-radius: 16px;
   width: 300px;
+}
+
+.exampleContaioner {
+  border: 1px solid var(--vp-c-border);
+  border-radius: 8px;
+  padding: 0 16px;
+
+  &::before {
+    content: "示例";
+    display: block;
+    width: calc(100% + 16px * 2);
+    margin: 0 -16px;
+    border-bottom: 1px solid var(--vp-c-border);
+    padding: 8px 16px;
+    color: var(--vp-c-text-1);
+    font-weight: 600;
+  }
 }

@@ -81,7 +81,7 @@ fastboot flash recovery_ramdisk {{imgFilePath}}
 然后回车即可。一般出现两个 `OKAY` 即为刷入成功。
 
 ::: tip
-如果第一条命令报错 `partition length get error`，可以尝试用另外一条命令（一般为 EMUI 8 及之后）.
+如果第一条命令报错 `partition length get error`，可以尝试用另外一条命令。
 
 （此处感谢 @魅族美学6 老哥测试！）
 :::

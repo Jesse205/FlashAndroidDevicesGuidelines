@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
-const base = '/FlashAndroidDevicesGuidelines'
+const base = '/FlashAndroidDevicesGuidelines/'
 
 export default defineConfig({
   lang: 'zh-CN',
@@ -31,7 +31,7 @@ export default defineConfig({
     outline: [2, 3],
     nav: [
       {
-        text: '快速开始',
+        text: '快速指南',
         activeMatch: '/fast/',
         items: [
           { text: '解锁 Bootloader', link: '/fast/unlock/', activeMatch: '/fast/unlock/' },
@@ -48,7 +48,7 @@ export default defineConfig({
         ]
       },
       {
-        text: '基础知识',
+        text: '基础指南',
         activeMatch: '/normal/',
         items: [
           // { text: '选购设备', link: '#' },
@@ -117,7 +117,16 @@ export default defineConfig({
                 { text: '小米', link: '/fast/unlock/xiaomi/' }
               ]
             },
-            { text: '下载 ROM', link: '/fast/download/' },
+            {
+              text: '下载 ROM',
+              link: '/fast/download/',
+              items: [
+                { text: 'MIUI', link: '/fast/download/miui.html' },
+                { text: 'EMUI 类', link: '/fast/download/emui.html' },
+                { text: 'LineageOS', link: '/fast/download/lineageos.html' },
+                { text: '百度云 OS', link: '/fast/download/baiduos.html' }
+              ]
+            },
             { text: '刷入 ROM', link: '/fast/flash/system.html' }
           ]
         },
@@ -300,7 +309,6 @@ export default defineConfig({
     externalLinkIcon: true
   },
   markdown: {
-    lineNumbers: true,
-    theme: 'material-theme-palenight'
+    lineNumbers: true
   }
 })
