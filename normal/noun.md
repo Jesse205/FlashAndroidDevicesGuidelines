@@ -206,7 +206,6 @@ Windows 命令行 shell 有两种：
 ![拖入文件](./images/terminal/drop_file.png)
 :::
 
-
 ### MacOS 终端
 
 在 Mac 上，请执行以下其中随便一项操作：
