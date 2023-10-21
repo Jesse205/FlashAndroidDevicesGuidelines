@@ -8,7 +8,24 @@
 
 ## 屏幕截图
 
-暂无截图
+最新版暂无截图
+
+**MIUI V5**：
+
+<div class="screenshotList">
+<img src="./images/screenshots/miui/v5/home.webp" alt="桌面" title="桌面" loading="lazy" />
+<img src="./images/screenshots/miui/v5/lock.webp" alt="锁屏" title="锁屏" loading="lazy" />
+<img src="./images/screenshots/miui/v5/settings.webp" alt="设置" title="设置" loading="lazy" />
+<img src="./images/screenshots/miui/v5/notification.webp" alt="通知栏" title="通知栏" loading="lazy" />
+<img src="./images/screenshots/miui/v5/control.webp" alt="控制栏" title="控制栏" loading="lazy" />
+<img src="./images/screenshots/miui/v5/home_edit.webp" alt="桌面编辑" title="桌面编辑" loading="lazy" />
+<img src="./images/screenshots/miui/v5/music.webp" alt="音乐" title="音乐" loading="lazy" />
+<img src="./images/screenshots/miui/v5/music_fullscreen.webp" alt="全屏音乐" title="全屏音乐" loading="lazy" />
+<img src="./images/screenshots/miui/v5/lock_music.webp" alt="音乐锁屏" title="音乐锁屏" loading="lazy" />
+<img src="./images/screenshots/miui/v5/weather.webp" alt="天气" title="天气" loading="lazy" />
+</div>
+
+> 截图来源：[它曾经，也是「遥遥领先」——MIUI历代回顾记（壹·MIUI V5，威武！）][MIUIV5] - 酷安：@想要上天的文轩
 
 ## 版本
 
@@ -57,11 +74,13 @@
 ### 优点
 
 - 可以关闭纯净模式
+- UI 好看
+- 拥有自带 Root（结束版本未知）
 
 ### 缺点
 
-- 无统一的设计风格
-- 广告超多，系统臃肿，有牛皮癣
+- 无统一的设计风格（起始版本未知）
+- 广告超多（起始版本未知），系统臃肿（起始版本未知），有牛皮癣（起始版本未知）
 - 系统版本无法准确对应安卓版本
 - 对系统工具开发者不友好
 - 拥有 MIUI 专属的开屏广告
@@ -112,9 +131,11 @@
 - [网传小米 MIUI 13 测试版曝光：安卓 12、安卓 11 两个版本][13-RS]
 - [难分伯仲？iOS VS MIUI 动画解析对比（超详细）][animation] - 哔哩哔哩：@STRAY_数码
 - [MIUI十年发展史——写在MIUI12发布之际](https://zhuanlan.zhihu.com/p/136376710) - 知乎：@逆铭
+- [它曾经，也是「遥遥领先」——MIUI历代回顾记（壹·MIUI V5，威武！）][MIUIV5] - 酷安：@想要上天的文轩
 
 [animation]: https://www.bilibili.com/video/BV12h411e7p1/
 [13-RS]: https://post.smzdm.com/p/aenzx5xz/
+[MIUIV5]: https://www.coolapk.com/feed/50267917
 
 声明：图片均来源于网络。如果侵犯了您的权力，请[联系我](mailto:jesse205@qq.com)，我会尽快删除。
 
