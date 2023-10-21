@@ -8,27 +8,27 @@
 
 > 此刷机指南不仅仅提供刷机的指南，还提供各种各样玩机教程！
 
-* Gitee 仓库：<https://gitee.com/Jesse205/FlashAndroidDevicesGuidelines>（原始仓库）
-* Github 仓库：<https://github.com/Jesse205/FlashAndroidDevicesGuidelines>（镜像仓库）
+- Gitee 仓库：<https://gitee.com/Jesse205/FlashAndroidDevicesGuidelines>（原始仓库）
+- Github 仓库：<https://github.com/Jesse205/FlashAndroidDevicesGuidelines>（镜像仓库）
 
 ## 访问文档
 
 您可以通过以下链接来访问文档
 
-* ~~Netlify: https:\/\/efadg.netlify.app\/~~
-* Github Pages: <https://jesse205.github.io/FlashAndroidDevicesGuidelines>
+- ~~Netlify: https:\/\/efadg.netlify.app\/~~
+- Github Pages: <https://jesse205.github.io/FlashAndroidDevicesGuidelines>
 
 > **Note**\
 > Netlify 链接已删除，请访问 GitHub Pages 链接！
 
 ## 其他内容
 
-* [手机代号收集](./codename/README.md)
+- [手机代号收集](./codename/README.md)
 
 这些是安卓爱好者聚集地，您可以在这些社区了解更多内容：
 
-* [酷安](https://www.coolapk.com/)
-* [XDA Forums](https://forum.xda-developers.com/)
+- [酷安](https://www.coolapk.com/)
+- [XDA Forums](https://forum.xda-developers.com/)
 
 ## 许可
 
