@@ -14,12 +14,12 @@
 [百度云 OS 于 2015 年 3 月 11 日起，暂停更新][2]。您的系统可能会无法接收安全补丁而充满漏洞，建议您更换其他操作系统。
 :::
 
-* **官方网站**：未知，且以已关闭
-* **[下载地址](/fast/download/baiduos.md)**
+- **官方网站**：未知，且以已关闭
+- **[下载地址](/fast/download/baiduos.md)**
 
 ## 系统截图
 
-* **公测版 V6**：
+- **公测版 V6**：
 
 <div class="screenshotList">
 <img src="http://file.7to.cn/uploads/romimages/201504/15/27666/a2.png" alt="主页面" title="主页面" loading="lazy" />
@@ -33,18 +33,18 @@
 
 ### 优点
 
-* 拥有统一的设计风格
+- 拥有统一的设计风格
 
 ### 缺点
 
-* 跑路太快
-* 系统版本无法准确对应安卓版本
+- 跑路太快
+- 系统版本无法准确对应安卓版本
 
 ## 参考链接
 
-* [百度云OS][1] - 百度百科
-* [百度云os](https://image.baidu.com/search/index?tn=baiduimage&word=%E7%99%BE%E5%BA%A6%E4%BA%91os) - 百度图片搜索
-* [百度云os](https://cn.bing.com/images/search?q=%E7%99%BE%E5%BA%A6%E4%BA%91os) - Bing images
+- [百度云OS][1] - 百度百科
+- [百度云os](https://image.baidu.com/search/index?tn=baiduimage&word=%E7%99%BE%E5%BA%A6%E4%BA%91os) - 百度图片搜索
+- [百度云os](https://cn.bing.com/images/search?q=%E7%99%BE%E5%BA%A6%E4%BA%91os) - Bing images
 
 [1]: https://baike.baidu.com/item/%E7%99%BE%E5%BA%A6%E4%BA%91OS/15843959
 [2]: https://xueshu.baidu.com/usercenter/paper/show?paperid=97bc40ae30fb3961ba6a4eeab48c1ab6&tn=SE_baiduxueshu_c1gjeupa&ie=utf-8&site=baike
