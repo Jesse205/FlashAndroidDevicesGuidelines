@@ -10,7 +10,7 @@
 
 最新版暂无截图
 
-**MIUI V5**：
+- **MIUI V5**：
 
 <div class="screenshotList">
 <img src="./images/screenshots/miui/v5/home.webp" alt="桌面" title="桌面" loading="lazy" />
