@@ -1,4 +1,4 @@
-# Lineage OS
+# Lineage OS <Badge text="刷机必备" />
 
 <img class="banner-img" src="./images/logo/lineage.svg" alt="LOGO"/>
 

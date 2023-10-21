@@ -2,6 +2,8 @@
 
 <img class="banner-cover" src="./images/logo/miui_cover.webp" alt="LOGO"/>
 
+更轻巧，更流畅，更安全，更人性化！
+
 - **官方网站**：<https://home.miui.com/>
   - **MIUI12**：<https://miui12.home.miui.com/>
 - **[下载地址](/fast/download/miui.md)**

@@ -50,16 +50,7 @@ EMUI（全称Emotion UI）是华为基于 Android（安卓）进行开发的情�
 
 所有不是由手机厂商提供的 ROM 都是第三方 ROM。
 
-### OpenHarmony
-
-<img class="banner-img" src="./images/logo/openharmony.svg" alt="LOGO" />
-
-OpenHarmony是由开放原子开源基金会（OpenAtom Foundation）孵化及运营的开源项目,目标是面向全场景、全连接、全智能时代、基于开源的方式，搭建一个智能终端设备操作系统的框架和平台，促进万物互联产业的繁荣发展。
-
-- [查看详情](./openharmony.md)
-- [官方网站](https://www.openharmony.cn/)
-
-### LineageOS
+### LineageOS <Badge text="刷机必备" />
 
 <img class="banner-img" src="./images/logo/lineage.svg" alt="LineageOS LOGO"/>
 
@@ -68,6 +59,15 @@ OpenHarmony是由开放原子开源基金会（OpenAtom Foundation）孵化及�
 - [查看详情](./lineageos.md)
 - [官方网站](https://lineageos.org/)
 - [更多下载](/fast/download/index.md#lineageos)
+
+### OpenHarmony
+
+<img class="banner-img" src="./images/logo/openharmony.svg" alt="LOGO" />
+
+OpenHarmony是由开放原子开源基金会（OpenAtom Foundation）孵化及运营的开源项目,目标是面向全场景、全连接、全智能时代、基于开源的方式，搭建一个智能终端设备操作系统的框架和平台，促进万物互联产业的繁荣发展。
+
+- [查看详情](./openharmony.md)
+- [官方网站](https://www.openharmony.cn/)
 
 ### PixelExperience
 
