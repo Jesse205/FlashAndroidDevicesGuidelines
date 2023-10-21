@@ -26,7 +26,7 @@ Havoc-OS 是一个基于安卓开源项目的售后固件，其灵感来自于�
 <img src="./images/screenshots/havocos/Screenshot_8.png" alt="系统更新" title="系统更新" />
 </div>
 
-::: details 历史版本
+<!-- ::: details 历史版本
 <div class="screenshotList">
 <img src="https://a.fsdn.com/con/app/proj/havoc-os/screenshots/Screenshot_Ruthless_Launcher_20180803-133540.png/max/max/1" alt="桌面" title="桌面" loading="lazy" />
 <img src="https://a.fsdn.com/con/app/proj/havoc-os/screenshots/Screenshot_Ruthless_Launcher_20180803-133603.png/max/max/1" alt="通知栏" title="通知栏" loading="lazy" />
@@ -35,7 +35,7 @@ Havoc-OS 是一个基于安卓开源项目的售后固件，其灵感来自于�
 <img src="https://a.fsdn.com/con/app/proj/havoc-os/screenshots/Screenshot_Settings_20180803-012439.png/max/max/1" alt="关于页面" title="关于页面" loading="lazy" />
 <img src="https://a.fsdn.com/con/app/proj/havoc-os/screenshots/Screenshot_Ruthless_Launcher_20180803-133626.png/max/max/1" alt="音量调节" title="音量调节" loading="lazy" />
 </div>
-:::
+::: -->
 
 ## Android 版本
 
