@@ -13,11 +13,19 @@
 
 其中 OpenHarmony、Windows 不是 Android 系统，但手机也可以刷入。
 
+<Gallery>
+
+<template v-slot:offical>
+
 ## 预装类 ROM
 
 预装类 ROM 是由手机所属的手机厂商提供官方维护的 ROM。
 
-### EMUI 类 - 华为/荣耀
+</template>
+
+<template v-slot:offical-more>
+
+<!-- ### EMUI 类 - 华为/荣耀
 
 <img class="banner-img" src="./images/logo/hmos.png" alt="HarmonyOS LOGO"/>
 
@@ -28,14 +36,14 @@ EMUI（全称Emotion UI）是华为基于 Android（安卓）进行开发的情�
 - [查看详情](./emui.md)
 - [HarmonyOS 官方网站](https://www.harmonyos.com/)
 - [MagicUI 官方网站](https://www.hihonor.com/cn/magic-ui/)
-- [MagicOS 官方网站](https://www.hihonor.com/cn/magic-os/)
+- [MagicOS 官方网站](https://www.hihonor.com/cn/magic-os/) -->
 
-### MIUI - 小米
+<!-- ### MIUI - 小米
 
 <img class="banner-img" src="./images/logo/miui.webp" alt="MIUI LOGO"/>
 
 - [查看详情](./miui.md)
-- [官方网站](https://home.miui.com)
+- [官方网站](https://home.miui.com) -->
 
 ### 百度云 OS - 百加 <Badge type="danger" text="已停更" />
 
@@ -46,11 +54,19 @@ EMUI（全称Emotion UI）是华为基于 Android（安卓）进行开发的情�
 - [查看详情](./baiduos.md)
 - [更多下载](/fast/download/baiduos.md)
 
+</template>
+
+<template v-slot:thirdparty>
+
 ## 第三方 ROM
 
 所有不是由手机厂商提供的 ROM 都是第三方 ROM。
 
-### LineageOS <Badge text="刷机必备" />
+</template>
+
+<template v-slot:thirdparty-more>
+
+<!-- ### LineageOS
 
 <img class="banner-img" src="./images/logo/lineage.svg" alt="LineageOS LOGO"/>
 
@@ -58,7 +74,7 @@ EMUI（全称Emotion UI）是华为基于 Android（安卓）进行开发的情�
 
 - [查看详情](./lineageos.md)
 - [官方网站](https://lineageos.org/)
-- [更多下载](/fast/download/index.md#lineageos)
+- [更多下载](/fast/download/index.md#lineageos) -->
 
 ### OpenHarmony
 
@@ -172,6 +188,10 @@ Android 将世界凝聚在一起。欢迎在您的设备上搭载 Android 开源
 
 - [官方网站](https://www.mokeedev.com/)
 
+</template>
+
+</Gallery>
+
 ## 相关链接
 
 - [快速开始 > 下载 ROM][download] - 刷机指南
@@ -180,3 +200,8 @@ Android 将世界凝聚在一起。欢迎在您的设备上搭载 Android 开源
 
 [download]: /fast/download/index.md
 [flash]: /fast/flash/system.md
+
+<script setup>
+    import Gallery from './Gallery.vue'
+    // import SystemCard from './images/logo/'
+</script>

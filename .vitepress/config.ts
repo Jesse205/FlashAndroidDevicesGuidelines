@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import { fileURLToPath, URL } from "node:url"
 
 // https://vitepress.dev/reference/site-config
 const base = '/FlashAndroidDevicesGuidelines/'
@@ -313,5 +314,14 @@ export default defineConfig({
   },
   markdown: {
     lineNumbers: true
-  }
+  },
+  vite: {
+    resolve: {
+      alias: {
+        "@": fileURLToPath(new URL("./theme", import.meta.url)),
+        "vue-i18n": "vue-i18n/dist/vue-i18n.cjs.js",
+      },
+      extensions: [".js", ".json", ".jsx", ".mjs", ".ts", ".tsx", ".vue"],
+    },
+  },
 })

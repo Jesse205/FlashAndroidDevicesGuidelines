@@ -4,7 +4,7 @@ import { useData } from 'vitepress'
 import { nextTick, watch } from 'vue'
 
 export function useZoom() {
-    const SELECTOR = '.content-container :not(a) > img:not([data-emoji])'
+    const SELECTOR = '.content-container :not(a) > img:not([data-disable-zoom])'
     const OPTIONS: ZoomOptions = {
         background: 'var(--vp-backdrop-bg-color)',
         margin: 16

@@ -10,7 +10,7 @@ const props = defineProps<{
 </script>
 
 <template>
-    <img :src="withBase(`/emoji/${name}.png`)" data-emoji />
+    <img :src="withBase(`/emoji/${name}.png`)" data-disable-zoom />
 </template>
 
 <style scoped>
