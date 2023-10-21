@@ -306,7 +306,10 @@ export default defineConfig({
         }
       }
     },
-    externalLinkIcon: true
+    externalLinkIcon: true,
+    footer: {
+      message: '本项目代码部分使用 MIT 许可证开源，内容部分使用 CC-BY-4.0 许可共享。'
+    }
   },
   markdown: {
     lineNumbers: true

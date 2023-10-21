@@ -30,6 +30,10 @@
 * [酷安](https://www.coolapk.com/)
 * [XDA Forums](https://forum.xda-developers.com/)
 
+## 许可
+
+本项目代码部分使用 [MIT 许可证](./LICENSE_CODE)开源，内容部分使用 [CC-BY-4.0 许可](./LICENSE)共享。
+
 ## 参与贡献
 
 1. 阅读[《贡献指南》](./CONTRIBUTING.md)

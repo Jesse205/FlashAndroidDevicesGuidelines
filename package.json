@@ -11,8 +11,8 @@
     "build": "vitepress build"
   },
   "devDependencies": {
-    "sass": "^1.68.0",
-    "vitepress": "1.0.0-rc.20"
+    "sass": "^1.69.4",
+    "vitepress": "1.0.0-rc.22"
   },
   "dependencies": {
     "medium-zoom": "^1.0.8"

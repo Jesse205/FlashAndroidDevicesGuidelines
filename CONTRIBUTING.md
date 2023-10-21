@@ -25,3 +25,7 @@
 模板内 `<...>` 为需要替换的内容。
 
 - [系统介绍模板](/normal/systems/_template.md)
+
+## 许可
+
+本项目代码部分使用 [MIT 许可证](./LICENSE_CODE)开源，内容部分使用 [CC-BY-4.0 许可](./LICENSE)共享。
