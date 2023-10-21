@@ -21,7 +21,7 @@
 
 <img class="banner-img" src="./images/logo/hmos.png" alt="HarmonyOS LOGO"/>
 
-EMUI（全称Emotion UI）是华为基于 Android（安卓）进行开发的情感化操作系统。拥有简化的用户界面、新的手势导航和 HiVision 的“AI”功能。
+EMUI（全称Emotion UI）是华为基于 Android（安卓）进行开发的情感化操作系统。
 
 > EMUI 类操作系统包括华为的 EMUI、HarmonyOS，以及荣耀的 MagicUI、MagicOS
 
@@ -54,7 +54,7 @@ EMUI（全称Emotion UI）是华为基于 Android（安卓）进行开发的情�
 
 <img class="banner-img" src="./images/logo/lineage.svg" alt="LineageOS LOGO"/>
 
-在所有类原生中，LineageOS 绝对是老爷级的存在，有很多优秀的类原生都派生自此项目。LineageOS 的历史可以追溯至2009年的 CyanogenMod （有时简称为cm），只不过后来cm由于搞商业化失败后解散了，一些原cm的开发者才成立了 LineageOS，这个基于 Android 移动平台的适用于各种设备的免费开源操作系统。
+在所有类原生中，LineageOS 绝对是老爷级的存在，有很多优秀的类原生都派生自此项目。LineageOS 的历史可以追溯至 2009 年的 CyanogenMod （有时简称为 cm），只不过后来 cm 由于搞商业化失败后解散了，一些原 cm 的开发者才成立了 LineageOS，这个基于 Android 移动平台的适用于各种设备的免费开源操作系统。
 
 - [查看详情](./lineageos.md)
 - [官方网站](https://lineageos.org/)
@@ -64,7 +64,7 @@ EMUI（全称Emotion UI）是华为基于 Android（安卓）进行开发的情�
 
 <img class="banner-img" src="./images/logo/openharmony.svg" alt="LOGO" />
 
-OpenHarmony是由开放原子开源基金会（OpenAtom Foundation）孵化及运营的开源项目,目标是面向全场景、全连接、全智能时代、基于开源的方式，搭建一个智能终端设备操作系统的框架和平台，促进万物互联产业的繁荣发展。
+OpenHarmony 是由开放原子开源基金会（OpenAtom Foundation）孵化及运营的开源项目，目标是面向全场景、全连接、全智能时代、基于开源的方式，搭建一个智能终端设备操作系统的框架和平台，促进万物互联产业的繁荣发展。
 
 - [查看详情](./openharmony.md)
 - [官方网站](https://www.openharmony.cn/)
