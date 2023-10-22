@@ -29,20 +29,19 @@ const props = defineProps<System>()
       <div class="head">
         <img v-if="icon" class="icon" :src="icon" data-disable-zoom />
         <div class="headRight">
-          <span class="name">
-            <slot name="name">
-              <template v-html="name" />
-            </slot>
+          <span v-if="name" class="name" v-html="name" />
+          <span v-else class="name">
+            <slot name="name"></slot>
           </span>
           <span class="link" :title="summary">{{ summary }}</span>
         </div>
       </div>
       <img v-if="cover" class="cover" :class="{ coverScaleDown }" :src="cover" data-disable-zoom />
-      <p class="details">
-        <slot>
-          <template v-html="details" />
-        </slot>
+      <p v-if="details" v-html="details" class="details" />
+      <p v-else class="details">
+        <slot />
       </p>
+
       <div class="space"></div>
       <div class="foot">
         <!-- <template v-if="destinationConfig">
